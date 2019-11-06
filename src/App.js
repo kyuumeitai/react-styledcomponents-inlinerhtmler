@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import Preview from './components/Preview/'
 import Options from './components/Options/'
+import ArticleList from './components/ArticleList'
 import ReactDOMServer from 'react-dom/server'
 import { ServerStyleSheet } from 'styled-components'
 
@@ -22,13 +23,6 @@ function App() {
     )} ${sheet.getStyleTags()}`)
   }, [articles])
 
-
-  // const handleArticleChanges = (articles) => {
-
-
-
-  // }
-
   return (
     <div className="App">
       <GlobalStyle />
@@ -37,8 +31,9 @@ function App() {
       </header>
       <main>
         <div className="section-data">
-          <p>Opciones</p>
-          <Options articles={articles} setArticles={setArticles} onAddArticle={handleAddArticle} />
+          <div className="sectionOptions">
+            <Options articles={articles} setArticles={setArticles} onAddArticle={handleAddArticle} />
+          </div>
         </div>
         <div className="section-data">
           <p>Previsualización</p>

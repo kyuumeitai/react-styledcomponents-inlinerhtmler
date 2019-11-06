@@ -4,7 +4,6 @@ import Article from '../Article'
 import { StWidget, StHeader, StBody } from './style.css'
 
 const Preview = ({articles}) => {
-  console.log('articles!', articles)
   return (
     <StWidget>
       <StHeader columns="2">

@@ -145,7 +145,7 @@ const ArticleForm = ({onAddArticle}) => {
               <StArticleWrap>
                 <Article title={values.title} url={values.url} tag={values.tag} excerpt={values.excerpt} img={values.img}  />
               </StArticleWrap>
-              <DisplayFormikState {...{ values, touched, errors, dirty, isSubmitting, handleChange, handleBlur, handleSubmit, handleReset }} />
+              {/* <DisplayFormikState {...{ values, touched, errors, dirty, isSubmitting, handleChange, handleBlur, handleSubmit, handleReset }} /> */}
             </StCol>
           </StCols>
         </StForm>
