@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const StArticle = styled.article`
   font-family: 'Merriweather', serif;
   line-height: 1.1;
+  padding: 1rem;
   a{
     color: #1b1b1b;
     text-decoration: none;

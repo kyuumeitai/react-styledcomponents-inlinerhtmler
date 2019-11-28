@@ -1,7 +1,7 @@
 import React from 'react'
 import { Formik } from 'formik'
 import * as Yup from 'yup'
-import { DisplayFormikState } from './helper'
+// import { DisplayFormikState } from './helper'
 import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCols, StCol, StArticleWrap } from './style.css'
 import Article from '../Article'
 
@@ -23,10 +23,11 @@ const ArticleForm = ({onAddArticle}) => {
         img: '',
       }}
 
-      onSubmit={(values, {setSubmitting}) => {
+      onSubmit={(values, {setSubmitting, resetForm}) => {
         addArticle(values)
         setTimeout(() => {
           setSubmitting(false)
+          resetForm()
         }, 200)
       }}
 

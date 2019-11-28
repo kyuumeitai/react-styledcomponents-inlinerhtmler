@@ -7,7 +7,7 @@ const Preview = ({articles}) => {
   return (
     <StWidget>
       <StHeader columns="2">
-        <div className="col">
+        {/* <div className="col">
           <h2>
             <a href="https://www.latercera.com/tiempo-de-actuar/" target="_blank" rel="noreferrer noopener">
               <img src="https://s2.latercera.com/wp-content/uploads/2019/09/logo-tiempodeactuar-new.png" alt="Tiempo de Actuar"/>
@@ -21,7 +21,7 @@ const Preview = ({articles}) => {
               <img src="https://s2.latercera.com/wp-content/uploads/2019/09/logo-isa.png" alt="ISA Intervial" />
             </a>
           </div>
-        </div>
+        </div> */}
       </StHeader>
       <StBody columns={articles.length}>
         {

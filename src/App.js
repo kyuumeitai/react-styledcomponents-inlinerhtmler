@@ -10,7 +10,8 @@ import GlobalStyle from './global.css'
 const sheet = new ServerStyleSheet()
 
 function App() {
-  const [articles, setArticles] = useState([])
+  const initialState = () => JSON.parse(window.localStorage.getItem('articles')) || []
+  const [articles, setArticles] = useState(initialState)
   const [htmloutput, setHtmloutput] = useState()
 
   const handleAddArticle = (article) => {
@@ -21,6 +22,7 @@ function App() {
     setHtmloutput(`${ReactDOMServer.renderToStaticMarkup(
       sheet.collectStyles(<Preview articles={articles} />)
     )} ${sheet.getStyleTags()}`)
+    window.localStorage.setItem('articles', JSON.stringify(articles))
   }, [articles])
 
   return (

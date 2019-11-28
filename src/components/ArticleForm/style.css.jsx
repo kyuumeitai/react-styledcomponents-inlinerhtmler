@@ -73,7 +73,6 @@ const StCol = styled.div`
 `
 
 const StArticleWrap = styled.div`
-  padding: 15px;
   border: 1px solid #ccc;
   border-radius: 3px;
   margin-left: auto;
