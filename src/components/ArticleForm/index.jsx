@@ -3,14 +3,17 @@ import { Formik } from 'formik'
 import * as Yup from 'yup'
 // import { DisplayFormikState } from './helper'
 import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCols, StCol, StArticleWrap } from './style.css'
+import uuidv4 from '../../helpers/uuidv4'
 import Article from '../Article'
 
 const ArticleForm = ({onAddArticle}) => {
 
   const addArticle = (article) => {
+
     onAddArticle({
-      ...article
-    });
+      ...article,
+      articleid: uuidv4()
+    })
   }
 
   return (

@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import Preview from './components/Preview/'
 import Options from './components/Options/'
-import ArticleList from './components/ArticleList'
 import ReactDOMServer from 'react-dom/server'
+import ArticleContext from './contexts/context-articles'
 import { ServerStyleSheet } from 'styled-components'
 
 import GlobalStyle from './global.css'
@@ -18,6 +18,10 @@ function App() {
     setArticles([...articles, article])
   }
 
+  const removeArticle = article => {
+    setArticles(articles.filter(item => item.articleid !== article.articleid))
+  }
+
   useEffect(() => {
     setHtmloutput(`${ReactDOMServer.renderToStaticMarkup(
       sheet.collectStyles(<Preview articles={articles} />)
@@ -26,32 +30,40 @@ function App() {
   }, [articles])
 
   return (
-    <div className="App">
-      <GlobalStyle />
-      <header className="App-header">
-        <h1>Widgetizador</h1>
-      </header>
-      <main>
-        <div className="section-data">
-          <div className="sectionOptions">
-            <Options articles={articles} setArticles={setArticles} onAddArticle={handleAddArticle} />
+    <ArticleContext.Provider
+      value={{
+        articles: articles,
+        handleAddArticle: (article) => handleAddArticle(article),
+        handleRemoveArticle: (article) => removeArticle(article)
+      }}
+    >
+      <div className="App">
+        <GlobalStyle />
+        <header className="App-header">
+          <h1>Widgetizador</h1>
+        </header>
+        <main>
+          <div className="section-data">
+            <div className="sectionOptions">
+              <Options articles={articles} setArticles={setArticles} onAddArticle={handleAddArticle} />
+            </div>
           </div>
-        </div>
-        <div className="section-data">
-          <p>Previsualización</p>
-          <div className="preview">
-            <Preview articles={articles} />
+          <div className="section-data">
+            <p>Previsualización</p>
+            <div className="preview">
+              <Preview articles={articles} />
+            </div>
           </div>
-        </div>
-        <div className="section-output">
-          <p>Salida</p>
-          <textarea value={htmloutput}></textarea>
-        </div>
-      </main>
-      <footer>
+          <div className="section-output">
+            <p>Salida</p>
+            <textarea value={htmloutput}></textarea>
+          </div>
+        </main>
+        <footer>
 
-      </footer>
-    </div>
+        </footer>
+      </div>
+    </ArticleContext.Provider>
   );
 }
 

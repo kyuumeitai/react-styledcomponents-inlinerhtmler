@@ -2,6 +2,7 @@
   "name": "widgets-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "formik": "^2.0.3",
     "lodash": "^4.17.15",

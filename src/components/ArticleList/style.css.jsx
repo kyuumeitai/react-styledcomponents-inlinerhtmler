@@ -9,6 +9,11 @@ const StArticleItem = styled.li`
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 3px;
+  display: grid;
+  grid-template-columns: 1fr auto;
 `
 
-export { StArticles, StArticleItem }
+const StEditMenu = styled.div`
+`
+
+export { StArticles, StArticleItem, StEditMenu }

@@ -1,11 +1,17 @@
-import React from 'react'
-import { StArticleItem, StArticles } from './style.css'
+import React, { useContext } from 'react'
+import ArticleContext from '../../contexts/context-articles'
+import { StArticleItem, StArticles, StEditMenu } from './style.css'
 
 const ArticleItem = ({article}) => {
   const {title} = article
+  const artCon = useContext(ArticleContext)
   return (
     <StArticleItem>
       <span className="title">{title}</span>
+      <StEditMenu>
+        <button>Editar</button>
+        <button onClick={() => artCon.handleRemoveArticle(article)}>Borrar</button>
+      </StEditMenu>
     </StArticleItem>
   )
 }
