@@ -13,8 +13,14 @@ const StArticle = styled.article`
     font-family: 'Merriweather', serif;
     margin-top: 5px;
     margin-bottom: 10px;
+    line-height: 1;
+  }
+  p{
+    font-size: 14px;
+    line-height: 1.47;
   }
   img {
+    width: 100%;
     max-width: 100%;
   }
   .tag{
@@ -22,6 +28,18 @@ const StArticle = styled.article`
     font-size: 14.4px;
     color: #aa272f;
     margin-bottom: 5px;
+  }
+  figure{
+    @media(max-width: 800px){
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    }
+    @media(max-width: 550px){
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    }
   }
 
 `

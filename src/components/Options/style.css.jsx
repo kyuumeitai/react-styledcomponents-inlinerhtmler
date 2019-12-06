@@ -11,4 +11,7 @@ const StOptions = styled.div`
   }
 `
 
-export { StOptions }
+const StOptionsWrapper = styled.div``
+const StOptionsHeader = styled.div``
+
+export { StOptions, StOptionsWrapper, StOptionsHeader }

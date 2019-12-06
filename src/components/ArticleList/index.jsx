@@ -9,7 +9,7 @@ const ArticleItem = ({article}) => {
     <StArticleItem>
       <span className="title">{title}</span>
       <StEditMenu>
-        <button>Editar</button>
+        {/* <button>Editar</button> */}
         <button onClick={() => artCon.handleRemoveArticle(article)}>Borrar</button>
       </StEditMenu>
     </StArticleItem>
