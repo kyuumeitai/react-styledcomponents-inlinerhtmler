@@ -1,11 +1,25 @@
 import styled from 'styled-components'
 
 const StHeader = styled.header`
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
+  &.two-cols{
+    grid-template-columns: repeat(2, 1fr);
+    div.col{
+      &:first-of-type{
+        a{
+          justify-content: flex-start;
+        }
+      }
+      &:last-of-type{
+        a{
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
   h3{
-    line-height: 50px;
     padding: 0;
     margin: 0;
   }
@@ -20,15 +34,17 @@ const StHeader = styled.header`
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #1b3043;
-    margin: 10px 0;
-    line-height: 50px;
+    /* margin: 10px 0; */
     vertical-align: middle;
+    @media(max-width: 800px){
+      font-size: 10px;
+    }
   }
   img{
     max-height: 40px;
     margin-left: 12px;
     @media(max-width: 800px){
-      max-height: 20px;
+      max-height: 30px;
       margin-left: 6px;
     }
   }

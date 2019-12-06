@@ -8,7 +8,7 @@ import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCol
 
 const HeaderForm = ({onAddHeader, header}) => {
   console.log('header en form:', header)
-  const{ title, presentedby, url, pixel, img } = header
+  const { title, presentedby, url, urlesp, pixel, img, imgesp, source, medium, cssclass} = header
   const addHeader = (Header) => {
 
     onAddHeader({
@@ -22,8 +22,13 @@ const HeaderForm = ({onAddHeader, header}) => {
         title: title || '',
         presentedby: presentedby || '',
         url: url || '',
+        urlesp: urlesp || '',
         pixel: pixel || '',
         img: img || '',
+        imgesp: imgesp || '',
+        source: source || '',
+        medium: medium || '',
+        cssclass: cssclass || '',
       }}
 
       onSubmit={(values, {setSubmitting, resetForm}) => {
@@ -36,7 +41,6 @@ const HeaderForm = ({onAddHeader, header}) => {
 
       validationSchema={Yup.object().shape({
         title: Yup.string().required('Requerido'),
-        url: Yup.string().required('Requerida'),
         img: Yup.string().required('Requerida')
       })}
     >
@@ -65,7 +69,7 @@ const HeaderForm = ({onAddHeader, header}) => {
               />
 
               <StLabel htmlFor="url">
-                URL de destino
+                URL de destino auspiciador
               {errors.url && touched.url && (
                   <StError>{errors.url}</StError>
                 )}
@@ -121,27 +125,123 @@ const HeaderForm = ({onAddHeader, header}) => {
               >
               </StTextarea>
 
-              <StLabel htmlFor="title">
-                URL de Logo
+              <StLabel htmlFor="urlesp">
+                URL de destino Especial
+              {errors.urlesp && touched.urlesp && (
+                  <StError>{errors.urlesp}</StError>
+                )}
+              </StLabel>
+              <StInput
+                id="urlesp"
+                type="text"
+                placeholder="https://www.placecage.com/"
+                value={values.urlesp}
+                name="urlesp"
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.urlesp && touched.urlesp && '1px solid tomato'
+                }
+              />
+
+              <StLabel htmlFor="img">
+                URL de imagen Logo
               {errors.img && touched.img && (
                   <StError>{errors.img}</StError>
                 )}
               </StLabel>
               <StInput
                 id="img"
-                placeholder="URL Logo"
+                placeholder="https://latercera.com/imagenes/logoempresabacan.jpg"
                 type="text"
                 name="img"
                 value={values.img}
                 onChange={handleChange}
                 onBlur={handleBlur}
                 border={
-                  errors.title && touched.title && '1px solid tomato'
+                  errors.img && touched.img && '1px solid tomato'
+                }
+              />
+
+              <StLabel htmlFor="imgesp">
+                URL de imagen Logo del Especial
+              {errors.imgesp && touched.imgesp && (
+                  <StError>{errors.imgesp}</StError>
+                )}
+              </StLabel>
+              <StInput
+                id="imgesp"
+                placeholder="https://latercera.com/imagenes/logobacandelespecial.jpg"
+                type="text"
+                name="imgesp"
+                value={values.imgesp}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.imgesp && touched.imgesp && '1px solid tomato'
+                }
+              />
+
+              <StLabel htmlFor="source">
+                UTM Source
+              {errors.source && touched.source && (
+                  <StError>{errors.source}</StError>
+                )}
+              </StLabel>
+              <StInput
+                id="source"
+                placeholder="widget"
+                type="text"
+                name="source"
+                value={values.source}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.source && touched.source && '1px solid tomato'
+                }
+              />
+
+              <StLabel htmlFor="medium">
+                UTM Medium
+              {errors.medium && touched.medium && (
+                  <StError>{errors.medium}</StError>
+                )}
+              </StLabel>
+              <StInput
+                id="medium"
+                placeholder="latercera"
+                type="text"
+                name="medium"
+                value={values.medium}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.medium && touched.medium && '1px solid tomato'
+                }
+              />
+
+
+              <StLabel htmlFor="cssclass">
+                Clase CSS
+              {errors.cssclass && touched.cssclass && (
+                  <StError>{errors.cssclass}</StError>
+                )}
+              </StLabel>
+              <StInput
+                id="cssclass"
+                placeholder="latercera"
+                type="text"
+                name="cssclass"
+                value={values.cssclass}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.cssclass && touched.cssclass && '1px solid tomato'
                 }
               />
 
               <StButton type="submit" disabled={isSubmitting}>
-                Agregar Header
+                Guardar Header
               </StButton>
             </StCol>
             {/* <StCol>
