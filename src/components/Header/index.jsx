@@ -24,13 +24,14 @@ const Header = ({header}) => {
   if(!header) return null
   const { url, urlesp, img, imgesp, title, presentedby, pixel, source, medium, cssclass } = header
 
-  const sourcesuffix = source ? `utm_source=${source}&amp;` : ''
-  const mediumsuffix = medium ? `utm_medium=${medium}&amp;` : ''
+  const sourcesuffix = source ? `utm_source=${source}&` : ''
+  const mediumsuffix = medium ? `utm_medium=${medium}&` : ''
 
   const suffix = sourcesuffix && mediumsuffix ? `?${sourcesuffix}${mediumsuffix}` : ''
 
   return (
     <div className={cssclass ? 'cssclass' : ''}>
+      <div dangerouslySetInnerHTML={{ __html: pixel }} />
       <StHeader className={imgesp ? 'two-cols' : 'one-col'}>
           {
             imgesp && (
@@ -51,7 +52,6 @@ const Header = ({header}) => {
             <img src={img} alt={title}/>
           </LinkOrNot>
       </StHeader>
-      <div dangerouslySetInnerHTML={{ __html: pixel }} />
     </div>
   )
 }

@@ -1,15 +1,20 @@
 import React from 'react'
 import {StArticle} from './style.css'
 
-const Article = ({title, url, tag, excerpt, img}) => {
+const Article = ({title, url, tag, excerpt, img, icon, type, cssclass, source, medium}) => {
 
   const addDefaultSrc = (e) => {
     e.target.src = 'https://www.placecage.com/700/450'
   }
 
+  const sourcesuffix = source ? `utm_source=${source}&amp;` : ''
+  const mediumsuffix = medium ? `utm_medium=${medium}&amp;` : ''
+
+  const suffix = sourcesuffix && mediumsuffix ? `?${sourcesuffix}${mediumsuffix}` : ''
+
   return (
-    <StArticle>
-      <a href={url}>
+    <StArticle className={cssclass ? cssclass : ''}>
+      <a href={url+suffix} target="_blank" rel="noopener noreferrer">
         <figure>
           <div className="imgwrap">
             <img
@@ -18,6 +23,20 @@ const Article = ({title, url, tag, excerpt, img}) => {
               alt={title} />
           </div>
           <figcaption>
+            {
+              icon && icon.length > 0 && (
+                <span className="icon">
+                  <img src={icon} alt=""/>
+                </span>
+              )
+            }
+            {
+              type && type.length > 0 && (
+                <span className="type">
+                  {type}
+                </span>
+              )
+            }
             {
               tag && tag.length > 0 && (
                 <span className="tag">

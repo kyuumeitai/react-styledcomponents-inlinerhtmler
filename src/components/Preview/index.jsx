@@ -5,16 +5,17 @@ import Header from '../Header'
 import { StWidget, StHeader, StBody } from './style.css'
 
 const Preview = ({articles, header}) => {
+  const colnumber = header.cssclass && header.cssclass === 'box-campamento' ? 4 : articles.length
   return (
-    <StWidget>
+    <StWidget className={header.cssclass ? header.cssclass : ''}>
       <StHeader>
         <Header header={header}/>
       </StHeader>
-      <StBody columns={articles.length}>
+      <StBody columns={colnumber}>
         {
           articles.length > 0 ? articles.map((article, index) => {
             return (
-              <Article title={article.title} url={article.url} tag={article.tag} excerpt={article.excerpt} img={article.img}  key={index} />
+              <Article title={article.title} url={article.url} tag={article.tag} excerpt={article.excerpt} img={article.img} icon={article.icon} type={article.type} cssclass={article.cssclass} source={header.source} medium={header.medium} widgetclass={header.cssclass} key={index} />
             )
           })
           :

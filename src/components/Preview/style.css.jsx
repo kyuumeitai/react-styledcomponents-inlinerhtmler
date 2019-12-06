@@ -24,6 +24,11 @@ const StBody = styled.div`
   @media(max-width: 800px){
     grid-template-columns: 1fr;
   }
+  .box-campamento & {
+    @media(max-width: 800px){
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 `
 
 export { StWidget, StHeader, StBody }

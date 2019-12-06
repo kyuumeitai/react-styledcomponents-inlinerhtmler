@@ -24,6 +24,9 @@ const ArticleForm = ({onAddArticle}) => {
         url: '',
         excerpt: '',
         img: '',
+        icon: '',
+        type: '',
+        cssclass: ''
       }}
 
       onSubmit={(values, {setSubmitting, resetForm}) => {
@@ -121,7 +124,7 @@ const ArticleForm = ({onAddArticle}) => {
               >
               </StTextarea>
 
-              <StLabel htmlFor="title">
+              <StLabel htmlFor="img">
                 URL de imagen
               {errors.img && touched.img && (
                   <StError>{errors.img}</StError>
@@ -136,7 +139,64 @@ const ArticleForm = ({onAddArticle}) => {
                 onChange={handleChange}
                 onBlur={handleBlur}
                 border={
-                  errors.title && touched.title && '1px solid tomato'
+                  errors.img && touched.img && '1px solid tomato'
+                }
+              />
+
+              <StLabel htmlFor="icon">
+                URL del ícono
+              {errors.icon && touched.icon && (
+                  <StError>{errors.icon}</StError>
+                )}
+              </StLabel>
+              <StInput
+                id="icon"
+                placeholder="https://latercera.com/img/elicono.png"
+                type="text"
+                name="icon"
+                value={values.icon}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.icon && touched.icon && '1px solid tomato'
+                }
+              />
+
+              <StLabel htmlFor="type">
+                Tipo de Post (video, crónica)
+              {errors.type && touched.type && (
+                  <StError>{errors.type}</StError>
+                )}
+              </StLabel>
+              <StInput
+                id="type"
+                placeholder="Artículo"
+                type="text"
+                name="type"
+                value={values.type}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.type && touched.type && '1px solid tomato'
+                }
+              />
+
+              <StLabel htmlFor="cssclass">
+                Clase CSS
+              {errors.cssclass && touched.cssclass && (
+                  <StError>{errors.cssclass}</StError>
+                )}
+              </StLabel>
+              <StInput
+                id="cssclass"
+                placeholder="un-articulo"
+                cssclass="text"
+                name="cssclass"
+                value={values.cssclass}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.cssclass && touched.cssclass && '1px solid tomato'
                 }
               />
 
