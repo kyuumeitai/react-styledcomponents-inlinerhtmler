@@ -7,7 +7,6 @@ import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCol
 // import Header from '../Header'
 
 const HeaderForm = ({onAddHeader, header}) => {
-  console.log('header en form:', header)
   const { title, presentedby, url, urlesp, pixel, img, imgesp, source, medium, cssclass} = header
   const addHeader = (Header) => {
 
@@ -35,7 +34,7 @@ const HeaderForm = ({onAddHeader, header}) => {
         addHeader(values)
         setTimeout(() => {
           setSubmitting(false)
-          resetForm()
+          // resetForm()
         }, 200)
       }}
 
