@@ -17,6 +17,10 @@ function App() {
   const [htmloutput, setHtmloutput] = useState()
 
   const handleAddArticle = (article) => {
+    // const articleToAdd = {
+    //   ...article,
+    //   order: article.hasOwnProperty('order') ? article.order : articles.length
+    // }
     setArticles([...articles, article])
   }
 
@@ -25,7 +29,12 @@ function App() {
   }
 
   const removeArticle = article => {
+    console.log('removeArticle', articles.filter(item => item.articleid !== article.articleid))
     setArticles(articles.filter(item => item.articleid !== article.articleid))
+  }
+
+  const orderArticles = thearticles => {
+    setArticles(thearticles)
   }
 
   useEffect(() => {
@@ -42,6 +51,7 @@ function App() {
         articles: articles,
         handleAddArticle: (article) => handleAddArticle(article),
         handleRemoveArticle: (article) => removeArticle(article),
+        handleOrderArticles: (articles) => orderArticles(articles),
         header: header,
         handleAddHeader: (header) => handleAddHeader(header)
       }}

@@ -144,7 +144,7 @@ const HeaderForm = ({onAddHeader, header}) => {
               />
 
               <StLabel htmlFor="img">
-                URL de imagen Logo
+                URL de imagen logo auspiciador
               {errors.img && touched.img && (
                   <StError>{errors.img}</StError>
                 )}

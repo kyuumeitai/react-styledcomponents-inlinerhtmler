@@ -8,6 +8,7 @@
     "lodash": "^4.17.15",
     "polished": "^3.4.2",
     "react": "^16.10.2",
+    "react-beautiful-dnd": "^12.2.0",
     "react-dom": "^16.10.2",
     "react-dom-server": "^0.0.5",
     "react-is": "^16.8",

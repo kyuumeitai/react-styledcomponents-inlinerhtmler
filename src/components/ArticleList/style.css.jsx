@@ -11,6 +11,7 @@ const StArticleItem = styled.li`
   margin-bottom: 3px;
   display: grid;
   grid-template-columns: 1fr auto;
+  background-color: white;
 `
 
 const StEditMenu = styled.div`
