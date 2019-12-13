@@ -23,13 +23,60 @@ const minvuHeader = css`
 `
 
 const cultoHeader = css`
+  background-color: black;
+  position: relative;
+  &.two-cols{
+    grid-template-columns: 1fr 150px;
+    @media(max-width: 800px){
+      grid-template-columns: 1fr 80px;
+    }
+  }
+  .featured-logo{
+    height: 100%;
+    a{
+      display: block;
+      height: 100%;
+    }
+    img{
+      width: 100%;
+      height: auto;
+      max-height: none;
+      margin: 0;
+      display: block;
+      @media(max-width: 800px){
+        object-fit: cover;
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .sponsor-logo{
+    padding: 10px;
+    a{
+      display: block;
+      text-align: right;
+    }
+    span{
+      display: block;
+      margin-bottom: 2px;
+      margin-top: -15px;
+      font-size: 10px;
+    }
+    img{
+      @media(max-width: 800px){
+        max-width: 100%;
+        margin: 0;
+      }
+    }
+    @media(max-width: 800px){
+      padding-top: 20px;
+    }
+  }
   span{
     color: white;
   }
-  img{
-    max-height: 60px;
-    max-width: 90px;
-  }
+
 `
 
 const StHeader = styled.header`

@@ -1,16 +1,16 @@
 import React from 'react'
 import { StHeader } from './style.css'
 
-const LinkOrNot = ({url, suffix, children}) => {
+const LinkOrNot = ({ url, suffix, children, cssClassName}) => {
   if(!url) {
     return (
-      <div className="col">
+      <div className={`col ${cssClassName ? cssClassName : ''}`}>
         {children}
       </div>
     )
   } else {
     return (
-      <div className="col">
+      <div className={`col ${cssClassName ? cssClassName : ''}`}>
         <a href={url+suffix} rel="noreferrer noopener" target="_blank">
           {children}
         </a>
@@ -35,12 +35,12 @@ const Header = ({header}) => {
       <StHeader className={imgesp ? 'two-cols' : 'one-col'} theme={theme}>
           {
             imgesp && (
-              <LinkOrNot url={urlesp} suffix={suffix}>
+              <LinkOrNot url={urlesp} suffix={suffix} cssClassName="featured-logo">
                 <img src={imgesp} alt={title} />
               </LinkOrNot>
             )
           }
-          <LinkOrNot url={url} suffix={suffix}>
+        <LinkOrNot url={url} suffix={suffix} cssClassName="sponsor-logo">
             <span>{
               presentedby ? (
                 <span>{presentedby}</span>
