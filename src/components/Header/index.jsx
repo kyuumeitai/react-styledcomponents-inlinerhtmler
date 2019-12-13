@@ -22,7 +22,7 @@ const LinkOrNot = ({url, suffix, children}) => {
 
 const Header = ({header}) => {
   if(!header) return null
-  const { url, urlesp, img, imgesp, title, presentedby, pixel, source, medium, cssclass } = header
+  const { url, urlesp, img, imgesp, title, presentedby, pixel, source, medium, cssclass, theme } = header
 
   const sourcesuffix = source ? `utm_source=${source}&` : ''
   const mediumsuffix = medium ? `utm_medium=${medium}&` : ''
@@ -32,7 +32,7 @@ const Header = ({header}) => {
   return (
     <div className={cssclass ? 'cssclass' : ''}>
       <div dangerouslySetInnerHTML={{ __html: pixel }} />
-      <StHeader className={imgesp ? 'two-cols' : 'one-col'}>
+      <StHeader className={imgesp ? 'two-cols' : 'one-col'} theme={theme}>
           {
             imgesp && (
               <LinkOrNot url={urlesp} suffix={suffix}>

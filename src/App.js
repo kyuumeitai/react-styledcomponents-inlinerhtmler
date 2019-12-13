@@ -75,7 +75,7 @@ function App() {
           </div>
           <div className="section-output">
             <p>Salida</p>
-            <textarea value={htmloutput}></textarea>
+            <textarea rows="30" cols="200" value={htmloutput}></textarea>
           </div>
         </main>
         <footer>

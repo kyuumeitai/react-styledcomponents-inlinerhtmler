@@ -8,10 +8,10 @@ const Preview = ({articles, header}) => {
   const colnumber = header.cssclass && header.cssclass === 'box-campamento' ? 4 : articles.length
   return (
     <StWidget className={header.cssclass ? header.cssclass : ''}>
-      <StHeader>
+      <StHeader theme={header.theme}>
         <Header header={header}/>
       </StHeader>
-      <StBody columns={colnumber}>
+      <StBody columns={colnumber} theme={header.theme}>
         {
           articles.length > 0 ? articles.map((article, index) => {
             return (

@@ -7,8 +7,8 @@ const Article = ({title, url, tag, excerpt, img, icon, type, cssclass, source, m
     e.target.src = 'https://www.placecage.com/700/450'
   }
 
-  const sourcesuffix = source ? `utm_source=${source}&amp;` : ''
-  const mediumsuffix = medium ? `utm_medium=${medium}&amp;` : ''
+  const sourcesuffix = source ? `utm_source=${source}&` : ''
+  const mediumsuffix = medium ? `utm_medium=${medium}&` : ''
 
   const suffix = sourcesuffix && mediumsuffix ? `?${sourcesuffix}${mediumsuffix}` : ''
 

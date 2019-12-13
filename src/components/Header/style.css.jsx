@@ -1,4 +1,26 @@
-import styled from 'styled-components'
+import styled, {css} from 'styled-components'
+
+const defaultHeader = css`
+
+`
+
+const piensadigitalHeader = css`
+  background-color: gray;
+  padding: 20px;
+  border-bottom: 10px solid #ff8201;
+  margin-bottom: 10px;
+  span{
+    color: white;
+  }
+  img{
+    max-height: 60px;
+    max-width: 90px;
+  }
+`
+
+const minvuHeader = css`
+
+`
 
 const StHeader = styled.header`
   display: grid;
@@ -47,6 +69,18 @@ const StHeader = styled.header`
       max-height: 30px;
       margin-left: 6px;
     }
+  }
+
+  ${props => props.theme ? (props) => {
+    switch (props.theme) {
+      case 'minvu':
+        return minvuHeader
+      case 'piensadigital':
+        return piensadigitalHeader
+      default:
+        return defaultHeader
+    }
+  } : ``
   }
 `
 

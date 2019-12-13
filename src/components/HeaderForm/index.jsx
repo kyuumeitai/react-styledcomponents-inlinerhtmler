@@ -1,19 +1,35 @@
 import React from 'react'
 import { Formik } from 'formik'
 import * as Yup from 'yup'
+import Select from 'react-select'
 // import { DisplayFormikState } from './helper'
 import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCols, StCol } from './style.css'
 
 // import Header from '../Header'
 
 const HeaderForm = ({onAddHeader, header}) => {
-  const { title, presentedby, url, urlesp, pixel, img, imgesp, source, medium, cssclass} = header
+  const { title, presentedby, url, urlesp, pixel, img, imgesp, source, medium, cssclass, theme} = header
   const addHeader = (Header) => {
 
     onAddHeader({
       ...Header
     })
   }
+
+  const availableThemes = [
+    {
+      value: 'default',
+      label: 'Por Defecto'
+    },
+    {
+      value: 'piensadigital',
+      label: 'Piensa Digital'
+    },
+    {
+      value: 'minvu',
+      label: 'Minvu'
+    },
+  ]
 
   return (
     <Formik
@@ -28,9 +44,11 @@ const HeaderForm = ({onAddHeader, header}) => {
         source: source || '',
         medium: medium || '',
         cssclass: cssclass || '',
+        theme: theme || ''
       }}
 
       onSubmit={(values, {setSubmitting, resetForm}) => {
+
         addHeader(values)
         setTimeout(() => {
           setSubmitting(false)
@@ -239,6 +257,26 @@ const HeaderForm = ({onAddHeader, header}) => {
                 }
               />
 
+              <StLabel htmlFor="theme">
+                Estilo de Widget
+              {errors.theme && touched.theme && (
+                  <StError>{errors.theme}</StError>
+                )}
+              </StLabel>
+
+              <Select
+                id="theme"
+                name="theme"
+                type="select"
+                value={availableThemes.filter(theme => theme.value === values.theme)}
+                onChange={selectedOption => {
+                  handleChange('theme')(selectedOption.value)
+                }}
+                onBlur={handleBlur}
+                options={availableThemes}
+              />
+              {/* <h3>{values.theme}</h3> */}
+
               <StButton type="submit" disabled={isSubmitting}>
                 Guardar Header
               </StButton>
@@ -248,7 +286,9 @@ const HeaderForm = ({onAddHeader, header}) => {
               <StHeaderWrap>
                 <Header title={values.title} url={values.url} tag={values.tag} pixel={values.pixel} img={values.img}  />
               </StHeaderWrap> */}
+
               {/* <DisplayFormikState {...{ values, touched, errors, dirty, isSubmitting, handleChange, handleBlur, handleSubmit, handleReset }} /> */}
+
             {/* </StCol> */}
           </StCols>
         </StForm>
