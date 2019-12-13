@@ -29,6 +29,10 @@ const HeaderForm = ({onAddHeader, header}) => {
       value: 'minvu',
       label: 'Minvu'
     },
+    {
+      value: 'culto',
+      label: 'Culto'
+    },
   ]
 
   return (

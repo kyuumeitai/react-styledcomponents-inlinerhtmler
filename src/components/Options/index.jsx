@@ -1,15 +1,18 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import ArticleForm from '../ArticleForm'
 import ArticleList from '../ArticleList'
 import HeaderForm from '../HeaderForm'
 import { StOptions, StOptionsWrapper, StOptionsHeader } from './style.css'
+import ArticleContext from '../../contexts/context-articles'
 
-const Options = ({articles, onAddArticle, header, onAddHeader}) => {
+const Options = ({ articles, onAddArticle, onEditArticle, header, onAddHeader}) => {
+  const artCon = useContext(ArticleContext)
+
   return (
     <StOptionsWrapper>
       <StOptions>
         <div className="options-form">
-          <ArticleForm onAddArticle={onAddArticle} />
+          <ArticleForm onAddArticle={onAddArticle} onEditArticle={onEditArticle} initialArticle={artCon.article}> </ArticleForm>
         </div>
         <div className="options-list">
           <div className="sectionList">

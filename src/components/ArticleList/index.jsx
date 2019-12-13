@@ -19,7 +19,7 @@ const ArticleItem = ({article, index}) => {
 
             <span className="title">{title}</span>
             <StEditMenu>
-              {/* <button>Editar</button> */}
+              <button onClick={() => artCon.triggerEditArticle(article)}>Editar</button>
               <button onClick={() => artCon.handleRemoveArticle(article)}>Borrar</button>
             </StEditMenu>
 

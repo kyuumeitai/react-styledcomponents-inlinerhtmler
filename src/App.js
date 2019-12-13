@@ -13,6 +13,7 @@ function App() {
   const initialState = () => JSON.parse(window.localStorage.getItem('articles')) || []
   const initialHeaderState = () => JSON.parse(window.localStorage.getItem('header')) || {}
   const [articles, setArticles] = useState(initialState)
+  const [article, setArticle] = useState({})
   const [header, setHeader] = useState(initialHeaderState)
   const [htmloutput, setHtmloutput] = useState()
 
@@ -28,9 +29,24 @@ function App() {
     setHeader(header)
   }
 
+  const handleEditArticle = (article) => {
+    const newArr = [...articles]
+    const oldArtIndex = newArr.findIndex(item => item.articleid === article.articleid)
+    newArr[oldArtIndex] = article
+    setArticles(newArr)
+    setArticle({})
+  }
+
   const removeArticle = article => {
     console.log('removeArticle', articles.filter(item => item.articleid !== article.articleid))
     setArticles(articles.filter(item => item.articleid !== article.articleid))
+  }
+
+  const triggerEditArticle = article => {
+    console.log('triggerEditArticle', articles.filter(item => item.articleid === article.articleid))
+
+    setArticle(...articles.filter(item => item.articleid === article.articleid))
+    // setArticles(articles.filter(item => item.articleid !== article.articleid))
   }
 
   const orderArticles = thearticles => {
@@ -51,8 +67,11 @@ function App() {
         articles: articles,
         handleAddArticle: (article) => handleAddArticle(article),
         handleRemoveArticle: (article) => removeArticle(article),
+        handleEditArticle: (article) => handleAddArticle(article),
         handleOrderArticles: (articles) => orderArticles(articles),
+        triggerEditArticle: (article) => triggerEditArticle(article),
         header: header,
+        article: article,
         handleAddHeader: (header) => handleAddHeader(header)
       }}
     >
@@ -64,7 +83,7 @@ function App() {
         <main>
           <div className="section-data">
             <div className="sectionOptions">
-              <Options articles={articles} setArticles={setArticles} onAddArticle={handleAddArticle} header={header} onAddHeader={handleAddHeader} />
+              <Options articles={articles} setArticles={setArticles} onAddArticle={handleAddArticle} onEditArticle={handleEditArticle} header={header} onAddHeader={handleAddHeader} />
             </div>
           </div>
           <div className="section-data">

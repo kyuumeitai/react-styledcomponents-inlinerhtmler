@@ -22,6 +22,16 @@ const minvuHeader = css`
 
 `
 
+const cultoHeader = css`
+  span{
+    color: white;
+  }
+  img{
+    max-height: 60px;
+    max-width: 90px;
+  }
+`
+
 const StHeader = styled.header`
   display: grid;
   align-items: center;
@@ -73,6 +83,8 @@ const StHeader = styled.header`
 
   ${props => props.theme ? (props) => {
     switch (props.theme) {
+      case 'culto':
+        return cultoHeader
       case 'minvu':
         return minvuHeader
       case 'piensadigital':
