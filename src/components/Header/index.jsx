@@ -32,26 +32,28 @@ const Header = ({header}) => {
   return (
     <div className={cssclass ? 'cssclass' : ''}>
       <div dangerouslySetInnerHTML={{ __html: pixel }} />
-      <StHeader className={imgesp ? 'two-cols' : 'one-col'} theme={theme}>
-          {
-            imgesp && (
-              <LinkOrNot url={urlesp} suffix={suffix} cssClassName="featured-logo">
-                <img src={imgesp} alt={title} />
-              </LinkOrNot>
-            )
-          }
-        <LinkOrNot url={url} suffix={suffix} cssClassName="sponsor-logo">
-            <span>{
-              presentedby ? (
-                <span>{presentedby}</span>
-              ) : (
-                <span>Presentado por:</span>
+      {
+        img && (
+          <StHeader className={imgesp ? 'two-cols' : 'one-col'} theme={theme}>
+            {
+              imgesp && (
+                <LinkOrNot url={urlesp} suffix={suffix} cssClassName="featured-logo">
+                  <img src={imgesp} alt={title} />
+                </LinkOrNot>
               )
             }
-            </span>
-            <img src={img} alt={title}/>
-          </LinkOrNot>
-      </StHeader>
+            <LinkOrNot url={url} suffix={suffix} cssClassName="sponsor-logo">
+              <span>{
+                presentedby && (
+                  <span>{presentedby}</span>
+                )
+              }
+              </span>
+              <img src={img} alt={title} />
+            </LinkOrNot>
+          </StHeader>
+        )
+      }
     </div>
   )
 }

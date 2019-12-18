@@ -33,6 +33,10 @@ const HeaderForm = ({onAddHeader, header}) => {
       value: 'culto',
       label: 'Culto'
     },
+    {
+      value: 'cinco',
+      label: 'Cinco artículos'
+    },
   ]
 
   return (
@@ -61,8 +65,8 @@ const HeaderForm = ({onAddHeader, header}) => {
       }}
 
       validationSchema={Yup.object().shape({
-        title: Yup.string().required('Requerido'),
-        img: Yup.string().required('Requerida')
+        // title: Yup.string().required('Requerido'),
+        // img: Yup.string().required('Requerida')
       })}
     >
       {({ values, touched, errors, dirty, isSubmitting, handleChange, handleBlur, handleSubmit, handleReset }) => (

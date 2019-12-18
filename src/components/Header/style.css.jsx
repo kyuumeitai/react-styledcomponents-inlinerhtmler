@@ -79,6 +79,10 @@ const cultoHeader = css`
 
 `
 
+const cincoHeader = css`
+
+`
+
 const StHeader = styled.header`
   display: grid;
   align-items: center;
@@ -136,6 +140,8 @@ const StHeader = styled.header`
         return minvuHeader
       case 'piensadigital':
         return piensadigitalHeader
+      case 'cinco':
+        return cincoHeader
       default:
         return defaultHeader
     }
