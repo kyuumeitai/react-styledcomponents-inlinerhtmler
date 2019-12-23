@@ -43,7 +43,7 @@ const Header = ({header}) => {
               )
             }
             <LinkOrNot url={url} suffix={suffix} cssClassName="sponsor-logo">
-              <span>{
+              <span className="spanwrap">{
                 presentedby && (
                   <span>{presentedby}</span>
                 )

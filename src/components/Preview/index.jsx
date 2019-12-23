@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Article from '../Article'
 import Header from '../Header'
+import CustomWidget from '../CustomVideos'
 import { StWidget, StHeader, StBody } from './style.css'
 
 const Preview = ({articles, header}) => {
@@ -20,7 +21,7 @@ const Preview = ({articles, header}) => {
           })
           :
           (
-            <h2>Agrega algunos artículos :0 </h2>
+            <CustomWidget />
           )
         }
       </StBody>
