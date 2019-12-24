@@ -139,6 +139,32 @@ const cincoHeader = css`
 
 `
 
+const unoHeader = css`
+  position: absolute;
+  right: 10px;
+  padding: 10px;
+  top: 24px;
+  bottom: 0;
+  z-index: 2;
+  &.two-cols{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: flex-end;
+    a{
+      float: right;
+    }
+    div.col{
+      &:first-of-type{
+        align-self: flex-start;
+
+      }
+      &:last-of-type{
+        align-self: flex-end;
+      }
+    }
+  }
+`
+
 const StHeader = styled.header`
   display: grid;
   align-items: center;
@@ -200,6 +226,8 @@ const StHeader = styled.header`
         return piensadigitalHeader
       case 'cinco':
         return cincoHeader
+      case 'uno':
+        return unoHeader
       default:
         return defaultHeader
     }

@@ -1,7 +1,7 @@
 import React from 'react'
 import {StArticle} from './style.css'
 
-const Article = ({title, url, tag, excerpt, img, icon, type, cssclass, source, medium}) => {
+const Article = ({title, url, tag, excerpt, img, icon, type, cssclass, source, medium, theme}) => {
 
   const addDefaultSrc = (e) => {
     e.target.src = 'https://www.placecage.com/700/450'
@@ -50,6 +50,11 @@ const Article = ({title, url, tag, excerpt, img, icon, type, cssclass, source, m
               }
             </h2>
             <p>{excerpt}</p>
+            {
+              theme && theme === 'uno' && (
+                <span className="more"> ver más</span>
+              )
+            }
           </figcaption>
         </figure>
       </a>

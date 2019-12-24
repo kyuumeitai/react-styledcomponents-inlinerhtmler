@@ -5,6 +5,7 @@ const StWidget = styled.div`
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px;
+  position: relative;
   @media(max-width: 1520px){
     max-width: none;
   }
@@ -536,7 +537,75 @@ const dosBody = css`
         }
       }
     }
+  }
+`
 
+const unoBody = css`
+  figure{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    background-color: black;
+    max-height: 200px;
+    overflow: hidden;
+    @media(max-width: 900px){
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      max-height: none;
+    }
+    img{
+      width: 100%;
+      max-height: inherit;
+      object-fit: cover;
+      display: block;
+    }
+    .imgwrap{
+      max-height: inherit;
+      position: relative;
+      &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 30%;
+        background: linear-gradient(to right, transparent, black);
+        @media(max-width: 900px){
+          top: auto;
+          height: 30%;
+          left: 0;
+          right: 0;
+          width: 100%;
+          background: linear-gradient(transparent, black);
+        }
+      }
+    }
+  }
+  figcaption{
+    color: white;
+    max-width: 60%;
+    padding: 10px;
+    @media(max-width: 900px){
+      max-width: 100%;
+    }
+    h2{
+      max-width: 80%;
+    }
+    p{
+      line-height: 1.1;
+      margin-bottom: 10px;
+    }
+    .more{
+      float: right;
+      background: white;
+      color: black;
+      padding: 3px 6px;
+      border-radius: 4px;
+      font-size: 14px;
+      @media(max-width: 900px){
+        float: left;
+      }
+    }
   }
 `
 
@@ -676,6 +745,8 @@ const StBody = styled.div`
         return dosBody
       case 'tres':
         return tresBody
+      case 'uno':
+        return unoBody
       case 'tresconstyle':
         return tresBodyStyle
       default:

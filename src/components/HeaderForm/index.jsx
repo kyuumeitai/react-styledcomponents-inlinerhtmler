@@ -46,6 +46,10 @@ const HeaderForm = ({onAddHeader, header}) => {
       label: 'Tres artículos degradado'
     },
     {
+      value: 'uno',
+      label: 'Un artículo con degradado y logo interior'
+    },
+    {
       value: 'tresconstyle',
       label: 'Tres con estilo'
     },
