@@ -104,6 +104,15 @@ const cultoBody = css`
   article{
     position: relative;
     grid-column: span 3;
+    .tag{
+      background-color: rgb(0,142,255);
+      color: rgb(255,255,255);
+      padding: 2px 6px 3px;
+      border-radius: 10px;
+      font-size: 12px;
+      line-height: 1;
+      margin-bottom: 10px;
+    }
     @media(max-width: 900px){
       grid-column: span 6;
       .icon{

@@ -23,7 +23,7 @@ const minvuHeader = css`
 `
 
 const cultoHeader = css`
-  background-color: black;
+  ${'' /* background-color: black; */}
   position: relative;
   &.two-cols{
     grid-template-columns: 1fr 150px;
@@ -168,8 +168,12 @@ const unoHeader = css`
 const StHeader = styled.header`
   display: grid;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  &.one-col{
+    justify-content: center;
+  }
   &.two-cols{
+    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     div.col{
       &:first-of-type{
@@ -188,7 +192,16 @@ const StHeader = styled.header`
     padding: 0;
     margin: 0;
   }
-  a{
+  .simplelink{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 0 10px;
+    h1{
+      margin: 0;
+    }
+  }
+  a.brand{
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -22,7 +22,7 @@ const LinkOrNot = ({ url, suffix, children, cssClassName}) => {
 
 const Header = ({header}) => {
   if(!header) return null
-  const { url, urlesp, img, imgesp, title, presentedby, pixel, source, medium, cssclass, theme } = header
+  const { url, title, urlesp, img, imgesp, brand, presentedby, pixel, source, medium, cssclass, theme, bajada } = header
 
   const sourcesuffix = source ? `utm_source=${source}&` : ''
   const mediumsuffix = medium ? `utm_medium=${medium}&` : ''
@@ -31,14 +31,37 @@ const Header = ({header}) => {
 
   return (
     <div className={cssclass ? 'cssclass' : ''}>
-      <div dangerouslySetInnerHTML={{ __html: pixel }} />
+      {
+        pixel && (
+          <div dangerouslySetInnerHTML={{ __html: pixel }} />
+        )
+      }
+      {
+        title && (
+          <StHeader theme={theme}>
+            {
+              urlesp ? (
+                <a href={urlesp} target="_blank" rel="noopener noreferrer" className="simplelink">
+                  <h1>{title}</h1>
+                  <p>{bajada}</p>
+                </a>
+              ) : (
+                <>
+                  <h1>{title}</h1>
+                  <p>{bajada}</p>
+                </>
+              )
+            }
+          </StHeader>
+        )
+      }
       {
         img && (
           <StHeader className={imgesp ? 'two-cols' : 'one-col'} theme={theme}>
             {
               imgesp && (
                 <LinkOrNot url={urlesp} suffix={suffix} cssClassName="featured-logo">
-                  <img src={imgesp} alt={title} />
+                  <img src={imgesp} alt={brand} />
                 </LinkOrNot>
               )
             }
@@ -49,7 +72,7 @@ const Header = ({header}) => {
                 )
               }
               </span>
-              <img src={img} alt={title} />
+              <img src={img} alt={brand} />
             </LinkOrNot>
           </StHeader>
         )

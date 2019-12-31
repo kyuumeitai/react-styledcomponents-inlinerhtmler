@@ -43,6 +43,7 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
         img: initialArticle.img || '',
         icon: initialArticle.icon || '',
         type: initialArticle.type || '',
+        iframe: initialArticle.iframe || '',
         cssclass: initialArticle.cssclass || '',
         articleid: initialArticle.articleid || ''
       }}
@@ -230,6 +231,26 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
                     errors.cssclass && touched.cssclass && '1px solid tomato'
                   }
                 />
+
+                <StLabel htmlFor="iframe">
+                  IFrame <small> Al setear esto se reemplaza el contenido por la ruta de este iframe</small>
+                {errors.cssclass && touched.cssclass && (
+                    <StError>{errors.cssclass}</StError>
+                  )}
+                </StLabel>
+
+                <StTextarea
+                  id="iframe"
+                  placeholder="Iframe"
+                  name="iframe"
+                  value={values.iframe}
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  border={
+                    errors.iframe && touched.iframe && '1px solid tomato'
+                  }
+                >
+                </StTextarea>
 
                 <StButton type="submit" disabled={isSubmitting}>
                   {

@@ -4,6 +4,27 @@ const StArticle = styled.article`
   font-family: 'Merriweather', serif;
   line-height: 1.1;
   padding: 0.2rem;
+  .iframe-wrapper-wrapper-wrapper{
+    background: black;
+  }
+  .iframe-wrapper-wrapper{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .iframe-wrapper{
+    position: relative;
+    padding-bottom: 100%;
+    padding-top: 1px;
+    height: 0;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
   a{
     color: #1b1b1b;
     text-decoration: none;

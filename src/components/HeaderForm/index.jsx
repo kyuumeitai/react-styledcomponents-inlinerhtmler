@@ -8,7 +8,7 @@ import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCol
 // import Header from '../Header'
 
 const HeaderForm = ({onAddHeader, header}) => {
-  const { title, presentedby, url, urlesp, pixel, img, imgesp, source, medium, cssclass, theme} = header
+  const { title, presentedby, url, urlesp, pixel, img, imgesp, source, medium, cssclass, theme, bajada, brand} = header
   const addHeader = (Header) => {
 
     onAddHeader({
@@ -53,12 +53,18 @@ const HeaderForm = ({onAddHeader, header}) => {
       value: 'tresconstyle',
       label: 'Tres con estilo'
     },
+    {
+      value: 'titleandiframe',
+      label: 'Título, bajada e iframe (Culto)'
+    }
   ]
 
   return (
     <Formik
       initialValues={{
         title: title || '',
+        bajada: bajada || '',
+        brand: brand || '',
         presentedby: presentedby || '',
         url: url || '',
         urlesp: urlesp || '',
@@ -68,7 +74,7 @@ const HeaderForm = ({onAddHeader, header}) => {
         source: source || '',
         medium: medium || '',
         cssclass: cssclass || '',
-        theme: theme || ''
+        theme: theme || '',
       }}
 
       onSubmit={(values, {setSubmitting, resetForm}) => {
@@ -91,7 +97,7 @@ const HeaderForm = ({onAddHeader, header}) => {
           <StCols cols="2">
             <StCol>
               <StLabel htmlFor="title">
-                Marca
+                Título
               {errors.title && touched.title && (
                   <StError>{errors.title}</StError>
                 )}
@@ -99,13 +105,51 @@ const HeaderForm = ({onAddHeader, header}) => {
               <StInput
                 id="title"
                 type="text"
-                placeholder="Marca"
+                placeholder="Título"
                 value={values.title}
                 name="title"
                 onChange={handleChange}
                 onBlur={handleBlur}
                 border={
                   errors.title && touched.title && '1px solid tomato'
+                }
+              />
+
+              <StLabel htmlFor="brand">
+                Marca / Auspiciador
+              {errors.brand && touched.brand && (
+                  <StError>{errors.brand}</StError>
+                )}
+              </StLabel>
+              <StInput
+                id="brand"
+                placeholder="El título en texto"
+                type="text"
+                name="brand"
+                value={values.brand}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.brand && touched.brand && '1px solid tomato'
+                }
+              />
+
+              <StLabel htmlFor="img">
+                URL de imagen logo auspiciador
+              {errors.img && touched.img && (
+                  <StError>{errors.img}</StError>
+                )}
+              </StLabel>
+              <StInput
+                id="img"
+                placeholder="https://latercera.com/imagenes/logoempresabacan.jpg"
+                type="text"
+                name="img"
+                value={values.img}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.img && touched.img && '1px solid tomato'
                 }
               />
 
@@ -128,8 +172,27 @@ const HeaderForm = ({onAddHeader, header}) => {
                 }
               />
 
+              <StLabel htmlFor="bajada">
+                Bajada
+              {errors.bajada && touched.bajada && (
+                  <div className="input-feedback">  {errors.bajada}</div>
+                )}
+              </StLabel>
+              <StTextarea
+                id="bajada"
+                placeholder="Bajada"
+                name="bajada"
+                value={values.bajada}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.bajada && touched.bajada && '1px solid tomato'
+                }
+              >
+              </StTextarea>
+
               <StLabel htmlFor="presentedby">
-                Presentado por
+                Texto "Presentado por"
               {errors.presentedby && touched.presentedby && (
                   <StError>{errors.presentedby}</StError>
                 )}
@@ -185,25 +248,6 @@ const HeaderForm = ({onAddHeader, header}) => {
                 }
               />
 
-              <StLabel htmlFor="img">
-                URL de imagen logo auspiciador
-              {errors.img && touched.img && (
-                  <StError>{errors.img}</StError>
-                )}
-              </StLabel>
-              <StInput
-                id="img"
-                placeholder="https://latercera.com/imagenes/logoempresabacan.jpg"
-                type="text"
-                name="img"
-                value={values.img}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                border={
-                  errors.img && touched.img && '1px solid tomato'
-                }
-              />
-
               <StLabel htmlFor="imgesp">
                 URL de imagen Logo del Especial
               {errors.imgesp && touched.imgesp && (
@@ -248,6 +292,7 @@ const HeaderForm = ({onAddHeader, header}) => {
                   <StError>{errors.medium}</StError>
                 )}
               </StLabel>
+
               <StInput
                 id="medium"
                 placeholder="latercera"
@@ -260,7 +305,6 @@ const HeaderForm = ({onAddHeader, header}) => {
                   errors.medium && touched.medium && '1px solid tomato'
                 }
               />
-
 
               <StLabel htmlFor="cssclass">
                 Clase CSS
