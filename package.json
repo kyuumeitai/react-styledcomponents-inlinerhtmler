@@ -6,6 +6,7 @@
   "dependencies": {
     "formik": "^2.0.3",
     "lodash": "^4.17.15",
+    "open-graph-scraper": "^3.6.2",
     "polished": "^3.4.2",
     "react": "^16.10.2",
     "react-beautiful-dnd": "^12.2.0",

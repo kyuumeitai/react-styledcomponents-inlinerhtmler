@@ -38,6 +38,10 @@ const HeaderForm = ({onAddHeader, header}) => {
       label: 'Cinco artículos'
     },
     {
+      value: 'tresytres',
+      label: 'Tres y tres, primero grande'
+    },
+    {
       value: 'dos',
       label: 'Dos artículos degradado'
     },

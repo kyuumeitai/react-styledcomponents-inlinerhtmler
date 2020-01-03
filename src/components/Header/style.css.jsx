@@ -132,11 +132,34 @@ const tresconstyleHeader = css`
   span{
     color: white;
   }
-
 `
 
 const cincoHeader = css`
+  .sponsor-logo{
+    justify-self: flex-end;
+  }
+`
 
+const tresYTres = css`
+  .sponsor-logo{
+    justify-self: flex-end;
+  }
+  &.two-cols{
+    @media(max-width: 800px){
+      img{
+        max-width: 100%;
+      }
+      .sponsor-logo{
+        a{
+          text-align: right;
+          display: block;
+        }
+        img{
+          max-width: 50%;
+        }
+      }
+    }
+  }
 `
 
 const unoHeader = css`
@@ -239,6 +262,8 @@ const StHeader = styled.header`
         return piensadigitalHeader
       case 'cinco':
         return cincoHeader
+      case 'tresytres':
+        return tresYTres
       case 'uno':
         return unoHeader
       default:
