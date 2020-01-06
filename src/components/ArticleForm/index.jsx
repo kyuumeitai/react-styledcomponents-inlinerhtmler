@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import { Formik, useFormik } from 'formik'
+import { useFormik } from 'formik'
 import * as Yup from 'yup'
 // import { DisplayFormikState } from './helper'
 import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCols, StCol, StArticleWrap } from './style.css'
