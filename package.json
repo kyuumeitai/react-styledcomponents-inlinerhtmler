@@ -4,6 +4,7 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
+    "axios": "^0.19.0",
     "formik": "^2.0.3",
     "lodash": "^4.17.15",
     "open-graph-scraper": "^3.6.2",

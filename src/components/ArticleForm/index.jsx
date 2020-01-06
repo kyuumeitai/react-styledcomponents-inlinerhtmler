@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
+import axios from 'axios'
 // import { DisplayFormikState } from './helper'
 import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCols, StCol, StArticleWrap } from './style.css'
 import uuidv4 from '../../helpers/uuidv4'
@@ -59,6 +60,23 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
     })
   })
 
+  const onUrlChange = (e) => {
+    console.log(e.target.value)
+    const openfaasGateway = 'http://localhost:8080/function/opengraphparser'
+    axios({
+      url: openfaasGateway,
+      method: 'post',
+      data: {
+        'test': e.target.value
+      }
+    }).then(response => {
+      console.log('>>>>response:', response)
+    }).catch(err => {
+      console.log('>>>>err:', err)
+    })
+
+  }
+
   return (
     <StForm onSubmit={formik.handleSubmit}>
       {
@@ -87,7 +105,10 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
             placeholder="https://www.latercera.com/noticia/nicolas-cage-meme-hilarious/"
             value={formik.values.url}
             name="url"
-            onChange={formik.handleChange}
+            onChange={(e) => {
+              formik.handleChange(e)
+              onUrlChange(e)
+            }}
             onBlur={formik.handleBlur}
             border={
               formik.errors.url && formik.touched.url && '1px solid tomato'
