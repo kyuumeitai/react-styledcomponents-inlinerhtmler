@@ -62,14 +62,18 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
 
   const onUrlChange = (e) => {
     console.log(e.target.value)
-    const openfaasGateway = 'http://localhost:8080/function/opengraphparser'
-    axios({
-      url: openfaasGateway,
-      method: 'post',
-      data: {
-        'test': e.target.value
+
+    const requestBody = {
+      url: e.target.value
+    }
+    const config = {
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
       }
-    }).then(response => {
+    }
+    const openfaasGateway = 'http://localhost:8080/function/opengraphparser'
+
+    axios.post(openfaasGateway, JSON.stringify(requestBody), config).then(response => {
       console.log('>>>>response:', response)
     }).catch(err => {
       console.log('>>>>err:', err)
