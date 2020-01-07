@@ -8,7 +8,7 @@ import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCol
 // import Header from '../Header'
 
 const HeaderForm = ({onAddHeader, header}) => {
-  const { title, presentedby, url, urlesp, pixel, img, imgesp, source, medium, cssclass, theme, bajada, brand} = header
+  const { title, presentedby, url, urlesp, pixel, img, imgesp, source, medium, theme, bajada, brand} = header
   const addHeader = (Header) => {
 
     onAddHeader({
@@ -77,7 +77,6 @@ const HeaderForm = ({onAddHeader, header}) => {
         imgesp: imgesp || '',
         source: source || '',
         medium: medium || '',
-        cssclass: cssclass || '',
         theme: theme || '',
       }}
 
@@ -214,25 +213,6 @@ const HeaderForm = ({onAddHeader, header}) => {
                 }
               />
 
-              <StLabel htmlFor="pixel">
-                Pixel
-              {errors.pixel && touched.pixel && (
-                  <div className="input-feedback">  {errors.pixel}</div>
-                )}
-              </StLabel>
-              <StTextarea
-                id="pixel"
-                placeholder="Pixel de trackeo (formato img, no JS)"
-                name="pixel"
-                value={values.pixel}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                border={
-                  errors.pixel && touched.pixel && '1px solid tomato'
-                }
-              >
-              </StTextarea>
-
               <StLabel htmlFor="urlesp">
                 URL de destino Especial
               {errors.urlesp && touched.urlesp && (
@@ -271,6 +251,25 @@ const HeaderForm = ({onAddHeader, header}) => {
                 }
               />
 
+              <StLabel htmlFor="pixel">
+                Pixel
+              {errors.pixel && touched.pixel && (
+                  <div className="input-feedback">  {errors.pixel}</div>
+                )}
+              </StLabel>
+              <StTextarea
+                id="pixel"
+                placeholder="Pixel de trackeo (formato img, no JS)"
+                name="pixel"
+                value={values.pixel}
+                onChange={handleChange}
+                onBlur={handleBlur}
+                border={
+                  errors.pixel && touched.pixel && '1px solid tomato'
+                }
+              >
+              </StTextarea>
+
               <StLabel htmlFor="source">
                 UTM Source
               {errors.source && touched.source && (
@@ -307,25 +306,6 @@ const HeaderForm = ({onAddHeader, header}) => {
                 onBlur={handleBlur}
                 border={
                   errors.medium && touched.medium && '1px solid tomato'
-                }
-              />
-
-              <StLabel htmlFor="cssclass">
-                Clase CSS
-              {errors.cssclass && touched.cssclass && (
-                  <StError>{errors.cssclass}</StError>
-                )}
-              </StLabel>
-              <StInput
-                id="cssclass"
-                placeholder="latercera"
-                type="text"
-                name="cssclass"
-                value={values.cssclass}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                border={
-                  errors.cssclass && touched.cssclass && '1px solid tomato'
                 }
               />
 

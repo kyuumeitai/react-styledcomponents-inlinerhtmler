@@ -1,7 +1,7 @@
 import React from 'react'
 import {StArticle} from './style.css'
 
-const Article = ({title, url, tag, excerpt, img, icon, type, cssclass, source, medium, theme, iframe}) => {
+const Article = ({title, url, tag, excerpt, img, icon, type, source, medium, theme, iframe}) => {
 
   const addDefaultSrc = (e) => {
     e.target.src = 'https://www.placecage.com/700/450'
@@ -13,7 +13,7 @@ const Article = ({title, url, tag, excerpt, img, icon, type, cssclass, source, m
   const suffix = sourcesuffix && mediumsuffix ? `?${sourcesuffix}${mediumsuffix}` : ''
 
   return (
-    <StArticle className={cssclass ? cssclass : ''}>
+    <StArticle>
       {
         iframe ? (
           <div className="iframe-wrapper-wrapper-wrapper">

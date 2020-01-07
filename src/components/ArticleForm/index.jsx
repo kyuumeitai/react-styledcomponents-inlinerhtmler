@@ -88,7 +88,6 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
         icon: initialArticle.icon || '',
         type: initialArticle.type || '',
         iframe: initialArticle.iframe || '',
-        cssclass: initialArticle.cssclass || '',
         articleid: initialArticle.articleid || ''
       }}
       onSubmit ={ (values, { setSubmitting, resetForm }) => {
@@ -254,25 +253,6 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
               onBlur={handleBlur}
               border={
                 errors.type && touched.type && '1px solid tomato'
-              }
-            />
-
-            <StLabel htmlFor="cssclass-field">
-              Clase CSS
-            {errors.cssclass && touched.cssclass && (
-                <StError>{errors.cssclass}</StError>
-              )}
-            </StLabel>
-            <StInput
-              id="cssclass-field"
-              placeholder="un-articulo"
-              cssclass="text"
-              name="cssclass"
-              value={values.cssclass}
-              onChange={handleChange}
-              onBlur={handleBlur}
-              border={
-                errors.cssclass && touched.cssclass && '1px solid tomato'
               }
             />
 
