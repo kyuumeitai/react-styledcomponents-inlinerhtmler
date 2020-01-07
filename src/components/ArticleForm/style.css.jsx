@@ -16,7 +16,7 @@ const overallStyle = () => {
   `
 }
 
-const StForm = styled.form`
+const StForm = styled.div`
 
 `
 

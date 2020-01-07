@@ -1,11 +1,54 @@
 import React, {useEffect, useState} from 'react'
-import { useFormik } from 'formik'
+import { Form, useFormikContext, Formik } from 'formik'
 import * as Yup from 'yup'
 import axios from 'axios'
 // import { DisplayFormikState } from './helper'
 import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCols, StCol, StArticleWrap } from './style.css'
 import uuidv4 from '../../helpers/uuidv4'
 import Article from '../Article'
+import get from 'lodash/get'
+
+
+const FieldPopulator = () => {
+  const { values } = useFormikContext()
+  const [actualUrl, setActualUrl] = useState(values.url)
+
+
+  useEffect(() => {
+    const requestBody = {
+      url: values.url
+    }
+
+    if(actualUrl !== values.url){
+      setActualUrl(values.url)
+      const openfaasGateway = 'http://localhost:8080/function/opengraphscraper'
+
+      axios.post(openfaasGateway, requestBody).then(response => {
+        const title = get(response, 'data.data.ogTitle')
+        const description = get(response, 'data.data.ogDescription')
+        const twitterDescription = get(response, 'data.data.twitterDescription')
+        const image = get(response, 'data.data.ogImage.url')
+
+        if (title) {
+          values.title = title
+        }
+
+        if (description && description !== '.') {
+          values.excerpt = description
+        } else
+          if (twitterDescription && twitterDescription !== '.') {
+            values.excerpt = twitterDescription
+          }
+        if (image) {
+          values.img = image
+        }
+      }).catch(err => {
+        console.log('>>>>err:', err)
+      })
+    }
+  }, [actualUrl, values.excerpt, values.img, values.title, values.url])
+  return null
+}
 
 const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
 
@@ -32,264 +75,252 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
     })
   }
 
-  const formik = useFormik({
-    enableReinitialize: true,
-    initialValues: {
-      title: initialArticle.title || '',
-      tag: initialArticle.tag || '',
-      url: initialArticle.url || '',
-      excerpt: initialArticle.excerpt || '',
-      img: initialArticle.img || '',
-      icon: initialArticle.icon || '',
-      type: initialArticle.type || '',
-      iframe: initialArticle.iframe || '',
-      cssclass: initialArticle.cssclass || '',
-      articleid: initialArticle.articleid || ''
-    },
-    onSubmit: ( values, { setSubmitting, resetForm }) => {
-      formMode === 'edit' ? editArticle(values) : addArticle(values)
-      setTimeout(() => {
-        setSubmitting(false)
-        resetForm()
-      }, 200)
-    },
-    validationSchema: Yup.object().shape({
-      title: Yup.string().required('Requerido'),
-      url: Yup.string().required('Requerida'),
-      img: Yup.string().required('Requerida')
-    })
-  })
-
-  const onUrlChange = (e) => {
-    console.log(e.target.value)
-
-    const requestBody = {
-      url: e.target.value
-    }
-
-    const openfaasGateway = 'http://localhost:8080/function/opengraphscraper'
-
-    axios.post(openfaasGateway, requestBody).then(response => {
-      console.log('>>>>response:', response)
-    }).catch(err => {
-      console.log('>>>>err:', err)
-    })
-
-  }
-
   return (
-    <StForm onSubmit={formik.handleSubmit}>
-      {
-        formMode === 'edit' && (
-          <StTitle>Editar artículo</StTitle>
-        )
-      }
+    <StForm>
+    <Formik
+      enableReinitialize={true}
+      initialValues={{
+        title: initialArticle.title || '',
+        tag: initialArticle.tag || '',
+        url: initialArticle.url || '',
+        excerpt: initialArticle.excerpt || '',
+        img: initialArticle.img || '',
+        icon: initialArticle.icon || '',
+        type: initialArticle.type || '',
+        iframe: initialArticle.iframe || '',
+        cssclass: initialArticle.cssclass || '',
+        articleid: initialArticle.articleid || ''
+      }}
+      onSubmit ={ (values, { setSubmitting, resetForm }) => {
+        formMode === 'edit' ? editArticle(values) : addArticle(values)
+        setTimeout(() => {
+          setSubmitting(false)
+          resetForm()
+        }, 200)
+      }}
+      validationSchema = {Yup.object().shape({
+        title: Yup.string().required('Requerido'),
+        url: Yup.string().required('Requerida'),
+        img: Yup.string().required('Requerida')
+      })}
+    >
+    {({ values, touched, errors, dirty, isSubmitting, handleChange, handleBlur, handleSubmit, handleReset }) => (
+      <Form onSubmit={handleSubmit}>
+        {
+          formMode === 'edit' && (
+            <StTitle>Editar artículo</StTitle>
+          )
+        }
 
-      {
-        formMode === 'add' && (
-          <StTitle>Agregar artículo</StTitle>
-        )
-      }
+        {
+          formMode === 'add' && (
+            <StTitle>Agregar artículo</StTitle>
+          )
+        }
 
-      <StCols cols="2">
-        <StCol>
-          <StLabel htmlFor="url">
-            URL del artículo
-            {formik.errors.url && formik.touched.url && (
-              <StError>{formik.errors.url}</StError>
-            )}
-          </StLabel>
-          <StInput
-            id="url"
-            type="text"
-            placeholder="https://www.latercera.com/noticia/nicolas-cage-meme-hilarious/"
-            value={formik.values.url}
-            name="url"
-            onChange={(e) => {
-              formik.handleChange(e)
-              onUrlChange(e)
-            }}
-            onBlur={formik.handleBlur}
-            border={
-              formik.errors.url && formik.touched.url && '1px solid tomato'
-            }
-          />
+        <StCols cols="2">
+          <StCol>
+            <StLabel htmlFor="url">
+              URL del artículo
+              {errors.url && touched.url && (
+                <StError>{errors.url}</StError>
+              )}
+            </StLabel>
+            <StInput
+              id="url"
+              type="text"
+              placeholder="https://www.latercera.com/noticia/nicolas-cage-meme-hilarious/"
+              value={values.url}
+              name="url"
+              onChange={(e) => {
+                handleChange(e)
+              }}
+              onBlur={(e) => {
+                handleBlur(e)
+              }}
+              border={
+                errors.url && touched.url && '1px solid tomato'
+              }
+            />
 
-          <StLabel htmlFor="title">
-            Título
-          {formik.errors.title && formik.touched.title && (
-              <StError>{formik.errors.title}</StError>
-            )}
-          </StLabel>
-          <StInput
-            id="title"
-            type="text"
-            placeholder="Título"
-            value={formik.values.title}
-            name="title"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            border={
-              formik.errors.title && formik.touched.title && '1px solid tomato'
-            }
-          />
+            <StLabel htmlFor="title">
+              Título
+            {errors.title && touched.title && (
+                <StError>{errors.title}</StError>
+              )}
+            </StLabel>
+            <StInput
+              id="title"
+              type="text"
+              placeholder="Título"
+              value={values.title}
+              name="title"
+              onChange={handleChange}
+              onBlur={handleBlur}
+              border={
+                errors.title && touched.title && '1px solid tomato'
+              }
+            />
 
-          <StLabel htmlFor="tag">
-            Etiqueta/Categoría
-          {formik.errors.tag && formik.touched.tag && (
-              <StError>{formik.errors.tag}</StError>
-            )}
-          </StLabel>
-          <StInput
-            id="tag"
-            type="text"
-            placeholder="Etiqueta"
-            value={formik.values.tag}
-            name="tag"
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            border={
-              formik.errors.tag && formik.touched.tag && '1px solid tomato'
-            }
-          />
+            <StLabel htmlFor="tag">
+              Etiqueta/Categoría
+            {errors.tag && touched.tag && (
+                <StError>{errors.tag}</StError>
+              )}
+            </StLabel>
+            <StInput
+              id="tag"
+              type="text"
+              placeholder="Etiqueta"
+              value={values.tag}
+              name="tag"
+              onChange={handleChange}
+              onBlur={handleBlur}
+              border={
+                errors.tag && touched.tag && '1px solid tomato'
+              }
+            />
 
-          <StLabel htmlFor="excerpt">
-            Bajada
-          {formik.errors.excerpt && formik.touched.excerpt && (
-              <div className="input-feedback">  {formik.errors.excerpt}</div>
-            )}
-          </StLabel>
-          <StTextarea
-            id="excerpt"
-            placeholder="Bajada"
-            name="excerpt"
-            value={formik.values.excerpt}
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            border={
-              formik.errors.excerpt && formik.touched.excerpt && '1px solid tomato'
-            }
-          >
-          </StTextarea>
+            <StLabel htmlFor="excerpt">
+              Bajada
+            {errors.excerpt && touched.excerpt && (
+                <div className="input-feedback">  {errors.excerpt}</div>
+              )}
+            </StLabel>
+            <StTextarea
+              id="excerpt"
+              placeholder="Bajada"
+              name="excerpt"
+              value={values.excerpt}
+              onChange={handleChange}
+              onBlur={handleBlur}
+              border={
+                errors.excerpt && touched.excerpt && '1px solid tomato'
+              }
+            >
+            </StTextarea>
 
-          <StLabel htmlFor="img">
-            URL de imagen
-          {formik.errors.img && formik.touched.img && (
-              <StError>{formik.errors.img}</StError>
-            )}
-          </StLabel>
-          <StInput
-            id="img"
-            placeholder="URL Imagen"
-            type="text"
-            name="img"
-            value={formik.values.img}
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            border={
-              formik.errors.img && formik.touched.img && '1px solid tomato'
-            }
-          />
+            <StLabel htmlFor="img">
+              URL de imagen
+            {errors.img && touched.img && (
+                <StError>{errors.img}</StError>
+              )}
+            </StLabel>
+            <StInput
+              id="img"
+              placeholder="URL Imagen"
+              type="text"
+              name="img"
+              value={values.img}
+              onChange={handleChange}
+              onBlur={handleBlur}
+              border={
+                errors.img && touched.img && '1px solid tomato'
+              }
+            />
 
-          <StLabel htmlFor="icon">
-            URL del ícono
-          {formik.errors.icon && formik.touched.icon && (
-              <StError>{formik.errors.icon}</StError>
-            )}
-          </StLabel>
-          <StInput
-            id="icon"
-            placeholder="https://latercera.com/img/elicono.png"
-            type="text"
-            name="icon"
-            value={formik.values.icon}
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            border={
-              formik.errors.icon && formik.touched.icon && '1px solid tomato'
-            }
-          />
+            <StLabel htmlFor="icon">
+              URL del ícono
+            {errors.icon && touched.icon && (
+                <StError>{errors.icon}</StError>
+              )}
+            </StLabel>
+            <StInput
+              id="icon"
+              placeholder="https://latercera.com/img/elicono.png"
+              type="text"
+              name="icon"
+              value={values.icon}
+              onChange={handleChange}
+              onBlur={handleBlur}
+              border={
+                errors.icon && touched.icon && '1px solid tomato'
+              }
+            />
 
-          <StLabel htmlFor="type">
-            Tipo de Post (video, crónica)
-          {formik.errors.type && formik.touched.type && (
-              <StError>{formik.errors.type}</StError>
-            )}
-          </StLabel>
-          <StInput
-            id="type"
-            placeholder="Artículo"
-            type="text"
-            name="type"
-            value={formik.values.type}
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            border={
-              formik.errors.type && formik.touched.type && '1px solid tomato'
-            }
-          />
+            <StLabel htmlFor="type">
+              Tipo de Post (video, crónica)
+            {errors.type && touched.type && (
+                <StError>{errors.type}</StError>
+              )}
+            </StLabel>
+            <StInput
+              id="type"
+              placeholder="Artículo"
+              type="text"
+              name="type"
+              value={values.type}
+              onChange={handleChange}
+              onBlur={handleBlur}
+              border={
+                errors.type && touched.type && '1px solid tomato'
+              }
+            />
 
-          <StLabel htmlFor="cssclass">
-            Clase CSS
-          {formik.errors.cssclass && formik.touched.cssclass && (
-              <StError>{formik.errors.cssclass}</StError>
-            )}
-          </StLabel>
-          <StInput
-            id="cssclass"
-            placeholder="un-articulo"
-            cssclass="text"
-            name="cssclass"
-            value={formik.values.cssclass}
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            border={
-              formik.errors.cssclass && formik.touched.cssclass && '1px solid tomato'
-            }
-          />
+            <StLabel htmlFor="cssclass-field">
+              Clase CSS
+            {errors.cssclass && touched.cssclass && (
+                <StError>{errors.cssclass}</StError>
+              )}
+            </StLabel>
+            <StInput
+              id="cssclass-field"
+              placeholder="un-articulo"
+              cssclass="text"
+              name="cssclass"
+              value={values.cssclass}
+              onChange={handleChange}
+              onBlur={handleBlur}
+              border={
+                errors.cssclass && touched.cssclass && '1px solid tomato'
+              }
+            />
 
-          <StLabel htmlFor="iframe">
-            IFrame <small> Al setear esto se reemplaza el contenido por la ruta de este iframe</small>
-          {formik.errors.cssclass && formik.touched.cssclass && (
-              <StError>{formik.errors.cssclass}</StError>
-            )}
-          </StLabel>
+            <StLabel htmlFor="iframe">
+              IFrame <small> Al setear esto se reemplaza el contenido por la ruta de este iframe</small>
+            {errors.cssclass && touched.cssclass && (
+                <StError>{errors.cssclass}</StError>
+              )}
+            </StLabel>
 
-          <StTextarea
-            id="iframe"
-            placeholder="Iframe"
-            name="iframe"
-            value={formik.values.iframe}
-            onChange={formik.handleChange}
-            onBlur={formik.handleBlur}
-            border={
-              formik.errors.iframe && formik.touched.iframe && '1px solid tomato'
-            }
-          >
-          </StTextarea>
+            <StTextarea
+              id="iframe"
+              placeholder="Iframe"
+              name="iframe"
+              value={values.iframe}
+              onChange={handleChange}
+              onBlur={handleBlur}
+              border={
+                errors.iframe && touched.iframe && '1px solid tomato'
+              }
+            >
+            </StTextarea>
 
-          <StButton type="submit" disabled={formik.isSubmitting}>
-            {
-              formMode === 'edit' && (
-                <>Guardar artículo</>
-              )
-            }
+            <StButton type="submit" disabled={isSubmitting}>
+              {
+                formMode === 'edit' && (
+                  <>Guardar artículo</>
+                )
+              }
 
-            {
-              formMode === 'add' && (
-                <>Agregar artículo</>
-              )
-            }
-          </StButton>
-        </StCol>
-        <StCol>
-          <h4>Previsualización</h4>
-          <StArticleWrap>
-            <Article title={formik.values.title} url={formik.values.url} tag={formik.values.tag} excerpt={formik.values.excerpt} img={formik.values.img}  />
-          </StArticleWrap>
-          {/* <DisplayFormikState {...{ values, formik.touched, formik.errors, dirty, isSubmitting, formik.handleChange, formik.handleBlur, handleSubmit, handleReset }} /> */}
-        </StCol>
-      </StCols>
+              {
+                formMode === 'add' && (
+                  <>Agregar artículo</>
+                )
+              }
+            </StButton>
+          </StCol>
+          <StCol>
+            <h4>Previsualización</h4>
+            <StArticleWrap>
+              <Article title={values.title} url={values.url} tag={values.tag} excerpt={values.excerpt} img={values.img}  />
+            </StArticleWrap>
+            <FieldPopulator/>
+          </StCol>
+        </StCols>
+      </Form>
+        )}
+    </Formik>
     </StForm>
   )
 }

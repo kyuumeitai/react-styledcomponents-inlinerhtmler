@@ -138,14 +138,14 @@ const HeaderForm = ({onAddHeader, header}) => {
                 }
               />
 
-              <StLabel htmlFor="img">
+              <StLabel htmlFor="img-header">
                 URL de imagen logo auspiciador
               {errors.img && touched.img && (
                   <StError>{errors.img}</StError>
                 )}
               </StLabel>
               <StInput
-                id="img"
+                id="img-header"
                 placeholder="https://latercera.com/imagenes/logoempresabacan.jpg"
                 type="text"
                 name="img"
@@ -157,14 +157,14 @@ const HeaderForm = ({onAddHeader, header}) => {
                 }
               />
 
-              <StLabel htmlFor="url">
+              <StLabel htmlFor="url-header-sponsor">
                 URL de destino auspiciador
               {errors.url && touched.url && (
                   <StError>{errors.url}</StError>
                 )}
               </StLabel>
               <StInput
-                id="url"
+                id="url-header-sponsor"
                 type="text"
                 placeholder="https://www.placecage.com/"
                 value={values.url}
