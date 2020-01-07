@@ -6,7 +6,7 @@ import CustomWidget from '../CustomNextChina2'
 import { StWidget, StHeader, StBody } from './style.css'
 
 const Preview = ({articles, header}) => {
-  const colnumber = header.cssclass && header.cssclass === 'box-campamento' ? 4 : articles.length
+  const colnumber = articles.length
   return (
     <StWidget className={header.cssclass ? header.cssclass : ''}>
       <StHeader theme={header.theme}>

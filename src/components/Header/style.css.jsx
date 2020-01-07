@@ -8,13 +8,49 @@ const piensadigitalHeader = css`
   background-color: gray;
   padding: 20px;
   border-bottom: 10px solid #ff8201;
+  @media(max-width: 800px){
+    padding: 10px;
+  }
   margin-bottom: 10px;
   span{
     color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
   }
   img{
     max-height: 60px;
     max-width: 90px;
+  }
+  a{
+    text-decoration: none;
+  }
+  &.two-cols{
+    @media(max-width: 800px){
+      span{
+        font-size: 10px;
+        display: block;
+      }
+
+    }
+    .featured-logo{
+      img{
+        max-height: 44px;
+      }
+    }
+    .sponsor-logo{
+      a{
+        display: flex;
+        align-items: center;
+        @media(max-width: 800px){
+          display: block;
+          text-align: right;
+          img{
+            max-height: 30px;
+          }
+        }
+      }
+    }
   }
 `
 

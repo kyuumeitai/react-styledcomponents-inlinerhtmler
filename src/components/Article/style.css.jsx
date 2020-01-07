@@ -77,57 +77,6 @@ const StArticle = styled.article`
       grid-gap: 10px;
     }
   }
-  .box-campamento &{
-    &.article-main{
-      grid-column: span 2;
-      h2{
-        max-width: 40%;
-      }
-    }
-    &.article-secondary{
-      @media(max-width: 800px){
-
-      }
-    }
-    figure{
-      position: relative;
-      @media(max-width: 800px){
-        display: block;
-      }
-      @media(max-width: 550px){
-        display: block;
-      }
-      figcaption {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        color: white;
-        padding: 20px;
-        @media(max-width: 800px){
-          padding: 10px;
-        }
-        h2{
-          font-size: 26px;
-          font-weight: normal;
-          @media(max-width: 800px){
-            font-size: 18px;
-          }
-        }
-        z-index: 1;
-      }
-      &::after{
-        content: '';
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        height: 40%;
-        background: linear-gradient(transparent, black);
-      }
-    }
-  }
-
 `
 
 export {StArticle}
