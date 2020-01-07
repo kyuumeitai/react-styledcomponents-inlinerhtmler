@@ -31,8 +31,15 @@ class Routing {
     }
 
     handle(req, res) {
-        console.log('>>>req', req)
-        console.log('>>>res', res)
-        res.send(JSON.stringify(req.body));
+        if(req.body && req.body.url){
+            ogs({
+                url: req.body.url
+            }).then(result => {
+                res.json(result);
+            }).catch(err => {
+                res.status(500).json(err);
+            })
+        }
+        // res.send(JSON.stringify(req.body.url));
     }
 }

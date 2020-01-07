@@ -66,14 +66,10 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
     const requestBody = {
       url: e.target.value
     }
-    const config = {
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded'
-      }
-    }
-    const openfaasGateway = 'http://localhost:8080/function/opengraphparser'
 
-    axios.post(openfaasGateway, JSON.stringify(requestBody), config).then(response => {
+    const openfaasGateway = 'http://localhost:8080/function/opengraphscraper'
+
+    axios.post(openfaasGateway, requestBody).then(response => {
       console.log('>>>>response:', response)
     }).catch(err => {
       console.log('>>>>err:', err)
