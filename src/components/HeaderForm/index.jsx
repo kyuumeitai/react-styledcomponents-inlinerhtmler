@@ -1,11 +1,7 @@
 import React from 'react'
 import { Formik } from 'formik'
-import * as Yup from 'yup'
 import Select from 'react-select'
-// import { DisplayFormikState } from './helper'
 import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCols, StCol } from './style.css'
-
-// import Header from '../Header'
 
 const HeaderForm = ({onAddHeader, header}) => {
   const { title, presentedby, url, urlesp, pixel, img, imgesp, source, medium, theme, bajada, brand} = header
@@ -89,10 +85,6 @@ const HeaderForm = ({onAddHeader, header}) => {
         }, 200)
       }}
 
-      validationSchema={Yup.object().shape({
-        // title: Yup.string().required('Requerido'),
-        // img: Yup.string().required('Requerida')
-      })}
     >
       {({ values, touched, errors, dirty, isSubmitting, handleChange, handleBlur, handleSubmit, handleReset }) => (
         <StForm onSubmit={handleSubmit}>
@@ -327,21 +319,10 @@ const HeaderForm = ({onAddHeader, header}) => {
                 onBlur={handleBlur}
                 options={availableThemes}
               />
-              {/* <h3>{values.theme}</h3> */}
-
               <StButton type="submit" disabled={isSubmitting}>
                 Guardar Header
               </StButton>
             </StCol>
-            {/* <StCol>
-              <h4>Previsualización</h4>
-              <StHeaderWrap>
-                <Header title={values.title} url={values.url} tag={values.tag} pixel={values.pixel} img={values.img}  />
-              </StHeaderWrap> */}
-
-              {/* <DisplayFormikState {...{ values, touched, errors, dirty, isSubmitting, handleChange, handleBlur, handleSubmit, handleReset }} /> */}
-
-            {/* </StCol> */}
           </StCols>
         </StForm>
       )}

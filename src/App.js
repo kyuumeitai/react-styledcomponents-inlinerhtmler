@@ -12,16 +12,15 @@ const sheet = new ServerStyleSheet()
 function App() {
   const initialState = () => JSON.parse(window.localStorage.getItem('articles')) || []
   const initialHeaderState = () => JSON.parse(window.localStorage.getItem('header')) || {}
+  const initialVersionsState = () => JSON.parse(window.localStorage.getItem('versions')) || {}
   const [articles, setArticles] = useState(initialState)
   const [article, setArticle] = useState({})
   const [header, setHeader] = useState(initialHeaderState)
   const [htmloutput, setHtmloutput] = useState()
+  const [versions, setVersions] = useState(initialVersionsState)
+  const [version, setVersion] = useState({})
 
   const handleAddArticle = (article) => {
-    // const articleToAdd = {
-    //   ...article,
-    //   order: article.hasOwnProperty('order') ? article.order : articles.length
-    // }
     setArticles([...articles, article])
   }
 
@@ -38,15 +37,11 @@ function App() {
   }
 
   const removeArticle = article => {
-    console.log('removeArticle', articles.filter(item => item.articleid !== article.articleid))
     setArticles(articles.filter(item => item.articleid !== article.articleid))
   }
 
   const triggerEditArticle = article => {
-    console.log('triggerEditArticle', articles.filter(item => item.articleid === article.articleid))
-
     setArticle(...articles.filter(item => item.articleid === article.articleid))
-    // setArticles(articles.filter(item => item.articleid !== article.articleid))
   }
 
   const orderArticles = thearticles => {
@@ -59,7 +54,8 @@ function App() {
     )} ${sheet.getStyleTags()}`)
     window.localStorage.setItem('articles', JSON.stringify(articles))
     window.localStorage.setItem('header', JSON.stringify(header))
-  }, [articles, header])
+    window.localStorage.setItem('versions', JSON.stringify(versions))
+  }, [articles, header, versions])
 
   return (
     <ArticleContext.Provider
@@ -87,7 +83,7 @@ function App() {
             </div>
           </div>
           <div className="section-data">
-            <p>Previsualización</p>
+            <h3>Previsualización</h3>
             <div className="preview">
               <Preview articles={articles} header={header} />
             </div>
