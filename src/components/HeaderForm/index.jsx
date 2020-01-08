@@ -88,12 +88,12 @@ const HeaderForm = ({onAddHeader, header}) => {
     >
       {({ values, touched, errors, dirty, isSubmitting, handleChange, handleBlur, handleSubmit, handleReset }) => (
         <StForm onSubmit={handleSubmit}>
-          <StTitle>Agregar Header</StTitle>
-          <StCols cols="2">
+          <StTitle>Configurar Header</StTitle>
+          <StCols cols="1">
             <StCol>
               <StLabel htmlFor="title">
                 Título
-              {errors.title && touched.title && (
+                {errors.title && touched.title && (
                   <StError>{errors.title}</StError>
                 )}
               </StLabel>
@@ -112,7 +112,7 @@ const HeaderForm = ({onAddHeader, header}) => {
 
               <StLabel htmlFor="brand">
                 Marca / Auspiciador
-              {errors.brand && touched.brand && (
+                {errors.brand && touched.brand && (
                   <StError>{errors.brand}</StError>
                 )}
               </StLabel>
@@ -240,64 +240,6 @@ const HeaderForm = ({onAddHeader, header}) => {
                 onBlur={handleBlur}
                 border={
                   errors.imgesp && touched.imgesp && '1px solid tomato'
-                }
-              />
-
-              <StLabel htmlFor="pixel">
-                Pixel
-              {errors.pixel && touched.pixel && (
-                  <div className="input-feedback">  {errors.pixel}</div>
-                )}
-              </StLabel>
-              <StTextarea
-                id="pixel"
-                placeholder="Pixel de trackeo (formato img, no JS)"
-                name="pixel"
-                value={values.pixel}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                border={
-                  errors.pixel && touched.pixel && '1px solid tomato'
-                }
-              >
-              </StTextarea>
-
-              <StLabel htmlFor="source">
-                UTM Source
-              {errors.source && touched.source && (
-                  <StError>{errors.source}</StError>
-                )}
-              </StLabel>
-              <StInput
-                id="source"
-                placeholder="widget"
-                type="text"
-                name="source"
-                value={values.source}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                border={
-                  errors.source && touched.source && '1px solid tomato'
-                }
-              />
-
-              <StLabel htmlFor="medium">
-                UTM Medium
-              {errors.medium && touched.medium && (
-                  <StError>{errors.medium}</StError>
-                )}
-              </StLabel>
-
-              <StInput
-                id="medium"
-                placeholder="latercera"
-                type="text"
-                name="medium"
-                value={values.medium}
-                onChange={handleChange}
-                onBlur={handleBlur}
-                border={
-                  errors.medium && touched.medium && '1px solid tomato'
                 }
               />
 

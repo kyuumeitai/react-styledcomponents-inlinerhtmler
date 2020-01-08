@@ -53,4 +53,13 @@ html{
     display: none !important;
   }
 
+  .section-output{
+    margin-left: auto;
+    margin-right: auto;
+    textarea{
+      display: block;
+      border: 1px solid #0f0;
+    }
+  }
+
 `
