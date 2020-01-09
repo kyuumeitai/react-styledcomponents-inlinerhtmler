@@ -7,7 +7,6 @@ const StOutputs = styled.div`
 `
 
 const StOutput = styled.div`
-  border: 2px solid #0f0;
   max-width: 1200px;
   padding: 1rem;
   margin-left: auto;
@@ -23,11 +22,15 @@ const StTextarea = styled.textarea`
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #0f0;
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   padding: 1rem;
   font-size: 1rem;
   line-height: 1.5;
 `
 
-export { StOutputs, StOutput, StTextarea }
+const StOutputHeader = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+`
+
+export { StOutputs, StOutput, StOutputHeader, StTextarea}
