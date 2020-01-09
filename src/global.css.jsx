@@ -65,6 +65,8 @@ html{
       border: 1px solid #0f0;
       font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
       padding: 1rem;
+      font-size: 1rem;
+      line-height: 1.5;
     }
   }
 

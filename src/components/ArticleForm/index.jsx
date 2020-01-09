@@ -258,8 +258,8 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
 
             <StLabel htmlFor="iframe">
               IFrame <small> Al setear esto se reemplaza el contenido por la ruta de este iframe</small>
-            {errors.cssclass && touched.cssclass && (
-                <StError>{errors.cssclass}</StError>
+            {errors.iframe && touched.iframe && (
+                <StError>{errors.iframe}</StError>
               )}
             </StLabel>
 

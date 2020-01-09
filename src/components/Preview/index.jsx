@@ -5,18 +5,18 @@ import Header from '../Header'
 import CustomWidget from '../Customs/CustomNextChina2'
 import { StWidget, StHeader, StBody } from './style.css'
 
-const Preview = ({articles, header}) => {
+const Preview = ({articles, header, site}) => {
   const colnumber = articles.length
   return (
-    <StWidget className={header.cssclass ? header.cssclass : ''}>
+    <StWidget>
       <StHeader theme={header.theme}>
-        <Header header={header}/>
+        <Header header={header} site={site} />
       </StHeader>
       <StBody columns={colnumber} theme={header.theme}>
         {
           articles.length > 0 ? articles.map((article, index) => {
             return (
-              <Article title={article.title} url={article.url} tag={article.tag} excerpt={article.excerpt} img={article.img} icon={article.icon} type={article.type} cssclass={article.cssclass} source={header.source} medium={header.medium} widgetclass={header.cssclass} theme={header.theme} iframe={article.iframe} key={index} />
+              <Article title={article.title} url={article.url} tag={article.tag} excerpt={article.excerpt} img={article.img} icon={article.icon} type={article.type} source={site ? site.source : ''} medium={site ? site.medium : ''} theme={header.theme} iframe={article.iframe} key={index} />
             )
           })
           :

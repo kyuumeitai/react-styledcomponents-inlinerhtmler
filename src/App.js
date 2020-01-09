@@ -1,13 +1,10 @@
 import React, {useState, useEffect} from 'react'
 import Preview from './components/Preview/'
 import Options from './components/Options/'
-import ReactDOMServer from 'react-dom/server'
 import ArticleContext from './contexts/context-articles'
-import { ServerStyleSheet } from 'styled-components'
+import Outputs from './components/Outputs'
 
 import GlobalStyle from './global.css'
-
-const sheet = new ServerStyleSheet()
 
 function App() {
   const initialState = () => JSON.parse(window.localStorage.getItem('articles')) || []
@@ -16,7 +13,7 @@ function App() {
   const [articles, setArticles] = useState(initialState)
   const [article, setArticle] = useState({})
   const [header, setHeader] = useState(initialHeaderState)
-  const [htmloutput, setHtmloutput] = useState()
+
   const [sites, setSites] = useState(initialSitesState)
   const [site, setSite] = useState({})
 
@@ -73,9 +70,6 @@ function App() {
   }
 
   useEffect(() => {
-    setHtmloutput(`${ReactDOMServer.renderToStaticMarkup(
-      sheet.collectStyles(<Preview articles={articles} header={header} sites={sites} />)
-    )} ${sheet.getStyleTags()}`)
     window.localStorage.setItem('articles', JSON.stringify(articles))
     window.localStorage.setItem('header', JSON.stringify(header))
     window.localStorage.setItem('sites', JSON.stringify(sites))
@@ -116,13 +110,10 @@ function App() {
           <div className="section-data">
             <h3>Previsualización</h3>
             <div className="preview">
-              <Preview articles={articles} header={header} />
+              <Preview articles={articles} header={header} site={sites && sites.length ? sites[0] : {}} />
             </div>
           </div>
-          <div className="section-output">
-            <p>Salida</p>
-            <textarea rows="30" cols="200" value={htmloutput}></textarea>
-          </div>
+          <Outputs sites={sites} articles={articles} header={header} />
         </main>
         <footer>
 
