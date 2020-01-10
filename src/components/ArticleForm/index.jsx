@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react'
 import { Form, useFormikContext, Formik } from 'formik'
 import * as Yup from 'yup'
 import axios from 'axios'
+import Select from 'react-select'
+
 // import { DisplayFormikState } from './helper'
 import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCols, StCol, StArticleWrap } from './style.css'
 import uuidv4 from '../../helpers/uuidv4'
@@ -75,6 +77,17 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
     })
   }
 
+  const availableAspectRatios = [
+    {
+      value: '1x1',
+      label: '1x1 (Cuadrado)'
+    },
+    {
+      value: '16x9',
+      label: '16x9 (TV Wide)'
+    },
+  ]
+
   return (
     <StForm>
     <Formik
@@ -88,6 +101,8 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
         icon: initialArticle.icon || '',
         type: initialArticle.type || '',
         iframe: initialArticle.iframe || '',
+        isIframeReplacingContent: initialArticle.isIframeReplacingContent,
+        iframeRatio: initialArticle.iframeRatio || '1x1',
         articleid: initialArticle.articleid || ''
       }}
       onSubmit ={ (values, { setSubmitting, resetForm }) => {
@@ -257,7 +272,7 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
             />
 
             <StLabel htmlFor="iframe">
-              IFrame <small> Al setear esto se reemplaza el contenido por la ruta de este iframe</small>
+              IFrame
             {errors.iframe && touched.iframe && (
                 <StError>{errors.iframe}</StError>
               )}
@@ -275,6 +290,54 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
               }
             >
             </StTextarea>
+
+            {
+              values.iframe && (
+                <>
+                  <StLabel htmlFor="isIframeReplacingContent">
+                    iFrame reemplaza contenido
+                    {errors.isIframeReplacingContent && touched.isIframeReplacingContent && (
+                      <StError>{errors.isIframeReplacingContent}</StError>
+                    )}
+                  </StLabel>
+
+                  <StInput
+                    id="isIframeReplacingContent"
+                    name="isIframeReplacingContent"
+                    value={values.isIframeReplacingContent}
+                    checked={values.isIframeReplacingContent && values.isIframeReplacingContent === true? 'checked' : false}
+                    type="checkbox"
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    border={
+                      errors.isIframeReplacingContent && touched.isIframeReplacingContent && '1px solid tomato'
+                    }
+                  >
+                  </StInput>
+
+                  <StLabel htmlFor="theme">
+                    Relación de aspecto de Iframe
+            {errors.theme && touched.theme && (
+                      <StError>{errors.theme}</StError>
+                    )}
+                  </StLabel>
+
+                  <Select
+                    id="iframeRatio"
+                    name="iframeRatio"
+                    type="select"
+                    value={availableAspectRatios.filter(ratio => ratio.value === values.iframeRatio)}
+                    onChange={selectedOption => {
+                      handleChange('ratio')(selectedOption.value)
+                    }}
+                    onBlur={handleBlur}
+                    options={availableAspectRatios}
+                  />
+                </>
+              )
+            }
+
+
 
             <StButton type="submit" disabled={isSubmitting}>
               {
