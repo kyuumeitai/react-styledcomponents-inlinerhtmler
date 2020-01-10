@@ -1,7 +1,7 @@
 import React from 'react'
-import {StArticle} from './style.css'
+import { StArticle, IframeRatio} from './style.css'
 
-const Article = ({title, url, tag, excerpt, img, icon, type, source, medium, theme, iframe}) => {
+const Article = ({ title, url, tag, excerpt, img, icon, type, source, medium, theme, iframe, isIframeReplacingContent, iframeRatio}) => {
 
   const addDefaultSrc = (e) => {
     e.target.src = 'https://www.placecage.com/700/450'
@@ -18,7 +18,7 @@ const Article = ({title, url, tag, excerpt, img, icon, type, source, medium, the
         iframe ? (
           <div className="iframe-wrapper-wrapper-wrapper">
             <div className="iframe-wrapper-wrapper">
-              <div className="iframe-wrapper" dangerouslySetInnerHTML={{ __html: iframe }} />
+              <IframeRatio aspectRatio={iframeRatio} dangerouslySetInnerHTML={{ __html: iframe }} />
             </div>
           </div>
         ) : (

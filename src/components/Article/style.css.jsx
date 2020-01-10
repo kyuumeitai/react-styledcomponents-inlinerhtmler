@@ -12,19 +12,6 @@ const StArticle = styled.article`
     margin-left: auto;
     margin-right: auto;
   }
-  .iframe-wrapper{
-    position: relative;
-    padding-bottom: 100%;
-    padding-top: 1px;
-    height: 0;
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  }
   a{
     color: #1b1b1b;
     text-decoration: none;
@@ -79,4 +66,24 @@ const StArticle = styled.article`
   }
 `
 
-export {StArticle}
+const IframeRatio = styled.div`
+  position: relative;
+  padding-bottom: ${props => props.aspectRatio ? () => {
+  if (props.aspectRatio === '16x9'){
+      return '56.25%'
+    } else {
+      return '90%'
+    }
+  } : '80%' };
+  padding-top: 1px;
+  height: 0;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+`
+
+export {StArticle, IframeRatio}

@@ -16,7 +16,7 @@ const Preview = ({articles, header, site}) => {
         {
           articles.length > 0 ? articles.map((article, index) => {
             return (
-              <Article title={article.title} url={article.url} tag={article.tag} excerpt={article.excerpt} img={article.img} icon={article.icon} type={article.type} source={site ? site.source : ''} medium={site ? site.medium : ''} theme={header.theme} iframe={article.iframe} key={index} />
+              <Article title={article.title} url={article.url} tag={article.tag} excerpt={article.excerpt} img={article.img} icon={article.icon} type={article.type} source={site ? site.source : ''} medium={site ? site.medium : ''} theme={header.theme} iframe={article.iframe} key={index} isIframeReplacingContent={article.isIframeReplacingContent} iframeRatio={article.iframeRatio} />
             )
           })
           :

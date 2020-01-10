@@ -102,7 +102,7 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
         type: initialArticle.type || '',
         iframe: initialArticle.iframe || '',
         isIframeReplacingContent: initialArticle.isIframeReplacingContent,
-        iframeRatio: initialArticle.iframeRatio || '1x1',
+        iframeRatio: initialArticle.iframeRatio,
         articleid: initialArticle.articleid || ''
       }}
       onSubmit ={ (values, { setSubmitting, resetForm }) => {
@@ -315,10 +315,10 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
                   >
                   </StInput>
 
-                  <StLabel htmlFor="theme">
+                  <StLabel htmlFor="iframeRatio">
                     Relación de aspecto de Iframe
-            {errors.theme && touched.theme && (
-                      <StError>{errors.theme}</StError>
+                      {errors.iframeRatio && touched.iframeRatio && (
+                      <StError>{errors.iframeRatio}</StError>
                     )}
                   </StLabel>
 
@@ -328,7 +328,8 @@ const ArticleForm = ({onAddArticle, onEditArticle, initialArticle = {}}) => {
                     type="select"
                     value={availableAspectRatios.filter(ratio => ratio.value === values.iframeRatio)}
                     onChange={selectedOption => {
-                      handleChange('ratio')(selectedOption.value)
+                      console.log('>>>selectedOption: ', selectedOption)
+                      handleChange('iframeRatio')(selectedOption.value)
                     }}
                     onBlur={handleBlur}
                     options={availableAspectRatios}
