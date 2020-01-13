@@ -1,6 +1,14 @@
 import styled, {css} from 'styled-components'
 
 const defaultHeader = css`
+  &.one-col{
+    justify-content: flex-end;
+  }
+
+  .sponsor-logo{
+    display: flex;
+    align-items: center;
+  }
 
 `
 
@@ -285,6 +293,8 @@ const StHeader = styled.header`
       margin-left: 6px;
     }
   }
+
+
 
   ${props => props.theme ? (props) => {
     switch (props.theme) {

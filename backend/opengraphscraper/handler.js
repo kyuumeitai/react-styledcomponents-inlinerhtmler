@@ -33,12 +33,15 @@ class Routing {
     handle(req, res) {
         if(req.body && req.body.url){
             ogs({
-                url: req.body.url
+                url: req.body.url,
+                'timeout': 50000
             }).then(result => {
                 res.json(result);
             }).catch(err => {
                 res.status(500).json(err);
             })
+        } else {
+            res.status(400).send(new Error('req.body and req.body.url parameter is required, perkin'))
         }
         // res.send(JSON.stringify(req.body.url));
     }

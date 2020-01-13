@@ -56,6 +56,10 @@ const HeaderForm = ({onAddHeader, header}) => {
     {
       value: 'titleandiframe',
       label: 'Título, bajada e iframe (Culto)'
+    },
+    {
+      value: 'videowithiframe',
+      label: 'Video e Iframe juntos degradado'
     }
   ]
 
