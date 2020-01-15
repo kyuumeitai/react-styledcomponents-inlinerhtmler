@@ -6,7 +6,7 @@ functions:
   opengraphscraper:
     lang: node10-express-service
     handler: ./opengraphscraper
-    image: opengraphscraper:latest
+    image: kyuumeitai/opengraphscraper:latest
     environment:
       read_timeout: 30s
       write_timeout: 30s

@@ -23,7 +23,7 @@ const FieldPopulator = () => {
 
     if(actualUrl !== values.url){
       setActualUrl(values.url)
-      const openfaasGateway = 'http://localhost:8080/function/opengraphscraper'
+      const openfaasGateway = 'https://faas.ltnext.com/function/opengraphscraper'
 
       axios.post(openfaasGateway, requestBody).then(response => {
         const title = get(response, 'data.data.ogTitle')
