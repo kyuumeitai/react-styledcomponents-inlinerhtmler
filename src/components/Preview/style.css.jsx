@@ -9,6 +9,10 @@ const StWidget = styled.div`
   @media(max-width: 1520px){
     max-width: none;
   }
+  @media(min-width: 1550px){
+    width: calc(100% - 330px);
+    max-width: 1550px;
+  }
 `
 
 const StHeader = styled.header`
