@@ -38,8 +38,10 @@ function App() {
   }
 
   const handleEditSite = (site) => {
+    console.log(site)
     const newArr = [...sites]
     const oldSiteIndex = newArr.findIndex(item => item.siteid === site.siteid)
+    console.log('>>>oldSiteIndex', oldSiteIndex)
     newArr[oldSiteIndex] = site
     setSites(newArr)
     setSite({})
@@ -58,6 +60,7 @@ function App() {
   }
 
   const triggerEditSite = site => {
+    console.log('>>>triggerEditSite', site)
     setSite(...sites.filter(item => item.siteid === site.siteid))
   }
 

@@ -4,13 +4,24 @@ import Select from 'react-select'
 import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCols, StCol } from './style.css'
 
 const HeaderForm = ({onAddHeader, header}) => {
-  const { title, presentedby, url, urlesp, pixel, img, imgesp, source, medium, theme, bajada, brand} = header
+  const { title, presentedby, url, urlesp, img, imgesp, source, medium, theme, bajada, brand, layout} = header
   const addHeader = (Header) => {
 
     onAddHeader({
       ...Header
     })
   }
+
+  const availableLayout = [
+    {
+      value: 'default',
+      label: 'Por Defecto'
+    },
+    {
+      value: 'featured',
+      label: 'Primero Destacado'
+    }
+  ]
 
   const availableThemes = [
     {
@@ -22,40 +33,16 @@ const HeaderForm = ({onAddHeader, header}) => {
       label: 'Piensa Digital'
     },
     {
-      value: 'minvu',
-      label: 'Minvu'
-    },
-    {
       value: 'culto',
       label: 'Culto'
     },
     {
-      value: 'cinco',
-      label: 'Cinco artículos'
-    },
-    {
-      value: 'tresytres',
-      label: 'Tres y tres, primero grande'
-    },
-    {
-      value: 'dos',
-      label: 'Dos artículos degradado'
-    },
-    {
-      value: 'tres',
-      label: 'Tres artículos degradado'
+      value: 'degradado',
+      label: 'Degradado negro, imagen de fondo'
     },
     {
       value: 'uno',
       label: 'Un artículo con degradado y logo interior'
-    },
-    {
-      value: 'tresconstyle',
-      label: 'Tres con estilo'
-    },
-    {
-      value: 'titleandiframe',
-      label: 'Título, bajada e iframe (Culto)'
     },
     {
       value: 'videowithiframe',
@@ -72,12 +59,12 @@ const HeaderForm = ({onAddHeader, header}) => {
         presentedby: presentedby || '',
         url: url || '',
         urlesp: urlesp || '',
-        pixel: pixel || '',
         img: img || '',
         imgesp: imgesp || '',
         source: source || '',
         medium: medium || '',
         theme: theme || '',
+        layout: layout || '',
       }}
 
       onSubmit={(values, {setSubmitting, resetForm}) => {
@@ -265,6 +252,24 @@ const HeaderForm = ({onAddHeader, header}) => {
                 onBlur={handleBlur}
                 options={availableThemes}
               />
+              <StLabel htmlFor="layout">
+                Layout
+              {errors.layout && touched.layout && (
+                  <StError>{errors.layout}</StError>
+                )}
+              </StLabel>
+              <Select
+                id="layout"
+                name="layout"
+                type="select"
+                value={availableLayout.filter(layout => layout.value === values.layout)}
+                onChange={selectedOption => {
+                  handleChange('layout')(selectedOption.value)
+                }}
+                onBlur={handleBlur}
+                options={availableLayout}
+              />
+
               <StButton type="submit" disabled={isSubmitting}>
                 Guardar Header
               </StButton>

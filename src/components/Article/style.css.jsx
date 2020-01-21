@@ -90,6 +90,7 @@ const defaultArticleWrap = css`
   display: grid;
   grid-template-columns: ${props => props.hasIframe ? 'repeat(2, 1fr)' : '1fr'};
   grid-gap: 10px;
+
   @media(max-width: 800px){
     grid-template-columns: 1fr;
   }
@@ -161,6 +162,7 @@ const videowithiframeArticleWrap = css`
 `
 
 const StArticleWrap = styled.div`
+  height: 100%;
   ${props => props.theme ? (props) => {
     switch (props.theme) {
       case 'videowithiframe':

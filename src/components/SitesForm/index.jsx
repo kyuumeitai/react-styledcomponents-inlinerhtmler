@@ -37,6 +37,7 @@ const SitesForm = ({ onAddSite, onEditSite, initialSite = {}}) => {
           pixel: initialSite.pixel || '',
           source: initialSite.source || '',
           medium: initialSite.medium || '',
+          siteid: initialSite.siteid || ''
         }}
         onSubmit={ (values, { setSubmitting, resetForm }) => {
           formMode === 'edit' ? editSite(values) : addSite(values)

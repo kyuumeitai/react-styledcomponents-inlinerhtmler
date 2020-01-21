@@ -12,7 +12,7 @@ const Preview = ({articles, header, site}) => {
       <StHeader theme={header.theme}>
         <Header header={header} site={site} />
       </StHeader>
-      <StBody columns={colnumber} theme={header.theme}>
+      <StBody columns={colnumber} theme={header.theme} layout={header.layout}>
         {
           articles.length > 0 ? articles.map((article, index) => {
             return (

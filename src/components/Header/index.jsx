@@ -20,9 +20,10 @@ const LinkOrNot = ({ url, suffix, children, cssClassName}) => {
 }
 
 
-const Header = ({header}) => {
+const Header = ({header, site}) => {
   if(!header) return null
-  const { url, title, urlesp, img, imgesp, brand, presentedby, pixel, source, medium, cssclass, theme, bajada } = header
+  const { url, title, urlesp, img, imgesp, brand, presentedby, theme, bajada } = header
+  const { pixel, source, medium } = site
 
   const sourcesuffix = source ? `utm_source=${source}&` : ''
   const mediumsuffix = medium ? `utm_medium=${medium}&` : ''
@@ -30,7 +31,7 @@ const Header = ({header}) => {
   const suffix = sourcesuffix && mediumsuffix ? `?${sourcesuffix}${mediumsuffix}` : ''
 
   return (
-    <div className={cssclass ? 'cssclass' : ''}>
+    <div>
       {
         pixel && (
           <div dangerouslySetInnerHTML={{ __html: pixel }} />
