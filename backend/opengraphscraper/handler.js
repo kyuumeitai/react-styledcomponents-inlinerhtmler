@@ -41,7 +41,7 @@ class Routing {
                 res.status(500).json(err);
             })
         } else {
-            res.status(400).send(new Error('req.body and req.body.url parameter is required, perkin'))
+            res.status(400).send(new Error('req.body and req.body.url parameter are required, perkin'))
         }
         // res.send(JSON.stringify(req.body.url));
     }

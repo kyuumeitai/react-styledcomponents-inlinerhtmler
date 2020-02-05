@@ -28,27 +28,11 @@ const defaultBody = css`
 
 const piensadigitalBody = css`
   grid-gap: 20px;
-  @media(max-width: 900px){
-    grid-template-columns: 1fr;
-  }
   article{
     position: relative;
     h2{
       font-weight: bold;
       font-size: 18px;
-    }
-    figure{
-      @media(max-width: 900px){
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
-        figcaption{
-          grid-column: span 2;
-          p{
-            display: none;
-          }
-        }
-      }
     }
     &::after{
       content: '';
@@ -80,6 +64,11 @@ const piensadigitalBody = css`
         }
         h2{
           font-size: 24px;
+        }
+        @media(min-width: 800px){
+          p{
+            display: none;
+          }
         }
       }
       figure{
@@ -389,45 +378,64 @@ const unoBody = css`
   }
 `
 
-const defaultLayout = (columns) => {
-  const columncss = `grid-template-columns: repeat(${columns ? columns : '1'}, 1fr);`
+const columncss = (columns, columnsInAnotherRow = 0, featuredColumnExtraSpace = 1) => {
+  const featuredColumnSpace = 1 + featuredColumnExtraSpace
+  const spaceIfFeaturedGone = columnsInAnotherRow > 0 ? featuredColumnSpace : 0
+  const columnsInRow = columns ? columns + featuredColumnExtraSpace - spaceIfFeaturedGone : '1'
+  const featuredArticleCss = featuredColumnExtraSpace > 0 ?
+    `
+      &:first-of-type{
+        grid-column: span ${1 + featuredColumnExtraSpace};
+        @media(max-width: 1000px){
+          grid-column: 1 / -1;
+        }
+    }` : ``
 
-  return css`
-    border: 10px solid #0f0;
-    ${columncss}
-  `
-}
 
-const featuredLayout = () => {
-  return css`
-    grid-template-columns: repeat(12, 1fr);
-      @media(max-width: 1000px){
-      grid-template-columns: repeat(12, 1fr);
-    }
+  return (`
+    grid-template-columns: repeat(${columnsInRow}, 1fr);
     article{
-      grid-column: span 3;
       @media(max-width: 1000px){
         figure{
           height: 100%;
           @media(max-width: 800px){
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(2, 1fr);
             grid-gap: 10px;
           }
           @media(max-width: 550px){
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(2, 1fr);
             grid-gap: 10px;
+            p{
+              display: none;
+            }
           }
         }
-        grid-column: span 6;
       }
-      &:first-of-type{
-        grid-column: span 6;
-        @media(max-width: 1000px){
-          grid-column: span 12;
-        }
+      @media(max-width: 800px){
+        grid-column: 1 / -1;
       }
+      ${featuredArticleCss}
+    }
+  `)
+}
+
+const defaultLayout = (columns) => {
+  return css`
+    ${columncss(columns, 0, 0)}
+    @media(max-width: 1000px){
+      ${columncss(columns, 1, 1)}
+    }
+  `
+}
+
+const featuredLayout = (columns) => {
+
+  return css`
+    ${columncss(columns, 0, 1)}
+    @media(max-width: 1000px){
+      ${columncss(columns, 1, 1)}
     }
   `
 }
@@ -459,7 +467,7 @@ const StBody = styled.div`
   props => props.layout ? (props) => {
     switch (props.layout) {
       case 'featured':
-        return featuredLayout()
+        return featuredLayout(props.columns)
       default:
         return defaultLayout(props.columns)
     }
