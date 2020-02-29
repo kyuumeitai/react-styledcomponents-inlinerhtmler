@@ -9,6 +9,11 @@ const defaultHeader = css`
     display: flex;
     align-items: center;
   }
+  &.two-cols{
+    .sponsor-logo{
+      justify-content: flex-end;
+    }
+  }
 
 `
 
