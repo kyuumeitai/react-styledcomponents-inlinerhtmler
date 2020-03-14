@@ -2,10 +2,12 @@ import React, {useContext} from 'react'
 import ArticleForm from '../ArticleForm'
 import ArticleList from '../ArticleList'
 import HeaderForm from '../HeaderForm'
-import { StOptions, StOptionsWrapper, StOptionsHeader } from './style.css'
+import { StOptions, StOptionsWrapper, StOptionsHeader, StOptionsVersions, StOptionsSiteslist } from './style.css'
 import ArticleContext from '../../contexts/context-articles'
+import SitesForm from '../SitesForm'
+import SitesList from '../SitesList'
 
-const Options = ({ articles, onAddArticle, onEditArticle, header, onAddHeader}) => {
+const Options = ({ articles, sites, onAddArticle, onEditArticle, header, onAddHeader, onAddSite, onEditSite }) => {
   const artCon = useContext(ArticleContext)
 
   return (
@@ -20,11 +22,29 @@ const Options = ({ articles, onAddArticle, onEditArticle, header, onAddHeader}) 
           </div>
         </div>
       </StOptions>
-      <StOptionsHeader>
-        <div>
-          <HeaderForm onAddHeader={onAddHeader} header={header} />
+      <StOptions>
+        <div className="option">
+          <StOptionsHeader>
+            <div>
+              <HeaderForm onAddHeader={onAddHeader} header={header} />
+            </div>
+          </StOptionsHeader>
         </div>
-      </StOptionsHeader>
+        <div className="option">
+          <StOptionsVersions>
+            <div>
+              <SitesForm onAddSite={onAddSite} onEditSite={onEditSite} initialSite={artCon.site} />
+            </div>
+          </StOptionsVersions>
+        </div>
+        <div className="option">
+          <StOptionsSiteslist>
+            <div>
+              <SitesList sites={sites} />
+            </div>
+          </StOptionsSiteslist>
+        </div>
+      </StOptions>
     </StOptionsWrapper>
   )
 }

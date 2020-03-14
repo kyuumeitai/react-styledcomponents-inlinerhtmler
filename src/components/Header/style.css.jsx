@@ -1,6 +1,19 @@
 import styled, {css} from 'styled-components'
 
 const defaultHeader = css`
+  &.one-col{
+    justify-content: flex-end;
+  }
+
+  .sponsor-logo{
+    display: flex;
+    align-items: center;
+  }
+  &.two-cols{
+    .sponsor-logo{
+      justify-content: flex-end;
+    }
+  }
 
 `
 
@@ -8,13 +21,49 @@ const piensadigitalHeader = css`
   background-color: gray;
   padding: 20px;
   border-bottom: 10px solid #ff8201;
+  @media(max-width: 800px){
+    padding: 10px;
+  }
   margin-bottom: 10px;
   span{
     color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
   }
   img{
     max-height: 60px;
     max-width: 90px;
+  }
+  a{
+    text-decoration: none;
+  }
+  &.two-cols{
+    @media(max-width: 800px){
+      span{
+        font-size: 10px;
+        display: block;
+      }
+
+    }
+    .featured-logo{
+      img{
+        max-height: 44px;
+      }
+    }
+    .sponsor-logo{
+      a{
+        display: flex;
+        align-items: center;
+        @media(max-width: 800px){
+          display: block;
+          text-align: right;
+          img{
+            max-height: 30px;
+          }
+        }
+      }
+    }
   }
 `
 
@@ -23,7 +72,7 @@ const minvuHeader = css`
 `
 
 const cultoHeader = css`
-  background-color: black;
+  ${'' /* background-color: black; */}
   position: relative;
   &.two-cols{
     grid-template-columns: 1fr 150px;
@@ -132,11 +181,34 @@ const tresconstyleHeader = css`
   span{
     color: white;
   }
-
 `
 
 const cincoHeader = css`
+  .sponsor-logo{
+    justify-self: flex-end;
+  }
+`
 
+const tresYTres = css`
+  .sponsor-logo{
+    justify-self: flex-end;
+  }
+  &.two-cols{
+    @media(max-width: 800px){
+      img{
+        max-width: 100%;
+      }
+      .sponsor-logo{
+        a{
+          text-align: right;
+          display: block;
+        }
+        img{
+          max-width: 50%;
+        }
+      }
+    }
+  }
 `
 
 const unoHeader = css`
@@ -168,8 +240,12 @@ const unoHeader = css`
 const StHeader = styled.header`
   display: grid;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  &.one-col{
+    justify-content: center;
+  }
   &.two-cols{
+    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     div.col{
       &:first-of-type{
@@ -188,7 +264,16 @@ const StHeader = styled.header`
     padding: 0;
     margin: 0;
   }
-  a{
+  .simplelink{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 0 10px;
+    h1{
+      margin: 0;
+    }
+  }
+  a.brand{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -214,6 +299,8 @@ const StHeader = styled.header`
     }
   }
 
+
+
   ${props => props.theme ? (props) => {
     switch (props.theme) {
       case 'culto':
@@ -226,6 +313,8 @@ const StHeader = styled.header`
         return piensadigitalHeader
       case 'cinco':
         return cincoHeader
+      case 'tresytres':
+        return tresYTres
       case 'uno':
         return unoHeader
       default:

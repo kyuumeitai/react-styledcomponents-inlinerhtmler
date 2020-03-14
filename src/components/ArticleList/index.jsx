@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React, { useContext, useState } from 'react'
 import ArticleContext from '../../contexts/context-articles'
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd'
 
@@ -34,9 +34,9 @@ const ArticleList = ({articles}) => {
   const [columnId, setColumnId] = useState('asdf') //da lo mismo, es una sola columna
   const artCon = useContext(ArticleContext)
 
-  useEffect(() => {
-    console.log('weas', articles)
-  }, [articles])
+  // useEffect(() => {
+  //   console.log('weas', articles)
+  // }, [articles])
 
   const onDragEnd = result => {
     const { destination, source, draggableId } = result

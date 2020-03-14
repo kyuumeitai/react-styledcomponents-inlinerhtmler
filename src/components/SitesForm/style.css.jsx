@@ -37,12 +37,12 @@ const StLabel = styled.label`
 
 const StInput = styled.input`
   ${overallStyle}
-  border: ${props => props.border || '1px solid #ccc' };
+  border: ${props => props.border || '1px solid #ccc'};
 `
 
 const StTextarea = styled.textarea`
   ${overallStyle}
-  border: ${props => props.border || '1px solid #ccc' };
+  border: ${props => props.border || '1px solid #ccc'};
 `
 
 const StButton = styled.button`
@@ -57,7 +57,7 @@ const StTitle = styled.h3`
 `
 
 const StError = styled.span`
-  color: ${props => props.color || 'tomato' };
+  color: ${props => props.color || 'tomato'};
   text-transform: none;
   letter-spacing: normal;
   padding-left: 0.5rem;

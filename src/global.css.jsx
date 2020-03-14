@@ -53,4 +53,21 @@ html{
     display: none !important;
   }
 
+  .section-output{
+    background: black;
+    color: white;
+    text-align: center;
+    textarea{
+      display: block;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid #0f0;
+      font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+      padding: 1rem;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+
 `
