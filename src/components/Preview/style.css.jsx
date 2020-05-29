@@ -1,7 +1,7 @@
-import styled, {css} from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const StWidget = styled.div`
-  max-width: 1200px;
+  /* max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px;
@@ -12,7 +12,7 @@ const StWidget = styled.div`
   @media(min-width: 1550px){
     width: calc(100% - 330px);
     max-width: 1550px;
-  }
+  } */
 `
 
 const StHeader = styled.header`

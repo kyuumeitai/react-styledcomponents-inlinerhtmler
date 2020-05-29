@@ -2,7 +2,7 @@ import React from 'react'
 
 const LogoAsiEmpiezaConBajada = (props) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="255.878" height="58.982" viewBox="0 0 255.878 58.982" {...props}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255.878 58.982" {...props}>
       <g id="Group_60" data-name="Group 60" transform="translate(-412.122 -143.815)">
         <g id="Group_42" data-name="Group 42" transform="translate(416.276 188.906)">
           <g id="Group_40" data-name="Group 40" transform="translate(0 0)">
