@@ -1,12 +1,19 @@
 import styled from 'styled-components'
 
-const Wrap = styled.div`
+const WrapVideo = styled.div`
   position: relative;
   overflow: hidden;
   height: 32vw;
   width: 100%;
   color: white;
-
+  @media(max-width: 800px){
+    height: 80vw;
+  }
+  .h-m{
+    @media(max-width: 800px){
+      display: none;
+    }
+  }
   .hero-image-wrapper,
   .hero-video-wrapper{
     position: absolute;
@@ -20,6 +27,9 @@ const Wrap = styled.div`
       width: 100%;
       height: 100%;
       object-fit: cover;
+    }
+    @media(max-width: 800px){
+      width: 100%;
     }
   }
   .hero-video-wrapper{
@@ -36,18 +46,15 @@ const Wrap = styled.div`
     @media(max-width: 1200px){
       margin-left: -18.5%;
     }
-  }
-
-  .video-proportion-16by9{
-    position: relative;
-    height: 0;
-    padding-bottom: 56.25%;
-    iframe{
-      width: 100%;
-      height: 100%;
-      position: absolute;
+    @media(max-width: 800px){
+      margin-top: -10%;
+      margin-bottom: -40%;
+      margin-left: -15%;
+      margin-right: -15%;
     }
   }
+
+
 
   .bg-vignette{
     display: block;
@@ -60,6 +67,11 @@ const Wrap = styled.div`
     background-color: black;
     transition: opacity 0.5s;
     z-index: 3;
+    @media(max-width: 800px){
+      width: 100%;
+      top: auto;
+      height: 30%;
+    }
     &::after{
       content: '';
       position: absolute;
@@ -69,6 +81,15 @@ const Wrap = styled.div`
       bottom: 0;
       left: 100%;
       width: 275px;
+      @media(max-width: 800px){
+        background-image: linear-gradient(transparent, #000);
+        left: 0;
+        right: 0;
+        top: auto;
+        bottom: 100%;
+        width: 100%;
+        height: 150px;
+      }
     }
   }
 
@@ -108,20 +129,33 @@ const Wrap = styled.div`
         display: flex;
         color: black;
         text-shadow: none;
-        background-color: white;
         text-decoration: none;
         align-items: center;
         justify-content: center;
         margin-right: 16px;
+      }
+      .btn-action-solid{
+        background-color: white;
+      }
+      .btn-action-transparent{
+        background-color: rgba(255,255,255,0.3);
+        color: white;
       }
       .btn-icon{
         width: 2.4rem;
         height: 2.4rem;
       }
       .btn-text{
-        font-size: 1.4rem;
+        font-size: 1.5vw;
         line-height: 1;
         font-weight: bold;
+        @media(max-width: 1400px){
+          font-size: 1.8vw;
+        }
+        @media(max-width: 800px){
+          font-size: 18px;
+        }
+
       }
     }
     .info-wrapper{
@@ -133,6 +167,12 @@ const Wrap = styled.div`
       text-shadow: 2px 2px 4px rgba(0,0,0,.45);
       margin-top: 0.1vw;
       font-family: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;
+      @media(max-width: 1400px){
+        font-size: 1.35vw;
+      }
+      @media(max-width: 900px){
+        font-size: 1.6vw;
+      }
       .supplemental{
         font-size: 1.6vw;
         font-weight: 700;
@@ -147,4 +187,139 @@ const Wrap = styled.div`
   }
 `
 
-export { Wrap }
+const Wrap = styled.div`
+  overflow: hidden;
+  .video-proportion-16by9{
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    iframe{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+    }
+  }
+`
+
+const WrapMenu = styled.div`
+  background-color: black;
+  position: relative;
+  z-index: 4;
+  padding-bottom: 4vw;
+  .hero-chapters{
+    display: flex;
+    padding: 18px 4% 12px 4%;
+    @media(max-width: 800px){
+      display: block;
+    }
+    img{
+      max-width: 100%;
+      display: block;
+    }
+    &:hover{
+      .chapter{
+        transform: scale(0.9) translate3d(0px, 0px, 0px); 
+        opacity: 0.8;
+      }
+    }
+    .chapter{
+      width: 33%;
+      margin-right: 3vw;
+      transition: all .4s cubic-bezier(.665,.235,.265,.8) 0s;
+      transform-origin: center center; 
+      background-color: black;
+      border-radius: 10px;
+      overflow: hidden;
+      @media(max-width: 800px){
+        width: 100%;
+        margin-bottom: 3vw;
+      }
+      &:first-of-type{
+        transform-origin: left center; 
+      }
+      &:last-of-type{
+        margin-right: 0;
+        transform-origin: right center; 
+      }
+      &:hover{
+        transform: scale(1.4) translate3d(0px, 0px, 0px); 
+        z-index: 4;
+        opacity: 1;
+        a{
+          .chapter-iframe{
+            opacity: 1;
+          }
+          .chapter-img{
+            opacity: 0;
+          }
+          .chapter-info{
+            opacity: 0;
+          }
+        }
+      }
+
+      a{
+        display: block;
+        position: relative;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        overflow: hidden;
+        .chapter-img{
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 3;
+          width: 42%;
+          transition: all .3s;
+          transition-delay: 1s;
+        }
+        .chapter-info{
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          top: 0;
+          padding: 0.5vw;
+          z-index: 3;
+          width: 58%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all .3s;
+          transition-delay: 1s;
+        }
+        h3{
+          font-size: 1.4vw;
+          line-height: 1;
+          @media(max-width: 800px){
+            font-size: 26px;
+            padding: 0 1rem;
+          }
+        }
+        p{
+          font-size: 1vw;
+          line-height: 1;
+          @media(max-width: 800px){
+            font-size: 14px;
+            padding: 0 1rem;
+          }
+        }
+        .chapter-iframe{
+          overflow: hidden;
+          opacity: 0;
+          transition: all .3s;
+          transition-delay: 1s;
+        }
+      }
+    }
+  }
+
+  
+`
+
+export { Wrap, WrapVideo, WrapMenu }
