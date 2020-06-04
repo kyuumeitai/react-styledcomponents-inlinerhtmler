@@ -1,5 +1,48 @@
 import styled from 'styled-components'
 
+const WrapChapter = styled.div`
+  background-color: black;
+  .video-wrapper{
+    display: grid;
+    align-items: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    @media(max-width: 800px){
+      min-height: 80vw;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .video-description{
+    color: white;
+    padding: 18px 4% 12px 4%;
+    .meta-description{
+      width: 40%;
+      @media(max-width: 800px){
+        width: 100%;
+      }
+      h2{
+        font-size: 3vw;
+        padding-bottom: 1.8vw;
+        line-height: 1;
+        font-family: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;
+
+        small{
+          font-size: 70%;
+          color: #666;
+          display: block;
+        }
+        @media(max-width: 800px){
+          font-size: 24px;
+        }
+      }
+      p{
+        padding-bottom: 1em;
+      }
+    }
+  }
+`
+
 const WrapVideo = styled.div`
   position: relative;
   overflow: hidden;
@@ -434,4 +477,4 @@ const WrapMenu = styled.div`
   
 `
 
-export { Wrap, WrapVideo, WrapMenu }
+export { Wrap, WrapVideo, WrapMenu, WrapChapter }
