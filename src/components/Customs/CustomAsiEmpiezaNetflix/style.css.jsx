@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const WrapVideo = styled.div`
   position: relative;
   overflow: hidden;
-  height: 32vw;
+  height: 44vw;
   width: 100%;
   color: white;
   @media(max-width: 800px){
@@ -20,7 +20,7 @@ const WrapVideo = styled.div`
     top: 0;
     right: 0;
     bottom: 0;
-    width: 70%;
+    width: 100%;
     opacity: 1;
     transition: opacity .4s cubic-bezier(.665,.235,.265,.8) 0s;
     img{
@@ -66,7 +66,6 @@ const WrapVideo = styled.div`
     } */
     @media(max-width: 800px){
       margin-top: -10%;
-      
     }
   }
 
@@ -75,10 +74,10 @@ const WrapVideo = styled.div`
     position: absolute;
     top: 0;
     left: 0;
-    width: 30%;
+    width: 20%;
     bottom: 0;
     opacity: 1;
-    background-color: black;
+    background-color: rgba(0,0,0,0.6);
     transition: opacity 0.5s;
     z-index: 3;
     @media(max-width: 800px){
@@ -91,13 +90,13 @@ const WrapVideo = styled.div`
       content: '';
       position: absolute;
       z-index: 10;
-      background-image: linear-gradient(to right,#000,transparent);
+      background-image: linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0));
       top: 0;
       bottom: 0;
       left: 100%;
       width: 275px;
       @media(max-width: 800px){
-        background-image: linear-gradient(transparent, rgba(0,0,0,0.6));
+        background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6));
         left: 0;
         right: 0;
         top: auto;
@@ -267,7 +266,19 @@ const WrapMenu = styled.div`
       background-color: black;
       border-radius: 10px;
       overflow: hidden;
-
+      position: relative;
+      @media(max-width: 800px){
+        &::after{
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          content: '';
+          height: 50%;
+          background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6));
+          z-index: 3;
+        }
+      }
       &:nth-of-type(3n+1){
         transform-origin: left center; 
         @media(max-width: 800px){
@@ -281,21 +292,38 @@ const WrapMenu = styled.div`
         }
       }
       &:hover{
-        transform: scale(1.4) translate3d(0px, 0px, 0px); 
-        z-index: 4;
-        opacity: 1;
-        @media(max-width: 800px){
-          transform: scale(1.1) translate3d(0px, 0px, 0px); 
+        &.available{
+          transform: scale(1.4) translate3d(0px, 0px, 0px); 
+          z-index: 4;
+          opacity: 1;
+          @media(max-width: 800px){
+            transform: scale(1.1) translate3d(0px, 0px, 0px); 
+          }
+          .chap-wrap{
+            .chapter-iframe{
+              opacity: 1;
+            }
+            .chapter-img{
+              opacity: 0;
+            }
+            .chapter-info{
+              opacity: 0;
+            }
+            .chapter-availability{
+              opacity: 0;
+            }
+          }
         }
-        a{
-          .chapter-iframe{
-            opacity: 1;
-          }
-          .chapter-img{
-            opacity: 0;
-          }
-          .chapter-info{
-            opacity: 0;
+      }
+      &.soon{
+        img{
+          filter: grayscale(100%);
+        }
+        .chap-wrap{
+          .chapter-availability{
+            span{
+              background-color: gray;
+            }
           }
         }
       }
@@ -307,9 +335,32 @@ const WrapMenu = styled.div`
         text-decoration: none;
         text-align: center;
         overflow: hidden;
-        &.soon{
-          img{
-            filter: grayscale(100%);
+
+        .chapter-availability{
+          position: absolute;
+          bottom: 4px;
+          color: white;
+          z-index: 3;
+          width: 58%;
+          text-align: center;
+          right: 0;
+          transition: all .3s;
+          transition-delay: 0.8s;
+          @media(max-width: 800px){
+            width: 100%;
+            align-items: flex-end;
+            bottom: auto;
+            top: 4px;
+          }
+          span{
+            background-color: red;
+            text-transform: uppercase;
+            padding: 2px 6px;
+            font-size: 12px;
+            letter-spacing: 0.4px;
+            @media(max-width: 800px){
+              font-size: 8px;
+            }
           }
         }
         .chapter-img{
@@ -332,7 +383,7 @@ const WrapMenu = styled.div`
           bottom: 0;
           top: 0;
           padding: 0.5vw;
-          z-index: 3;
+          z-index: 4;
           width: 58%;
           display: flex;
           align-items: center;
@@ -352,6 +403,11 @@ const WrapMenu = styled.div`
           @media(max-width: 800px){
             font-size: 13px;
             padding: 0 1rem;
+          }
+          small{
+            display: block;
+            font-size: 60%;
+            color: #999;
           }
         }
         p{
