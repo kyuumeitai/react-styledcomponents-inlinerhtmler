@@ -93,7 +93,7 @@ const CustomNetflixChapters = () => {
               <div className="wrap">
                 <h3>
                   <small>Capítulo 04:</small>
-                  Alex Andwandter</h3>
+                  Alex Anwandter</h3>
                 <p>Cantautor</p>
               </div>
             </div>
