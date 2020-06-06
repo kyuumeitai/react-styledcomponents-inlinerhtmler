@@ -59,7 +59,6 @@ const LogoAsiEmpiezaConBajada = (props) => {
       </g>
     </svg>
 
-
   )
 }
 

@@ -21,7 +21,7 @@ const CustomNetflixChapters = () => {
             </div>
             <div className="chapter-iframe">
               <div className="video-proportion-16by9">
-                <video src="https://rudo.video/redirector/480/48580584c186bb45f6f55bb80516b2fc.mp4" muted="true" autoplay="true" playsinline="true" preload="auto" loop></video>
+                <video src="https://rudo.video/redirector/320/ccc2162da35f15c11df3d9a78dc2a691.mp4" muted="true" autoplay="true" playsinline="true" preload="auto" loop></video>
               </div>
             </div>
             <div className="chapter-availability">
@@ -94,7 +94,7 @@ const CustomNetflixChapters = () => {
                 <h3>
                   <small>Capítulo 04:</small>
                   Alex Andwandter</h3>
-                <p>Músico</p>
+                <p>Cantautor</p>
               </div>
             </div>
             <div className="chapter-iframe">
