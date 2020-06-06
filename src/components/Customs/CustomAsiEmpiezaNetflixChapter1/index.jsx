@@ -11,7 +11,7 @@ const CustomAsiEmpiezaNetflix = () => {
           <div className="hero-video-wrapper">
             <div className="video-cut-top-bottom">
               <div className="video-proportion-16by9">
-                <iframe id="vrudo" class="vrudo" src="https://rudo.video/vod/bJEzkl" width="560" height="315" allowscriptaccess="always" allowfullscreen="true" webkitallowfullscreen="true" frameborder="0" scrolling="no" allow="autoplay; fullscreen" ></iframe>
+                <iframe id="vrudo" class="vrudo" src="https://rudo.video/vod/bJHviv" width="560" height="315" allowscriptaccess="always" allowfullscreen="true" webkitallowfullscreen="true" frameborder="0" scrolling="no" allow="autoplay; fullscreen" ></iframe>
               </div>
             </div>
           </div>
