@@ -1,5 +1,29 @@
 import styled from 'styled-components'
 
+const Sharers = styled.div`
+  font-size: 16px;
+  
+  a{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 50px;
+    border: 2px solid white;
+    &:last-of-type{
+      margin-right: 0;
+    }
+    color: white;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    svg{
+      width: 20px;
+      height: 20px;
+    }
+  }
+`
+
 const WrapChapter = styled.div`
   background-color: black;
   .video-wrapper{
@@ -16,8 +40,15 @@ const WrapChapter = styled.div`
   .video-description{
     color: white;
     padding: 18px 4% 12px 4%;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 22px;
+    align-items: center;
+    
+    @media(max-width: 800px){
+      grid-template-columns: 1fr 45px;
+    }
     .meta-description{
-      width: 40%;
       @media(max-width: 800px){
         width: 100%;
       }
@@ -51,6 +82,24 @@ const WrapVideo = styled.div`
   color: white;
   @media(max-width: 800px){
     height: 80vh;
+  }
+  &.wrap-small{
+    width: 100%;
+    height: 40vh;
+    min-height: 460px;
+  }
+  &.wrap-home{
+    &::after{
+      content: '';
+      background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6));
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 20%;
+      z-index: 2;
+    }
   }
   .h-m{
     /* @media(max-width: 800px){
@@ -149,18 +198,37 @@ const WrapVideo = styled.div`
       }
     }
   }
-
+  &.wrap-small .meta-layer{
+    width: 40%;
+    @media(max-width: 800px){
+      width: 90%;
+    }
+  }
+  &.wrap-home .meta-layer{
+    bottom: 35%;
+    @media(max-width: 1200px){
+      bottom: 30%;
+    }
+  }
+  &.wrap-home .wrapchapters-available{
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      background: transparent;
+    }
   .meta-layer{
     transition: transform 1.5s cubic-bezier(.165,.84,.44,1);
     width: 36%;
     position: absolute;
     top: 0;
     bottom: 0;
-    padding: 18px 0 12px 4%;
+    padding: 18px 4% 12px 4%;
     display: flex;
     align-items: flex-end;
     left: 0;
     z-index: 3;
+    
     .title-wrapper{
       transform-origin: left bottom; 
       transform: scale(1) translate3d(0px, 0px, 0px); 
@@ -215,6 +283,7 @@ const WrapVideo = styled.div`
 
       }
     }
+
     .info-wrapper{
       color: #fff;
       font-weight: 400;
@@ -225,7 +294,7 @@ const WrapVideo = styled.div`
       margin-top: 0.1vw;
       font-family: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;
       @media(max-width: 1400px){
-        font-size: 1.35vw;
+        font-size: 1.25vw;
       }
       @media(max-width: 900px){
         font-size: 14px;
@@ -288,11 +357,29 @@ const WrapMenu = styled.div`
   position: relative;
   z-index: 4;
   padding-bottom: 4vw;
+  &.wrapchapters-available{
+    padding-bottom: 0px;
+  }
   .hero-chapters{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     padding: 18px 4% 12px 4%;
+    &.withchapters-available{
+      max-width: 66%;
+      @media(max-width: 800px){
+        max-width: 50%;
+      }
+      @media(max-width: 600px){
+        max-width: 60%;
+      }
+      @media(max-width: 500px){
+        max-width: 70%;
+      }
+      @media(max-width: 420px){
+        max-width: 100%;
+      }
+    }
     img{
       max-width: 100%;
       display: block;
@@ -671,4 +758,4 @@ const WrapMenuFull = styled.div`
     }
   }
 `
-export { Wrap, WrapVideo, WrapMenu, WrapChapter, WrapMenuFull }
+export { Wrap, WrapVideo, WrapMenu, WrapChapter, WrapMenuFull, Sharers }

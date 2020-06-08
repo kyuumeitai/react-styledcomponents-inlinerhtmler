@@ -2,6 +2,7 @@ import React from 'react'
 import { Wrap, WrapChapter, WrapMenu } from '../CustomAsiEmpiezaNetflix/style.css'
 import LogoAsiEmpiezaConBajada from './logo-asi-empieza-con-bajada.jsx'
 import CustomNetflixChapters from '../CustomNetflixChapters'
+import CustomSharer from '../CustomAsiEmpiezaSharers'
 
 const CustomAsiEmpiezaNetflix = () => {
   return (
@@ -23,6 +24,7 @@ const CustomAsiEmpiezaNetflix = () => {
             <p>“Siempre pienso cuando nacen las tortugas y corren al agua antes de que se las coman los pájaros. Hay algo de eso con las ideas para mí”, reflexiona el cineasta Sebastián Lelio, ganador del Oscar a Mejor película extranjera por Una mujer fantástica.</p>
             <p>En este capítulo de Así Empieza, el director hace un recorrido por su proceso creativo: desde cómo nace la idea hasta que termina en la pantalla grande. ¿Cómo sabe cuál vale la pena perseguir? Descúbrelo acá.</p>
           </div>
+          <CustomSharer url="https://www.latercera.com/asi-empieza/01-sebastian-lelio/" description="Capítulo 1: Sebastián Lelio - Cineasta" hashtags="AsíEmpieza" />
         </div>
       </WrapChapter>
       <CustomNetflixChapters />

@@ -6,7 +6,7 @@ import CustomNetflixChapters from '../CustomNetflixChapters'
 const CustomAsiEmpiezaNetflix = () => {
   return (
     <Wrap>
-      <WrapVideo className="wrap-home">
+      <WrapVideo className="wrap-small">
         <div className="hero-video-wrapper">
           <div className="video-cut-top-bottom">
             <div className="video-proportion-16by9">
@@ -52,8 +52,6 @@ const CustomAsiEmpiezaNetflix = () => {
             </div>
           </div>
         </div>
-        <CustomNetflixChapters chapters="available" />
-
       </WrapVideo>
     </Wrap>
   )

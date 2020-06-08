@@ -1,22 +1,22 @@
 import React from 'react'
 import { WrapMenu } from '../CustomAsiEmpiezaNetflix/style.css'
 
-const CustomNetflixChapters = () => {
+const CustomNetflixChapters = ({ chapters }) => {
 
   return (
-    <WrapMenu>
-      <div className="hero-chapters">
+    <WrapMenu className={`${chapters ? `wrapchapters-${chapters}` : ''}`}>
+      <div className={`hero-chapters ${chapters ? 'withchapters-' + chapters : ''}`}>
         <div className="chapter available">
           <a href="https://www.latercera.com/asi-empieza/01-sebastian-lelio/" className="chap-wrap">
             <div className="chapter-img">
-              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/ZYVAUS6LAZAGFEIHHSOXBICXTU.jpg" alt="" />
+              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/X262HLKIVZCEHIUNH32QWWFAAQ.jpg" alt="" />
             </div>
             <div className="chapter-info">
               <div className="wrap">
                 <h3>
                   <small>Capítulo 01:</small>
                     Sebastián Lelio</h3>
-                <p>Director</p>
+                <p>Cineasta</p>
               </div>
             </div>
             <div className="chapter-iframe">
@@ -35,7 +35,7 @@ const CustomNetflixChapters = () => {
         <div className="chapter available">
           <a href="https://www.latercera.com/asi-empieza/02-susannah-buchan/" className="chap-wrap">
             <div className="chapter-img">
-              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/TBEO647IRJCQNCB7SAJ5NZH6RA.jpg" alt="" />
+              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/33URTPQE4ZADVN6KBJQWLDCUMI.jpg" alt="" />
             </div>
             <div className="chapter-info">
               <div className="wrap">
@@ -61,7 +61,7 @@ const CustomNetflixChapters = () => {
         <div className="chapter available">
           <a href="https://www.latercera.com/asi-empieza/03-paulina-villalobos/" className="chap-wrap">
             <div className="chapter-img">
-              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/DAKUSRCYF5A4HJQZYGV2P5ZIAU.jpg" alt="" />
+              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/57MLVKMOCZFBRMVAX6TG42DB6M.jpg" alt="" />
             </div>
             <div className="chapter-info">
               <div className="wrap">
@@ -83,111 +83,114 @@ const CustomNetflixChapters = () => {
             </div>
           </a>
         </div>
-
-        <div className="chapter soon">
-          <div className="chap-wrap">
-            <div className="chapter-img">
-              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/HVHEUPDXNZDJFN7SWRBCGEFDTY.jpg" alt="" />
-            </div>
-            <div className="chapter-info">
-              <div className="wrap">
-                <h3>
-                  <small>Capítulo 04:</small>
+        {
+          !chapters && chapters !== 'available' ? (
+            <>
+              <div className="chapter soon">
+                <div className="chap-wrap">
+                  <div className="chapter-img">
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/HVHEUPDXNZDJFN7SWRBCGEFDTY.jpg" alt="" />
+                  </div>
+                  <div className="chapter-info">
+                    <div className="wrap">
+                      <h3>
+                        <small>Capítulo 04:</small>
                   Alex Anwandter</h3>
-                <p>Cantautor</p>
-              </div>
-            </div>
-            <div className="chapter-iframe">
-              <div className="video-proportion-16by9">
-                <video></video>
-              </div>
-            </div>
-            <div className="chapter-availability">
-              <span>
-                Pronto
+                      <p>Cantautor</p>
+                    </div>
+                  </div>
+                  <div className="chapter-iframe">
+                    <div className="video-proportion-16by9">
+                      <video></video>
+                    </div>
+                  </div>
+                  <div className="chapter-availability">
+                    <span>
+                      Pronto
                 </span>
-            </div>
-          </div>
-        </div>
+                  </div>
+                </div>
+              </div>
 
-        <div className="chapter soon">
-          <div className="chap-wrap">
-            <div className="chapter-img">
-              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/75WFR6WBQ5BCZDB6DRRQDKRTZU.jpg" alt="" />
-            </div>
-            <div className="chapter-info">
-              <div className="wrap">
-                <h3>
-                  <small>Capítulo 05:</small>
+              <div className="chapter soon">
+                <div className="chap-wrap">
+                  <div className="chapter-img">
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/75WFR6WBQ5BCZDB6DRRQDKRTZU.jpg" alt="" />
+                  </div>
+                  <div className="chapter-info">
+                    <div className="wrap">
+                      <h3>
+                        <small>Capítulo 05:</small>
                   Caiozzama</h3>
-                <p>Artista</p>
-              </div>
-            </div>
-            <div className="chapter-iframe">
-              <div className="video-proportion-16by9">
-                <video></video>
-              </div>
-            </div>
-            <div className="chapter-availability">
-              <span>
-                Pronto
+                      <p>Artista</p>
+                    </div>
+                  </div>
+                  <div className="chapter-iframe">
+                    <div className="video-proportion-16by9">
+                      <video></video>
+                    </div>
+                  </div>
+                  <div className="chapter-availability">
+                    <span>
+                      Pronto
                 </span>
-            </div>
-          </div>
-        </div>
+                  </div>
+                </div>
+              </div>
 
-        <div className="chapter soon">
-          <div className="chap-wrap">
-            <div className="chapter-img">
-              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/3OM2XBFXBNBTJGN4VDLAZO3XUE.jpg" alt="" />
-            </div>
-            <div className="chapter-info">
-              <div className="wrap">
-                <h3>
-                  <small>Capítulo 06:</small>
+              <div className="chapter soon">
+                <div className="chap-wrap">
+                  <div className="chapter-img">
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/3OM2XBFXBNBTJGN4VDLAZO3XUE.jpg" alt="" />
+                  </div>
+                  <div className="chapter-info">
+                    <div className="wrap">
+                      <h3>
+                        <small>Capítulo 06:</small>
                     Francisca Valenzuela</h3>
-                <p>Cantautora</p>
-              </div>
-            </div>
-            <div className="chapter-iframe">
-              <div className="video-proportion-16by9">
-                <video></video>
-              </div>
-            </div>
-            <div className="chapter-availability">
-              <span>
-                Pronto
+                      <p>Cantautora</p>
+                    </div>
+                  </div>
+                  <div className="chapter-iframe">
+                    <div className="video-proportion-16by9">
+                      <video></video>
+                    </div>
+                  </div>
+                  <div className="chapter-availability">
+                    <span>
+                      Pronto
                 </span>
-            </div>
-          </div>
-        </div>
+                  </div>
+                </div>
+              </div>
 
-        <div className="chapter soon">
-          <div className="chap-wrap">
-            <div className="chapter-img">
-              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/GUWYUPCS2BDI3C5KAHJ7SAHIHI.jpg" alt="" />
-            </div>
-            <div className="chapter-info">
-              <div className="wrap">
-                <h3>
-                  <small>Capítulo 07:</small>
+              <div className="chapter soon">
+                <div className="chap-wrap">
+                  <div className="chapter-img">
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/GUWYUPCS2BDI3C5KAHJ7SAHIHI.jpg" alt="" />
+                  </div>
+                  <div className="chapter-info">
+                    <div className="wrap">
+                      <h3>
+                        <small>Capítulo 07:</small>
                   Alejandro Zambra</h3>
-                <p>Escritor</p>
-              </div>
-            </div>
-            <div className="chapter-iframe">
-              <div className="video-proportion-16by9">
-                <video></video>
-              </div>
-            </div>
-            <div className="chapter-availability">
-              <span>
-                Pronto
+                      <p>Escritor</p>
+                    </div>
+                  </div>
+                  <div className="chapter-iframe">
+                    <div className="video-proportion-16by9">
+                      <video></video>
+                    </div>
+                  </div>
+                  <div className="chapter-availability">
+                    <span>
+                      Pronto
                 </span>
-            </div>
-          </div>
-        </div>
-
+                  </div>
+                </div>
+              </div>
+            </>
+          ) : null}
       </div>
     </WrapMenu>
   )
