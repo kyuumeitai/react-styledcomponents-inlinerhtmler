@@ -1,5 +1,5 @@
 import React from 'react'
-import { Wrap, WrapVideo, WrapMenu } from './style.css'
+import { Wrap, WrapVideo, WrapMenu } from '../CustomAsiEmpiezaNetflix/style.css'
 import LogoAsiEmpiezaConBajada from './logo-asi-empieza-con-bajada.jsx'
 import CustomNetflixChapters from '../CustomNetflixChapters'
 

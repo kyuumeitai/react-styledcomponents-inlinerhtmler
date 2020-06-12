@@ -449,10 +449,12 @@ const WrapMenu = styled.div`
         img{
           filter: grayscale(100%);
         }
+      }
+      &.new{
         .chap-wrap{
           .chapter-availability{
             span{
-              background-color: gray;
+              background-color: red;
             }
           }
         }
@@ -483,7 +485,7 @@ const WrapMenu = styled.div`
             top: 4px;
           }
           span{
-            background-color: red;
+            background-color: gray;
             text-transform: uppercase;
             padding: 2px 6px;
             font-size: 12px;
@@ -644,10 +646,13 @@ const WrapMenuFull = styled.div`
         img{
           filter: grayscale(100%);
         }
+      }
+      &.new{
         .chap-wrap{
           .chapter-availability{
             span{
-              background-color: gray;
+              background-color: red;
+              border: 2px solid #0f0;
             }
           }
         }

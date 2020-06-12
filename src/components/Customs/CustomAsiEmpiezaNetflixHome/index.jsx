@@ -1,5 +1,5 @@
 import React from 'react'
-import { Wrap, WrapVideo, WrapMenu } from '../CustomAsiEmpiezaNetflix/style.css'
+import { Wrap, WrapVideo } from '../CustomAsiEmpiezaNetflix/style.css'
 import LogoAsiEmpiezaConBajada from '../CustomAsiEmpiezaNetflix/logo-asi-empieza-con-bajada.jsx'
 import CustomNetflixChapters from '../CustomNetflixChapters'
 
@@ -27,12 +27,12 @@ const CustomAsiEmpiezaNetflix = () => {
               <LogoAsiEmpiezaConBajada />
             </div>
             <div className="info-wrapper">
-              <div className="supplemental h-m">Ya disponible</div>
+              <div className="supplemental h-m">Nuevos capítulos: 4 y 5</div>
               <p className="synopsis h-m">
                 Desentrañamos la mente de siete personajes para entender cómo las ideas se convierten en creación.<br />
                 Dirigida por Fernando Lavanderos.</p>
               <div className="video-actions">
-                <a className="btn-action btn-action-solid" href="https://www.latercera.com/asi-empieza/01-sebastian-lelio/">
+                <a className="btn-action btn-action-solid" href="https://www.latercera.com/asi-empieza/04-alex-anwandter/">
                   <div className="btn-icon">
                     <div className="btn-icon-play" role="presentation">
                       <svg viewBox="0 0 24 24"><path d="M6 4l15 8-15 8z" fill="currentColor"></path></svg>
@@ -52,7 +52,7 @@ const CustomAsiEmpiezaNetflix = () => {
             </div>
           </div>
         </div>
-        <CustomNetflixChapters chapters="available" />
+        <CustomNetflixChapters chapters="available" show="top" />
 
       </WrapVideo>
     </Wrap>
