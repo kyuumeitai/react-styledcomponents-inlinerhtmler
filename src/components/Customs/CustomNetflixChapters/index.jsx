@@ -2,11 +2,34 @@ import React from 'react'
 import { WrapMenu } from '../CustomAsiEmpiezaNetflix/style.css'
 
 const CustomNetflixChapters = ({ chapters }) => {
+  const data = [
+    {
+      url: "https://www.latercera.com/asi-empieza/01-sebastian-lelio/",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/X262HLKIVZCEHIUNH32QWWFAAQ.jpg",
+      status: "past",
+      pretitle: "Capítulo 01",
+      name: "Sebastián Lelio",
+      title: "Cineasta",
+      preview: "https://rudo.video/redirector/320/ccc2162da35f15c11df3d9a78dc2a691.mp4",
+      label: "Disponible"
+    },
+    {
+      url: "https://www.latercera.com/asi-empieza/02-sebastian-lelio/",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/X262HLKIVZCEHIUNH32QWWFAAQ.jpg",
+      status: "past",
+      pretitle: "Capítulo 01",
+      name: "Sebastián Lelio",
+      title: "Cineasta",
+      preview: "https://rudo.video/redirector/320/ccc2162da35f15c11df3d9a78dc2a691.mp4",
+      label: "Disponible"
+    },
+  ]
 
   return (
     <WrapMenu className={`${chapters ? `wrapchapters-${chapters}` : ''}`}>
       <div className={`hero-chapters ${chapters ? 'withchapters-' + chapters : ''}`}>
-        <div className="chapter available">
+
+        <div className="chapter ">
           <a href="https://www.latercera.com/asi-empieza/01-sebastian-lelio/" className="chap-wrap">
             <div className="chapter-img">
               <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/X262HLKIVZCEHIUNH32QWWFAAQ.jpg" alt="" />
@@ -83,61 +106,60 @@ const CustomNetflixChapters = ({ chapters }) => {
             </div>
           </a>
         </div>
+        <div className="chapter available">
+          <div className="chap-wrap">
+            <div className="chapter-img">
+              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/HVHEUPDXNZDJFN7SWRBCGEFDTY.jpg" alt="" />
+            </div>
+            <div className="chapter-info">
+              <div className="wrap">
+                <h3>
+                  <small>Capítulo 04:</small>
+                  Alex Anwandter</h3>
+                <p>Cantautor</p>
+              </div>
+            </div>
+            <div className="chapter-iframe">
+              <div className="video-proportion-16by9">
+                <video></video>
+              </div>
+            </div>
+            <div className="chapter-availability">
+              <span>
+                NUEVO
+                </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="chapter available">
+          <div className="chap-wrap">
+            <div className="chapter-img">
+              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/75WFR6WBQ5BCZDB6DRRQDKRTZU.jpg" alt="" />
+            </div>
+            <div className="chapter-info">
+              <div className="wrap">
+                <h3>
+                  <small>Capítulo 05:</small>
+                  Caiozzama</h3>
+                <p>Artista</p>
+              </div>
+            </div>
+            <div className="chapter-iframe">
+              <div className="video-proportion-16by9">
+                <video></video>
+              </div>
+            </div>
+            <div className="chapter-availability">
+              <span>
+                NUEVO
+                </span>
+            </div>
+          </div>
+        </div>
         {
           !chapters && chapters !== 'available' ? (
             <>
-              <div className="chapter soon">
-                <div className="chap-wrap">
-                  <div className="chapter-img">
-                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/HVHEUPDXNZDJFN7SWRBCGEFDTY.jpg" alt="" />
-                  </div>
-                  <div className="chapter-info">
-                    <div className="wrap">
-                      <h3>
-                        <small>Capítulo 04:</small>
-                  Alex Anwandter</h3>
-                      <p>Cantautor</p>
-                    </div>
-                  </div>
-                  <div className="chapter-iframe">
-                    <div className="video-proportion-16by9">
-                      <video></video>
-                    </div>
-                  </div>
-                  <div className="chapter-availability">
-                    <span>
-                      Pronto
-                </span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="chapter soon">
-                <div className="chap-wrap">
-                  <div className="chapter-img">
-                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/75WFR6WBQ5BCZDB6DRRQDKRTZU.jpg" alt="" />
-                  </div>
-                  <div className="chapter-info">
-                    <div className="wrap">
-                      <h3>
-                        <small>Capítulo 05:</small>
-                  Caiozzama</h3>
-                      <p>Artista</p>
-                    </div>
-                  </div>
-                  <div className="chapter-iframe">
-                    <div className="video-proportion-16by9">
-                      <video></video>
-                    </div>
-                  </div>
-                  <div className="chapter-availability">
-                    <span>
-                      Pronto
-                </span>
-                  </div>
-                </div>
-              </div>
-
               <div className="chapter soon">
                 <div className="chap-wrap">
                   <div className="chapter-img">
