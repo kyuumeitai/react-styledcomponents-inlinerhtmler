@@ -23,7 +23,7 @@ const CustomNetflixChapters = ({ chapters, show }) => {
       pretitle: "Capítulo 01",
       name: "Sebastián Lelio",
       title: "Cineasta",
-      preview: "https://rudo.video/redirector/320/ccc2162da35f15c11df3d9a78dc2a691.mp4",
+      preview: "https://ads-lt.digitalproserver.com/ads/lab/preview-01-comp.mp4",
       label: "Disponible"
     },
     {
@@ -33,17 +33,17 @@ const CustomNetflixChapters = ({ chapters, show }) => {
       pretitle: "Capítulo 02",
       name: "Susannah Buchan",
       title: "Oceanógrafa",
-      preview: "https://rudo.video/redirector/480/1ee073b5a20ab3d26ccd8953564c3d6a.mp4",
+      preview: "https://ads-lt.digitalproserver.com/ads/lab/preview-02-comp.mp4",
       label: "Disponible"
     },
     {
       url: "https://www.latercera.com/asi-empieza/03-paulina-villalobos/",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/57MLVKMOCZFBRMVAX6TG42DB6M.jpg",
-      status: ["top", "past", "available"],
+      status: ["past", "available"],
       pretitle: "Capítulo 03",
       name: "Paulina Villalobos",
       title: "Lightning Designer",
-      preview: "https://rudo.video/redirector/480/b00c097985bf914ebb108183036dffb3.mp4",
+      preview: "https://ads-lt.digitalproserver.com/ads/lab/preview-03-comp.mp4",
       label: "Disponible"
     },
     {
@@ -53,7 +53,7 @@ const CustomNetflixChapters = ({ chapters, show }) => {
       pretitle: "Capítulo 04",
       name: "Alex Anwandter",
       title: "Cantautor",
-      preview: "https://rudo.video/redirector/480/5e299aff5fefab1c2619f5cb9bcadd8d.mp4",
+      preview: "https://ads-lt.digitalproserver.com/ads/lab/preview-04-comp.mp4",
       label: "Nuevo"
     },
     {
@@ -63,7 +63,7 @@ const CustomNetflixChapters = ({ chapters, show }) => {
       pretitle: "Capítulo 05",
       name: "Caiozzama",
       title: "Artista",
-      preview: "https://rudo.video/redirector/480/2fc63f6f6f80b5cc3d6d8f0dc33466bc.mp4",
+      preview: "https://ads-lt.digitalproserver.com/ads/lab/preview-05-comp.mp4",
       label: "Nuevo"
     },
     {

@@ -10,10 +10,10 @@ const CustomAsiEmpiezaNetflix = () => {
         <div className="hero-video-wrapper">
           <div className="video-cut-top-bottom">
             <div className="video-proportion-16by9">
-              <video src="https://rudo.video/redirector/1080/3b8c7cd681e57df1d0d86100cd7f4a44.mp4" muted="true" autoplay="true" playsinline="true" preload="auto" loop></video>
+              <video src="https://ads-lt.digitalproserver.com/ads/lab/desk-comp.mp4" muted="true" autoplay="true" playsinline="true" preload="auto" loop></video>
             </div>
             <div className="video-proportion-9by16">
-              <video src="https://rudo.video/redirector/2008/211a6d2438da0d89932df80d908c3e4e.mp4" muted="true" autoplay="true" playsinline="true" preload="auto" loop></video>
+              <video src="https://ads-lt.digitalproserver.com/ads/lab/mob-comp.mp4" muted="true" autoplay="true" playsinline="true" preload="auto" loop></video>
             </div>
           </div>
         </div>
@@ -27,12 +27,12 @@ const CustomAsiEmpiezaNetflix = () => {
               <LogoAsiEmpiezaConBajada />
             </div>
             <div className="info-wrapper">
-              <div className="supplemental h-m">Ya disponible</div>
+              <div className="supplemental h-m">Nuevos capítulos: 4 y 5</div>
               <p className="synopsis h-m">
                 Desentrañamos la mente de siete personajes para entender cómo las ideas se convierten en creación.<br />
                 Dirigida por Fernando Lavanderos.</p>
               <div className="video-actions">
-                <a className="btn-action btn-action-solid" href="https://www.latercera.com/asi-empieza/01-sebastian-lelio/">
+                <a className="btn-action btn-action-solid" href="https://www.latercera.com/asi-empieza/04-alex-anwandter/">
                   <div className="btn-icon">
                     <div className="btn-icon-play" role="presentation">
                       <svg viewBox="0 0 24 24"><path d="M6 4l15 8-15 8z" fill="currentColor"></path></svg>
