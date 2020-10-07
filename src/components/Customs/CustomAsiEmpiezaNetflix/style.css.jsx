@@ -238,7 +238,8 @@ const WrapVideo = styled.div`
         min-height: 7.2vw;
         position: relative;
         margin-bottom: 1.2vw;
-        svg{
+        svg,
+        img{
           width: 90%;
           transform-origin: bottom left;
         }

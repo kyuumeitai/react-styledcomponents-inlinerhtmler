@@ -49,42 +49,42 @@ const CustomNetflixChapters = ({ chapters, show }) => {
     {
       url: "https://www.latercera.com/asi-empieza/04-alex-anwandter/",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/HVHEUPDXNZDJFN7SWRBCGEFDTY.jpg",
-      status: ["top", "new", "available"],
+      status: ["available"],
       pretitle: "Capítulo 04",
       name: "Alex Anwandter",
       title: "Cantautor",
       preview: "https://ads-lt.digitalproserver.com/ads/lab/preview-04-comp.mp4",
-      label: "Nuevo"
+      label: "Disponible"
     },
     {
       url: "https://www.latercera.com/asi-empieza/05-caiozzama/",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/75WFR6WBQ5BCZDB6DRRQDKRTZU.jpg",
-      status: ["top", "new", "available"],
+      status: ["available"],
       pretitle: "Capítulo 05",
       name: "Caiozzama",
       title: "Artista",
       preview: "https://ads-lt.digitalproserver.com/ads/lab/preview-05-comp.mp4",
-      label: "Nuevo"
+      label: "Disponible"
     },
     {
-      url: "",
+      url: "https://www.latercera.com/asi-empieza/06-francisca-valenzuela/",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/3OM2XBFXBNBTJGN4VDLAZO3XUE.jpg",
-      status: ["soon"],
+      status: ["top", "new", "available"],
       pretitle: "Capítulo 06",
       name: "Francisca Valenzuela",
       title: "Cantautora",
-      preview: "",
-      label: "Pronto"
+      preview: "https://ads-lt.digitalproserver.com/ads/lab/preview-06-comp.mp4",
+      label: "Nuevo"
     },
     {
-      url: "",
+      url: "https://www.latercera.com/asi-empieza/07-alejandro-zambra/",
       img: "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/GUWYUPCS2BDI3C5KAHJ7SAHIHI.jpg",
-      status: ["soon"],
+      status: ["top", "new", "available"],
       pretitle: "Capítulo 07",
       name: "Alejandro Zambra",
       title: "Escritor",
-      preview: "",
-      label: "Pronto"
+      preview: "https://ads-lt.digitalproserver.com/ads/lab/preview-07-comp.mp4",
+      label: "Nuevo"
     },
   ]
 

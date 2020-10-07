@@ -1,6 +1,6 @@
 import React from 'react'
 import { Wrap, WrapVideo, WrapMenu } from './style.css'
-import LogoAsiEmpiezaConBajada from './logo-asi-empieza-con-bajada.jsx'
+
 import CustomNetflixChapters from '../CustomNetflixChapters'
 
 const CustomAsiEmpiezaNetflix = () => {
@@ -24,16 +24,16 @@ const CustomAsiEmpiezaNetflix = () => {
         <div className="meta-layer">
           <div className="title-wrapper">
             <div className="logo-wrapper">
-              <LogoAsiEmpiezaConBajada />
+              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/XKK56QITX5H3HFW3QEQUEAM4CM.png" alt="Así Empieza" />
             </div>
             <div className="info-wrapper">
-              <div className="supplemental h-m">Nuevos capítulos: 4 y 5</div>
+              <div className="supplemental h-m">Nuevos capítulos: 6 y 7</div>
               <p className="synopsis h-m">
                 Desentrañamos la mente de los creadores para entender el punto exacto donde aparece la creación.<br />
                 Dirigida por Fernando Lavanderos.
             </p>
               <div className="video-actions">
-                <a className="btn-action btn-action-solid" href="https://www.latercera.com/asi-empieza/04-alex-anwandter/">
+                <a className="btn-action btn-action-solid" href="https://www.latercera.com/asi-empieza/06-francisca-valenzuela/">
                   <div className="btn-icon">
                     <div className="btn-icon-play" role="presentation">
                       <svg viewBox="0 0 24 24"><path d="M6 4l15 8-15 8z" fill="currentColor"></path></svg>
