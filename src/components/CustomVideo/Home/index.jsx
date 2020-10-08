@@ -2,6 +2,8 @@ import React from "react";
 import { Wrap } from "../style.css";
 import Hero from "../Hero";
 import Chapters from "../Chapters";
+import Header from "../Header";
+import Footer from "../Footer";
 
 const VideoHome = () => {
   const desktop =
@@ -67,6 +69,7 @@ const VideoHome = () => {
   ];
   return (
     <Wrap>
+      <Header />
       <Hero
         desktop={desktop}
         mobile={mobile}
@@ -74,6 +77,7 @@ const VideoHome = () => {
         metadata={metadata}
       />
       <Chapters chapters={data} />
+      <Footer />
     </Wrap>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 import { WrapMenu } from "../style.css";
 import Chapter from "../Chapter";
 
-const Chapters = ({ chapters, show = "top", filter = "available" }) => {
+const Chapters = ({ chapters, show = "top", filter }) => {
   return (
     <WrapMenu>
       <div

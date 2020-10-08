@@ -33,6 +33,7 @@ const WrapChapter = styled.div`
     padding-right: 6%;
     @media (max-width: 800px) {
       min-height: 80vw;
+
       padding-left: 0;
       padding-right: 0;
     }
@@ -82,7 +83,7 @@ const WrapVideo = styled.div`
   width: 100%;
   color: white;
   @media (max-width: 800px) {
-    height: 80vh;
+    height: 46vh;
   }
   &.wrap-small {
     width: 100%;
@@ -212,7 +213,7 @@ const WrapVideo = styled.div`
   &.wrap-home .meta-layer {
     bottom: 35%;
     @media (max-width: 1200px) {
-      bottom: 30%;
+      bottom: 10%;
     }
   }
   &.wrap-home .wrapchapters-available {
@@ -345,7 +346,7 @@ const Wrap = styled.div`
   .video-proportion-9by16 {
     position: relative;
     height: 0;
-    padding-bottom: 178%;
+    padding-bottom: 100%;
     overflow: hidden;
     iframe,
     video {
@@ -372,6 +373,9 @@ const WrapMenu = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     padding: 18px 4% 12px 4%;
+    @media (max-width: 800px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
     &.withchapters-available {
       max-width: 66%;
       @media (max-width: 800px) {
