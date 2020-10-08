@@ -1,40 +1,53 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Article from '../Article'
-import Header from '../Header'
-import CustomWidget from '../Customs/CustomAsiEmpiezaNetflixChapter6'
-import { StWidget, StHeader, StBody } from './style.css'
+import React from "react";
+import PropTypes from "prop-types";
+import Article from "../Article";
+import Header from "../Header";
+import CustomWidget from "../CustomVideo/Home";
+import { StWidget, StHeader, StBody } from "./style.css";
 
 const Preview = ({ articles, header, site }) => {
-  const colnumber = articles.length
+  const colnumber = articles.length;
   return (
     <StWidget>
       <StHeader theme={header.theme}>
         <Header header={header} site={site} />
       </StHeader>
       <StBody columns={colnumber} theme={header.theme} layout={header.layout}>
-        {
-          articles.length > 0 ? articles.map((article, index) => {
+        {articles.length > 0 ? (
+          articles.map((article, index) => {
             return (
-              <Article title={article.title} url={article.url} tag={article.tag} excerpt={article.excerpt} img={article.img} icon={article.icon} type={article.type} source={site ? site.source : ''} medium={site ? site.medium : ''} theme={header.theme} iframe={article.iframe} key={index} isIframeReplacingContent={article.isIframeReplacingContent} iframeRatio={article.iframeRatio} />
-            )
+              <Article
+                title={article.title}
+                url={article.url}
+                tag={article.tag}
+                excerpt={article.excerpt}
+                img={article.img}
+                icon={article.icon}
+                type={article.type}
+                source={site ? site.source : ""}
+                medium={site ? site.medium : ""}
+                theme={header.theme}
+                iframe={article.iframe}
+                key={index}
+                isIframeReplacingContent={article.isIframeReplacingContent}
+                iframeRatio={article.iframeRatio}
+              />
+            );
           })
-            :
-            (
-              <CustomWidget />
-            )
-        }
+        ) : (
+          <CustomWidget />
+        )}
       </StBody>
     </StWidget>
-  )
-}
+  );
+};
 
 Preview.propTypes = {
-  articles: PropTypes.array
-}
+  articles: PropTypes.array,
+};
 
 Preview.defaultProps = {
-  articles: []
-}
+  articles: [],
+};
 
-export default Preview
+export default Preview;
