@@ -4,18 +4,20 @@ import Hero from "../Hero";
 import Chapters from "../Chapters";
 
 const VideoHome = () => {
-  const desktop = "https://ads-lt.digitalproserver.com/ads/lab/desk-comp.mp4";
-  const mobile = "https://ads-lt.digitalproserver.com/ads/lab/mob-comp.mp4";
+  const desktop =
+    "https://ads-lt.digitalproserver.com/ads/lab/legendarios/legendarios-header-desk-comp.mp4";
+  const mobile =
+    "https://ads-lt.digitalproserver.com/ads/lab/legendarios/legendarios-header-mob-comp.mp4";
   const image =
-    "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/YJR5544SLZDLBNJPFVA4TJJVTU.jpg";
+    "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/PXFHWN22FNFULOA73ZFXCGEU7E.jpg";
 
   const metadata = {
     logo:
-      "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/6MQEQEQXWBGPDNYSOR77H2V5X4.png",
+      "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/Q6ZNBMYSRZDLZGB2UBZ2L73QZI.png",
     title: "Legendarios",
     supplemental: "Estreno: Capítulo 1",
     synopsis:
-      "Desentrañamos la mente de siete personajes para entender cómo las ideas se convierten en creación.<br /> Dirigida por Fernando Lavanderos.",
+      "Legendarios: chilenos que dejan marca, un proyecto de La Tercera y su Laboratorio de Contenidos de Marca para Casillero del Diablo.",
     mainlink: "https://www.latercera.com/legendarios/01-barbara-hernandez/",
     secondarylink: "",
   };
@@ -30,10 +32,11 @@ const VideoHome = () => {
       name: "Bárbara Hernández",
       title: "Nadadora de aguas gélidas",
       preview:
-        "https://ads-lt.digitalproserver.com/ads/lab/preview-01-comp.mp4",
+        "https://ads-lt.digitalproserver.com/ads/lab/legendarios/legendarios-01-comp.mp4",
       label: "Disponible",
       description:
         "A Bárbara Hernández le dicen Sirena de Hielo. Se ganó ese apodo la primera vez que nadó entre glaciares patagónicos, una ruta que soñó desde los siete años. Hoy, es reconocida internacionalmente por haber cruzado las aguas más gélidas del mundo y bracear distancias maratónicas. En este primer capítulo de Legendarios, repasamos su carrera y la acompañamos en uno de sus últimos grandes logros: nadar 47 kilómetros alrededor de Manhattan.",
+      iframe: "https://rudo.video/vod/bK0pJS",
     },
     {
       url: "https://www.latercera.com/legendarios/02-gabriel-osorio/",
@@ -46,6 +49,7 @@ const VideoHome = () => {
       preview: "",
       label: "Pronto",
       description: "",
+      iframe: "",
     },
     {
       url: "https://www.latercera.com/legendarios/03-pola-thompson/",
@@ -58,6 +62,7 @@ const VideoHome = () => {
       preview: "",
       label: "Pronto",
       description: "",
+      iframe: "",
     },
   ];
   return (

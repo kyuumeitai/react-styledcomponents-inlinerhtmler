@@ -33,7 +33,7 @@ const VideoHero = ({ desktop, mobile }) => {
 const ImageHero = ({ image }) => {
   return (
     <div className="hero-image-wrapper">
-      <img src={image} />
+      <img src={image} alt="" />
     </div>
   );
 };

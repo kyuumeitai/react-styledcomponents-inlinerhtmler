@@ -243,9 +243,11 @@ const WrapVideo = styled.div`
         min-height: 7.2vw;
         position: relative;
         margin-bottom: 1.2vw;
+
         svg,
         img {
-          width: 90%;
+          width: 110%;
+          margin-left: -10%;
           transform-origin: bottom left;
         }
       }
@@ -358,7 +360,7 @@ const Wrap = styled.div`
 `;
 
 const WrapMenu = styled.div`
-  background-color: #242423;
+  background-color: #191818;
   position: relative;
   z-index: 4;
   padding-bottom: 4vw;
@@ -473,16 +475,16 @@ const WrapMenu = styled.div`
         position: relative;
         color: white;
         text-decoration: none;
-        text-align: center;
+        text-align: left;
         overflow: hidden;
 
         .chapter-availability {
           position: absolute;
-          bottom: 4px;
+          top: 6px;
           color: white;
           z-index: 3;
-          width: 58%;
-          text-align: center;
+          width: 100%;
+          text-align: left;
           right: 0;
           transition: all 0.3s;
           transition-delay: 0.8s;
@@ -509,7 +511,7 @@ const WrapMenu = styled.div`
           right: 0;
           bottom: 0;
           z-index: 3;
-          width: 42%;
+          width: 100%;
           transition: all 0.3s;
           transition-delay: 1s;
           @media (max-width: 800px) {
@@ -524,15 +526,28 @@ const WrapMenu = styled.div`
           top: 0;
           padding: 0.5vw;
           z-index: 4;
-          width: 58%;
+          width: 100%;
           display: flex;
-          align-items: center;
-          justify-content: center;
+          align-items: flex-end;
+          justify-content: flex-start;
           transition: all 0.3s;
           transition-delay: 1s;
           @media (max-width: 800px) {
             width: 100%;
             align-items: flex-end;
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 50%;
+            background-image: linear-gradient(
+              rgba(0, 0, 0, 0),
+              rgba(0, 0, 0, 0.6)
+            );
+            z-index: -1;
           }
         }
         h3 {
@@ -548,7 +563,7 @@ const WrapMenu = styled.div`
           small {
             display: block;
             font-size: 60%;
-            color: #999;
+            color: #ccc;
           }
         }
         p {
@@ -663,7 +678,6 @@ const WrapMenuFull = styled.div`
           .chapter-availability {
             span {
               background-color: red;
-              border: 2px solid #0f0;
             }
           }
         }
@@ -674,7 +688,7 @@ const WrapMenuFull = styled.div`
         position: relative;
         color: white;
         text-decoration: none;
-        text-align: center;
+        text-align: left;
         overflow: hidden;
 
         .chapter-availability {
@@ -683,7 +697,7 @@ const WrapMenuFull = styled.div`
           color: white;
           z-index: 3;
           width: 58%;
-          text-align: center;
+          text-align: left;
           right: 0;
           transition: all 0.3s;
           transition-delay: 0.8s;
@@ -725,10 +739,10 @@ const WrapMenuFull = styled.div`
           top: 0;
           padding: 0.5vw;
           z-index: 4;
-          width: 58%;
+          width: 100%;
           display: flex;
-          align-items: center;
-          justify-content: center;
+          align-items: flex-end;
+          justify-content: flex-start;
           transition: all 0.3s;
           transition-delay: 1s;
           @media (max-width: 800px) {
@@ -749,7 +763,7 @@ const WrapMenuFull = styled.div`
           small {
             display: block;
             font-size: 60%;
-            color: #999;
+            color: #ccc;
           }
         }
         p {
