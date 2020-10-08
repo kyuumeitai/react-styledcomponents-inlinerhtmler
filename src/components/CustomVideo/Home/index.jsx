@@ -15,7 +15,7 @@ const VideoHome = () => {
 
   const metadata = {
     logo:
-      "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/Q6ZNBMYSRZDLZGB2UBZ2L73QZI.png",
+      "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/T53YS2YBCRFMPADZOCYHVNWDTU.png",
     title: "Legendarios",
     supplemental: "Estreno: Capítulo 1",
     synopsis:
@@ -56,7 +56,7 @@ const VideoHome = () => {
     {
       url: "https://www.latercera.com/legendarios/03-pola-thompson/",
       img:
-        "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/Z4U463GDI5AUTOY42CXNXMWQSQ.jpg",
+        "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/BYD36MMPQBDDNFUBG456Z6QRSE.jpg",
       status: ["soon"],
       pretitle: "Capítulo 03",
       name: "Pola Thompson",
