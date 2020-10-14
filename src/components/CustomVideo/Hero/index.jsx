@@ -80,6 +80,8 @@ const MetaLayer = ({
               <a
                 className="btn-action btn-action-transparent"
                 href={secondarylink}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="btn-icon">
                   <div className="btn-icon-info" role="presentation">
@@ -101,7 +103,7 @@ const MetaLayer = ({
   );
 };
 
-const Hero = ({ desktop, mobile, image, metadata }) => {
+const Hero = ({ desktop, mobile, image, metadata, className }) => {
   const {
     logo,
     title,
@@ -111,7 +113,7 @@ const Hero = ({ desktop, mobile, image, metadata }) => {
     secondarylink,
   } = metadata;
   return (
-    <WrapVideo className="wrap-home">
+    <WrapVideo className={className ? "className" : "wrap-home"}>
       <VideoHero desktop={desktop} mobile={mobile} />
       <ImageHero image={image} />
       <span className="bg-vignette"></span>

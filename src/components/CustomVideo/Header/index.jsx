@@ -1,9 +1,9 @@
 import React from "react";
 import { StHeader } from "./style.css";
 
-const Header = () => {
+const Header = ({ posmode }) => {
   return (
-    <StHeader>
+    <StHeader posmode={posmode}>
       <div>
         <img
           src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/KT55QY2YOBEO7NDP674ISHI3PI.png"
@@ -13,7 +13,7 @@ const Header = () => {
       <div>
         <span>Presentado por</span>
         <img
-          src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/WXDJ3WWUWBFDHMUWQHSKELPONQ.png"
+          src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/A5ZKXB5H3NEJ7KSRAADS5RI7AE.png"
           alt="Casillero del Diablo"
         />
       </div>

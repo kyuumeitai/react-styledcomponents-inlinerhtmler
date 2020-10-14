@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Sharers = styled.div`
-  font-size: 16px;
-
+  font-size: 13px;
+  font-family: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;
   a {
     display: flex;
     margin-bottom: 10px;
@@ -83,7 +83,7 @@ const WrapVideo = styled.div`
   width: 100%;
   color: white;
   @media (max-width: 800px) {
-    height: 46vh;
+    height: 80vh;
   }
   &.wrap-small {
     width: 100%;
@@ -91,6 +91,7 @@ const WrapVideo = styled.div`
     min-height: 460px;
   }
   &.wrap-home {
+    margin-top: 75px;
     &::after {
       content: "";
       background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
@@ -159,7 +160,7 @@ const WrapVideo = styled.div`
       margin-right: -15%;
     } */
     @media (max-width: 800px) {
-      margin-top: -10%;
+      margin-top: -5%;
     }
   }
 
@@ -211,7 +212,7 @@ const WrapVideo = styled.div`
     }
   }
   &.wrap-home .meta-layer {
-    bottom: 35%;
+    bottom: 15%;
     @media (max-width: 1200px) {
       bottom: 10%;
     }
@@ -346,7 +347,7 @@ const Wrap = styled.div`
   .video-proportion-9by16 {
     position: relative;
     height: 0;
-    padding-bottom: 100%;
+    padding-bottom: 178%;
     overflow: hidden;
     iframe,
     video {

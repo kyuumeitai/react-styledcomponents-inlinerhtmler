@@ -1,17 +1,49 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-const StHeader = styled.header`
-  color: white;
-  /* position: fixed;
+// padding-bottom: ${props => props.aspectRatio ? () => {
+
+const fixedMode = css`
+  position: fixed;
   top: 38px;
   right: 0;
-  left: 0; */
+  left: 0;
   z-index: 2;
+  grid-template-columns: repeat(3, 1fr);
+  div {
+    &:last-of-type {
+      justify-self: center;
+    }
+  }
+`;
+
+const widgetMode = css`
+  grid-template-columns: repeat(2, 1fr);
+  div {
+    &:last-of-type {
+      justify-self: flex-end;
+    }
+  }
+`;
+
+const StHeader = styled.header`
+  ${(props) =>
+    props.posmode
+      ? () => {
+          if (props.posmode === "fixed") {
+            return fixedMode;
+          }
+          if (props.posmode === "widget") {
+            return widgetMode;
+          }
+        }
+      : ""};
+  grid-template-rows: 1fr;
+  color: white;
+  grid-template-rows: repeat(1, 1fr);
   background-color: black;
   height: 80px;
   padding: 15px 25px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   pointer-events: none;
   z-index: 12;
@@ -31,13 +63,14 @@ const StHeader = styled.header`
   div {
     &:first-of-type {
       justify-self: flex-start;
+      grid-column: span 1;
       img,
       svg {
         height: 40px;
       }
     }
     &:last-of-type {
-      justify-self: center;
+      grid-column: span 1;
       display: flex;
       align-items: center;
       img,

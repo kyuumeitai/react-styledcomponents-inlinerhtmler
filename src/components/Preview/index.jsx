@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Article from "../Article";
 import Header from "../Header";
-import CustomWidget from "../CustomVideo/Single";
+import CustomWidget from "../CustomVideo/Home";
 import { StWidget, StHeader, StBody } from "./style.css";
 
 const Preview = ({ articles, header, site }) => {
