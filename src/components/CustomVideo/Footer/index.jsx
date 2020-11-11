@@ -1,11 +1,13 @@
 import React from "react";
 import { StFooter } from "./style.css";
 import Banner from "../Banner";
+import Credits from "../Credits";
 
 const Footer = () => {
   return (
     <>
       <Banner />
+      <Credits />
       <StFooter>
         <div>
           <img

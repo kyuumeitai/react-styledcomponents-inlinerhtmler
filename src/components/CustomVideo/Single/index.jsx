@@ -18,10 +18,10 @@ const VideoHome = () => {
     logo:
       "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/T53YS2YBCRFMPADZOCYHVNWDTU.png",
     title: "Legendarios",
-    supplemental: "Nuevos, capítulo 2 y 3",
+    supplemental: "Revisa los capítulos acá",
     synopsis:
       "Legendarios: chilenos que dejan marca, un proyecto de La Tercera y su Laboratorio de Contenidos de Marca para Casillero del Diablo.",
-    mainlink: "https://www.latercera.com/legendarios/02-gabriel-osorio/",
+    mainlink: "https://www.latercera.com/legendarios/01-barbara-hernandez/",
     secondarylink:
       "https://www.latercera.com/culto/2020/10/08/legendarios-la-nueva-webserie-de-la-tercera-que-celebra-a-personajes-chilenos/",
   };
