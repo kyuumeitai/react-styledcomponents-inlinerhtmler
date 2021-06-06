@@ -91,7 +91,7 @@ const WrapVideo = styled.div`
     min-height: 460px;
   }
   &.wrap-home {
-    margin-top: 75px;
+    /* margin-top: 75px; */
     &::after {
       content: "";
       background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
@@ -248,8 +248,7 @@ const WrapVideo = styled.div`
 
         svg,
         img {
-          width: 110%;
-          margin-left: -10%;
+          width: 100%;
           transform-origin: bottom left;
         }
       }

@@ -48,8 +48,8 @@ const Player = ({ chapter }) => {
         </div>
         <Sharer
           url={url}
-          description={`${pretitle}: ${name} ${title} - Legendarios`}
-          hashtags="Legendarios"
+          description={`${pretitle}: ${name} ${title} - Tocar la Copa`}
+          hashtags="TocarLaCopa"
         />
       </div>
     </WrapChapter>

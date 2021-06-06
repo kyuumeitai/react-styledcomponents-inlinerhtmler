@@ -7,69 +7,144 @@ import Footer from "../Footer";
 
 const VideoHome = () => {
   const desktop =
-    "https://ads-lt.digitalproserver.com/ads/lab/legendarios/legendarios-header-desk-comp.mp4";
+    "https://rudo.video/redirector/1080/9018672d336a28ff136868e2255e405f.mp4";
   const mobile =
-    "https://ads-lt.digitalproserver.com/ads/lab/legendarios/legendarios-header-mob-comp-v2.mp4";
+    "https://rudo.video/redirector/854/ed45588c9b86f54c7601dc8f36a86e0b.mp4";
   const image =
-    "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/PXFHWN22FNFULOA73ZFXCGEU7E.jpg";
+    "https://www.latercera.com/resizer/_d8oAyfF0vvPAdAStO6PHFLxQp8=/arc-anglerfish-arc2-prod-copesa/public/7B454T2XVRALJLJ2B3GNUNROOY.jpg";
+
+  const sponsor =
+    "https://www.latercera.com/resizer/CDuEaFeGx2OhhX7GeAzArfhueqQ=/arc-anglerfish-arc2-prod-copesa/public/U3223TJYFRAR7HNHDUQUZJBGUE.png";
+
+  const logoproductor =
+    "https://www.latercera.com/resizer/kXPp5UxoLulsiUCHx6GjdFCGC5s=/arc-anglerfish-arc2-prod-copesa/public/YE4IYFI4NNCD7JV4EMCR3OPPBI.png";
 
   const metadata = {
     logo:
-      "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/T53YS2YBCRFMPADZOCYHVNWDTU.png",
-    title: "Legendarios",
-    supplemental: "Revisa los capítulos acá",
+      "https://www.latercera.com/resizer/go0FcTuU03fektSvJpdhRwHt_Tk=/arc-anglerfish-arc2-prod-copesa/public/SA34TUFLA5AJ5JODAIKHBULBII.png",
+    title: "Tocar la Copa",
+    supplemental: "Revisa el estreno acá",
     synopsis:
-      "Legendarios: chilenos que dejan marca, un proyecto de La Tercera y su Laboratorio de Contenidos de Marca para Casillero del Diablo.",
-    mainlink: "https://www.latercera.com/legendarios/01-barbara-hernandez/",
+      "Ya son 30 años desde ese Colo Colo 91 y el logro sigue intacto. Una producción del Laboratorio de Contenidos de Marca de La Tercera, presentada por Adidas y en alianza con Eternos Campeones 91, la agrupación de ex jugadores del Cacique que reúne a los protagonistas de la hazaña.",
+    mainlink:
+      "https://www.latercera.com/tocar-la-copa/01-cuando-ganar-era-imposible/",
     secondarylink:
-      "https://www.latercera.com/culto/2020/10/08/legendarios-la-nueva-webserie-de-la-tercera-que-celebra-a-personajes-chilenos/",
+      "https://www.latercera.com/el-deportivo/noticia/tocar-la-copa-la-serie-que-pronto-revivira-el-camino-de-colo-colo-a-30-anos-de-la-unica-libertadores/E32FJ4EVLBDSHFPYVFTEOJOIZQ/",
   };
 
   const data = [
     {
-      url: "https://www.latercera.com/legendarios/01-barbara-hernandez/",
+      url:
+        "https://www.latercera.com/tocar-la-copa/01-cuando-ganar-era-imposible/",
       img:
-        "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/OMJ7JCUYMVEBFFCYJLC67M6OVA.jpg",
-      status: ["available"],
+        "https://www.latercera.com/resizer/wNhyRXkdJEBpWIONmx8KAbaQfmI=/arc-anglerfish-arc2-prod-copesa/public/X6FUTEKA4BHF5FVUC4OY5BILAU.jpg",
+      status: ["new", "available"],
       pretitle: "Capítulo 01",
-      name: "Bárbara Hernández",
-      title: "Nadadora de aguas gélidas",
+      name: "Cuando ganar era imposible",
+      title: "Tocar la copa",
       preview:
-        "https://ads-lt.digitalproserver.com/ads/lab/legendarios/legendarios-01-comp.mp4",
+        "https://rudo.video/redirector/480/9fcb138f4979a7fa930242f9d0c12f6e.mp4",
       label: "Disponible",
-      description:
-        "A Bárbara Hernández le dicen Sirena de Hielo. Se ganó ese apodo la primera vez que nadó entre glaciares patagónicos, una ruta que soñó desde los siete años. Hoy, es reconocida internacionalmente por haber cruzado las aguas más gélidas del mundo y bracear distancias maratónicas. En este primer capítulo de Legendarios, repasamos su carrera y la acompañamos en uno de sus últimos grandes logros: nadar 47 kilómetros alrededor de Manhattan.",
-      iframe: "https://rudo.video/vod/bK0pJS",
+      description: "Cuando ganar era imposible.",
+      iframe: "https://rudo.video/vod/bLP7La",
     },
     {
-      url: "https://www.latercera.com/legendarios/02-gabriel-osorio/",
+      url: "",
       img:
-        "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/4TBOOILXMRCYXN3Z5VVVBPQGYQ.jpg",
-      status: ["new", "available"],
+        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+      status: ["soon"],
       pretitle: "Capítulo 02",
-      name: "Gabriel Osorio",
-      title: "Director “Historia de un Oso”",
-      preview:
-        "https://ads-lt.digitalproserver.com/ads/lab/legendarios/legendarios-02-cut.mp4",
-      label: "Nuevo",
-      description:
-        "El director Gabriel Osorio y su equipo en Punkrobot lograron lo que nadie vio venir: el primer Oscar para Chile. <br />Historia de un Oso nació como una historia personal que se tornó universal. Una metáfora llena de simbolismos que nos da una lección, no sólo en su significado sino en lo que se puede lograr a nivel de producción local. Y de eso, Gabriel Osorio está convencido. <br />¿Qué tiene entonces Historia de un Oso que cautivó al mundo y a la Academia? Descúbrelo en este segundo capítulo de Legendarios: chilenos que dejan marca.",
-      iframe: "https://rudo.video/vod/bK25kQ",
+      name: "La era Salah",
+      title: "Tocar la copa",
+
+      preview: "",
+      label: "Pronto",
+      description: "La era Salah",
+      iframe: "",
     },
     {
-      url: "https://www.latercera.com/legendarios/03-pola-thomson/",
+      url: "",
       img:
-        "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/BYD36MMPQBDDNFUBG456Z6QRSE.jpg",
-      status: ["new", "available"],
+        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+      status: ["soon"],
       pretitle: "Capítulo 03",
-      name: "Pola Thomson",
-      title: "Diseñadora de vestuario",
-      preview:
-        "https://ads-lt.digitalproserver.com/ads/lab/legendarios/legendarios-03-cut.mp4",
-      label: "Nuevo",
-      description:
-        "La diseñadora Pola Thomson internacionalizó su carrera a sus tardíos 20 años y ha visto sus creaciones desfilar por numerosas pasarelas alrededor del mundo. Pero aún estando afuera sus diseños se ven permeados de referencias a Chile. “Creo que lo único valioso que uno puede mostrar es aquello que es auténtico”, declara. <br /> En este tercer y último capítulo de Legendarios, descubre cómo ha pesado esa herencia en su carrera y en el hito que la consolidó: la participación de la Semana de la Moda de Nueva York.",
-      iframe: "https://rudo.video/vod/bK2KOf",
+      name: "La llegada de Mirko",
+      title: "Tocar la copa",
+
+      preview: "",
+      label: "Pronto",
+      description: "",
+      iframe: "",
+    },
+    {
+      url: "",
+      img:
+        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+      status: ["soon"],
+      pretitle: "Capítulo 04",
+      name: "Hinchas",
+      title: "Tocar la copa",
+
+      preview: "",
+      label: "Pronto",
+      description: "",
+      iframe: "",
+    },
+    {
+      url: "",
+      img:
+        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+      status: ["soon"],
+      pretitle: "Capítulo 05",
+      name: "Semifinal",
+      title: "Tocar la copa",
+
+      preview: "",
+      label: "Pronto",
+      description: "",
+      iframe: "",
+    },
+    {
+      url: "",
+      img:
+        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+      status: ["soon"],
+      pretitle: "Capítulo 06",
+      name: "Final",
+      title: "Tocar la copa",
+
+      preview: "",
+      label: "Pronto",
+      description: "",
+      iframe: "",
+    },
+    {
+      url: "",
+      img:
+        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+      status: ["soon"],
+      pretitle: "Capítulo 07",
+      name: "La celebración ",
+      title: "Tocar la copa",
+
+      preview: "",
+      label: "Pronto",
+      description: "",
+      iframe: "",
+    },
+    {
+      url: "",
+      img:
+        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+      status: ["soon"],
+      pretitle: "Capítulo 08",
+      name: "Por qué no se repite la copa",
+      title: "Tocar la copa",
+
+      preview: "",
+      label: "Pronto",
+      description: "",
+      iframe: "",
     },
   ];
   return (

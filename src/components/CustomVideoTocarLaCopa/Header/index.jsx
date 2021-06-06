@@ -6,15 +6,15 @@ const Header = ({ posmode }) => {
     <StHeader posmode={posmode}>
       <div>
         <img
-          src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/KT55QY2YOBEO7NDP674ISHI3PI.png"
+          src="https://www.latercera.com/resizer/kXPp5UxoLulsiUCHx6GjdFCGC5s=/arc-anglerfish-arc2-prod-copesa/public/YE4IYFI4NNCD7JV4EMCR3OPPBI.png"
           alt="Laboratorio de Contenidos de Marca"
         />
       </div>
       <div>
         <span>Presentado por</span>
         <img
-          src="https://cloudfront-us-east-1.images.arcpublishing.com/copesa/A5ZKXB5H3NEJ7KSRAADS5RI7AE.png"
-          alt="Casillero del Diablo"
+          src="https://www.latercera.com/resizer/CDuEaFeGx2OhhX7GeAzArfhueqQ=/arc-anglerfish-arc2-prod-copesa/public/U3223TJYFRAR7HNHDUQUZJBGUE.png"
+          alt="Adidas"
         />
       </div>
     </StHeader>

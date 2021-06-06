@@ -1,12 +1,11 @@
 import React from "react";
 import { Wrap } from "../style.css";
-
-import Player from "../Player";
+import Hero from "../Hero";
 import Chapters from "../Chapters";
 import Header from "../Header";
 import Footer from "../Footer";
 
-const VideoHome = () => {
+const SuperWidget = () => {
   const desktop =
     "https://rudo.video/redirector/1080/9018672d336a28ff136868e2255e405f.mp4";
   const mobile =
@@ -148,18 +147,21 @@ const VideoHome = () => {
       iframe: "",
     },
   ];
-
-  const chapter = data[0];
-
   return (
     <Wrap>
       <Header posmode="fixed" />
 
-      <Player chapter={chapter} />
-      <Chapters chapters={data} />
-      <Footer />
+      <Hero
+        desktop={desktop}
+        mobile={mobile}
+        image={image}
+        metadata={metadata}
+        className="wrap-home"
+      />
+      {/* <Chapters chapters={data} /> */}
+      {/* <Footer /> */}
     </Wrap>
   );
 };
 
-export default VideoHome;
+export default SuperWidget;
