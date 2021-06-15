@@ -1,13 +1,14 @@
-import { createGlobalStyle } from 'styled-components'
-import reset from 'styled-reset'
-import theme from './theme'
-import { math } from 'polished'
+import { createGlobalStyle } from "styled-components";
+import reset from "styled-reset";
+import theme from "./theme";
+import { math } from "polished";
 
-const titlesizes = () => [...Array(6).keys()].map((i) => {
-  return `h${6 - i} {
+const titlesizes = () =>
+  [...Array(6).keys()].map((i) => {
+    return `h${6 - i} {
 		font-size: ${math(`(${theme.fontTitleSize} / 6) * ${i + 1}`)};
-	}`
-})
+	}`;
+  });
 
 export default createGlobalStyle`
   ${reset}
@@ -62,7 +63,6 @@ html{
       max-width: 1200px;
       margin-left: auto;
       margin-right: auto;
-      border: 1px solid #0f0;
       font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
       padding: 1rem;
       font-size: 1rem;
@@ -70,4 +70,4 @@ html{
     }
   }
 
-`
+`;

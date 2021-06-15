@@ -113,7 +113,7 @@ const Hero = ({ desktop, mobile, image, metadata, className }) => {
     secondarylink,
   } = metadata;
   return (
-    <WrapVideo className={className ? "className" : "wrap-home"}>
+    <WrapVideo className={className ? className : "wrap-home"}>
       <VideoHero desktop={desktop} mobile={mobile} />
       <ImageHero image={image} />
       <span className="bg-vignette"></span>

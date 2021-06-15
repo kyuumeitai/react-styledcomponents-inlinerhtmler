@@ -17,6 +17,10 @@ const fixedMode = css`
 `;
 
 const widgetMode = css`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   grid-template-columns: repeat(2, 1fr);
   div {
     &:last-of-type {

@@ -7,7 +7,7 @@ import Footer from "../Footer";
 
 const SuperWidget = () => {
   const desktop =
-    "https://rudo.video/redirector/1080/9018672d336a28ff136868e2255e405f.mp4";
+    "https://rudo.video/redirector/1080/0323e6ecc013d12037463b733352231d.mp4";
   const mobile =
     "https://rudo.video/redirector/854/ed45588c9b86f54c7601dc8f36a86e0b.mp4";
   const image =
@@ -23,13 +23,11 @@ const SuperWidget = () => {
     logo:
       "https://www.latercera.com/resizer/go0FcTuU03fektSvJpdhRwHt_Tk=/arc-anglerfish-arc2-prod-copesa/public/SA34TUFLA5AJ5JODAIKHBULBII.png",
     title: "Tocar la Copa",
-    supplemental: "Revisa el estreno acá",
-    synopsis:
-      "Ya son 30 años desde ese Colo Colo 91 y el logro sigue intacto. Una producción del Laboratorio de Contenidos de Marca de La Tercera, presentada por Adidas y en alianza con Eternos Campeones 91, la agrupación de ex jugadores del Cacique que reúne a los protagonistas de la hazaña.",
+    supplemental: "Revisa el capítulo 2",
+    synopsis: "El camino empieza en Pedreros.",
     mainlink:
-      "https://www.latercera.com/tocar-la-copa/01-cuando-ganar-era-imposible/",
-    secondarylink:
-      "https://www.latercera.com/el-deportivo/noticia/tocar-la-copa-la-serie-que-pronto-revivira-el-camino-de-colo-colo-a-30-anos-de-la-unica-libertadores/E32FJ4EVLBDSHFPYVFTEOJOIZQ/",
+      "https://www.latercera.com/tocar-la-copa/02-el-camino-empieza-en-pedreros/",
+    secondarylink: "https://www.latercera.com/tocar-la-copa/",
   };
 
   const data = [
@@ -38,7 +36,7 @@ const SuperWidget = () => {
         "https://www.latercera.com/tocar-la-copa/01-cuando-ganar-era-imposible/",
       img:
         "https://www.latercera.com/resizer/wNhyRXkdJEBpWIONmx8KAbaQfmI=/arc-anglerfish-arc2-prod-copesa/public/X6FUTEKA4BHF5FVUC4OY5BILAU.jpg",
-      status: ["new", "available"],
+      status: ["available"],
       pretitle: "Capítulo 01",
       name: "Cuando ganar era imposible",
       title: "Tocar la copa",
@@ -49,26 +47,27 @@ const SuperWidget = () => {
       iframe: "https://rudo.video/vod/bLP7La",
     },
     {
-      url: "",
+      url:
+        "https://www.latercera.com/tocar-la-copa/02-el-camino-empieza-en-pedreros/",
       img:
-        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
-      status: ["soon"],
+        "https://www.latercera.com/resizer/11TqPg-5_bk55_PbrmYysV-0cA4=/arc-anglerfish-arc2-prod-copesa/public/KAQHPF7675EWJHARKM6SIFRILQ.jpg",
+      status: ["new", "available"],
       pretitle: "Capítulo 02",
-      name: "La era Salah",
+      name: "El camino empieza en Pedreros",
       title: "Tocar la copa",
-
-      preview: "",
-      label: "Pronto",
-      description: "La era Salah",
-      iframe: "",
+      preview:
+        "https://rudo.video/redirector/480/0323e6ecc013d12037463b733352231d.mp4",
+      label: "Nuevo",
+      description: "El camino empieza en Pedreros",
+      iframe: "https://rudo.video/vod/bLTjeG",
     },
     {
       url: "",
       img:
-        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+        "https://www.latercera.com/resizer/g1SkvTUetWJ-lgtBF7Xl6oMX190=/arc-anglerfish-arc2-prod-copesa/public/EBRENTTTZRHWLGV7KHMZBQOLOQ.jpg",
       status: ["soon"],
       pretitle: "Capítulo 03",
-      name: "La llegada de Mirko",
+      name: "El vértigo de Mirko",
       title: "Tocar la copa",
 
       preview: "",
@@ -79,10 +78,10 @@ const SuperWidget = () => {
     {
       url: "",
       img:
-        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+        "https://www.latercera.com/resizer/zOEUC8YV-qQH6OfgyVduulNLmdo=/arc-anglerfish-arc2-prod-copesa/public/DMAEGTJ4BVGFDCADUQW7PSQPLU.jpg",
       status: ["soon"],
       pretitle: "Capítulo 04",
-      name: "Hinchas",
+      name: "La final anticipada",
       title: "Tocar la copa",
 
       preview: "",
@@ -93,10 +92,10 @@ const SuperWidget = () => {
     {
       url: "",
       img:
-        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+        "https://www.latercera.com/resizer/_1rLScuVBnN9JFX28P_TZuY85KE=/arc-anglerfish-arc2-prod-copesa/public/KBEAQLMZYVHFLB6X6Z2NSWOKE4.jpg",
       status: ["soon"],
       pretitle: "Capítulo 05",
-      name: "Semifinal",
+      name: "La vuelta olímpica",
       title: "Tocar la copa",
 
       preview: "",
@@ -107,10 +106,10 @@ const SuperWidget = () => {
     {
       url: "",
       img:
-        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+        "https://www.latercera.com/resizer/EEobNJVEYCZ1TT8muBIBDf8yR-M=/arc-anglerfish-arc2-prod-copesa/public/7KXMT5Z3UNF65OT4TNJHTRCPMU.jpg",
       status: ["soon"],
       pretitle: "Capítulo 06",
-      name: "Final",
+      name: "De Arica a Magallanes",
       title: "Tocar la copa",
 
       preview: "",
@@ -121,10 +120,10 @@ const SuperWidget = () => {
     {
       url: "",
       img:
-        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+        "https://www.latercera.com/resizer/yqPJKuljNHFWst1HjWDSewt25D8=/arc-anglerfish-arc2-prod-copesa/public/TF2GKGT4PZC4XNRHTGNOZZZBF4.jpg",
       status: ["soon"],
       pretitle: "Capítulo 07",
-      name: "La celebración ",
+      name: "Una historia que no se repite",
       title: "Tocar la copa",
 
       preview: "",
@@ -135,10 +134,10 @@ const SuperWidget = () => {
     {
       url: "",
       img:
-        "https://www.latercera.com/resizer/6Ur7k-rBYFGvw9Sfb6lbI1JrIsc=/arc-anglerfish-arc2-prod-copesa/public/GLHJFK2D6JHUVEF2MTYWR4KODQ.jpg",
+        "https://www.latercera.com/resizer/a6hPNLdeGycT_I48vA25wqG9n-I=/arc-anglerfish-arc2-prod-copesa/public/ABWXIAXPSBD7ZKRPUJCYEXDUXY.jpg",
       status: ["soon"],
       pretitle: "Capítulo 08",
-      name: "Por qué no se repite la copa",
+      name: "La hinchada",
       title: "Tocar la copa",
 
       preview: "",
@@ -149,14 +148,14 @@ const SuperWidget = () => {
   ];
   return (
     <Wrap>
-      <Header posmode="fixed" />
+      <Header posmode="widget" />
 
       <Hero
         desktop={desktop}
         mobile={mobile}
         image={image}
         metadata={metadata}
-        className="wrap-home"
+        className="wrap-small"
       />
       {/* <Chapters chapters={data} /> */}
       {/* <Footer /> */}

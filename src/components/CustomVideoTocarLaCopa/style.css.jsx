@@ -87,7 +87,7 @@ const WrapVideo = styled.div`
   }
   &.wrap-small {
     width: 100%;
-    height: 40vh;
+    height: 35vh;
     min-height: 460px;
   }
   &.wrap-home {
@@ -327,6 +327,7 @@ const WrapVideo = styled.div`
 const Wrap = styled.div`
   overflow: hidden;
   font-family: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;
+  position: relative;
 
   .video-proportion-16by9 {
     position: relative;
