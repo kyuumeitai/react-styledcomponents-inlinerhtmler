@@ -7,9 +7,9 @@ import Footer from "../Footer";
 
 const VideoHome = () => {
   const desktop =
-    "https://rudo.video/redirector/1080/9018672d336a28ff136868e2255e405f.mp4";
+    "https://rudo.video/redirector/720/e50e3cb78b6af3ac056e97fec0323844.mp4";
   const mobile =
-    "https://rudo.video/redirector/854/ed45588c9b86f54c7601dc8f36a86e0b.mp4";
+    "https://rudo.video/redirector/854/f72a4e31abc9000bf47e48d2cba43e06.mp4";
   const image =
     "https://www.latercera.com/resizer/_d8oAyfF0vvPAdAStO6PHFLxQp8=/arc-anglerfish-arc2-prod-copesa/public/7B454T2XVRALJLJ2B3GNUNROOY.jpg";
 
@@ -23,11 +23,10 @@ const VideoHome = () => {
     logo:
       "https://www.latercera.com/resizer/go0FcTuU03fektSvJpdhRwHt_Tk=/arc-anglerfish-arc2-prod-copesa/public/SA34TUFLA5AJ5JODAIKHBULBII.png",
     title: "Tocar la Copa",
-    supplemental: "Revisa el capítulo 2",
+    supplemental: "Nuevo: capítulo 3",
     synopsis:
       "Ya son 30 años desde ese Colo Colo 91 y el logro sigue intacto. Una producción del Laboratorio de Contenidos de Marca de La Tercera, presentada por Adidas y en alianza con Eternos Campeones 91, la agrupación de ex jugadores del Cacique que reúne a los protagonistas de la hazaña.",
-    mainlink:
-      "https://www.latercera.com/tocar-la-copa/02-el-camino-empieza-en-pedreros/",
+    mainlink: "https://www.latercera.com/tocar-la-copa/03-el-vertigo-de-mirko/",
     secondarylink:
       "https://www.latercera.com/el-deportivo/noticia/tocar-la-copa-la-serie-que-pronto-revivira-el-camino-de-colo-colo-a-30-anos-de-la-unica-libertadores/E32FJ4EVLBDSHFPYVFTEOJOIZQ/",
   };
@@ -64,18 +63,18 @@ const VideoHome = () => {
       iframe: "https://rudo.video/vod/bLTjeG",
     },
     {
-      url: "",
+      url: "https://www.latercera.com/tocar-la-copa/03-el-vertigo-de-mirko/",
       img:
         "https://www.latercera.com/resizer/g1SkvTUetWJ-lgtBF7Xl6oMX190=/arc-anglerfish-arc2-prod-copesa/public/EBRENTTTZRHWLGV7KHMZBQOLOQ.jpg",
-      status: ["soon"],
+      status: ["new", "available"],
       pretitle: "Capítulo 03",
       name: "El vértigo de Mirko",
       title: "Tocar la copa",
-
-      preview: "",
-      label: "Pronto",
-      description: "",
-      iframe: "",
+      preview:
+        "https://rudo.video/redirector/1080/e50e3cb78b6af3ac056e97fec0323844.mp4",
+      label: "Nuevo",
+      description: "El vértigo de Mirko",
+      iframe: "https://rudo.video/vod/bLVitM",
     },
     {
       url: "",

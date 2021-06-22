@@ -7,9 +7,9 @@ import Footer from "../Footer";
 
 const SuperWidget = () => {
   const desktop =
-    "https://rudo.video/redirector/1080/0323e6ecc013d12037463b733352231d.mp4";
+    "https://rudo.video/redirector/720/e50e3cb78b6af3ac056e97fec0323844.mp4";
   const mobile =
-    "https://rudo.video/redirector/854/ed45588c9b86f54c7601dc8f36a86e0b.mp4";
+    "https://rudo.video/redirector/854/f72a4e31abc9000bf47e48d2cba43e06.mp4";
   const image =
     "https://www.latercera.com/resizer/_d8oAyfF0vvPAdAStO6PHFLxQp8=/arc-anglerfish-arc2-prod-copesa/public/7B454T2XVRALJLJ2B3GNUNROOY.jpg";
 
@@ -62,18 +62,18 @@ const SuperWidget = () => {
       iframe: "https://rudo.video/vod/bLTjeG",
     },
     {
-      url: "",
+      url: "https://www.latercera.com/tocar-la-copa/03-el-vertigo-de-mirko/",
       img:
         "https://www.latercera.com/resizer/g1SkvTUetWJ-lgtBF7Xl6oMX190=/arc-anglerfish-arc2-prod-copesa/public/EBRENTTTZRHWLGV7KHMZBQOLOQ.jpg",
-      status: ["soon"],
+      status: ["new", "available"],
       pretitle: "Capítulo 03",
       name: "El vértigo de Mirko",
       title: "Tocar la copa",
-
-      preview: "",
-      label: "Pronto",
-      description: "",
-      iframe: "",
+      preview:
+        "https://rudo.video/redirector/1080/e50e3cb78b6af3ac056e97fec0323844.mp4",
+      label: "Nuevo",
+      description: "El vértigo de Mirko",
+      iframe: "https://rudo.video/vod/bLVitM",
     },
     {
       url: "",
