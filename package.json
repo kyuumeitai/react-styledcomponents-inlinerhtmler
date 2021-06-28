@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "formik": "^2.1.4",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "multer": "^1.4.2",
     "open-graph-scraper": "^3.6.2",
     "polished": "^3.5.1",
