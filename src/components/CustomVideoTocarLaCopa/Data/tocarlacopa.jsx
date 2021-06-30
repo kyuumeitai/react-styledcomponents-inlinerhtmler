@@ -1,8 +1,8 @@
 
  const desktop =
- "https://rudo.video/redirector/720/e50e3cb78b6af3ac056e97fec0323844.mp4";
+ "https://rudo.video/redirector/1080/7e171a4342eae2a8d62eec8344950873.mp4";
 const mobile =
- "https://rudo.video/redirector/854/f72a4e31abc9000bf47e48d2cba43e06.mp4";
+ "https://rudo.video/redirector/1920/531bab7105123f303025aae41f84100f.mp4";
 const image =
  "https://www.latercera.com/resizer/_d8oAyfF0vvPAdAStO6PHFLxQp8=/arc-anglerfish-arc2-prod-copesa/public/7B454T2XVRALJLJ2B3GNUNROOY.jpg";
 
@@ -12,18 +12,17 @@ const sponsor =
 const logoproductor =
  "https://www.latercera.com/resizer/kXPp5UxoLulsiUCHx6GjdFCGC5s=/arc-anglerfish-arc2-prod-copesa/public/YE4IYFI4NNCD7JV4EMCR3OPPBI.png";
 
-const metadata = {
- logo:
-   "https://www.latercera.com/resizer/go0FcTuU03fektSvJpdhRwHt_Tk=/arc-anglerfish-arc2-prod-copesa/public/SA34TUFLA5AJ5JODAIKHBULBII.png",
- title: "Tocar la Copa",
- supplemental: "Revisa el estreno acá",
- synopsis:
-   "Ya son 30 años desde ese Colo Colo 91 y el logro sigue intacto. Una producción del Laboratorio de Contenidos de Marca de La Tercera, presentada por Adidas y en alianza con Eternos Campeones 91, la agrupación de ex jugadores del Cacique que reúne a los protagonistas de la hazaña.",
- mainlink:
-   "https://www.latercera.com/tocar-la-copa/01-cuando-ganar-era-imposible/",
- secondarylink:
-   "https://www.latercera.com/el-deportivo/noticia/tocar-la-copa-la-serie-que-pronto-revivira-el-camino-de-colo-colo-a-30-anos-de-la-unica-libertadores/E32FJ4EVLBDSHFPYVFTEOJOIZQ/",
-};
+ const metadata = {
+    logo:
+      "https://www.latercera.com/resizer/go0FcTuU03fektSvJpdhRwHt_Tk=/arc-anglerfish-arc2-prod-copesa/public/SA34TUFLA5AJ5JODAIKHBULBII.png",
+    title: "Tocar la Copa",
+    supplemental: "Nuevo: capítulo 4 La final anticipada",
+    synopsis:
+      "Ya son 30 años desde ese Colo Colo 91 y el logro sigue intacto. Una producción del Laboratorio de Contenidos de Marca de La Tercera, presentada por Adidas y en alianza con Eternos Campeones 91, la agrupación de ex jugadores del Cacique que reúne a los protagonistas de la hazaña.",
+    mainlink: "https://www.latercera.com/tocar-la-copa/04-la-final-anticipada/",
+    secondarylink:
+      "https://www.latercera.com/el-deportivo/noticia/tocar-la-copa-la-serie-que-pronto-revivira-el-camino-de-colo-colo-a-30-anos-de-la-unica-libertadores/E32FJ4EVLBDSHFPYVFTEOJOIZQ/",
+  };
 
 const data = [
  {
@@ -31,8 +30,8 @@ const data = [
      "https://www.latercera.com/tocar-la-copa/01-cuando-ganar-era-imposible/",
    img:
      "https://www.latercera.com/resizer/wNhyRXkdJEBpWIONmx8KAbaQfmI=/arc-anglerfish-arc2-prod-copesa/public/X6FUTEKA4BHF5FVUC4OY5BILAU.jpg",
-   status: ["available"],
-   pretitle: "Capítulo 01",
+     status: ["new", "available"],
+     pretitle: "Capítulo 01",
    name: "Cuando ganar era imposible",
    title: "Tocar la copa",
    preview:
@@ -46,13 +45,13 @@ const data = [
      "https://www.latercera.com/tocar-la-copa/02-el-camino-empieza-en-pedreros/",
    img:
      "https://www.latercera.com/resizer/11TqPg-5_bk55_PbrmYysV-0cA4=/arc-anglerfish-arc2-prod-copesa/public/KAQHPF7675EWJHARKM6SIFRILQ.jpg",
-   status: ["new", "available"],
-   pretitle: "Capítulo 02",
+     status: ["new", "available"],
+     pretitle: "Capítulo 02",
    name: "El camino empieza en Pedreros",
    title: "Tocar la copa",
    preview:
      "https://rudo.video/redirector/480/0323e6ecc013d12037463b733352231d.mp4",
-   label: "Nuevo",
+   label: "Disponible",
    description: "El camino empieza en Pedreros",
    iframe: "https://rudo.video/vod/bLTjeG",
  },
@@ -60,29 +59,28 @@ const data = [
    url: "https://www.latercera.com/tocar-la-copa/03-el-vertigo-de-mirko/",
    img:
      "https://www.latercera.com/resizer/g1SkvTUetWJ-lgtBF7Xl6oMX190=/arc-anglerfish-arc2-prod-copesa/public/EBRENTTTZRHWLGV7KHMZBQOLOQ.jpg",
-   status: ["new", "available"],
-   pretitle: "Capítulo 03",
+     status: ["new", "available"],
+     pretitle: "Capítulo 03",
    name: "El vértigo de Mirko",
    title: "Tocar la copa",
    preview:
      "https://rudo.video/redirector/1080/e50e3cb78b6af3ac056e97fec0323844.mp4",
-   label: "Nuevo",
+   label: "Disponible",
    description: "El vértigo de Mirko",
    iframe: "https://rudo.video/vod/bLVitM",
  },
  {
-   url: "",
+   url: "https://www.latercera.com/tocar-la-copa/04-la-final-anticipada/",
    img:
      "https://www.latercera.com/resizer/zOEUC8YV-qQH6OfgyVduulNLmdo=/arc-anglerfish-arc2-prod-copesa/public/DMAEGTJ4BVGFDCADUQW7PSQPLU.jpg",
-   status: ["soon"],
+   status: ["new", "available"],
    pretitle: "Capítulo 04",
    name: "La final anticipada",
    title: "Tocar la copa",
-
-   preview: "",
-   label: "Pronto",
-   description: "",
-   iframe: "",
+   preview: "https://rudo.video/redirector/480/7e171a4342eae2a8d62eec8344950873.mp4",
+   label: "Nuevo",
+   description: "La llave con Boca Juniors fue digna de la antigua Libertadores. El bus de Colo Colo queda en panne justo afuera de la Bombonera llena de hinchas. En Santiago, la policía y los fotógrafos terminan peleando con los descontrolados jugadores de Boca. Y entre toda la tensión, quizás el partido más simbólico de la campaña: el 3-1 sobre los xeneixes en el Monumental. Todo esto en el cuarto capítulo de Tocar la Copa, la serie de Colo Colo 91",
+   iframe: "https://rudo.video/vod/bLXSN6",
  },
  {
    url: "",
