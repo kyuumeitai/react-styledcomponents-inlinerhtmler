@@ -6,10 +6,10 @@ import Chapters from "../Chapters";
 import Header from "../Header";
 import Footer from "../Footer";
 
-import {data} from '../Data/tocarlacopa'
+import { data } from "../Data/tocarlacopa";
 
 const VideoHome = () => {
-   const chapter = data[2];
+  const chapter = data[0];
 
   return (
     <Wrap>
