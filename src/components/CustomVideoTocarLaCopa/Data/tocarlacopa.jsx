@@ -15,10 +15,10 @@ const metadata = {
   logo:
     "https://www.latercera.com/resizer/go0FcTuU03fektSvJpdhRwHt_Tk=/arc-anglerfish-arc2-prod-copesa/public/SA34TUFLA5AJ5JODAIKHBULBII.png",
   title: "Tocar la Copa",
-  supplemental: "Nuevo: capítulo 5 La vuelta olímpica",
+  supplemental: "Nuevo: capítulo 6 La Celebración",
   synopsis:
     "Ya son 30 años desde ese Colo Colo 91 y el logro sigue intacto. Una producción del Laboratorio de Contenidos de Marca de La Tercera, presentada por Adidas y en alianza con Eternos Campeones 91, la agrupación de ex jugadores del Cacique que reúne a los protagonistas de la hazaña.",
-  mainlink: "https://www.latercera.com/tocar-la-copa/05-la-vuelta-olimpica/",
+  mainlink: "https://www.latercera.com/tocar-la-copa/06-la-celebracion/",
   secondarylink:
     "https://www.latercera.com/el-deportivo/noticia/tocar-la-copa-la-serie-que-pronto-revivira-el-camino-de-colo-colo-a-30-anos-de-la-unica-libertadores/E32FJ4EVLBDSHFPYVFTEOJOIZQ/",
 };
@@ -93,23 +93,25 @@ const data = [
     title: "Tocar la copa",
     preview:
       "https://rudo.video/redirector/480/6159e6c3a95d18ef0c5605ead093969e.mp4",
-    label: "Nuevo",
-    description: "La vuelta olímpica",
+    label: "Disponible",
+    description:
+      "Pese a que había confianza en ganar, también había incertidumbre por las finales previas perdidas por equipos chilenos. ¿Cómo vivió el plantel esa llave con Olimpia? ¿Cómo lo vivió el país? Revisa “La vuelta olímpica”, el quinto capítulo de Tocar la Copa, la serie de Colo Colo 91, presentada por Adidas y producida por el Laboratorio de Contenidos de Marca LT.",
     iframe: "https://rudo.video/vod/bMagTC",
   },
   {
-    url: "",
+    url: "https://www.latercera.com/tocar-la-copa/06-la-celebracion/",
     img:
       "https://www.latercera.com/resizer/EEobNJVEYCZ1TT8muBIBDf8yR-M=/arc-anglerfish-arc2-prod-copesa/public/7KXMT5Z3UNF65OT4TNJHTRCPMU.jpg",
-    status: ["soon"],
+    status: ["new", "available"],
     pretitle: "Capítulo 06",
-    name: "De Arica a Magallanes",
+    name: "La celebración",
     title: "Tocar la copa",
-
-    preview: "",
-    label: "Pronto",
-    description: "",
-    iframe: "",
+    preview:
+      "https://rudo.video/redirector/480/8eaf73e5e858f6d1ad3341aaaff5bbe9.mp4",
+    label: "Nuevo",
+    description:
+      "La colocolomanía después del gran triunfo y todas sus repercusiones. La visita de la U al Monumental el día después del triunfo. La final de la Intercontinental y el valor sentimental para Mirko. Todo esto en La Celebración, el nuevo capítulo de Tocar la Copa",
+    iframe: "https://rudo.video/vod/bMcXwE",
   },
   {
     url: "",
