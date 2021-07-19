@@ -15,10 +15,11 @@ const metadata = {
   logo:
     "https://www.latercera.com/resizer/go0FcTuU03fektSvJpdhRwHt_Tk=/arc-anglerfish-arc2-prod-copesa/public/SA34TUFLA5AJ5JODAIKHBULBII.png",
   title: "Tocar la Copa",
-  supplemental: "Nuevo: capítulo 6 La Celebración",
+  supplemental: "Nuevo: capítulo 7 Una historia que no se repite",
   synopsis:
-    "Ya son 30 años desde ese Colo Colo 91 y el logro sigue intacto. Una producción del Laboratorio de Contenidos de Marca de La Tercera, presentada por Adidas y en alianza con Eternos Campeones 91, la agrupación de ex jugadores del Cacique que reúne a los protagonistas de la hazaña.",
-  mainlink: "https://www.latercera.com/tocar-la-copa/06-la-celebracion/",
+    "¿Por qué no se ha vuelto a ganar una Libertadores? El triunfo ante Puebla y Cruzeiro. El emocionante zoom del plantel en plena pandemia. Una producción del Laboratorio de Contenidos de Marca de La Tercera, presentada por Adidas y en alianza con Eternos Campeones 91, la agrupación de ex jugadores del Cacique que reúne a los protagonistas de la hazaña.",
+  mainlink:
+    "https://www.latercera.com/tocar-la-copa/07-una-historia-que-no-se-repite/",
   secondarylink:
     "https://www.latercera.com/el-deportivo/noticia/tocar-la-copa-la-serie-que-pronto-revivira-el-camino-de-colo-colo-a-30-anos-de-la-unica-libertadores/E32FJ4EVLBDSHFPYVFTEOJOIZQ/",
 };
@@ -108,24 +109,26 @@ const data = [
     title: "Tocar la copa",
     preview:
       "https://rudo.video/redirector/480/8eaf73e5e858f6d1ad3341aaaff5bbe9.mp4",
-    label: "Nuevo",
+    label: "Disponible",
     description:
       "La colocolomanía después del gran triunfo y todas sus repercusiones. La visita de la U al Monumental el día después del triunfo. La final de la Intercontinental y el valor sentimental para Mirko. Todo esto en La Celebración, el nuevo capítulo de Tocar la Copa",
     iframe: "https://rudo.video/vod/bMcXwE",
   },
   {
-    url: "",
+    url:
+      "https://www.latercera.com/tocar-la-copa/07-una-historia-que-no-se-repite/",
     img:
       "https://www.latercera.com/resizer/yqPJKuljNHFWst1HjWDSewt25D8=/arc-anglerfish-arc2-prod-copesa/public/TF2GKGT4PZC4XNRHTGNOZZZBF4.jpg",
-    status: ["soon"],
+    status: ["new", "available"],
     pretitle: "Capítulo 07",
     name: "Una historia que no se repite",
     title: "Tocar la copa",
-
-    preview: "",
-    label: "Pronto",
-    description: "",
-    iframe: "",
+    preview:
+      "https://rudo.video/redirector/480/afa69db26b15a12189ad252e44228747.mp4",
+    label: "Nuevo",
+    description:
+      "¿Por qué no se ha vuelto a ganar una Libertadores? El triunfo ante Puebla y Cruzeiro. El emocionante zoom del plantel en plena pandemia. Todo esto en el penúltimo capítulo de Tocar la Copa, la serie de Colo Colo 91, presentada por Adidas y producida por el Laboratorio de Contenidos de Marca de La Tercera.",
+    iframe: "https://rudo.video/vod/bMf50O",
   },
   {
     url: "",
