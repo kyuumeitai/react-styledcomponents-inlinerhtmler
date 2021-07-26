@@ -15,11 +15,10 @@ const metadata = {
   logo:
     "https://www.latercera.com/resizer/go0FcTuU03fektSvJpdhRwHt_Tk=/arc-anglerfish-arc2-prod-copesa/public/SA34TUFLA5AJ5JODAIKHBULBII.png",
   title: "Tocar la Copa",
-  supplemental: "Nuevo: capítulo 7 Una historia que no se repite",
+  supplemental: "Último capítulo: 8 Una historia que no se repite",
   synopsis:
-    "¿Por qué no se ha vuelto a ganar una Libertadores? El triunfo ante Puebla y Cruzeiro. El emocionante zoom del plantel en plena pandemia. Una producción del Laboratorio de Contenidos de Marca de La Tercera, presentada por Adidas y en alianza con Eternos Campeones 91, la agrupación de ex jugadores del Cacique que reúne a los protagonistas de la hazaña.",
-  mainlink:
-    "https://www.latercera.com/tocar-la-copa/07-una-historia-que-no-se-repite/",
+    "Este es el último capítulo de Tocar la Copa, la serie de Colo Colo 91, y quizás el más emocionante. Este es el capítulo de la hinchada, del sentimiento, de cómo se vivió en Chile el logro y de cómo, los jugadores, 30 años después siguen recibiendo inmensas muestras de gratitud. Una producción del Laboratorio de Contenidos de Marca de La Tercera, presentada por Adidas y en alianza con Eternos Campeones 91, la agrupación de ex jugadores del Cacique que reúne a los protagonistas de la hazaña.",
+  mainlink: "https://www.latercera.com/tocar-la-copa/08-la-hinchada/",
   secondarylink:
     "https://www.latercera.com/el-deportivo/noticia/tocar-la-copa-la-serie-que-pronto-revivira-el-camino-de-colo-colo-a-30-anos-de-la-unica-libertadores/E32FJ4EVLBDSHFPYVFTEOJOIZQ/",
 };
@@ -131,18 +130,19 @@ const data = [
     iframe: "https://rudo.video/vod/bMf50O",
   },
   {
-    url: "",
+    url: "https://www.latercera.com/tocar-la-copa/08-la-hinchada/",
     img:
       "https://www.latercera.com/resizer/a6hPNLdeGycT_I48vA25wqG9n-I=/arc-anglerfish-arc2-prod-copesa/public/ABWXIAXPSBD7ZKRPUJCYEXDUXY.jpg",
-    status: ["soon"],
+    status: ["new", "available"],
     pretitle: "Capítulo 08",
     name: "La hinchada",
     title: "Tocar la copa",
-
-    preview: "",
-    label: "Pronto",
-    description: "",
-    iframe: "",
+    preview:
+      "https://rudo.video/redirector/480/5c70bc03aea62d2308b48593d8d08982.mp4",
+    label: "Nuevo",
+    description:
+      "Este es el último capítulo de Tocar la Copa, la serie de Colo Colo 91, y quizás el más emocionante. Este es el capítulo de la hinchada, del sentimiento, de cómo se vivió en Chile el logro y de cómo, los jugadores, 30 años después siguen recibiendo inmensas muestras de gratitud. ",
+    iframe: "https://rudo.video/vod/bMieDd",
   },
 ];
 
