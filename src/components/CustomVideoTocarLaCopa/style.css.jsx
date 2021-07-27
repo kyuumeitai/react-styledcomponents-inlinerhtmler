@@ -206,7 +206,13 @@ const WrapVideo = styled.div`
     }
   }
   &.wrap-small .meta-layer {
-    width: 40%;
+    width: 60%;
+    .logo-wrapper {
+      max-width: 50%;
+      @media (max-width: 800px) {
+        max-width: 70%;
+      }
+    }
     @media (max-width: 800px) {
       width: 90%;
     }

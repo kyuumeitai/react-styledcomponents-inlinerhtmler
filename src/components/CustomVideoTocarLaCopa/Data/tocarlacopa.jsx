@@ -1,7 +1,7 @@
 const desktop =
-  "https://rudo.video/redirector/1080/7e171a4342eae2a8d62eec8344950873.mp4";
+  "https://ads-lt.digitalproserver.com/ads/lab/tocar-la-copa/main-desktop.mp4";
 const mobile =
-  "https://rudo.video/redirector/1920/531bab7105123f303025aae41f84100f.mp4";
+  "https://ads-lt.digitalproserver.com/ads/lab/tocar-la-copa/main-mobile.mp4";
 const image =
   "https://www.latercera.com/resizer/_d8oAyfF0vvPAdAStO6PHFLxQp8=/arc-anglerfish-arc2-prod-copesa/public/7B454T2XVRALJLJ2B3GNUNROOY.jpg";
 
@@ -15,7 +15,7 @@ const metadata = {
   logo:
     "https://www.latercera.com/resizer/go0FcTuU03fektSvJpdhRwHt_Tk=/arc-anglerfish-arc2-prod-copesa/public/SA34TUFLA5AJ5JODAIKHBULBII.png",
   title: "Tocar la Copa",
-  supplemental: "Último capítulo: 8 Una historia que no se repite",
+  supplemental: "Último capítulo: 8 La Hinchada",
   synopsis:
     "Este es el último capítulo de Tocar la Copa, la serie de Colo Colo 91, y quizás el más emocionante. Este es el capítulo de la hinchada, del sentimiento, de cómo se vivió en Chile el logro y de cómo, los jugadores, 30 años después siguen recibiendo inmensas muestras de gratitud.",
   mainlink: "https://www.latercera.com/tocar-la-copa/08-la-hinchada/",
@@ -34,7 +34,7 @@ const data = [
     name: "Cuando ganar era imposible",
     title: "Tocar la copa",
     preview:
-      "https://rudo.video/redirector/480/9fcb138f4979a7fa930242f9d0c12f6e.mp4",
+      "https://ads-lt.digitalproserver.com/ads/lab/tocar-la-copa/prev-cap1.mp4",
     label: "Disponible",
     description: "Cuando ganar era imposible.",
     iframe: "https://rudo.video/vod/bLP7La",
@@ -49,7 +49,7 @@ const data = [
     name: "El camino empieza en Pedreros",
     title: "Tocar la copa",
     preview:
-      "https://rudo.video/redirector/480/0323e6ecc013d12037463b733352231d.mp4",
+      "https://ads-lt.digitalproserver.com/ads/lab/tocar-la-copa/prev-cap2.mp4",
     label: "Disponible",
     description: "El camino empieza en Pedreros",
     iframe: "https://rudo.video/vod/bLTjeG",
@@ -63,7 +63,7 @@ const data = [
     name: "El vértigo de Mirko",
     title: "Tocar la copa",
     preview:
-      "https://rudo.video/redirector/1080/e50e3cb78b6af3ac056e97fec0323844.mp4",
+      "https://ads-lt.digitalproserver.com/ads/lab/tocar-la-copa/prev-cap3.mp4",
     label: "Disponible",
     description: "El vértigo de Mirko",
     iframe: "https://rudo.video/vod/bLVitM",
@@ -77,7 +77,7 @@ const data = [
     name: "La final anticipada",
     title: "Tocar la copa",
     preview:
-      "https://rudo.video/redirector/480/7e171a4342eae2a8d62eec8344950873.mp4",
+      "https://ads-lt.digitalproserver.com/ads/lab/tocar-la-copa/prev-cap4.mp4",
     label: "Disponible",
     description:
       "La llave con Boca Juniors fue digna de la antigua Libertadores. El bus de Colo Colo queda en panne justo afuera de la Bombonera llena de hinchas. En Santiago, la policía y los fotógrafos terminan peleando con los descontrolados jugadores de Boca. Y entre toda la tensión, quizás el partido más simbólico de la campaña: el 3-1 sobre los xeneixes en el Monumental. Todo esto en el cuarto capítulo de Tocar la Copa, la serie de Colo Colo 91",
@@ -92,7 +92,7 @@ const data = [
     name: "La vuelta olímpica",
     title: "Tocar la copa",
     preview:
-      "https://rudo.video/redirector/480/6159e6c3a95d18ef0c5605ead093969e.mp4",
+      "https://ads-lt.digitalproserver.com/ads/lab/tocar-la-copa/prev-cap5.mp4",
     label: "Disponible",
     description:
       "Pese a que había confianza en ganar, también había incertidumbre por las finales previas perdidas por equipos chilenos. ¿Cómo vivió el plantel esa llave con Olimpia? ¿Cómo lo vivió el país? Revisa “La vuelta olímpica”, el quinto capítulo de Tocar la Copa, la serie de Colo Colo 91, presentada por Adidas y producida por el Laboratorio de Contenidos de Marca LT.",
@@ -107,7 +107,7 @@ const data = [
     name: "La celebración",
     title: "Tocar la copa",
     preview:
-      "https://rudo.video/redirector/480/8eaf73e5e858f6d1ad3341aaaff5bbe9.mp4",
+      "https://ads-lt.digitalproserver.com/ads/lab/tocar-la-copa/prev-cap6.mp4",
     label: "Disponible",
     description:
       "La colocolomanía después del gran triunfo y todas sus repercusiones. La visita de la U al Monumental el día después del triunfo. La final de la Intercontinental y el valor sentimental para Mirko. Todo esto en La Celebración, el nuevo capítulo de Tocar la Copa",
@@ -123,7 +123,7 @@ const data = [
     name: "Una historia que no se repite",
     title: "Tocar la copa",
     preview:
-      "https://rudo.video/redirector/480/afa69db26b15a12189ad252e44228747.mp4",
+      "https://ads-lt.digitalproserver.com/ads/lab/tocar-la-copa/prev-cap7.mp4",
     label: "Nuevo",
     description:
       "¿Por qué no se ha vuelto a ganar una Libertadores? El triunfo ante Puebla y Cruzeiro. El emocionante zoom del plantel en plena pandemia. Todo esto en el penúltimo capítulo de Tocar la Copa, la serie de Colo Colo 91, presentada por Adidas y producida por el Laboratorio de Contenidos de Marca de La Tercera.",
@@ -138,7 +138,7 @@ const data = [
     name: "La hinchada",
     title: "Tocar la copa",
     preview:
-      "https://rudo.video/redirector/480/5c70bc03aea62d2308b48593d8d08982.mp4",
+      "https://ads-lt.digitalproserver.com/ads/lab/tocar-la-copa/prev-cap8.mp4",
     label: "Nuevo",
     description:
       "Este es el último capítulo de Tocar la Copa, la serie de Colo Colo 91, y quizás el más emocionante. Este es el capítulo de la hinchada, del sentimiento, de cómo se vivió en Chile el logro y de cómo, los jugadores, 30 años después siguen recibiendo inmensas muestras de gratitud. ",

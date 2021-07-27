@@ -16,6 +16,7 @@ const VideoHome = () => {
         mobile={mobile}
         image={image}
         metadata={metadata}
+        className="wrap-small"
       />
       <Chapters chapters={data} chaptersPerRow={4} />
       {/* <Footer /> */}
