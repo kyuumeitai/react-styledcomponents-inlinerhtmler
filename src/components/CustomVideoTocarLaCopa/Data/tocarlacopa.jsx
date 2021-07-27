@@ -17,7 +17,7 @@ const metadata = {
   title: "Tocar la Copa",
   supplemental: "Último capítulo: 8 Una historia que no se repite",
   synopsis:
-    "Este es el último capítulo de Tocar la Copa, la serie de Colo Colo 91, y quizás el más emocionante. Este es el capítulo de la hinchada, del sentimiento, de cómo se vivió en Chile el logro y de cómo, los jugadores, 30 años después siguen recibiendo inmensas muestras de gratitud. Una producción del Laboratorio de Contenidos de Marca de La Tercera, presentada por Adidas y en alianza con Eternos Campeones 91, la agrupación de ex jugadores del Cacique que reúne a los protagonistas de la hazaña.",
+    "Este es el último capítulo de Tocar la Copa, la serie de Colo Colo 91, y quizás el más emocionante. Este es el capítulo de la hinchada, del sentimiento, de cómo se vivió en Chile el logro y de cómo, los jugadores, 30 años después siguen recibiendo inmensas muestras de gratitud.",
   mainlink: "https://www.latercera.com/tocar-la-copa/08-la-hinchada/",
   secondarylink:
     "https://www.latercera.com/el-deportivo/noticia/tocar-la-copa-la-serie-que-pronto-revivira-el-camino-de-colo-colo-a-30-anos-de-la-unica-libertadores/E32FJ4EVLBDSHFPYVFTEOJOIZQ/",

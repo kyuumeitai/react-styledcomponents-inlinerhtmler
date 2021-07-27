@@ -324,6 +324,23 @@ const WrapVideo = styled.div`
   }
 `;
 
+const templateChilds = (quantity) => {
+  return `
+    &:nth-of-type(${quantity}n + 1) {
+      transform-origin: left center;
+      @media (max-width: 800px) {
+        transform-origin: center center;
+      }
+    }
+    &:nth-of-type(${quantity}n + 0) {
+      transform-origin: right center;
+      @media (max-width: 800px) {
+        transform-origin: center center;
+      }
+    }
+  `;
+};
+
 const Wrap = styled.div`
   overflow: hidden;
   font-family: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;
@@ -369,9 +386,16 @@ const WrapMenu = styled.div`
   &.wrapchapters-available {
     padding-bottom: 0px;
   }
+
   .hero-chapters {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+
+    grid-template-columns: ${(props) =>
+      props.chaptersPerRow
+        ? () => `repeat(${props.chaptersPerRow}, 1fr)`
+        : "repeat(3, 1fr)"};
+
     grid-gap: 10px;
     padding: 18px 4% 12px 4%;
     @media (max-width: 800px) {
@@ -409,6 +433,7 @@ const WrapMenu = styled.div`
       border-radius: 10px;
       overflow: hidden;
       position: relative;
+      grid-column: auto;
       @media (max-width: 800px) {
         &::after {
           position: absolute;
@@ -424,18 +449,9 @@ const WrapMenu = styled.div`
           z-index: 3;
         }
       }
-      &:nth-of-type(3n + 1) {
-        transform-origin: left center;
-        @media (max-width: 800px) {
-          transform-origin: center center;
-        }
-      }
-      &:nth-of-type(3n + 0) {
-        transform-origin: right center;
-        @media (max-width: 800px) {
-          transform-origin: center center;
-        }
-      }
+
+      ${(props) => templateChilds(props.chaptersPerRow)}
+
       &:hover {
         &.available {
           transform: scale(1.4) translate3d(0px, 0px, 0px);
