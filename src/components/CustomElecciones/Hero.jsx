@@ -1,163 +1,35 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import Sharer from './Sharer'
 import Separador from './Separador'
 import LogoElecciones from './LogoElecciones'
 import Bg from './Bg'
-import PercentageBox from './PercentageBox'
-import Title from './Title'
+import Sharer from './Sharer'
 
-const imports = css`
-  @font-face {
-    font-family: 'Acta Display';
-    src: url('https://especiales.latercera.com/11sept-assets/ActaDisplay-ExtraBold.woff2')
-        format('woff2'),
-      url('https://especiales.latercera.com/11sept-assets/ActaDisplay-ExtraBold.woff')
-        format('woff');
-    font-weight: 800;
-    font-style: normal;
-  }
+import Gabriel from './Gabriel'
+import Boric from './Boric'
 
-  @font-face {
-    font-family: 'Acta Book';
-    src: url('https://especiales.latercera.com/11sept-assets/Acta-Book.woff2')
-        format('woff2'),
-      url('https://especiales.latercera.com/11sept-assets/Acta-Book.woff')
-        format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Acta Book';
-    src: url('https://especiales.latercera.com/11sept-assets/Acta-Bold.woff2')
-        format('woff2'),
-      url('https://especiales.latercera.com/11sept-assets/Acta-Bold.woff')
-        format('woff');
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Acta Sans';
-    src: url('https://especiales.latercera.com/11sept-assets/ActaAgate-Book.woff2')
-        format('woff2'),
-      url('https://especiales.latercera.com/11sept-assets/ActaAgate-Book.woff')
-        format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Acta Sans';
-    src: url('https://especiales.latercera.com/11sept-assets/ActaAgate-Bold.woff')
-        format('woff2'),
-      url('https://especiales.latercera.com/11sept-assets/ActaAgate-Bold.woff')
-        format('woff');
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Acta Headline';
-    src: url('https://especiales.latercera.com/11sept-assets/ActaHeadline-Book.woff2')
-        format('woff2'),
-      url('https://especiales.latercera.com/11sept-assets/ActaHeadline-Book.woff')
-        format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Acta Headline';
-    src: url('https://especiales.latercera.com/11sept-assets/ActaHeadline-BookItalic.woff2')
-        format('woff2'),
-      url('https://especiales.latercera.com/11sept-assets/ActaHeadline-BookItalic.woff')
-        format('woff');
-    font-weight: normal;
-    font-style: italic;
-  }
-`
+const imports = css``
 
 const Hero = styled.article`
-  font-family: 'Acta Book', 'Times New Roman', Times, serif;
-  padding: 6rem 1rem 0rem;
+  padding: 1rem 1rem 1rem;
   position: relative;
+  color: white;
+  overflow: hidden;
   .logo {
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 300px;
-  }
-  figure {
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-    figcaption {
-      padding: 6px 1px;
-      font-family: 'Acta Sans', sans-serif;
-      text-transform: uppercase;
-      border-bottom: 1px solid #666;
-      strong {
-        font-weight: bold;
-      }
-      @media (orientation: portrait) {
-        font-size: 0.9rem;
-      }
-      &:before {
-        content: '▲';
-        display: inline-block;
-        margin-right: 4px;
-        margin-left: 4px;
-      }
-    }
-    img {
-      width: 100%;
-      display: block;
-    }
-  }
-
-  h1 {
-    font-family: 'Acta Display', 'Times New Roman', Times, serif;
-    font-size: 4rem;
-    font-weight: normal;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    @media (orientation: portrait) {
-      font-size: 2.8rem;
-    }
-    strong {
-      font-size: 6rem;
-      line-height: 0.8;
-      display: block;
-      font-family: 'Acta Display', 'Times New Roman', Times, serif;
-      position: relative;
-      padding-bottom: 1rem;
-      font-weight: bold;
-      @media (orientation: portrait) {
-        font-size: 4rem;
-      }
-    }
-    line-height: 1;
-    text-align: center;
-    small {
-      font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
-      text-transform: uppercase;
-      font-size: 2.6rem;
-      letter-spacing: 0.1em;
-    }
+    width: 240px;
   }
 `
 
 const Excerpt = styled.p`
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 700px;
+  /* margin-right: auto; */
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 1.6rem;
-  text-align: justify;
+  text-align: left;
   @media (orientation: portrait) {
     text-align: center;
   }
@@ -169,11 +41,47 @@ const Content = styled.div`
 
 const CustomBg = styled.div`
   position: relative;
-  pointer-events: none;
   overflow: hidden;
+  background-color: black;
+
+  .texto {
+    margin-top: 12rem;
+    max-width: 900px;
+    text-align: left;
+    position: relative;
+    z-index: 3;
+
+    h1 {
+      font-weight: normal;
+      @media (orientation: portrait) {
+        font-size: 2.8rem;
+      }
+      strong {
+        font-family: 'Acta Display', serif;
+        font-size: 8rem;
+        line-height: 0.8;
+        display: block;
+        position: relative;
+        padding-bottom: 1rem;
+        font-weight: bold;
+        text-shadow: 5px 5px 0px black, -3px -3px 10px rgba(0, 0, 0, 0.5);
+        @media (orientation: portrait) {
+          font-size: 4rem;
+        }
+      }
+      line-height: 1;
+
+      small {
+        font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+        text-transform: uppercase;
+        font-size: 2.6rem;
+        letter-spacing: 0.1em;
+      }
+    }
+  }
 
   .bg {
-    z-index: -1;
+    z-index: 1;
     position: absolute;
     top: 0;
     left: 0;
@@ -181,20 +89,45 @@ const CustomBg = styled.div`
     bottom: 0;
     overflow: hidden;
     svg {
-      width: 120%;
+      width: 200%;
+      opacity: 0.3;
     }
   }
-`
+  .fotobg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    img {
+      width: 100%;
+    }
+  }
+  .gabriel {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+    pointer-events: none;
+    width: 60%;
+    opacity: 0.6;
+    z-index: 3;
+  }
+  .boric {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 50%;
+    opacity: 0.3;
+    z-index: 2;
+  }
 
-const Div5 = styled.div`
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1;
-  grid-gap: 20px;
-  grid-column: span 1 !important;
-  .sep {
-    grid-column: span 1 !important;
-    border-right: 1px dashed #666;
+  .fl-right {
+    text-aligh: right;
+    svg {
+      display: inline-block;
+    }
   }
 `
 
@@ -216,30 +149,40 @@ const Custom = () => {
           <h2 className="logo">
             <LogoElecciones />
           </h2>
-          <h1>
-            <strong>
-              Gabriel
-              <br /> Boric Font
-            </strong>
-            <Separador />
-            <small>Presidente electo de Chile</small>
-          </h1>
-          <Excerpt>
-            Llegará a La Moneda con 36 años, el gobernante más joven de la
-            historia de Chile desde Ramón Freire en 1823. Además, será el primer
-            presidente de una coalición distinta a las dos que dominaron el
-            panorama político desde el retorno a la democracia. Acá, distintos
-            ángulos para comprender a Gabriel Boric Font.
-          </Excerpt>
+          <div className="texto">
+            <h1>
+              <strong>
+                Gabriel
+                <br /> Boric Font
+              </strong>
+              <small>Presidente electo de Chile</small>
+            </h1>
+            <Excerpt>
+              Llegará a La Moneda con 36 años, el gobernante más joven de la
+              historia de Chile desde Ramón Freire en 1823. Además, será el
+              primer presidente de una coalición distinta a las dos que
+              dominaron el panorama político desde el retorno a la democracia.
+              Acá, distintos ángulos para comprender a Gabriel Boric Font.
+            </Excerpt>
 
-          <Sharer
-            url="https://www.latercera.com/gabriel-boric-presidente-chile/"
-            description={``}
-            hashtags="11s"
-          />
+            <Sharer
+              url="https://www.latercera.com/gabriel-boric-presidente-chile/"
+              description={`Gabriel Boric Font - Presidente Electo de Chile - La Tercera`}
+              hashtags="PresidenteBoric"
+            />
+          </div>
         </Hero>
         <div className="bg">
           <Bg />
+        </div>
+
+        <Gabriel className="gabriel" />
+        <Boric className="boric" />
+        <div className="fotobg">
+          <img
+            src="https://especiales.latercera.com/boric-presidente-assets/president-boric.jpg"
+            alt="Gabriel Boric Presidente"
+          />
         </div>
       </MaxWidth>
     </CustomBg>

@@ -112,6 +112,33 @@ const Div5 = styled.div`
   .sep {
     grid-column: span 1 !important;
     border-right: 1px dashed #666;
+    &:last-child {
+      border-right: none;
+    }
+  }
+  @media (orientation: portrait) {
+    grid-template-columns: 1fr;
+    .sep {
+      border-right: none;
+      border-bottom: 1px dashed #666;
+      padding-bottom: 1rem;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    .sep {
+      border-right: none;
+      border-bottom: 1px dashed #666;
+      padding-bottom: 1rem;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
   }
 `
 
