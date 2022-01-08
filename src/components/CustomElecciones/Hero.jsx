@@ -155,14 +155,18 @@ const Custom = () => {
                 Gabriel
                 <br /> Boric Font
               </strong>
-              <small>Presidente electo de Chile</small>
+              <small>
+                Una nueva generación
+                <br /> entra a La Moneda
+              </small>
             </h1>
             <Excerpt>
-              Llegará a La Moneda con 36 años, el gobernante más joven de la
-              historia de Chile desde Ramón Freire en 1823. Además, será el
-              primer presidente de una coalición distinta a las dos que
-              dominaron el panorama político desde el retorno a la democracia.
-              Acá, distintos ángulos para comprender a Gabriel Boric Font.
+              Llegará con 36 años, el gobernante{' '}
+              <strong>más joven de la historia de Chile</strong> desde Ramón
+              Freire en 1823. Además, será el primer presidente de una coalición
+              distinta a las dos que dominaron el panorama político desde el
+              retorno a la democracia. Acá, distintos ángulos para comprender a
+              Gabriel Boric Font.
             </Excerpt>
 
             <Sharer

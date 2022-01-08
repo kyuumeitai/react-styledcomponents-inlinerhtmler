@@ -167,12 +167,15 @@ const Custom = () => {
                 Gabriel
                 <br /> Boric Font
               </strong>
-              <small>Presidente electo de Chile</small>
+              <small>
+                Una nueva generación
+                <br /> entra a La Moneda
+              </small>
             </h1>
             <Excerpt>
-              Llegará a La Moneda con 36 años, el gobernante más joven de la
-              historia de Chile desde Ramón Freire en 1823. Revisa este
-              especial.
+              Llegará con 36 años,{' '}
+              <strong>el gobernante más joven de la historia de Chile</strong>{' '}
+              desde Ramón Freire en 1823. Revisa este especial.
             </Excerpt>
             <Button>Ver el especial</Button>
           </div>
