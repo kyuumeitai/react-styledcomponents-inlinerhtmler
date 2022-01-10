@@ -2,7 +2,8 @@ import React from 'react'
 import LogoBox from '../Logo2022Box'
 import LogoWide from '../Logo2022Wide'
 import styled from 'styled-components'
-import { QuePasa } from '@labcon/copesa-logos'
+import { Pulso, QuePasa } from '@labcon/copesa-logos'
+import Por from '../Por'
 
 const LogoWrap = styled.div`
   .logowide{
@@ -34,9 +35,12 @@ const Wrap = styled.div`
   gap: 1rem;
   > div {
     grid-column: span 1 !important;
+    > div {
+      grid-column: span 1 !important;
+    }
   }
   @media (max-width: 768px) {
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 120px 1fr;
   }
 `
 
@@ -48,7 +52,7 @@ const Presented = styled.div`
 
 const PresentedWrap = styled.div`
   background-color: white;
-  padding: 1rem;
+  padding: 10px;
   span {
     font-size: 11px;
     font-size: 0.8rem;
@@ -57,6 +61,15 @@ const PresentedWrap = styled.div`
     font-family: 'Roboto Condensed', franklin-gothic-urw, helvetica, arial,
       verdana, sans-serif;
     margin-right: 6px;
+    display: block;
+    text-align: right;
+  }
+  img {
+    max-width: 130px;
+    margin-right: auto;
+    @media (max-width: 768px) {
+      max-width: 80px;
+    }
   }
 `
 const Section = styled.div`
@@ -84,32 +97,50 @@ const SectionWrap = styled.div`
 const RestWrap = styled.div`
   background-color: ${props => (props.bgColor ? props.bgColor : 'black')};
   display: grid;
-  grid-template-columns: 140px 1fr;
+  grid-template-columns: 1fr 200px;
   @media (max-width: 768px) {
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 1fr 120px;
   }
 `
 
-const Custom2022Widget = ({ bgColor = '#4bc7bd' }) => {
+const PorWrap = styled.div``
+const OverWrap = styled.div``
+
+const Custom2022Widget = ({ bgColor = '#666' }) => {
   return (
-    <Wrap>
-      <LogoWrap>
-        <LogoBox className="logobox" mainColor={bgColor} />
-        <LogoWide className="logowide" mainColor={bgColor} />
-      </LogoWrap>
-      <RestWrap bgColor={bgColor}>
-        <SectionWrap>
-          <Section>
-            <QuePasa schema="light" />
-          </Section>
-        </SectionWrap>
-        <Presented>
-          {/* <PresentedWrap>
-            <span>Presentado por: </span>
-          </PresentedWrap> */}
-        </Presented>
-      </RestWrap>
-    </Wrap>
+    <OverWrap>
+      <Wrap>
+        <LogoWrap>
+          <LogoBox className="logobox" mainColor={bgColor} />
+          <LogoWide className="logowide" mainColor={bgColor} />
+        </LogoWrap>
+        <RestWrap bgColor={bgColor}>
+          <SectionWrap>
+            <Section>
+              <Pulso schema="light" />
+            </Section>
+          </SectionWrap>
+          <Presented>
+            <PresentedWrap>
+              <span>Presentado por: </span>
+              <a
+                href="https://hubs.la/Q011K6860"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img
+                  src="https://www.latercera.com/resizer/82zRu9MhOiDbprFGFmjsON-bjNw=/arc-anglerfish-arc2-prod-copesa/public/ASHNSPSGDJEQNIQ2NKAU3WULHI.png
+"
+                  alt="Buk"
+                />
+              </a>
+            </PresentedWrap>
+          </Presented>
+        </RestWrap>
+      </Wrap>
+      <PorWrap>
+        <Por brand={<QuePasa schema="light" />} />
+      </PorWrap>
+    </OverWrap>
   )
 }
 

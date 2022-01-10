@@ -34,9 +34,12 @@ const Wrap = styled.div`
   gap: 1rem;
   > div {
     grid-column: span 1 !important;
+    > div {
+      grid-column: span 1 !important;
+    }
   }
   @media (max-width: 768px) {
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 120px 1fr;
   }
 `
 
@@ -48,7 +51,7 @@ const Presented = styled.div`
 
 const PresentedWrap = styled.div`
   background-color: white;
-  padding: 1rem;
+  padding: 10px;
   span {
     font-size: 11px;
     font-size: 0.8rem;
@@ -57,6 +60,15 @@ const PresentedWrap = styled.div`
     font-family: 'Roboto Condensed', franklin-gothic-urw, helvetica, arial,
       verdana, sans-serif;
     margin-right: 6px;
+    display: block;
+    text-align: center;
+  }
+  img {
+    max-width: 130px;
+    margin-right: auto;
+    @media (max-width: 768px) {
+      max-width: 80px;
+    }
   }
 `
 const Section = styled.div`
@@ -104,9 +116,19 @@ const Custom2022Widget = ({ bgColor = '#4bc7bd' }) => {
           </Section>
         </SectionWrap>
         <Presented>
-          {/* <PresentedWrap>
+          <PresentedWrap>
             <span>Presentado por: </span>
-          </PresentedWrap> */}
+            <a
+              href="https://www.ivitalia.cl/"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img
+                src="https://www.latercera.com/resizer/PYQxSGhSv9HpkjNGocj701g8cDE=/arc-anglerfish-arc2-prod-copesa/public/J2TK5HCGWVEA5L36DRDQEYSO2U.png
+"
+                alt="Vitalia"
+              />
+            </a>
+          </PresentedWrap>
         </Presented>
       </RestWrap>
     </Wrap>

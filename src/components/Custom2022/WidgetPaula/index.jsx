@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import { Paula } from '@labcon/copesa-logos'
 
 const LogoWrap = styled.div`
-
   .logowide{
     display: block;
   }
@@ -16,7 +15,8 @@ const LogoWrap = styled.div`
   padding-bottom: 15px;
 
   @media(max-width: 768px) {
-    padding: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
     .logowide{
       display: none;
     }
@@ -34,6 +34,9 @@ const Wrap = styled.div`
   gap: 1rem;
   > div {
     grid-column: span 1 !important;
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: 150px 1fr;
   }
 `
 
@@ -59,10 +62,16 @@ const PresentedWrap = styled.div`
 const Section = styled.div`
   display: block;
   padding: 15px;
+  @media (max-width: 768px) {
+    padding: 4px;
+  }
   svg {
     max-width: 100%;
     height: 200px;
     max-height: 80px;
+    @media (max-width: 768px) {
+      max-height: 40px;
+    }
   }
 `
 

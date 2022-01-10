@@ -2,7 +2,7 @@ import React from 'react'
 import LogoBox from '../Logo2022Box'
 import LogoWide from '../Logo2022Wide'
 import styled from 'styled-components'
-import { QuePasa } from '@labcon/copesa-logos'
+import { Paula } from '@labcon/copesa-logos'
 
 const LogoWrap = styled.div`
   .logowide{
@@ -90,17 +90,17 @@ const RestWrap = styled.div`
   }
 `
 
-const Custom2022Widget = ({ bgColor = '#4bc7bd' }) => {
+const Custom2022Widget = ({ bgColor = '#FDDDD1' }) => {
   return (
     <Wrap>
       <LogoWrap>
-        <LogoBox className="logobox" mainColor={bgColor} />
-        <LogoWide className="logowide" mainColor={bgColor} />
+        <LogoBox className="logobox" mainColor="#EA9898" />
+        <LogoWide className="logowide" mainColor="#EA9898" />
       </LogoWrap>
       <RestWrap bgColor={bgColor}>
         <SectionWrap>
           <Section>
-            <QuePasa schema="light" />
+            <Paula />
           </Section>
         </SectionWrap>
         <Presented>
