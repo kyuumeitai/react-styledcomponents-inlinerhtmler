@@ -20,7 +20,8 @@
     "react-select": "^3.1.0",
     "styled-components": "^5.0.1",
     "styled-reset": "^4.1.2",
-    "yup": "^0.28.3"
+    "yup": "^0.28.3",
+    "@labcon/copesa-logos": "git+https://bitbucket.org/labcon/copesa-logos.git"
   },
   "scripts": {
     "start": "HOST=0.0.0.0 react-scripts start",
