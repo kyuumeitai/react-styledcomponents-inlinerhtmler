@@ -2,7 +2,7 @@ import React from 'react'
 import LogoBox from '../Logo2022Box'
 import LogoWide from '../Logo2022Wide'
 import styled from 'styled-components'
-import { LaTerceraPM, Culto } from '@labcon/copesa-logos'
+import { Paula, Culto } from '@labcon/copesa-logos'
 import Por from '../Por'
 
 const LogoWrap = styled.div`
@@ -78,9 +78,6 @@ const Section = styled.div`
   @media (max-width: 768px) {
     padding: 4px;
   }
-  &.ltpm {
-    padding-bottom: 0;
-  }
   svg {
     max-width: 100%;
     height: 200px;
@@ -109,31 +106,31 @@ const RestWrap = styled.div`
 const PorWrap = styled.div``
 const OverWrap = styled.div``
 
-const Custom2022Widget = ({ bgColor = '#24364e' }) => {
+const Custom2022Widget = ({ bgColor = '#FDDDD1' }) => {
   return (
     <OverWrap>
       <Wrap>
         <LogoWrap>
-          <LogoBox className="logobox" mainColor={bgColor} />
-          <LogoWide className="logowide" mainColor={bgColor} />
+          <LogoBox className="logobox" mainColor="#EA9898" />
+          <LogoWide className="logowide" mainColor="#EA9898" />
         </LogoWrap>
         <RestWrap bgColor={bgColor}>
           <SectionWrap>
-            <Section className="ltpm">
-              <LaTerceraPM schema="light" />
+            <Section>
+              <Paula />
             </Section>
           </SectionWrap>
           <Presented>
             <PresentedWrap>
               <span>Presentado por: </span>
               <a
-                href="https://www.ivitalia.cl/"
+                href="https://www.wa2.cl/?utm_source=latercerapaula&utm_medium=web&utm_campaign=2022"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
-                  src="https://www.latercera.com/resizer/PYQxSGhSv9HpkjNGocj701g8cDE=/arc-anglerfish-arc2-prod-copesa/public/J2TK5HCGWVEA5L36DRDQEYSO2U.png
+                  src="https://www.latercera.com/resizer/Oqf0OLiRHjYGCkDtr5kj20OBNk8=/arc-anglerfish-arc2-prod-copesa/public/AYWNA6GQL5F23B3JTDCAWGSSEI.png
 "
-                  alt="Vitalia"
+                  alt="Wados"
                 />
               </a>
             </PresentedWrap>

@@ -2,8 +2,7 @@ import React from 'react'
 import LogoBox from '../Logo2022Box'
 import LogoWide from '../Logo2022Wide'
 import styled from 'styled-components'
-import { LaTerceraPM, Culto } from '@labcon/copesa-logos'
-import Por from '../Por'
+import { Paula, Culto } from '@labcon/copesa-logos'
 
 const LogoWrap = styled.div`
   .logowide{
@@ -109,41 +108,36 @@ const RestWrap = styled.div`
 const PorWrap = styled.div``
 const OverWrap = styled.div``
 
-const Custom2022Widget = ({ bgColor = '#24364e' }) => {
+const Custom2022Widget = ({ bgColor = '#508afa' }) => {
   return (
-    <OverWrap>
-      <Wrap>
-        <LogoWrap>
-          <LogoBox className="logobox" mainColor={bgColor} />
-          <LogoWide className="logowide" mainColor={bgColor} />
-        </LogoWrap>
-        <RestWrap bgColor={bgColor}>
-          <SectionWrap>
-            <Section className="ltpm">
-              <LaTerceraPM schema="light" />
-            </Section>
-          </SectionWrap>
-          <Presented>
-            <PresentedWrap>
-              <span>Presentado por: </span>
-              <a
-                href="https://www.ivitalia.cl/"
-                target="_blank"
-                rel="noopener noreferrer">
-                <img
-                  src="https://www.latercera.com/resizer/PYQxSGhSv9HpkjNGocj701g8cDE=/arc-anglerfish-arc2-prod-copesa/public/J2TK5HCGWVEA5L36DRDQEYSO2U.png
+    <Wrap>
+      <LogoWrap>
+        <LogoBox className="logobox" mainColor={bgColor} />
+        <LogoWide className="logowide" mainColor={bgColor} />
+      </LogoWrap>
+      <RestWrap bgColor={bgColor}>
+        <SectionWrap>
+          <Section className="ltpm">
+            <Culto />
+          </Section>
+        </SectionWrap>
+        <Presented>
+          {/* <PresentedWrap>
+            <span>Presentado por: </span>
+            <a
+              href="https://www.wa2.cl/?utm_source=latercerapaula&utm_medium=web&utm_campaign=2022"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img
+                src="https://www.latercera.com/resizer/Oqf0OLiRHjYGCkDtr5kj20OBNk8=/arc-anglerfish-arc2-prod-copesa/public/AYWNA6GQL5F23B3JTDCAWGSSEI.png
 "
-                  alt="Vitalia"
-                />
-              </a>
-            </PresentedWrap>
-          </Presented>
-        </RestWrap>
-      </Wrap>
-      <PorWrap>
-        <Por brand={<Culto schema="light" />} />
-      </PorWrap>
-    </OverWrap>
+                alt="Wados"
+              />
+            </a>
+          </PresentedWrap> */}
+        </Presented>
+      </RestWrap>
+    </Wrap>
   )
 }
 
