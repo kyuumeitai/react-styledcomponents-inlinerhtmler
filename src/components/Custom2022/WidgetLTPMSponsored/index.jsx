@@ -2,7 +2,7 @@ import React from 'react'
 import LogoBox from '../Logo2022Box'
 import LogoWide from '../Logo2022Wide'
 import styled from 'styled-components'
-import { LaTerceraPM, Culto } from '@labcon/copesa-logos'
+import { LaTerceraPM, Pulso } from '@labcon/copesa-logos'
 import Por from '../Por'
 
 const LogoWrap = styled.div`
@@ -141,7 +141,7 @@ const Custom2022Widget = ({ bgColor = '#24364e' }) => {
         </RestWrap>
       </Wrap>
       <PorWrap>
-        <Por brand={<Culto schema="light" />} />
+        <Por brand={<Pulso schema="light" />} />
       </PorWrap>
     </OverWrap>
   )
