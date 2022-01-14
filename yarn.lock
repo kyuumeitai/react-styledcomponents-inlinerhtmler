@@ -1386,7 +1386,7 @@
 
 "@labcon/copesa-logos@git+https://bitbucket.org/labcon/copesa-logos.git":
   version "2.0.6"
-  resolved "git+https://bitbucket.org/labcon/copesa-logos.git#d7f6d3d49e422b34b4560752817d4b1617b3aa86"
+  resolved "git+https://bitbucket.org/labcon/copesa-logos.git#0fd410078f912a2b87aecfe571f5d9c68c5d92a9"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"

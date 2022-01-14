@@ -2,7 +2,7 @@ import React from 'react'
 import LogoBox from '../Logo2022Box'
 import LogoWide from '../Logo2022Wide'
 import styled from 'styled-components'
-import { Pulso, LaTercera } from '@labcon/copesa-logos'
+import { LaTercera } from '@labcon/copesa-logos'
 import Por from '../Por'
 
 const LogoWrap = styled.div`
@@ -78,6 +78,9 @@ const Section = styled.div`
   @media (max-width: 768px) {
     padding: 4px;
   }
+  &.ltpm {
+    padding-bottom: 0;
+  }
   svg {
     max-width: 100%;
     height: 200px;
@@ -106,7 +109,7 @@ const RestWrap = styled.div`
 const PorWrap = styled.div``
 const OverWrap = styled.div``
 
-const Custom2022Widget = ({ bgColor = '#666' }) => {
+const Custom2022Widget = ({ bgColor = '#000' }) => {
   return (
     <OverWrap>
       <Wrap>
@@ -116,20 +119,21 @@ const Custom2022Widget = ({ bgColor = '#666' }) => {
         </LogoWrap>
         <RestWrap bgColor={bgColor}>
           <SectionWrap>
-            <Section>
-              <Pulso schema="light" />
+            <Section className="ltpm">
+              <LaTercera schema="light" />
             </Section>
           </SectionWrap>
           <Presented>
             <PresentedWrap>
               <span>Presentado por: </span>
               <a
-                href="https://hubs.la/Q011K6860"
+                href="https://www.ivitalia.cl/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
-                  src="https://www.latercera.com/resizer/82zRu9MhOiDbprFGFmjsON-bjNw=/arc-anglerfish-arc2-prod-copesa/public/ASHNSPSGDJEQNIQ2NKAU3WULHI.png"
-                  alt="Buk"
+                  src="https://www.latercera.com/resizer/PYQxSGhSv9HpkjNGocj701g8cDE=/arc-anglerfish-arc2-prod-copesa/public/J2TK5HCGWVEA5L36DRDQEYSO2U.png
+"
+                  alt="Vitalia"
                 />
               </a>
             </PresentedWrap>
@@ -137,7 +141,7 @@ const Custom2022Widget = ({ bgColor = '#666' }) => {
         </RestWrap>
       </Wrap>
       <PorWrap>
-        <Por brand={<LaTercera schema="light" />} />
+        <Por brand={<LaTercera schema="white" />} />
       </PorWrap>
     </OverWrap>
   )

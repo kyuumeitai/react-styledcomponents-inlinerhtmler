@@ -5,7 +5,7 @@ const Wrap = styled.div`
   grid-column: 1 / -1 !important;
   position: relative;
   background-color: black;
-  padding: 4px;
+  padding: 6px;
   &::after {
     content: '';
     display: block;
@@ -21,8 +21,8 @@ const Logo = styled.div`
   padding-left: 10px;
 
   svg {
-    height: 30px;
-    max-height: 30px;
+    height: 20px;
+    max-height: 20px;
   }
 `
 
