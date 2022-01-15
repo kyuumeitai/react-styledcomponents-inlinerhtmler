@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './Card'
 import Hero from './Hero'
 import SideCard from './SideCard'
+import Credits from './Credits'
 import styled from 'styled-components'
 
 const content = {
@@ -225,6 +226,7 @@ const CustomTheMatchProject = () => {
           )
         })}
       </Wrap>
+      <Credits />
     </Overall>
   )
 }
