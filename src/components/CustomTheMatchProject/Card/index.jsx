@@ -1,17 +1,27 @@
 import React from 'react'
-
+import styled from 'styled-components'
+import Button from '../Button'
+const CardStyled = styled.div`
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+  img {
+    max-width: 100%;
+  }
+`
 const Card = ({ date, title, image, url }) => {
   return (
-    <div>
+    <CardStyled>
       <div>
         <img src={image} alt={title} />
       </div>
       <time>{date}</time>
       <h2>{title}</h2>
-      <a href={url} target="_blank">
-        ver
-      </a>
-    </div>
+      <Button href={url}>ver</Button>
+    </CardStyled>
   )
 }
 
