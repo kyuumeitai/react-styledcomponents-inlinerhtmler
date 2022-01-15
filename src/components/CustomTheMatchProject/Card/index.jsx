@@ -46,7 +46,7 @@ const Card = ({ date, title, image, url }) => {
           {title}
         </a>
       </h2>
-      <Button href={url}>ver</Button>
+      <Button href={url}>view</Button>
     </CardStyled>
   )
 }

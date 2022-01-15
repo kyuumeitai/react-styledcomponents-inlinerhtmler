@@ -7,6 +7,7 @@ const SideCardStyled = styled.div`
   grid-template-columns: 60% 1fr;
   grid-gap: 1rem;
   grid-column: 1 / -1;
+  align-items: center;
   > div {
     grid-column: span 1;
   }
@@ -52,21 +53,31 @@ const SideCardStyled = styled.div`
     font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
     letter-spacing: 0.05em;
   }
+  p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+    margin-bottom: 1rem;
+  }
 `
 
 const SideCard = ({ date, title, image, url, description, side }) => {
   return (
     <SideCardStyled className={side}>
       <figure>
-        <img src={image} alt={title} />
+        <a href={url} target="_blank">
+          <img src={image} alt={title} />
+        </a>
       </figure>
       <div className="sidecard-content">
         <time>{date}</time>
-        <h2>{title}</h2>
+        <h2>
+          <a href={url} target="_blank">
+            {title}
+          </a>
+        </h2>
         <p dangerouslySetInnerHTML={{ __html: description }}></p>
-        <a href={url} target="_blank">
-          ver
-        </a>
+        <Button href={url}>view</Button>
       </div>
     </SideCardStyled>
   )
