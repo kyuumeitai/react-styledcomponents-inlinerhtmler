@@ -16,17 +16,33 @@ const SideCardStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    img {
+      max-width: 100%;
+    }
   }
   &.left {
   }
   &.right {
     grid-template-columns: 1fr 60%;
+
     .sidecard-content {
       order: 0;
     }
     figure {
       order: 1;
     }
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      figure {
+        order: 0;
+      }
+      .sidecard-content {
+        order: 1;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
   }
   border-bottom: 1px solid black;
   padding-bottom: 25px;
