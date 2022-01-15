@@ -6,7 +6,7 @@ const CardStyled = styled.div`
   background-color: white;
   border-radius: 8px;
   border: 1px solid black;
-  padding: 1rem;
+  padding: 1rem 1rem 2rem;
   text-align: center;
   img {
     max-width: 100%;
@@ -14,6 +14,7 @@ const CardStyled = styled.div`
   h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     font-weight: bold;
     line-height: 1.1;
     font-family: 'miller-headline', serif;
@@ -39,7 +40,7 @@ const Card = ({ date, title, image, url }) => {
           <img src={image} alt={title} />
         </a>
       </div>
-      <time>{date}</time>
+      {/* <time>{date}</time> */}
       <h2>
         <a href={url} target="_blank">
           {title}

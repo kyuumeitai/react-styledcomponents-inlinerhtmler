@@ -16,10 +16,25 @@ const HeroStyled = styled.div`
       margin-left: auto;
       margin-right: auto;
       p {
+        font-size: 1.6rem;
         font-family: 'Acta Book', serif;
         line-height: 1.2;
         text-align: center;
+        padding-bottom: 1rem;
       }
+    }
+  }
+  .children-wrap {
+    padding: 1rem 1rem 0;
+    span {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+      font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+      display: block;
     }
   }
 `
@@ -59,7 +74,10 @@ const Hero = ({ text, children }) => {
         <div
           className="excerpt"
           dangerouslySetInnerHTML={{ __html: text }}></div>
-        {children}
+        <div className="children-wrap">
+          <span>Relevant Features</span>
+          {children}
+        </div>
       </div>
     </HeroStyled>
   )

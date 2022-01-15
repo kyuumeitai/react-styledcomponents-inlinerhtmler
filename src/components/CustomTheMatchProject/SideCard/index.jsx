@@ -30,6 +30,28 @@ const SideCardStyled = styled.div`
   border-bottom: 1px solid black;
   padding-bottom: 25px;
   padding-top: 25px;
+  img {
+    max-width: 100%;
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.1;
+    font-family: 'miller-headline', serif;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  time {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+    letter-spacing: 0.05em;
+  }
 `
 
 const SideCard = ({ date, title, image, url, description, side }) => {
