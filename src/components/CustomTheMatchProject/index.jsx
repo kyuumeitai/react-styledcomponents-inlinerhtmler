@@ -16,28 +16,26 @@ const content = {
 
     {
       date: 'Enero 2021',
-      title: 'Quiénes son los candidatos ',
+      title: 'Quiénes son los candidatos',
       image: 'https://picsum.photos/300/200',
-
       url: 'https://www.google.com',
     },
     {
       date: 'Enero 2021',
       title: 'Tu Match Constituyente: Candidatos Constituyentes',
       image: 'https://picsum.photos/300/200',
-
       url:
         'https://interactivo.latercera.com/tu-match-constituyente/candidatos-constituyentes/',
     },
     {
       date: 'Enero 2021',
-      title: 'lorem',
+      title: 'Así piensa la nueva Convención',
       image: 'https://picsum.photos/300/200',
       url: 'https://www.google.com',
     },
     {
       date: 'Enero 2021',
-      title: 'lorem',
+      title: 'Cómo piensan las listas de la Convención',
       image: 'https://picsum.photos/300/200',
       url: 'https://www.google.com',
     },
@@ -45,7 +43,7 @@ const content = {
   side: [
     {
       date: 'Enero 2021',
-      title: 'lorem',
+      title: 'Conoce a los convencionales',
       image: 'https://picsum.photos/300/200',
       url: 'https://www.google.com',
       description:
@@ -53,7 +51,7 @@ const content = {
     },
     {
       date: 'Enero 2021',
-      title: 'lorem',
+      title: 'Los Elegidos',
       image: 'https://picsum.photos/300/200',
       url: 'https://www.google.com',
       description:
@@ -61,7 +59,31 @@ const content = {
     },
     {
       date: 'Enero 2021',
-      title: 'lorem',
+      title: 'Tu Match Presidencial: Edición primarias',
+      image: 'https://picsum.photos/300/200',
+      url: 'https://www.google.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    },
+    {
+      date: 'Enero 2021',
+      title: 'Tu Match Electoral',
+      image: 'https://picsum.photos/300/200',
+      url: 'https://www.google.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    },
+    {
+      date: 'Enero 2021',
+      title: 'Los candidatos electos',
+      image: 'https://picsum.photos/300/200',
+      url: 'https://www.google.com',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    },
+    {
+      date: 'Enero 2021',
+      title: 'Cómo piensa el congreso',
       image: 'https://picsum.photos/300/200',
       url: 'https://www.google.com',
       description:

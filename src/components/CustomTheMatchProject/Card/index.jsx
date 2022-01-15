@@ -11,15 +11,40 @@ const CardStyled = styled.div`
   img {
     max-width: 100%;
   }
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.1;
+    font-family: 'miller-headline', serif;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  time {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+    letter-spacing: 0.05em;
+  }
 `
 const Card = ({ date, title, image, url }) => {
   return (
     <CardStyled>
       <div>
-        <img src={image} alt={title} />
+        <a href={url} target="_blank">
+          <img src={image} alt={title} />
+        </a>
       </div>
       <time>{date}</time>
-      <h2>{title}</h2>
+      <h2>
+        <a href={url} target="_blank">
+          {title}
+        </a>
+      </h2>
       <Button href={url}>ver</Button>
     </CardStyled>
   )
