@@ -205,7 +205,7 @@ const Wrap = styled.div`
 const CustomTheMatchProject = () => {
   return (
     <Overall>
-      <Hero text="<p> We begin our project with one question: how we could help our audiences to understand the constitutional process and get to know the candidates that aspired to be part of the organ that would write the new Chilean constitution (and their positions on key topics).</p><p>After a year, several iterations and products, we created an interactive, intuitive, easy, and entertaining tool to help people to be involved and participate in such an important election process we had during 2021. At the same time, we built datasets with information that no other media have and that let us publish relevant and interesting analyses about the elected bodies and the possible political outcomes of these elections in the future of our country.</p>">
+      <Hero text="<p> We begin our project with one question: how we could help our audiences to understand the constitutional process and get to know the candidates that aspired to be part of the organ that would write the new Chilean constitution (and their positions on key topics).</p><p>After a year, several iterations and products, we created an interactive, intuitive, easy, and entertaining tool to help people to be involved and participate in such an important election process we had during 2021. At the same time, we built datasets with information that no other media had and that let us publish relevant and interesting analyses about the elected bodies and the possible political outcomes of these elections in the future of our country.</p>">
         <Columns>
           {content.card.map((item, index) => {
             return <Card {...item} key={index} />
@@ -226,7 +226,7 @@ const CustomTheMatchProject = () => {
           )
         })}
       </Wrap>
-      <Credits />
+      {/* <Credits /> */}
     </Overall>
   )
 }
