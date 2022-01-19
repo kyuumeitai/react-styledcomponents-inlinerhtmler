@@ -40,6 +40,14 @@ const LogoWrap = styled.div`
     padding-top: 4px;
     padding-bottom: 4px;
   }
+  svg{
+    max-width: 100%;
+    height: 200px;
+    max-height: 80px;
+    @media (max-width: 768px) {
+      max-height: 40px;
+    }
+  }
 }
 `
 
@@ -73,8 +81,8 @@ const Presented = styled.div`
     display: block;
   }
   a.logo1 {
-    max-width: 140px;
-    margin-right: 10px;
+    max-width: 160px;
+    margin-right: 40px;
   }
   a.logo2 {
     max-width: 130px;

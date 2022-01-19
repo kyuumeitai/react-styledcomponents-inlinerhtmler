@@ -2,7 +2,7 @@ import * as React from 'react'
 
 function SvgLogoCongresoFuturo(props) {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 322.48 131" {...props}>
+    <svg viewBox="0 0 322.48 131" {...props}>
       <defs>
         <linearGradient
           id="logo-congreso-futuro_svg__b"
