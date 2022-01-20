@@ -2,6 +2,8 @@ import React from 'react'
 import Sharer from '../Sharer'
 import styled from 'styled-components'
 import Ficha from '../Ficha'
+import data from '../Data'
+import LogoGabinete from '../LogoGabinete'
 
 const Excerpt = styled.p`
   max-width: 700px;
@@ -27,9 +29,27 @@ const HeaderWrap = styled.div`
 }
 `
 
+const Wrap = styled.div`
+  display: grid;
+  padding: 0 30px;
+  @media (max-width: 768px) {
+    padding: 0 10px;
+  }
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  grid-column: span 1 !important;
+  > article {
+    grid-column: span 1 !important;
+  }
+  @media (orientation: portrait) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`
+
 const Header = () => {
   return (
     <HeaderWrap>
+      <LogoGabinete />
       <h1>Conoce a los 24 ministros del nuevo gobierno</h1>
       <Sharer
         className="sharer"
@@ -38,11 +58,12 @@ const Header = () => {
         hashtags="GabineteDeBoricLT"
       />
       <Excerpt>
-        Llegará con 36 años, el gobernante{' '}
-        <strong>más joven de la historia de Chile</strong> desde Ramón Freire en
-        1823. Además, será el primer presidente de una coalición distinta a las
-        dos que dominaron el panorama político desde el retorno a la democracia.
-        Acá, distintos ángulos para comprender a Gabriel Boric Font.
+        El Presidente electo anunció hoy lo que será su nuevo gabinete. Se trata
+        de 24 hombres y mujeres que desde el 11 de marzo asumirán en sus
+        carteras para dirigir las políticas públicas sectoriales respectivas y
+        darle forma a lo que será el primer gobierno del Frente Amplio. Estas
+        son las biografías de las nuevas autoridades que integrarán el Ejecutivo
+        durante los próximos cuatro años.
       </Excerpt>
     </HeaderWrap>
   )
@@ -50,19 +71,26 @@ const Header = () => {
 
 const Body = () => {
   return (
-    <div>
-      <Ficha
-        nombre="Gabriel Boric"
-        cargo="Presidente"
-        edad="36 años"
-        partido="Partido de los Trabajadores"
-        profesion="Político"
-        nivelAcademico="Licenciado en Derecho"
-        colegio="Colegio de Derecho"
-        universidad="Universidad de Chile"
-        biografia="Gabriel Boric es un político chileno"
-      />
-    </div>
+    <Wrap>
+      {data.map((item, index) => {
+        return (
+          <Ficha
+            key={index}
+            nombre={item.nombre}
+            cargo={item.cargo}
+            edad={item.edad}
+            partido={item.partido}
+            profesion={item.profesion}
+            nivelAcademico={item.nivelAcademico}
+            colegio={item.colegio}
+            universidad={item.universidad}
+            biografia={item.biografia}
+            foto={item.foto}
+            url={item.url}
+          />
+        )
+      })}
+    </Wrap>
   )
 }
 
