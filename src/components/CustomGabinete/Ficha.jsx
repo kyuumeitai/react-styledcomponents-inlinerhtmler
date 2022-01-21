@@ -16,6 +16,10 @@ const Header = styled.header`
     font-size: 36px;
     line-height: 1;
     font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+    a {
+      color: #000;
+      text-decoration: none;
+    }
   }
   p {
     text-transform: uppercase;
@@ -28,8 +32,8 @@ const Data = styled.div`
   grid-column: span 1 !important;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 5px;
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
   h3 {
     text-transform: uppercase;
     font-size: 14px;
@@ -108,8 +112,12 @@ const Ficha = ({
   return (
     <Wrap>
       <Header>
-        <Figure src={foto} alt={nombre} />
-        <h2>{nombre}</h2>
+        <a href={url}>
+          <Figure src={foto} alt={nombre} />
+        </a>
+        <h2>
+          <a href={url}>{nombre}</a>
+        </h2>
         <p>{cargo}</p>
       </Header>
       <Data>

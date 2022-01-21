@@ -21,12 +21,11 @@ const HeaderWrap = styled.div`
   margin: 2rem auto;
   max-width: 700px;
   text-align: center;
-  .sharer{
+  .sharer {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-}
 `
 
 const Wrap = styled.div`
@@ -55,7 +54,7 @@ const Header = () => {
         className="sharer"
         url="https://www.latercera.com/el-gabinete-de-gabriel-boric/"
         description={`El gabinete de Gabriel Boric - La Tercera`}
-        hashtags="GabineteDeBoricLT"
+        hashtags="Gabinete,GabineteGabrielBoric,GabineteBoricLT"
       />
       <Excerpt>
         El Presidente electo anunció hoy lo que será su nuevo gabinete. Se trata
