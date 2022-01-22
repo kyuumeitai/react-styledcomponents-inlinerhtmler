@@ -3,7 +3,7 @@ import Sharer from '../Sharer'
 import styled from 'styled-components'
 import Ficha from '../Ficha'
 import data from '../Data'
-import LogoGabinete from '../LogoGabinete'
+import LogoGabineteChico from '../LogoGabineteChico'
 
 const Excerpt = styled.p`
   max-width: 700px;
@@ -48,8 +48,8 @@ const Wrap = styled.div`
 const Header = () => {
   return (
     <HeaderWrap>
-      <LogoGabinete />
-      <h1>Conoce a los 24 ministros del nuevo gobierno</h1>
+      <LogoGabineteChico />
+      <h1>Conoce a los 24 ministros del nuevo gobierno de Gabriel Boric</h1>
       <Sharer
         className="sharer"
         url="https://www.latercera.com/el-gabinete-de-gabriel-boric/"

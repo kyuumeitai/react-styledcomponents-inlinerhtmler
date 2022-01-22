@@ -149,7 +149,7 @@ const Ficha = ({
       <Biografia>
         <p>{biografia}</p>
       </Biografia>
-      <Link href={url}>Ver Ficha</Link>
+      {url.length > 0 && <Link href={url}>Ver Ficha</Link>}
     </Wrap>
   )
 }

@@ -3,10 +3,8 @@ import * as React from 'react'
 function SvgLogoGabinete(props) {
   return (
     <svg
-      data-name="Group 157"
       xmlns="http://www.w3.org/2000/svg"
-      width={361.293}
-      height={258.713}
+      viewBox={`0 0 361.293 258.713`}
       {...props}>
       <defs>
         <clipPath id="logo-gabinete_svg__a">

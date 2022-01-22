@@ -5,8 +5,9 @@ const Wrap = styled.article`
   text-align: center;
   h2 {
     font-weight: bold;
-    font-size: 36px;
-    line-height: 1;
+    font-size: 32px;
+    line-height: 0.9;
+    margin-bottom: 4px;
     font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
     a {
       color: #000;
@@ -16,11 +17,18 @@ const Wrap = styled.article`
   p {
     text-transform: uppercase;
     letter-spacing: 1.8px;
+    line-height: 1.1;
     font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
   }
   &.small {
     h2 {
-      font-size: 16px;
+      font-size: 21px;
+      @media (max-width: 768px) {
+        font-size: 19px;
+      }
+    }
+    p {
+      font-size: 11px;
     }
   }
 `
