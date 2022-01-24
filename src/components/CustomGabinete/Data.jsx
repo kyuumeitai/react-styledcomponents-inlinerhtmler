@@ -232,7 +232,7 @@ const fichas = [
     profesion: 'Periodista',
     nivelAcademico: 'Magíster en Desarrollo y Gestión Pública',
     colegio: "Instituto O'Higgins, Rancagua",
-    universidad: 'Universidad de Chile',
+    universidad: 'Pontificia Universidad Católica',
     biografia:
       'Esteban Valenzuela (57) es militante del Frente Regionalista Verde Social. Es periodista, cientista político e historiador. Ha sido asesor sindical y director de Convergencias Regionalistas de Estudios Aplicados del Sur (Creasur).',
     url:
@@ -264,7 +264,7 @@ const fichas = [
     profesion: 'Ingeniero Civil',
     nivelAcademico: 'Doctor en Ingeniería Civil y Ambiental',
     colegio: 'Craighouse School',
-    universidad: 'Pontificia Universidad Católica de Valparaíso',
+    universidad: 'Pontificia Universidad Católica',
     biografia:
       'Juan Carlos Muñoz (51) es ingeniero civil de la Universidad Católica. Toda su carrera la ha dedicado a los temas de transportes, desde el mundo público y también desde la academia. Entre 2003 y 2004 fue asesor del Ministro de Transportes y Telecomunicaciones para el plan Transantiago. En 2008 también fue miembro del comité de expertos creado por esa misma cartera para mejorar el proyecto Transantiago. Estuvo en el directorio del Metro regional de Valparaíso. También ejerció como director de Metro y asesor de la Dirección de Transporte Público Metropolitano',
     url:
@@ -313,7 +313,7 @@ const fichas = [
     profesion: 'Licenciatura en Física',
     nivelAcademico: 'Doctorado en Física de la Atmósfera',
     colegio: 'Colegio Instituto Santa María',
-    universidad: 'U. de Chile',
+    universidad: 'Universidad de Chile',
     biografia:
       'Maisa Rojas (49) es una reconocida climatóloga chilena. Es independiente. También es académica de la Universidad de Chile y Directora del Centro de Ciencia del Clima y la Resiliencia. Estudió física en la Universidad de Chile y un doctorado en física atmosférica en la Universidad de Oxford. Fue una de las autoras del informe del Panel Intergubernamental de Cambio Climático (IPCC). También se desempeñó como coordinadora del comité científico asesor para la COP25.',
     url:

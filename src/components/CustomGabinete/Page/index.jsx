@@ -11,9 +11,12 @@ const Excerpt = styled.p`
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 1.6rem;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
   @media (orientation: portrait) {
     text-align: center;
+    font-size: 1.3rem;
   }
 `
 
@@ -25,6 +28,9 @@ const HeaderWrap = styled.div`
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+  h1 {
+    line-height: 1.1;
   }
 `
 
@@ -45,10 +51,21 @@ const Wrap = styled.div`
   }
 `
 
+const StLogo = styled.div`
+  max-width: 100%;
+  overflow: hidden;
+  padding: 1px 10px;
+  svg {
+    max-width: 100%;
+  }
+`
+
 const Header = () => {
   return (
     <HeaderWrap>
-      <LogoGabineteChico />
+      <StLogo>
+        <LogoGabineteChico />
+      </StLogo>
       <h1>Conoce a los 24 ministros del nuevo gobierno de Gabriel Boric</h1>
       <Sharer
         className="sharer"
