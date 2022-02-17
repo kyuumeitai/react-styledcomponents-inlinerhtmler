@@ -9,60 +9,43 @@ const Credits = () => (
 
       <p>
         <div className="col">
-          <span>Dirección:</span>
+          <span>Coordinación y Edición:</span>
         </div>
         <div className="col">
-          <strong>Daniela Cruzat</strong>
-        </div>
-      </p>
-      <p>
-        <div className="col">
-          <span>Realización:</span>
-        </div>
-        <div className="col">
-          <strong>Ángel Quinteros</strong>
+          <strong>Juan Manuel Ojeda</strong>
+          <strong>Tania Opazo</strong>
+          <strong>Sebastián Rivas</strong>
         </div>
       </p>
       <p>
         <div className="col">
-          <span>Diseño y animación:</span>
+          <span>Periodistas:</span>
         </div>
         <div className="col">
-          <strong>Valentina Marmié</strong>
+          <strong>Valentina Danker</strong>
+          <strong>Felipe Díaz</strong>
+          <strong>Sofía Gómez</strong>
+          <strong>Sebastián Labrín</strong>
+          <strong>Juan Manuel Ojeda</strong>
+          <strong>Carlos Said</strong>
+          <strong>Daniela Jiménez</strong>
+          <strong>Julie Arredondo</strong>
+        </div>
+      </p>
+      <p>
+        <div className="col">
+          <span>Diseño:</span>
+        </div>
+        <div className="col">
           <strong>Alfredo Duarte</strong>
         </div>
       </p>
       <p>
         <div className="col">
-          <span>Producción:</span>
-        </div>
-        <div className="col">
-          <strong>Daniela Cruzat</strong>
-          <strong>Alejandra Olguín</strong>
-        </div>
-      </p>
-      <p>
-        <div className="col">
-          <span>Dirección de Arte:</span>
-        </div>
-        <div className="col">
-          <strong>Verónica Calderón</strong>
-        </div>
-      </p>
-      <p>
-        <div className="col">
-          <span>Desarrollo Web:</span>
+          <span>Desarrollo:</span>
         </div>
         <div className="col">
           <strong>Álex Acuña Viera</strong>
-        </div>
-      </p>
-      <p>
-        <div className="col">
-          <span>Editor General Laboratorio de Contenidos:</span>
-        </div>
-        <div className="col">
-          <strong>Ignacio Bazán</strong>
         </div>
       </p>
     </div>
