@@ -3,7 +3,7 @@ import Sharer from '../Sharer'
 import styled from 'styled-components'
 import Ficha from '../Ficha'
 import data from '../Data'
-import LogoGabineteChico from '../LogoGabineteChico'
+import LogoLibro from '../LogoLibro'
 
 const Excerpt = styled.p`
   max-width: 700px;
@@ -64,23 +64,30 @@ const Header = () => {
   return (
     <HeaderWrap>
       <StLogo>
-        <LogoGabineteChico />
+        <LogoLibro />
       </StLogo>
-      <h1>Conoce a los 24 ministros del nuevo gobierno de Gabriel Boric</h1>
+      <h1>
+        ¿Cómo avanza la <span>Nueva Constitución?</span>
+      </h1>
       <Sharer
         className="sharer"
-        url="https://www.latercera.com/el-gabinete-de-gabriel-boric/"
+        url="https://www.latercera.com/como-avanza-la-nueva-constitucion-chilena/"
         description={`El gabinete de Gabriel Boric - La Tercera`}
         hashtags="Gabinete,GabineteGabrielBoric,GabineteBoricLT"
       />
       <Excerpt>
-        El Presidente electo anunció hoy lo que será su nuevo gabinete. Se trata
-        de 24 hombres y mujeres que desde el 11 de marzo asumirán en sus
-        carteras para dirigir las políticas públicas sectoriales respectivas y
-        darle forma a lo que será el primer gobierno del Frente Amplio. Estas
-        son las biografías de las nuevas autoridades que integrarán el Ejecutivo
-        durante los próximos cuatro años.
+        El pasado 15 de febrero el plano de la Convención Constituyente comenzó
+        a votar los artículos que emanaron de sus distintas comisiones. <br />
+        <br />A continuación les compartimos los artículos que ya fueron
+        aprobados por dos tercios del pleno en votación general y particular, y
+        que por ello conformarán el documento inicial -que deberá ser revisado
+        por la comisión de armonización- para elaborar el texto definitivo de la
+        propuesta de nueva Constitución que será aprobada o rechazada en el
+        plebiscito de salida.
       </Excerpt>
+      <p>
+        <strong>Actualizado al 18 de febrero de 2022</strong>
+      </p>
     </HeaderWrap>
   )
 }
@@ -88,7 +95,7 @@ const Header = () => {
 const Body = () => {
   return (
     <Wrap>
-      {data.map((item, index) => {
+      {/* {data.map((item, index) => {
         return (
           <Ficha
             key={index}
@@ -105,7 +112,7 @@ const Body = () => {
             url={item.url}
           />
         )
-      })}
+      })} */}
     </Wrap>
   )
 }
