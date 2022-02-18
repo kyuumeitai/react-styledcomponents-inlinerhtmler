@@ -1,390 +1,993 @@
-const fichas = [
+const data = [
   {
-    nombre: 'Izkia Siches',
-    cargo: 'Ministerio del Interior y Seguridad Pública',
-    edad: '35',
-    partido: 'Independiente',
-    profesion: 'Médica',
-    nivelAcademico: 'Magíster en Salud Pública',
-    colegio: "Instituto de Humanidades Bernardo O'Higgins, Maipú",
-    universidad: 'Universidad de Chile',
-    biografia:
-      'Izkia Siches es médica de la Universidad de Chile. Hizo su especialidad de Medicina Interna con una beca estatal del Minsal en el Hospital San Juan de Dios. Fue presidenta del Colegio Médico, pero renunció a su cargo para asumir como jefa de campaña de Boric. Cuando era estudiante universitaria, militó en las Juventudes Comunistas. Actualmente es independiente.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-izkia-siches-la-nueva-ministra-del-interior-y-seguridad-publica-de-gabriel-boric/JNNYB3XYQJCAPDOZVZWJUKSCCI/',
-    foto:
-      'https://www.latercera.com/resizer/ABn60NR3Pq11YA4S3-kADBgTbLg=/arc-anglerfish-arc2-prod-copesa/public/G5ZF7KPCQBBRXDDWI3NA3AF4FQ.jpg',
+    numero: `Artículo 1`,
+    titulo: `La función jurisdiccional`,
+    texto: `La función jurisdiccional. La jurisdicción es una función pública
+    que se ejerce en nombre de los pueblos y que consiste en conocer, juzgar y ejecutar
+    con efecto de cosa juzgada todos los conflictos de relevancia jurídica, por medio de
+    un debido proceso, de conformidad a la Constitución, las leyes y los estándares
+    internacionales de derechos humanos. Se ejerce exclusivamente por los tribunales
+    de justicia y los demás órganos o autoridades indígenas reconocidos por la
+    Constitución y las leyes dictadas conforme a ella.
+    Al ejercer la jurisdicción se debe velar por la tutela y promoción de los
+    derechos humanos y de la naturaleza, del sistema democrático y el principio de
+    juridicidad.`,
+    afavor: `107`,
+    encontra: `41`,
+    abstencion: `3`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: `Sust: “Artículo 1.- Tribunales de justicia y función jurisdiccional: La facultad de conocer
+    las causas judiciales, de resolverlas y de hacer ejecutar lo juzgado, pertenece
+    exclusivamente a los tribunales establecidos por la ley.
+    La Corte Suprema es el tribunal supremo del Poder Judicial en materia
+    jurisdiccional y representa a los tribunales de justicia frente a los demás poderes del
+    Estado.
+    Los tribunales son independientes y resuelven con imparcialidad, conforme al
+    derecho vigente y al mérito del proceso. Ni el Presidente de la República ni el Congreso
+    pueden, en caso alguno, ejercer funciones judiciales, avocarse causas pendientes, revisar
+    los fundamentos o contenido de sus resoluciones o hacer revivir procesos fenecidos.
+    Asimismo, los tribunales no podrán ejercer potestades que la Constitución y las leyes
+    encomiendan a otras autoridades, poderes u órganos del Estado”. (Bown)`,
+    indAfavor: `41`,
+    indEncontra: `112`,
+    indAbstencion: `0`,
+    indFecha: `17/02/2022`,
+    textodefinitivo: ``,
+    conceptos: `Jurisdicción, Función pública, Efecto de cosa juzgada, Relevancia jurídica, Debido proceso, Estándares internacionales, Tutela y promoción de los derechos humanos, Principio de juridicidad 
+    `,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Antonia Urrejola',
-    cargo: 'Ministerio de Relaciones Exteriores',
-    edad: '53',
-    partido: 'Independiente cercana al Partido Socialista',
-    profesion: 'Abogada',
-    nivelAcademico:
-      'Postítulo en Derechos Humanos y Procesos de Democratización',
-    colegio: "Saint George's College, Vitacura",
-    universidad: 'Universidad de Chile',
-    biografia:
-      'Antonia Urrejola (53) es cercana al Partido Socialista, abogada de la Universidad de Chile y ha estado vinculada a los derechos humanos. Urrejola ha tenido un largo historial como asesora de diversos gobiernos, tanto de la Concertación como de la Nueva Mayoría. Fue asesora de Mideplan durante la administración del expresidente Frei, luego asesora del Ministerio del Interior en el mandato de Lagos. También fue asesora del exsecretario general de la OEA José Miguel Insulza. Además fue asesora en derechos humanos durante el segundo gobierno de Bachelet. En el último tiempo fue comisionada y expresidenta de la CIDH.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-antonia-urrejola-la-nueva-ministra-de-relaciones-exteriores-de-gabriel-boric/PON6JSXZKNFUFLWMU75WRBOHSE/',
-    foto:
-      'https://www.latercera.com/resizer/Vv1K-fX89GGsQBnpBIu0EZgMxGE=/arc-anglerfish-arc2-prod-copesa/public/IOKNAYXYFBBRFLAHR5J7N7XXTM.jpg',
+    numero: `Artículo 2`,
+    titulo: `Pluralismo jurídico`,
+    texto: `Pluralismo jurídico. El Sistema Nacional de Justicia coexiste, en
+    un plano de igualdad, con los Sistemas Jurídicos Indígenas. Es deber del Estado
+    garantizar una adecuada coordinación entre ambos, con pleno respeto al derecho a
+    la libre determinación y los estándares internacionales de derechos humanos
+    interpretados interculturalmente.`,
+    afavor: `114`,
+    encontra: `37`,
+    abstencion: `0`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: `Sust. Artículo 2.- Unidad jurisdiccional. Los tribunales de justicia se organizarán
+    conforme al principio de unidad jurisdiccional, como base de su organización y
+    funcionamiento, encontrándose tanto los ordinarios como todos los especiales sujetos a
+    la misma regulación jurídica y sometidos a los mismos principios. La ley propenderá a
+    establecer un procedimiento general y un sistema recursivo único para todas las materias
+    jurisdiccionales”. (Bown)                                                                                                                                        `,
+    indAfavor: `39`,
+    indEncontra: `112`,
+    indAbstencion: `0`,
+    indFecha: `17/02/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Maya Fernández',
-    cargo: 'Ministerio de Defensa',
-    edad: '50',
-    partido: 'Partido Socialista',
-    profesion: 'Bióloga y Médica Veterinaria',
-    nivelAcademico: 'Universitario',
-    colegio: 'Escuela Primaria Solidaridad con Chile (Cuba)',
-    universidad: 'Universidad de Chile',
-    biografia:
-      'Maya Fernández es militante del Partido Socialista. Tiene dos títulos profesionales: es bióloga y veterinaria. Es nieta del expresidente Salvador Allende y sobrina de la senadora Isabel Allende. Vivió en el exilio en Cuba desde 1973 hasta 1990. Ha sido diputada por dos periodos y concejala de Ñuñoa. Presidió la Cámara en 2018.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-maya-fernandez-la-nueva-ministra-de-defensa-de-gabriel-boric/XD4G4O2QRZF2DPV5C4ZKGESX6M/',
-    foto:
-      'https://www.latercera.com/resizer/Dzldq_2ie99P4Bl7jEHQrsSmtuQ=/arc-anglerfish-arc2-prod-copesa/public/DYCRMNPXEZD5JL7LOC4NIFJEX4.jpg',
+    numero: `Artículo 3`,
+    titulo: `Independencia jurisdiccional, imparcialidad y exclusividad`,
+    texto: `Independencia jurisdiccional, imparcialidad y exclusividad.
+    Las juezas y jueces que ejercen jurisdicción son independientes entre sí y de todo
+    otro poder o autoridad, debiendo actuar y resolver de forma imparcial.
+    La función jurisdiccional la ejercen exclusivamente los tribunales establecidos
+    por ley. Ningún otro órgano del Estado, persona o grupo de personas, podrán ejercer
+    la función jurisdiccional, conocer causas pendientes, modificar los fundamentos o el
+    contenido de las resoluciones judiciales o reabrir procesos concluidos.
+    Las juezas y jueces no podrán desempeñar ninguna otra función o empleo,
+    salvo actividades académicas en los términos que establezca la ley.
+    Las juezas y jueces sólo ejercerán la función jurisdiccional, no pudiendo
+    desempeñar función administrativa ni legislativa alguna.
+    Las juezas y jueces no podrán militar en partidos políticos.
+    Las juezas y jueces no podrán participar como candidatas o candidatos en
+    procesos de elección popular, salvo en los casos autorizados por esta Constitución.`,
+    afavor: `113`,
+    encontra: `37`,
+    abstencion: `1`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: `Para agregar, inmediatamente a continuación del punto aparte, la siguiente frase: “En sus providencias, sólo están sometidos al imperio de la ley.”  (Cozzi)`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: `Independencia jurisdiccional, imparcialidad y exclusividad. Las juezas y jueces que ejercen jurisdicción son independientes entre sí y de todo otro poder o autoridad, debiendo actuar y resolver de forma imparcial. En sus providencias, sólo están sometidos al imperio de la ley. 
+    La función jurisdiccional la ejercen exclusivamente los tribunales establecidos por ley. Ningún otro órgano del Estado, persona o grupo de personas, podrán ejercer la función jurisdiccional, conocer causas pendientes, modificar los fundamentos o el contenido de las resoluciones judiciales o reabrir procesos concluidos. 
+    Las juezas y jueces no podrán desempeñar ninguna otra función o empleo, salvo actividades académicas en los términos que establezca la ley. 
+    Las juezas y jueces sólo ejercerán la función jurisdiccional, no pudiendo desempeñar función administrativa ni legislativa alguna. 
+    Las juezas y jueces no podrán militar en partidos políticos.`,
+    conceptos: `Imparcialidad`,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Mario Marcel',
-    cargo: 'Ministerio de Hacienda',
-    edad: '62',
-    partido: 'Exmilitante del Partido Socialista',
-    profesion: 'Ingeniero Comercial',
-    nivelAcademico: 'M. Phil. en Economía',
-    colegio: 'Instituto Nacional, Santiago',
-    universidad: 'Universidad de Chile',
-    biografia:
-      'El Presidente electo optó por el actual presidente del Banco Central para dirigir la sede ministerial de Teatinos 120. El economista es consejero del instituto emisor desde 2015 y preside el organismo desde 2016. De hecho el Presidente Sebastián Piñera el año pasado optó por renovarle el cargo por otros cinco años. Es exmilitante del Partido Socialista y su nombre ha estado presente en cargos macroeconómicos en casi todos los gobiernos desde el retorno a la democracia. En el último tiempo fue un férreo opositor a los retiros anticipados de los fondos previsionales, lo que lo llevó a enfrentarse a parlamentarios del Frente Amplio y del Partido Comunista.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-mario-marcel-el-nuevo-ministro-de-hacienda-de-gabriel-boric/K6M7AIMLXZHSJLKUH2PDYBJO5A/',
-    foto:
-      'https://www.latercera.com/resizer/phrzmeeonTjGzyalWcyn8di4XgY=/arc-anglerfish-arc2-prod-copesa/public/N7A2FRFGDJFOTJ566AKEJYW3TM.jpg',
+    numero: `Artículo 4`,
+    titulo: `De la inamovilidad.`,
+    texto: `De la inamovilidad. Las juezas y jueces son inamovibles y no
+    pueden ser suspendidos, trasladados o removidos sino por el Consejo de la Justicia,
+    conforme a las causales y procedimientos establecidos por la Constitución y las leyes.
+    Cesan en sus cargos únicamente al cumplirse la duración prevista para el
+    mismo, por alcanzar los setenta años de edad, por renuncia voluntaria, por
+    constatarse una incapacidad legal sobreviniente o por remoción.`,
+    afavor: `89`,
+    encontra: `62`,
+    abstencion: `0`,
+    aprobado: `Rechazada`,
+    estado: `Rechazado en general (vuelve a comisión)`,
+    fecha: `15/02/2022`,
+    indicacion: `Para sustituir el artículo 4 “Artículo 4.- Los jueces permanecerán en sus cargos durante su buen comportamiento;
+    pero los inferiores desempeñarán su respectiva judicatura por el tiempo que determinen
+    las leyes. No obstante lo anterior, los jueces cesarán en sus funciones al cumplir 75 años de edad; o por renuncia o incapacidad legal sobreviniente o en caso de ser depuestos de
+    sus destinos, por causa legalmente sentenciada. La norma relativa a la edad no regirá́
+    respecto al Presidente de la Corte Suprema, quien continuará en su cargo hasta el término de su período” (Bown)`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Giorgio Jackson',
-    cargo: 'Ministerio Secretaría General de la Presidencia',
-    edad: '34',
-    partido: 'Revolución Democrática',
-    profesion: 'Ingeniero civil industrial',
-    nivelAcademico: 'Universitario',
-    colegio: 'Colegio Alemán Thomas Morus, Providencia',
-    universidad: 'Pontificia Universidad Católica',
-    biografia:
-      'Giorgio Jackson (34) es ingeniero de la Universidad Católica y ha sido diputado durante dos periodos parlamentarios. Es militante de Revolución Democrática y en 2011 fue presidente de la FEUC y vocero de la Confech.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-giorgio-jackson-el-nuevo-ministro-segpres-de-gabriel-boric/Q2ZDGISANZD53PBAY4CILHEZOM/',
-    foto:
-      'https://www.latercera.com/resizer/30cvnqApLZnKdFlizqRm51X31rY=/arc-anglerfish-arc2-prod-copesa/public/RG3DS7BUFBGRZJTFTH62S6T2QM.jpg',
+    numero: `Artículo 5`,
+    titulo: `Derecho de acceso a la justicia`,
+    texto: `Derecho de acceso a la justicia. La Constitución garantiza el
+    pleno acceso a la justicia a todas las personas y colectivos. Es deber del Estado
+    remover los obstáculos normativos, sociales, culturales y económicos que impidan o
+    limiten la posibilidad de acudir a los órganos jurisdiccionales para la tutela y el ejercicio
+    de sus derechos.
+    Los tribunales deben brindar una atención adecuada a quienes presenten
+    peticiones o consultas ante ellos, otorgando siempre un trato digno y respetuoso. Una
+    ley establecerá sus derechos y deberes.`,
+    afavor: `140`,
+    encontra: `7`,
+    abstencion: `2`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: `Para sustituir el artículo 5: “Artículo 5.- Toda persona que acuda ante un tribunal de la República, deberá recibir
+    una atención adecuada para que pueda presentar sus peticiones o solicitudes ante ellos,
+    otorgando siempre un trato digno y respetuoso, cualquiera sea la calidad o condición,
+    evitándose cualquier entorpecimiento o privación en el efectivo ejercicio de sus
+    derechos. Ninguna persona u órgano del Estado podrá privar, restringir o entorpecer el
+    ejercicio del derecho de toda persona a presentar acciones o solicitudes ante los
+    tribunales de justicia.”. (Bown)`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: `Derecho de acceso a la justicia. Los tribunales deben brindar una atención adecuada a quienes presenten
+    peticiones o consultas ante ellos, otorgando siempre un trato digno y respetuoso. Una
+    ley establecerá sus derechos y deberes.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Camila Vallejo',
-    cargo: 'Ministerio Secretaría General de Gobierno',
-    edad: '33',
-    partido: 'Partido Comunista',
-    profesion: 'Geógrafa',
-    nivelAcademico: 'Universitario',
-    colegio: 'Colegio Raimapu, La Florida',
-    universidad: 'Universidad de Chile',
-    biografia:
-      'Camila Vallejo (33) es geógrafa de la Universidad de Chile. Ha sido diputada durante dos periodos parlamentarios. Es militante del Partido Comunista y en 2011 fue presidenta de la Fech. Ese año además fue vocera de la Confech. En 2012 asumió como vicepresidenta de la Fech, el mismo año en que Boric le tocó presidir la mesa de esa federación estudiantil.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-camila-vallejo-la-nueva-ministra-vocera-de-gobierno-de-gabriel-boric/TMTFGJBKWRFDFK5PLYY54KPB4E/',
-    foto:
-      'https://www.latercera.com/resizer/mEaRt_UcXRKNoAruICq11pnNL5s=/arc-anglerfish-arc2-prod-copesa/public/UWF3ATODWZGA5O4ZDAZ2YMAIFE.jpg',
+    numero: `Artículo 6`,
+    titulo: `Tutela jurisdiccional efectiva`,
+    texto: `Tutela jurisdiccional efectiva. Todas las personas tienen
+    derecho a requerir de los tribunales de justicia la tutela efectiva de sus derechos e
+    intereses legítimos, de manera oportuna y eficaz conforme a los principios y
+    estándares reconocidos en la Constitución y las leyes.`,
+    afavor: `128`,
+    encontra: `21`,
+    abstencion: `1`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: `Para sustituir el artículo 6: “Artículo 6.- Los tribunales de justicia deberán velar para que toda persona obtenga una
+    tutela judicial efectiva ante ellos, en el ejercicio de sus derechos e intereses legítimos y
+    debidamente acreditados."". (Bown)`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: `Tutela jurisdiccional efectiva. Todas las personas tienen derecho a requerir de los tribunales de justicia la tutela efectiva de sus derechos e intereses legítimos, de manera oportuna y eficaz conforme a los principios y estándares reconocidos en la Constitución y las leyes.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Nicolás Grau',
-    cargo: 'Ministerio de Economía, Fomento y Turismo',
-    edad: '38',
-    partido: 'Convergencia Social',
-    profesion: 'Ingeniero Comercial',
-    nivelAcademico: 'Magister y Ph.D. en Economía',
-    colegio: 'Colegio Raimapu, La Florida',
-    universidad: 'Universidad de Chile',
-    biografia:
-      'Nicolás Grau (38) es economista y milita en Convergencia Social. Tiene un doctorado en Economía de la Universidad de Pennsylvania. Es profesor del Departamento de Economía de la Universidad de Chile y ha sido investigador adjunto en el Centro de Estudios de Conflicto y Cohesión Social. Fue presidente de la FECH en 2006.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-nicolas-grau-el-nuevo-ministro-de-economia-de-gabriel-boric/LELPOC6FHZDZ3DELICVPNOSTYA/',
-    foto:
-      'https://www.latercera.com/resizer/MxOu1KCrF42WQCUW31nnaJrxqJA=/arc-anglerfish-arc2-prod-copesa/public/U56EBTBEO5FALCLMLFL4ETHCRY.jpg',
+    numero: `Artículo 7`,
+    titulo: ` Inexcusabilidad e indelegabilidad`,
+    texto: `Inexcusabilidad e indelegabilidad. Reclamada su intervención
+    en la forma legal y sobre materias de su competencia, los tribunales y los demás
+    órganos que ejerzan jurisdicción no podrán excusarse de ejercer su función en un
+    tiempo razonable ni aún a falta de norma jurídica expresa que resuelva el asunto
+    sometido a su decisión.
+    El ejercicio de la jurisdicción es indelegable.`,
+    afavor: `114`,
+    encontra: `36`,
+    abstencion: `0`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Jeanette Vega',
-    cargo: 'Ministerio de Desarrollo Social y Familia',
-    edad: '64',
-    partido: 'Ex PPD',
-    profesion: 'Médica',
-    nivelAcademico: 'Doctorado en Salud Pública',
-    colegio: 'Liceo 7',
-    universidad: 'Universidad de Chile',
-    biografia:
-      'La médica de 64 años tiene una destacada trayectoria en el mundo de la salud. Fue subsecretaria de Salud Pública, directora de Fonasa, del ISP y también asesora externa de la OMS y de la OPS. Uno de sus últimos cargos fue como directora de Innovación Médica y Transformación Digital de la Red Salud UC-Christus. Desde marzo tendrá que cambiar el rubro y dedicarse a temas como pobreza, infancia y también la política indígena del futuro gobierno.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-jeanette-vega-la-nueva-ministra-de-desarrollo-social-y-familia-de-gabriel-boric/A33KU4RDENGNTL7O2EGUUOSKRY/',
-    foto:
-      'https://www.latercera.com/resizer/_BfUmYK30PWicQ0l2N82TL91NA4=/arc-anglerfish-arc2-prod-copesa/public/EXVWQQ7XZBGO5JT6NJNTF4X4QE.jpg',
+    numero: `Artículo 8`,
+    titulo: ` Ejecución de las resoluciones`,
+    texto: `Ejecución de las resoluciones. Para hacer ejecutar sus
+    resoluciones y practicar o hacer practicar las actuaciones que determine la ley, los
+    órganos que ejercen jurisdicción podrán impartir órdenes o instrucciones directas a la
+    fuerza pública y a toda otra autoridad o persona, quienes deberán cumplir lo
+    mandatado de forma rápida y expedita, sin poder calificar su justicia, fundamento,
+    oportunidad o legalidad.
+    Las sentencias y resoluciones dictadas en el Sistema Internacional de
+    Protección de los Derechos Humanos permitirán revisar el efecto de cosa juzgada de
+    las sentencias firmes dictadas por tribunales del Estado de Chile.`,
+    afavor: `88`,
+    encontra: `63`,
+    abstencion: `0`,
+    aprobado: `Rechazada`,
+    estado: `Rechazado en general (vuelve a comisión)`,
+    fecha: `15/02/2022`,
+    indicacion: `Para sustituir el artículo 8: “Artículo 8.- Facultad de imperio. Para hacer ejecutar sus resoluciones, y practicar o
+    hacer practicar los actos judiciales que determine la ley, los tribunales de justicia podrán
+    impartir órdenes directas a la fuerza pública o a la autoridad competente. La autoridad requerida deberá cumplir sin más trámite el mandato judicial y no podrá calificar su fundamento u oportunidad, ni la justicia o legalidad de la resolución que se trata de
+    ejecutar”. (Bown)`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Marco Antonio Ávila',
-    cargo: 'Ministerio de Educación',
-    edad: '44',
-    partido: 'Revolución Democrática',
-    profesion: 'Profesor',
-    nivelAcademico: 'Magister en Educación',
-    colegio: 'Liceo Andrés Bello, San Miguel',
-    universidad: 'Universidad Católica Cardenal Raúl Silva Henríquez',
-    biografia:
-      'Marco Antonio Ávila (44) es profesor y jefe de Proyectos en la Fundación Chile, donde se dedica a las materias educativas, especialmente en contextos de vulnerabilidad. Sus áreas de interés son el desarrollo profesional docente y mejoramiento educativo. Trabajó en el Mineduc en el segundo gobierno de Bachelet, como coordinador nacional de Enseñanza Media.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-marco-antonio-avila-el-nuevo-ministro-de-educacion-de-gabriel-boric/SSFS3TEOJJH4VMDVM2DKX337KA/',
-    foto:
-      'https://www.latercera.com/resizer/eSLuuJYIEUewi1bdNacvPrsOA7g=/arc-anglerfish-arc2-prod-copesa/public/TS7ZTCY4KJAARDPO2UKN37EFII.jpg',
+    numero: `Artículo 9`,
+    titulo: `Fundamentación y lenguaje claro`,
+    texto: `Fundamentación y lenguaje claro. Las resoluciones judiciales
+    serán siempre motivadas, salvo en los casos establecidos por la ley. En todo evento,
+    la sentencia que ponga término a un procedimiento siempre deberá ser fundada y
+    redactada en lenguaje claro e inclusivo.`,
+    afavor: `114`,
+    encontra: `33`,
+    abstencion: `2`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: `Para sustituir el artículo 9: “Artículo 9.- Principio de publicidad y deber de motivación jurisdiccional. Los
+    procedimientos, en todas sus etapas, y las resoluciones judiciales serán públicas.
+    Excepcionalmente la ley podrá establecer su reserva o secreto, en caso que sea
+    indispensable para resguardar los derechos de las personas, el debido cumplimiento de
+    la función jurisdiccional, o el resguardo del interés general.
+    Las resoluciones judiciales se escribirán en lenguaje claro y serán siempre motivadas.
+    No obstante, la sentencia que ponga término a un procedimiento siempre deberá ser
+    fundada.” (Bown)`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Marcela Ríos',
-    cargo: 'Ministerio de Justicia',
-    edad: '55',
-    partido: 'Convergencia Social',
-    profesion: 'Socióloga',
-    nivelAcademico: 'Doctora en Filosofía',
-    colegio: '-',
-    universidad: 'Universidad de York (Canadá)',
-    biografia:
-      'Marcela Ríos (55) es socióloga y la mayor parte de su carrera la ha hecho desde el Programa de las Naciones Unidas para el Desarrollo. Desde ahí se ha dedicado con fuerza a impulsar temas de desigualdad, justicia y sobre todo de género. Es académica y tiene estudios de posgrado en la Facultad Latinoamericana de Ciencias Sociales y un doctorado en filosofía en la Universidad de Wisconsin-Madison.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-marcela-rios-la-nueva-ministra-de-justicia-de-gabriel-boric/QOMVUIBOGZECHMURKA3HDJKYSE/',
-    foto:
-      'https://www.latercera.com/resizer/twoq9fkLGUcuTlPtkGkkcedP_G8=/arc-anglerfish-arc2-prod-copesa/public/QLUTHRPTSZC45EAYC7YJWS46NI.jpg',
+    numero: `Artículo 10`,
+    titulo: `Gratuidad`,
+    texto: `Gratuidad. El acceso a la función jurisdiccional será gratuito, sin
+    perjuicio de las actuaciones judiciales y sanciones procesales establecidas por la ley.
+    La justicia arbitral será siempre voluntaria. La ley no podrá establecer
+    arbitrajes forzosos.`,
+    afavor: `141`,
+    encontra: `2`,
+    abstencion: `5`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: `Para sustituir el artículo 10: “Artículo 10.- Principio de gratuidad. El acceso a los tribunales será gratuito, y no se
+    podrá exigir el pago de monto alguno como requisito previo para que se conozcan y
+    resuelvan acciones, reclamaciones o medios de impugnación.
+    La justicia arbitral será siempre voluntaria.”. (Bown)`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: `Gratuidad. El acceso a la función jurisdiccional será gratuito, sin
+    perjuicio de las actuaciones judiciales y sanciones procesales establecidas por la ley.
+    La justicia arbitral será siempre voluntaria. La ley no podrá establecer
+    arbitrajes forzosos.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Jeannette Jara',
-    cargo: 'Ministerio de Trabajo y Previsión Social',
-    edad: '47',
-    partido: 'Partido Comunista',
-    profesion: 'Abogada',
-    nivelAcademico: 'Magíster en Administración Pública',
-    colegio: 'Liceo Isaura Dinator de Guzmán, Santiago',
-    universidad: 'Universidad Central',
-    biografia:
-      'Jeannete Jara es abogada de la Universidad Central. Tiene estudios en derecho tributario y también de magíster en Gerencia Pública. Fue subsecretaria de Previsión Social durante el segundo gobierno de la expresidenta Bachelet. Es administradora municipal en la comuna de Santiago.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-jeannette-jara-la-nueva-ministra-de-trabajo-de-gabriel-boric/66DNYJQMDRAZXDAT5LAW5QQB4E/',
-    foto:
-      'https://www.latercera.com/resizer/QsQssiLPolNLx2UB2skYRMhzxVA=/arc-anglerfish-arc2-prod-copesa/public/DYJANE6P4ZETLD47HBGETS542I.jpg',
+    numero: `Artículo 11`,
+    titulo: `Principio de responsabilidad jurisdiccional`,
+    texto: `Principio de responsabilidad jurisdiccional. Las juezas y
+    jueces son personalmente responsables por los delitos de cohecho, falta de
+    observancia en materia sustancial de las leyes que reglan el procedimiento, y, en
+    general, por toda prevaricación, denegación o torcida administración de justicia. La
+    ley determinará los casos y el modo de hacer efectiva esta responsabilidad.
+    Los perjuicios provocados por error judicial otorgan derecho a una
+    indemnización conforme al procedimiento establecido por la Constitución y las leyes.`,
+    afavor: `113`,
+    encontra: `36`,
+    abstencion: `2`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: `Para incorporar un artículo nuevo por el siguiente: “Artículo x.- Fuero. Las juezas y jueces no podrán ser aprehendidos sin orden del tribunal competente, salvo el caso de crimen o simple delito flagrante y sólo para ponerlos inmediatamente a disposición del tribunal que debe conocer del asunto en conformidad a la ley. (Bown)`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: `Principio de responsabilidad jurisdiccional. Las juezas y
+    jueces son personalmente responsables por los delitos de cohecho, falta de
+    observancia en materia sustancial de las leyes que reglan el procedimiento, y, en
+    general, por toda prevaricación, denegación o torcida administración de justicia. La
+    ley determinará los casos y el modo de hacer efectiva esta responsabilidad.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Juan Carlos García',
-    cargo: 'Ministerio de Obras Públicas',
-    edad: '51',
-    partido: 'Partido Liberal',
-    profesion: 'Arquitecto',
-    nivelAcademico: 'Magíster en Gestión Urbana',
-    colegio: "Saint George's College, Vitacura",
-    universidad: 'Pontificia Universidad Católica de Valparaíso',
-    biografia:
-      'Juan Carlos García (51) es arquitecto de la Universidad Católica de Valparaíso. Participó en el Servicio País en la Región de Aysén, desde donde impulsó iniciativas reconocidas a nivel nacional. Se formó como urbanista en Francia y fue candidato a gobernador.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-juan-carlos-garcia-el-nuevo-ministro-de-obras-publicas-de-gabriel-boric/C2CVB2CU7JF6JB4O7TOZ4UROGU/',
-    foto:
-      'https://www.latercera.com/resizer/z7c5LGQg9faRqbCkcqLnxxoCaTQ=/arc-anglerfish-arc2-prod-copesa/public/IJGIPPB4KVC3HHEZIJ3BHOYGXI.jpg',
+    numero: `Artículo 12`,
+    titulo: `Publicidad, Probidad y Transparencia`,
+    texto: `Publicidad, Probidad y Transparencia. Todas las etapas de
+    los procedimientos y las resoluciones judiciales son públicas. Excepcionalmente, la
+    ley podrá establecer su reserva o secreto en aquellos casos en que la publicidad
+    pueda significar un peligro grave de afectación a la integridad e intimidad de las
+    personas.
+    En los procesos en que intervengan niñas, niños y adolescentes, se deberá
+    procurar el resguardo de su identidad.
+    Los principios de probidad y de transparencia serán aplicables a todas las
+    personas que ejercen jurisdicción en el país. La ley establecerá las responsabilidades
+    correspondientes en caso de infracción a esta disposición.`,
+    afavor: `145`,
+    encontra: `0`,
+    abstencion: `4`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: `Para sustituir el artículo 12: “Artículo 12.- Probidad y transparencia. Los principios de probidad y de
+    transparencia serán aplicables a todas las personas que ejercen jurisdicción en el país.
+    La ley establecerá las responsabilidades correspondientes en caso de infracción a esta
+    disposición”. (Bown)`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'María Begoña Yarza',
-    cargo: 'Ministerio de Salud',
-    edad: '57',
-    partido: 'Independiente',
-    profesion: 'Médica',
-    nivelAcademico: 'Magister en salud Pública',
-    colegio: 'Escuela Secundaria Básica Alamar (Cuba)',
-    universidad: 'Universidad de Chile',
-    biografia:
-      'María Begoña Yarza es médica pediatra de la Universidad de Chile. Tiene un diplomado en gerencia pública en la Universidad Adolfo Ibáñez. También hizo un magíster en Salud Pública en la Universidad Pompeu Fabra. En ese mismo plantel universitario cursó estudios de doctorado en Salud. Fue directora del Hospital Exequiel González Cortés.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-maria-begona-yarza-la-nueva-ministra-de-salud-de-gabriel-boric/65ZJVEGTXVBZHDEYBSYIOYLCDA/',
-    foto:
-      'https://www.latercera.com/resizer/UZaFsYqgD6CYZ0Ad0aZla_UcKqk=/arc-anglerfish-arc2-prod-copesa/public/AFPIJXXCNJCN3H26WOIWICM4BI.jpg',
+    numero: `Artículo 13`,
+    titulo: `Principio de Justicia Abierta`,
+    texto: `Principio de Justicia Abierta. La función jurisdiccional se basa
+    en los principios rectores de la Justicia Abierta, que se manifiesta en la transparencia,
+    participación y colaboración, con el fin de garantizar el Estado de Derecho, promover
+    la paz social y fortalecer la democracia.`,
+    afavor: `128`,
+    encontra: `22`,
+    abstencion: `1`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: `Principio de Justicia Abierta. La función jurisdiccional se basa en los principios rectores de la Justicia Abierta, que se manifiesta en la transparencia, participación y colaboración, con el fin de garantizar el Estado de Derecho, promover la paz social y fortalecer la democracia.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Carlos Montes',
-    cargo: 'Ministerio de Vivienda y Urbanismo',
-    edad: '75',
-    partido: 'Partido Socialista',
-    profesion: 'Egresado de Ingeniería Comercial',
-    nivelAcademico: 'Universitario',
-    colegio: "Saint George's College",
-    universidad: 'Pontificia Universidad Católica',
-    biografia:
-      'Carlos Montes (75) es senador por la Región Metropolitana. Tiene una larga carrera política que incluye además seis periodos parlamentarios consecutivos como diputado. Es egresado de Ingeniería Comercial de la Universidad Católica y fue presidente del Senado en 2018.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-carlos-montes-el-nuevo-ministro-de-vivienda-y-urbanismo-de-gabriel-boric/4PTPGY7FTJGS5DOL2O2RETXSCU/',
-    foto:
-      'https://www.latercera.com/resizer/6NH7yDdiMiLjySCEJLRIgJ3YNa0=/arc-anglerfish-arc2-prod-copesa/public/AEZON37O3NDPRJNNFZ6PBOVVHE.jpg',
+    numero: `Artículo 14`,
+    titulo: ` Paridad y perspectiva de género`,
+    texto: `Paridad y perspectiva de género. La función jurisdiccional se
+    regirá por los principios de paridad y perspectiva de género. Todos los órganos y
+    personas que intervienen en la función jurisdiccional deben garantizar la igualdad
+    sustantiva.
+    68
+    El Estado garantiza que los nombramientos en el Sistema Nacional de Justicia
+    respeten el principio de paridad en todos los órganos de la jurisdicción, incluyendo la
+    designación de las presidencias.
+    Los tribunales, cualquiera sea su competencia, deben resolver con enfoque
+    de género.`,
+    afavor: `115`,
+    encontra: `24`,
+    abstencion: `13`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: `Para suprimir el artículo 14 (Bown)`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: `Paridad y perspectiva de género. La función jurisdiccional se regirá por los principios de paridad y perspectiva de género. Todos los órganos y personas que intervienen en la función jurisdiccional deben garantizar la igualdad sustantiva.
+    El Estado garantiza que los nombramientos en el Sistema Nacional de Justicia respeten el principio de paridad en todos los órganos de la jurisdicción, incluyendo la designación de las presidencias.
+    Los tribunales, cualquiera sea su competencia, deben resolver con enfoque de género.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Esteban Valenzuela',
-    cargo: 'Ministerio de Agricultura',
-    edad: '57',
-    partido: 'Federación Regionalista Verde Social',
-    profesion: 'Periodista',
-    nivelAcademico: 'Magíster en Desarrollo y Gestión Pública',
-    colegio: "Instituto O'Higgins, Rancagua",
-    universidad: 'Pontificia Universidad Católica',
-    biografia:
-      'Esteban Valenzuela (57) es militante del Frente Regionalista Verde Social. Es periodista, cientista político e historiador. Ha sido asesor sindical y director de Convergencias Regionalistas de Estudios Aplicados del Sur (Creasur).',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-esteban-valenzuela-el-nuevo-ministro-de-agricultura-de-gabriel-boric/KYI4ASZGJBFTZE3FYEAPZ6XUDY/',
-    foto:
-      'https://www.latercera.com/resizer/87TEDgNnZmGUooQtXWV7_8XWnh0=/arc-anglerfish-arc2-prod-copesa/public/WBTNPAJQIRA2BFQTQMEQYF2NLQ.jpg',
+    numero: `Artículo 15`,
+    titulo: ` Plurinacionalidad, pluralismo jurídico e interculturalidad`,
+    texto: ` Plurinacionalidad, pluralismo jurídico e interculturalidad. La
+    función jurisdiccional se define en su estructura, integración y procedimientos
+    conforme a los principios de plurinacionalidad, pluralismo jurídico e interculturalidad.
+    Los órganos y personas que intervienen en el desarrollo de la jurisdicción,
+    deben adoptar una perspectiva intercultural en el tratamiento y resolución de las
+    materias de su competencia, respetando las costumbres, tradiciones, protocolos y el
+    derecho propio de los pueblos indígenas, conforme a los estándares internacionales
+    de derechos humanos.`,
+    afavor: `114`,
+    encontra: `37`,
+    abstencion: `1`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: `Para suprimir el artículo 15 (Bown)`,
+    indAfavor: `35`,
+    indEncontra: `107`,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: `Plurinacionalidad, pluralismo jurídico e interculturalidad. La función jurisdiccional se define en su estructura, integración y procedimientos conforme a los principios de plurinacionalidad, pluralismo jurídico e interculturalidad.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Marcela Hernando',
-    cargo: 'Ministerio de Minería',
-    edad: '61',
-    partido: 'Partido Radical',
-    profesion: 'Médica',
-    nivelAcademico: 'Magíster en Salud Pública',
-    colegio: 'Liceo María Auxiliadora, Santiago',
-    universidad: 'Universidad de Chile',
-    biografia:
-      'La médica Marcela Hernando (61) es militante del Partido Radical. Durante dos periodos parlamentarios ha sido diputada por la región de Antofagasta. Entre los años 2008 y 2012 fue alcaldesa de la comuna de Antofagasta y también fue intendenta por esta misma región durante el primer gobierno de la expresidente Michelle Bachelet. Toda su carrera ha estado ligada a cargos públicos en el mundo de la salud. Desde marzo deberá asumir un nuevo desafío, pero esta vez a cargo del ministerio de Minería.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-marcela-hernando-la-nueva-ministra-de-mineria-de-gabriel-boric/L6BLSQMDOZE7NNOYK6BYNVZ7II/',
-    foto:
-      'https://www.latercera.com/resizer/AMo3WxNh9i_mXb4LPnPD6r3BiAM=/arc-anglerfish-arc2-prod-copesa/public/YZ7TCVOM3NCM7DAZ2GLY6MYPW4.jpg',
+    numero: `Artículo 16`,
+    titulo: `Mecanismos Colaborativos de Resolución de Conflictos`,
+    texto: `Mecanismos Colaborativos de Resolución de Conflictos. Es
+    deber del Estado promover e implementar mecanismos colaborativos de resolución
+    de conflictos que garanticen la participación activa y el diálogo.
+    Sólo la ley podrá determinar los requisitos y efectos de los mecanismos
+    alternativos de resolución de conflictos.`,
+    afavor: `150`,
+    encontra: `0`,
+    abstencion: `1`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `15/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `17/02/2022`,
+    textodefinitivo: `Mecanismos Colaborativos de Resolución de Conflictos. Es
+    deber del Estado promover e implementar mecanismos colaborativos de resolución
+    de conflictos que garanticen la participación activa y el diálogo.
+    Sólo la ley podrá determinar los requisitos y efectos de los mecanismos
+    alternativos de resolución de conflictos.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
   {
-    nombre: 'Juan Carlos Muñoz',
-    cargo: 'Ministerio de Transportes y Telecomunicaciones',
-    edad: '51',
-    partido: 'Independiente',
-    profesion: 'Ingeniero Civil',
-    nivelAcademico: 'Doctor en Ingeniería Civil y Ambiental',
-    colegio: 'Craighouse School',
-    universidad: 'Pontificia Universidad Católica',
-    biografia:
-      'Juan Carlos Muñoz (51) es ingeniero civil de la Universidad Católica. Toda su carrera la ha dedicado a los temas de transportes, desde el mundo público y también desde la academia. Entre 2003 y 2004 fue asesor del Ministro de Transportes y Telecomunicaciones para el plan Transantiago. En 2008 también fue miembro del comité de expertos creado por esa misma cartera para mejorar el proyecto Transantiago. Estuvo en el directorio del Metro regional de Valparaíso. También ejerció como director de Metro y asesor de la Dirección de Transporte Público Metropolitano',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-juan-carlos-munoz-el-nuevo-ministro-de-ministerio-de-transportes-y-telecomunicaciones-de-gabriel-boric/3Y33LNMB6FBINDY65GBMFIUSHU/',
-    foto:
-      'https://www.latercera.com/resizer/dpN3Duo192xdObjpUer6YyEC_VM=/arc-anglerfish-arc2-prod-copesa/public/LXJU2P4SVVD4TKLOYTDDMMSMCI.jpg',
+    numero: `Artículo 1`,
+    titulo: `Del Estado Regional`,
+    texto: `Del Estado Regional. Chile es un Estado Regional, plurinacional e intercultural conformado por entidades territoriales autónomas, en un marco de equidad y solidaridad entre todas ellas, preservando la unidad e integridad del Estado. El  Estado promoverá  la cooperación, la integración armónica y eldesarrollo adecuado y justo entre las diversas entidades territoriales.`,
+    afavor: `112`,
+    encontra: `32`,
+    abstencion: `8`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: `MENA, Indicación No2:
+    para sustituir, en el encabezado del artículo 1o, la expresión “Regional” por “Descentralizado”.`,
+    indAfavor: `41`,
+    indEncontra: `111`,
+    indAbstencion: `0`,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `Del Estado Regional. Chile es un Estado Regional, plurinacional e intercultural conformado por entidades territoriales autónomas, en un marco de equidad y solidaridad entre todas ellas, preservando la unidad e integridad del Estado. El  Estado promoverá  la cooperación, la integración armónica y eldesarrollo adecuado y justo entre las diversas entidades territoriales.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
   },
   {
-    nombre: 'Javiera Toro',
-    cargo: 'Ministerio de Bienes Nacionales',
-    edad: '34',
-    partido: 'Comunes',
-    profesion: 'Abogada',
-    nivelAcademico: 'Universitario',
-    colegio: 'Colegio la Girouette, Las Condes',
-    universidad: 'Universidad de Chile',
-    biografia:
-      'Javiera Toro es abogada de la Universidad de Chile. Fue presidenta de Comunes y es directora de la Fundación Nodo XXI. Ha trabajado como abogada en estudios privados.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-javiera-toro-la-nueva-ministra-de-bienes-nacionales-de-gabriel-boric/XVCLPN6EJ5ACLIE5QZY3ICRDMU/',
-    foto:
-      'https://www.latercera.com/resizer/A1GGYZSMY2_lh2hsz4TaCarLMIM=/arc-anglerfish-arc2-prod-copesa/public/IVB4HZGVDVARHBKZZIAKHNDN7Q.jpg',
+    numero: `Artículo 2`,
+    titulo: `De las Entidades Territoriales`,
+    texto: `De las Entidades Territoriales. El Estado se organiza territorialmente en regiones autónomas,  comunas autónomas, autonomías territoriales indígenas y territorios especiales. Las regiones  autónomas, autonomías  territoriales indígenas y las comunas autónomas cuentan con personalidad  jurídica, estatuto y patrimonio propio, con las potestades y competencias necesarias para autogobernarse, teniendo como límite el interés general y la delimitación de competencias establecidas  de acuerdo con la Constitución y la ley. La creación, modificación, delimitación y supresión de las entidades territoriales deberá considerar criterios objetivos en función de antecedentes históricos, geográficos, sociales, culturales, ecosistémicos y económicos, garantizando la participación popular, democrática y vinculante de sus habitantes, de acuerdo con la Constitución y la ley.`,
+    afavor: `103`,
+    encontra: `46`,
+    abstencion: `3`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: `Indicación No29, para sustituir íntegramente el inciso primero del artículo 2o por:
+    “Chile se organiza territorialmente a través de los gobiernos regionales y municipalidades, que son unidades de gobierno y administración política, funcional y fiscalmente descentralizadas”. ERROR`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `De las Entidades Territoriales. El Estado se organiza territorialmente en regiones autónomas,  comunas autónomas, autonomías territoriales indígenas y territorios especiales. La creación, modificación, delimitación y supresión de las entidades territoriales deberá considerar criterios objetivos en función de antecedentes históricos, geográficos, sociales, culturales, ecosistémicos y económicos, garantizando la participación popular, democrática y vinculante de sus habitantes, de acuerdo con la Constitución y la ley.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
   },
   {
-    nombre: 'Claudio Huepe',
-    cargo: 'Ministerio de Energía',
-    edad: '55',
-    partido: 'Convergencia Social',
-    profesion: 'Ingeniero comercial',
-    nivelAcademico:
-      'Magíster en Economía y máster en Economía de los Recursos Naturales y del Medio Ambiente',
-    colegio: '-',
-    universidad: 'Pontificia Universidad Católica',
-    biografia:
-      'Claudio Huepe (55) es Ingeniero Comercial y magíster en Economía de la Pontificia Universidad Católica. También tiene un máster en Economía de los Recursos Naturales y del Medio Ambiente de University College en Londres. Es el coordinador del Centro de Energía y Desarrollo Sustentable de la UDP. Fue jefe de Estudios en la Comisión Nacional de Energía y director de la División de Política y Prospectiva del Ministerio de Energía. Integró el equipo económico de Boric.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-claudio-huepe-el-nuevo-ministro-de-energia-de-gabriel-boric/YTRJEJCHFBHGZPXJMJ7HH2HRMU/',
-    foto:
-      'https://www.latercera.com/resizer/z6TvEq-qv6H23UP0lNfTIYpGRHY=/arc-anglerfish-arc2-prod-copesa/public/BKJNRYIOEFHO3GKOUTTP4JZ2V4.jpg',
+    numero: `Artículo 3`,
+    titulo: `Del Territorio`,
+    texto: `Del Territorio. Chile, en su diversidad geográfica, natural, histórica y cultural, forma un territorio único e indivisible. Los  límites del  territorio  son  los  que  establecen  las  leyes  y  los  tratados internacionales. La soberanía y jurisdicción sobre el territorio se ejerce de acuerdo a la Constitución, las leyes y los tratados internacionales ratificados y vigentes en Chile.`,
+    afavor: `128`,
+    encontra: `25`,
+    abstencion: `0`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `Del Territorio. Chile, en su diversidad geográfica, natural, histórica y cultural, forma un territorio único e indivisible. Los  límites del  territorio  son  los  que  establecen  las  leyes  y  los  tratados internacionales. `,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
   },
   {
-    nombre: 'Maisa Rojas',
-    cargo: 'Ministerio de Medio Ambiente',
-    edad: '49',
-    partido: 'Independiente',
-    profesion: 'Licenciatura en Física',
-    nivelAcademico: 'Doctorado en Física de la Atmósfera',
-    colegio: 'Colegio Instituto Santa María',
-    universidad: 'Universidad de Chile',
-    biografia:
-      'Maisa Rojas (49) es una reconocida climatóloga chilena. Es independiente. También es académica de la Universidad de Chile y Directora del Centro de Ciencia del Clima y la Resiliencia. Estudió física en la Universidad de Chile y un doctorado en física atmosférica en la Universidad de Oxford. Fue una de las autoras del informe del Panel Intergubernamental de Cambio Climático (IPCC). También se desempeñó como coordinadora del comité científico asesor para la COP25.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-maisa-rojas-la-nueva-ministra-de-medio-ambiente-de-gabriel-boric/WABEL2PBEFA2ZPTZYFDFKAU6PY/',
-    foto:
-      'https://www.latercera.com/resizer/Kcm_ooxNhoZ1RYv3veB-pbAKkkY=/arc-anglerfish-arc2-prod-copesa/public/ILBYZQBH5JGPRCRIBCDXX5CVX4.jpg',
+    numero: `Artículo 4`,
+    titulo: `Del Maritorio`,
+    texto: `Del Maritorio. Chile es un país oceánico conformado por los ecosistemas marinos y marino-costeros continentales, insulares y antárticos, así como por las aguas, el lecho y el subsuelo existentes en el maritorio, la zona contigua, la zona económica exclusiva, la plataforma continental y su extensión. El maritorio chileno, como parte del territorio, está integrado por el mar territorial, las  aguas  interiores  y  la  zona  costera.  El  Estado  reconoce  las  diferentes  formas  de relación   entre  los  pueblos  originariosy   comunidades   costeras   con   el   maritorio, respetando  y  promoviendo  sus  usos  consuetudinarios  y  locales,  considerándolo  un espacio integral de convivencia entre lo tangible y lo intangible. Es  deber  del  Estado  proteger  los  espacios  y  ecosistemas  marinos  y marino-costeros, propiciando las diversas vocaciones y usos asociados a ellos, y asegurando, en todo caso, su preservación, conservación y restauración ecológica. La ley establecerá su ordenación espacial y gestión integrada, mediante un trato diferenciado, autónomo y descentralizado, según corresponda, en base a la equidad y justicia territorial.`,
+    afavor: `111`,
+    encontra: `36`,
+    abstencion: `6`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `Del Maritorio. Es deber del Estado proteger los  espacios y ecosistemas marinos y marino-costeros, propiciando las diversas vocaciones y usos asociados a ellos, y asegurando, en todo caso, su preservación, conservación y restauración ecológica. La ley establecerá su ordenación espacial y gestión integrada, mediante un trato diferenciado, autónomo y descentralizado, según corresponda, en base a la equidad y justicia territorial.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
   },
   {
-    nombre: 'Julieta Brodsky',
-    cargo: 'Ministerio de las Culturas, las Artes y el Patrimonio',
-    edad: '38',
-    partido: 'Convergencia Social',
-    profesion: 'Antropóloga social y cultural',
-    nivelAcademico: 'Magíster en Antropología Urbana',
-    colegio: 'Colegio Altamira, Peñalolén',
-    universidad: 'Universidad de Granada (España)',
-    biografia:
-      'Julieta Brodsky es antropóloga social y cultural de la Universidad de Granada (España) y egresada del magíster en Antropología Urbana de la Universidad Academia de Humanismo Cristiano. Su carrera ha estado ligada al mundo de la cultura. Actualmente es directora de Investigación del Observatorio de Políticas Culturales y socia de la Asociación Cultural Tramados.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-julieta-brodsky-la-nueva-ministra-de-las-culturas-las-artes-y-el-patrimonio-de-gabriel-boric/4E342HUIMNA5RDFL6U4HKEYIQM/',
-    foto:
-      'https://www.latercera.com/resizer/02SWctNXl8sPXwKAGIYmAb8fuu8=/arc-anglerfish-arc2-prod-copesa/public/S32G3MTLZVCVZJWQMKZFO55IQQ.jpg',
+    numero: `Artículo 5`,
+    titulo: `De la Autonomía de las entidades territoriales`,
+    texto: `De la Autonomía de las entidades territoriales. Las regiones autónomas, comunas autónomas y autonomías territoriales indígenas están dotadas de autonomía política, administrativa y financiera para la realización de sus fines e intereses en los términos establecidos por la presente Constitución y la ley. En ningún caso el ejercicio de la autonomía podrá atentar en contra del carácter único e indivisible del Estado de Chile, ni permitirá la secesión territorial.`,
+    afavor: `111`,
+    encontra: `37`,
+    abstencion: `2`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `De la Autonomía de las entidades territoriales. Las regiones autónomas, comunas autónomas y autonomías territoriales indígenas están dotadas de autonomía política, administrativa y financiera para la realización de sus fines e intereses en los términos establecidos por la presente Constitución y la ley. En ningún caso el ejercicio de la autonomía podrá atentar en contra del carácter único e indivisible del Estado de Chile, ni permitirá la secesión territorial.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
   },
   {
-    nombre: 'Alexandra Benado',
-    cargo: 'Ministerio de Deporte',
-    edad: '45',
-    partido: 'Independiente',
-    profesion: 'Profesor',
-    nivelAcademico: 'Universitario',
-    colegio: 'Colegio Rubén Darío, La Reina',
-    universidad: 'Universidad Metropolitana de Ciencias de la Educación',
-    biografia:
-      'Alexandra Benado (45) nació en Suecia, es futbolista y también ha sido directora técnica. Es activista LGTBI. Desde ahí ha luchado por los derechos filiativos de sus hijos mellizos. Denunció al Estado ante la Corte Interamericana de derechos humanos para que parejas homoparentales, como ella, tuvieran reconocimiento jurídico. Además es coordinadora ejecutiva en Londres 38.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-alexandra-benado-la-nueva-ministra-del-deporte-de-gabriel-boric/NI2VSDQRSVDOJPD3XPTE4CSDHA/',
-    foto:
-      'https://www.latercera.com/resizer/5jLjOTJtjiliAHobdb8jc4U8X-o=/arc-anglerfish-arc2-prod-copesa/public/CYAPEQ35XBFUJN55HJMMS5X5PY.jpg',
+    numero: `Artículo 6`,
+    titulo: `De la solidaridad, cooperación y asociatividad territorial en el Estado Regional`,
+    texto: `De la solidaridad, cooperación y asociatividad territorial en el Estado  Regional. Las  entidades  territoriales  se coordinan  y  asocian  en relaciones  de solidaridad,   cooperación,   reciprocidad  y  apoyo  mutuo, evitando la duplicidad de funciones, en conformidad a los mecanismos que establezca la ley. Dos o más entidades territoriales, con o sin continuidad territorial, podrán pactar convenios  y  constituir  asociaciones  territoriales con la finalidad  de  lograr  objetivos comunes, promover la cohesión social, mejorar la prestación de los servicios públicos, incrementar  la  eficiencia  y  eficacia  en  el  ejercicio  de  sus  competencias y potenciar el desarrollo social, cultural, económico sostenible yequilibrado. El Estado promoverá y apoyará la cooperación y asociatividad con las entidades territoriales y entre ellas, garantizando su plena autonomía. La ley establecerá las bases generales para la creación y funcionamiento de estas asociaciones, en concordancia de la legislación regional que se dicte al efecto. Las asociaciones de entidades territoriales, en ningún caso, alterarán la organización territorial del Estado`,
+    afavor: `141`,
+    encontra: `2`,
+    abstencion: `11`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `De la solidaridad, cooperación y asociatividad territorial en el Estado  Regional. Las  entidades  territoriales  se coordinan  y  asocian  en relaciones  de solidaridad,   cooperación,   reciprocidad  y  apoyo  mutuo, evitando la duplicidad de funciones, en conformidad a los mecanismos que establezca la ley. Dos o más entidades territoriales, con o sin continuidad territorial, podrán pactar convenios  y  constituir  asociaciones  territoriales con la finalidad  de  lograr  objetivos comunes, promover la cohesión social, mejorar la prestación de los servicios públicos, incrementar  la  eficiencia  y  eficacia  en  el  ejercicio  de  sus  competencias y potenciar el desarrollo social, cultural, económico sostenible yequilibrado. Las asociaciones de entidades territoriales, en ningún caso, alterarán la organización territorial del Estado.`,
+    conceptos: ``,
+    quesignifica: `asociatividad territorial`,
+    comision: `Comisión de forma/General`,
   },
   {
-    nombre: 'Antonia Orellana',
-    cargo: 'Ministerio de la Mujer y la Equidad de Género',
-    edad: '32',
-    partido: 'Convergencia Social',
-    profesion: 'Periodista',
-    nivelAcademico: 'Universitario',
-    colegio: 'Liceo Tajamar, Providencia',
-    universidad: 'Universidad de Chile',
-    biografia:
-      'Antonia Orellana (32) es periodista y militante de Convergencia Social. Su carrera ha estado siempre enfocada en temas de género. Forma parte de la Red Chilena Contra la Violencia hacia las Mujeres. Fue candidata a convencional por el distrito 10, pero no logró su escaño. Es parte del círculo más íntimo de Boric.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-antonia-orellana-la-nueva-ministra-de-de-la-mujer-y-la-equidad-de-genero-de-gabriel-boric/YJTVWXNJXJDX7J4AVFIABM4ASE/',
-    foto:
-      'https://www.latercera.com/resizer/qCpumzvtpNewAOgJCbSZQD5bFxc=/arc-anglerfish-arc2-prod-copesa/public/MBBUL3SAJBAKFDA7HVNLATIB5E.jpg',
+    numero: `Artículo 7`,
+    titulo: `De la Participación en las entidades territoriales en el Estado Regional`,
+    texto: `De la Participación en las entidades territoriales en el Estado Regional. Las  entidades  territoriales  garantizan  el  derecho  de  sus  habitantes  a participar, individual o colectivamente en las decisiones públicas, comprendiendo en ella la  formulación,  ejecución,  evaluación, fiscalización  y  control  democrático  de  la función pública, con arreglo a la Constitución y las leyes. Los  pueblos  y  naciones  preexistentes  al  Estado  deberán  ser  consultados  y otorgar el consentimiento libre, previo e informado en aquellas materias o asuntos que les afecten en sus derechos reconocidos en esta Constitución.
+    `,
+    afavor: `116`,
+    encontra: `34`,
+    abstencion: `4`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: `MENA, Indicación No76: para sustituir, en el inciso primero del artículo 7o, la expresión “la función pública, con arreglo a” por “las materias que determinen”. SE RETIRA`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `De la Participación en las entidades territoriales en el Estado Regional. Las entidades  territoriales  garantizan el derecho  de  sus  habitantes a participar, individual o colectivamente en las decisiones públicas, comprendiendo en ella la formulación, ejecución,  evaluación, fiscalización y control democrático de la función pública, con arreglo a la Constitución y las leyes. Los  pueblos y naciones  preexistentes al Estado deberán  ser  consultados y otorgar el consentimiento libre, previo e informado en aquellas materias o asuntos que les afecten en sus derechos reconocidos en esta Constitución.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
   },
   {
-    nombre: 'Flavio Salazar',
-    cargo: 'Ministerio de Ciencia, Tecnología, Conocimiento e Innovación',
-    edad: '56',
-    partido: 'Partido Comunista',
-    profesion: 'Biólogo',
-    nivelAcademico: 'Doctor en Inmunología',
-    colegio: 'Liceo Juan Bosco',
-    universidad: 'Universidad de Uppsala (Suecia)',
-    biografia:
-      'Flavio Salazar (56) es biólogo y vicerrector de Investigación y Desarrollo de la Universidad de Chile. Obtuvo un doctorado en inmunología en Suecia en 1998 y a su regreso al país se integró al Programa Disciplinario de Inmunología del Instituto de Ciencias Biomédicas. Su mayor interés se ha centrado en varios aspectos de la inmunología antitumoral y tiene una vasta experiencia académica.',
-    url:
-      'https://www.latercera.com/politica/noticia/quien-es-flavio-salazar-el-nuevo-ministro-de-ciencia-de-gabriel-boric/QOKGOJZBNZHXFEKJDGVC5RN4EA/',
-    foto:
-      'https://www.latercera.com/resizer/ALB8nbnHdNCO_fc5eSaBh1dxMWs=/arc-anglerfish-arc2-prod-copesa/public/CTBW5NZEFVCS7DJRQJ662T4OKA.jpg',
+    numero: `Artículo 8`,
+    titulo: `Del Desarrollo Territorial`,
+    texto: `Del Desarrollo Territorial. Es deber de las entidades territoriales, en el ámbito de sus competencias,  establecer  una  política permanente de equidad territorial de desarrollo sostenible y armónico con la naturaleza.Las  entidades  territoriales considerarán  para  su  planificación  social, política, administrativa, cultural, territorial y económica los criterios de suficiencia presupuestaria, inclusión e interculturalidad, integración socioespacial, perspectiva de género, enfoque socio ecosistémico,  enfoque en derechos humanos y los demás que establezca esta Constitución.`,
+    afavor: `120`,
+    encontra: `11`,
+    abstencion: `23`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `30/12/1899`,
+    indicacion: `VERGARA, IND 83, Para agregar:
+    “con participación vinculante de las comunidades.” después de “sostenible y
+    armónico con la naturaleza” ERROR`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `Del Desarrollo Territorial. Es deber de las entidades territoriales, en el ámbito de sus competencias, establecer una política permanente de equidad territorial de desarrollo sostenible y armónico con la naturaleza. Las entidades territoriales considerarán  para  su  planificación social, política, administrativa, cultural, territorial y económica los criterios de suficiencia presupuestaria, inclusión e interculturalidad, integración socioespacial, perspectiva de género, enfoque socio ecosistémico, enfoque en derechos humanos y los demás que establezca esta Constitución.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 9`,
+    titulo: `De la Equidad y justicia territorial`,
+    texto: `De la Equidad, Solidaridad y justicia territorial. El  Estado garantiza un tratamiento equitativo y un desarrollo armónico y solidario entre las diversas entidades   territoriales,   propendiendo   al   interés   general,   no   pudiendo   establecer diferencias  arbitrarias  entre  ellas,  asegurando  a  su  vez,  las  mismas  condiciones  de acceso  a  los  servicios  públicos,  al  empleo  y  a  todas  las  prestaciones  estatales,  sin perjuicio del lugar que habiten en el territorio, estableciendo de ser necesario, acciones afirmativas en favor de los grupos empobrecidos e históricamente vulnerados. El Estado de Chile promoverá un desarrollo territorial equitativo, armónico y solidario que permita una  integración  efectiva  de  las  distintas  localidades,  tanto  urbanas  como  rurales, promoviendo la equidad horizontal en la provisión de bienes y servicios.`,
+    afavor: `146`,
+    encontra: `1`,
+    abstencion: `6`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `De la Equidad, Solidaridad y justicia territorial. El Estado garantiza un tratamiento equitativo y un desarrollo armónico y solidario entre las diversas entidades territoriales, propendiendo al interés   general, no pudiendo establecer diferencias  arbitrarias entre ellas, asegurando a su vez,  las  mismas condiciones de acceso a los servicios  públicos, al empleo y a todas las prestaciones  estatales, sin perjuicio del lugar que habiten en el territorio, estableciendo de ser necesario, acciones afirmativas en favor de los grupos empobrecidos e históricamente vulnerados. El Estado de Chile promoverá un desarrollo territorial equitativo, armónico y solidario que permita una  integración  efectiva de las distintas localidades,  tanto  urbanas como rurales, promoviendo la equidad horizontal en la provisión de bienes y servicios.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 10`,
+    titulo: `De la Plurinacionalidad e Interculturalidad en el Estado Regional`,
+    texto: `De la Plurinacionalidad e interculturalidad en el Estado Regional. Las entidades territoriales y sus órganos reconocen, garantizan y promuevenen  todo  su  actuar  el  reconocimiento político y jurídico de los pueblos y naciones preexistentes  al  Estadoque  habitan  sus  territorios;  su  supervivencia,  existencia y desarrollo armónico e integral; la distribución equitativa del poder y de los espacios de participación política; el uso, reconocimiento y promoción de las lenguas indígenas que se  hablan  en  ellas,  propiciando  el  entendimiento  intercultural,  el  respeto  de  formas diversas de ver, organizar y concebir el mundo y de relacionarse con la naturaleza; la protección  y  el  respeto  de  los  derechos  de  autodeterminación  y  de  autonomía  de  los territorios indígenas, en coordinación con el resto de las entidades territoriales.
+    `,
+    afavor: `115`,
+    encontra: `37`,
+    abstencion: `2`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: `MENA, Indicación No93: para sustituir íntegramente el encabezado del artículo 10 por “De la interculturalidad”. SE RETIRA`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `De la Plurinacionalidad e interculturalidad en el Estado Regional. Las entidades territoriales y sus órganos reconocen, garantizan y promuevenen todo su actuar  el  reconocimiento político y jurídico de los pueblos y naciones preexistentes al  Estadoque habitan sus territorios; su supervivencia, existencia y desarrollo armónico e integral; la distribución equitativa del poder y de los espacios de participación política; el uso, reconocimiento y promoción de las lenguas indígenas que se hablan en ellas, propiciando el entendimiento  intercultural, el respeto de formas diversas de ver, organizar y concebir el mundo y de relacionarse con la naturaleza; la protección y el respeto de los derechos de autodeterminación y de autonomía de los territorios indígenas, en coordinación con el resto de las entidades territoriales`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 11`,
+    titulo: `De la postulación y cesación a los cargos de las entidades territoriales`,
+    texto: `De la  postulación  y  cesación  a  los  cargos  de  las  entidades territoriales. La  elección  de  las  y  los  representantes  por  votación  popular  de  las entidades  territoriales  se  efectuará  asegurando  la  paridad  de  género,  la  probidad,  la representatividad territorial,la pertenencia territorial, avecindamiento y la representación efectiva  de los pueblos y naciones preexistentes al Estado.La  Constitución  y  la  ley  establecerán  los  requisitos  para  la  postulación  y  las causales de cesación de dichos cargos. La calificación y procedencia de estas causales de cesación se realizará a través de un procedimiento expedito ante la justicia electoral, en conformidad a la ley.`,
+    afavor: `117`,
+    encontra: `28`,
+    abstencion: `8`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `De la  postulación  y  cesación  a  los  cargos  de  las  entidades territoriales. La  elección  de  las  y  los  representantes  por  votación  popular  de  las entidades  territoriales  se  efectuará  asegurando  la  paridad  de  género,  la  probidad,  la representatividad territorial,la pertenencia territorial, avecindamiento y la representación efectiva  de los pueblos y naciones preexistentes al Estado.La  Constitución  y  la  ley  establecerán  los  requisitos  para  la  postulación  y  las causales de cesación de dichos cargos. La calificación y procedencia de estas causales de cesación se realizará a través de un procedimiento expedito ante la justicia electoral, en conformidad a la ley.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 12`,
+    titulo: `Principio de no tutela entre entidades territoriales`,
+    texto: `Principio  de  no  tutela  entre  entidades  territoriales. Ninguna entidad territorial podrá ejercer cualquier forma de tutela sobre otra entidad territorial, sin perjuicio  de  la  aplicación  de  los  principios  de  coordinación,  de  asociatividad,  de solidaridad, y los conflictos de competencias que puedan ocasionarse`,
+    afavor: `146`,
+    encontra: `2`,
+    abstencion: `5`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: `MENA, Indicación No114: para suprimir, en el artículo 12, la expresión “cualquier forma de” después de “ejercer”.`,
+    indAfavor: `120`,
+    indEncontra: `19`,
+    indAbstencion: `2`,
+    indFecha: `30/12/1899`,
+    textodefinitivo: ` Principio de no tutela entre entidades territoriales. Ninguna entidad territorial podrá ejercer tutela sobre otra entidad territorial, sin perjuicio de la aplicación de los principios de coordinación, de asociatividad, de solidaridad, y los conflictos de competencias que puedan ocasionarse.`,
+    conceptos: ``,
+    quesignifica: `Tutela, entidad territorial`,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 13`,
+    titulo: `Correspondencia entre competencias y recursos`,
+    texto: `Correspondencia entre competencias y recursos. Sin perjuicio de las competencias que establece esta Constitución y la ley, el Estado podrá transferir a las entidades territoriales aquellas competencias de titularidad estatal que por su propia naturaleza   son   susceptibles   de   transferencia.  Estas  transferencias deberán  ir acompañadas siempre por el personal y los recursos financieros suficientes y oportunos para su adecuada ejecución.Una ley regulará el régimen  jurídico del procedimiento de transferencia  de competencias y sus sistemas de evaluación y control`,
+    afavor: `149`,
+    encontra: `2`,
+    abstencion: `2`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `Correspondencia entre competencias y recursos. Sin perjuicio de las competencias que establece esta Constitución y la ley, el Estado podrá transferir a las entidades territoriales aquellas competencias de titularidad estatal que por su propia naturaleza son susceptibles de transferencia. Estas transferencias deberán ir acompañadas siempre por el personal y los recursos financieros suficientes y oportunos para su adecuada ejecución. Una ley regulará el régimen  jurídico del procedimiento de transferencia de competencias y sus sistemas de evaluación y control.`,
+    conceptos: ``,
+    quesignifica: `Titularidad, régimen jurídico`,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 14`,
+    titulo: `Cuestiones de competencia`,
+    texto: `Cuestiones de competencia. La ley establecerá el procedimiento para  resolución  de  las  distintas  contiendas  de  competencia  que  se  susciten  entre  el Estado y las entidades territoriales, o entre ellas, las que serán conocidas por el órgano encargado de la justicia constitucional`,
+    afavor: `139`,
+    encontra: `2`,
+    abstencion: `3`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `Cuestiones de competencia. La ley establecerá el procedimiento para resolución de las distintas contiendas de competencia que se susciten entre el Estado y las entidades territoriales, o entre ellas, las que serán conocidas por el órgano encargado de la justicia constitucional.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 15`,
+    titulo: `Libertad de circulación entre entidades territoriales`,
+    texto: `Libertad de circulación entre entidades territoriales. Ninguna entidad  territorial  o  autoridad  podrá  adoptar  medidas  que  directa  o  indirectamente impidan  el  ejercicio  de  la  libertad  de  movimiento,  la  libre  circulación  de  bienes  y  de residencia de las personas al interior de ellas, así como en todo el territorio del Estado, sin perjuicio de las limitaciones contempladas en esta Constitución y la ley.`,
+    afavor: `125`,
+    encontra: `15`,
+    abstencion: `14`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 16`,
+    titulo: `Radicación preferente de competencias`,
+    texto: `Radicación preferente de competencias. Las funciones públicas  deberán  radicarse  priorizando  la  entidad  local  sobre  la  regional  y  ésta  última sobre el Estado, sin perjuicio de aquellas competencias que la propia Constitución o las leyes  reserven  a  cada  una  de  estas  entidades  territoriales.  La  Región  Autónoma  o  el Estado, cuando así lo exija el interés general, podrán subrogar de manera transitoria y supletoria las competencias que no puedan ser asumidas por la entidad local.`,
+    afavor: `129`,
+    encontra: `11`,
+    abstencion: `13`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: `Radicación preferente de competencias. Las funciones públicas  deberán  radicarse  priorizando  la  entidad local sobre la regional  y  ésta  última sobre el Estado, sin perjuicio de aquellas competencias que la propia Constitución o las leyes reserven a cada una de estas  entidades  territoriales. La Región Autónoma o el Estado, cuando así lo exija el interés general, podrán subrogar de manera transitoria y supletoria las competencias que no puedan ser asumidas por la entidad local.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 17`,
+    titulo: `Diferenciación territorial`,
+    texto: `Diferenciación  territorial. El  Estado  deberá  generar políticas públicas diferenciadas y transferir las competencias que mejor se ajusten a las necesidades y particularidades de los entes territoriales, con los respectivos  recursos. La ley establecerá los criterios y requisitos para la aplicación de diferencias territoriales, así como los mecanismos de solidaridad y equidad que compensen las desigualdades entre los distintos niveles territoriales`,
+    afavor: `151`,
+    encontra: `1`,
+    abstencion: `1`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 18`,
+    titulo: `De las Regiones Autónomas`,
+    texto: `De las Regiones Autónomas .Las Regiones autónomasson entidades políticas y territoriales dotadas de personalidad jurídica de derecho público y  patrimonio  propio  que  gozan  de  autonomía  para  el  desarrollo  de  los  intereses regionales,  la  gestión  de  sus  recursos  económicos  y  el  ejercicio  de  las  atribucioneslegislativa, reglamentaria, ejecutiva y fiscalizadora a través de sus órganos en el ámbito de sus competencias, con arreglo a lo dispuesto en la Constitución y la ley.`,
+    afavor: `109`,
+    encontra: `39`,
+    abstencion: `1`,
+    aprobado: ``,
+    estado: ``,
+    fecha: `16/02/2022`,
+    indicacion: `MENA, Indicación No163: para suprimir, en el artículo 18, la expresión “legislativa” después de “atribuciones”.`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 19`,
+    titulo: `Diferenciación territorial`,
+    texto: `Cláusula residual. Las competencias sobre materias no atribuidas expresamente al  Estado  por  esta  Constitución  podrán  corresponder  a  las regiones autónomas, de acuerdo a lo dispuesto en los respectivos estatutos. Asimismo, las competencias que no se hayan asumido por las regiones autónomas en sus estatutos corresponderá al Estado.`,
+    afavor: `87`,
+    encontra: `65`,
+    abstencion: `1`,
+    aprobado: `Rechazada`,
+    estado: `Rechazado en general (vuelve a comisión)`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 20`,
+    titulo: `Del Estatuto Regional`,
+    texto: `Del  Estatuto  Regional. Cada   Región   Autónoma establecerá  su  propio  orden  político  interno  regional  el  que  establecerá  los  principios fundamentales  que  rigen  la  organización  y  funcionamiento  de  los  órganos  regionales, además  de  las  normas  sobre  gobierno,  administración  y  elaboración  de  la  legislación regional. El  Estatuto  Regional  debe  responder  a  los  principios  del  Estado  Social  de Derechos  que  la  República  instituye  en  esta  Constitución  y  respetar  los  derechos fundamentales reconocidos en ella, debiendo velar por la democracia regional, cuidando que  el  pueblo  elija  sus  representantes  en  elecciones  generales,  directas,  libres, inclusivas, participativas y secretas`,
+    afavor: `105`,
+    encontra: `47`,
+    abstencion: `1`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 21`,
+    titulo: `De la elaboración, aprobación y reforma del Estatuto Regional`,
+    texto: `De la elaboración, aprobación y reforma del  Estatuto Regional. El Estatuto Regional será elaborado y propuesto por la Asamblea Legislativa Regional respectiva y aprobado con la mayoría absoluta de sus miembros en ejercicio. La  propuesta  será  sometida  a  un  referéndum  regional  para  ser  ratificada  por  la ciudadanía, sin perjuicio del control de constitucionalidad por el órgano competente.El proceso de elaboración y reforma del Estatuto Regional deberá garantizar la participación popular, democrática y vinculante de sus habitantes.Desde su publicación, el Estatuto Regional sólo podrá ser reformado mediante el procedimiento que éste establezca.`,
+    afavor: `107`,
+    encontra: `44`,
+    abstencion: `2`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 22`,
+    titulo: `De las Autoridades Regionales`,
+    texto: `De  la Autoridades Regionales. La organización institucional  de  las  Regiones  Autónomas  se  compone  del  Gobierno  Regional,  de  la Asamblea Legislativa Regional y del Consejo Social Regional.`,
+    afavor: `111`,
+    encontra: `40`,
+    abstencion: `1`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: `CASTILLO, IND 209. Para reemplazar el artículo 32 TS, por el siguiente:
+    “Artículo 32.- De las Autoridades Regionales. El gobierno de la región autónoma radica en el gobierno regional, compuesto del gobernador regional y del consejo regional.”`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 23`,
+    titulo: `Del Gobierno Regional`,
+    texto: `Del Gobierno Regional. El Gobierno Regional es el órgano ejecutivo de la Región Autónoma.Una Gobernadora o Gobernador Regional dirigirá el Gobierno Regional, ejerciendo la función administrativa y reglamentaria y representará a la Región autónoma ante las demás  autoridades  nacionales  e  internacionales, en el marco de la  política nacional de relaciones internacionales con funciones de coordinación e intermediación entre el gobierno central y la región. La Gobernadora o Gobernador regional tendrá la representación judicial y extrajudicial de la región.En  la  elección  de  Gobernadora  o  Gobernador  Regional,  resultará  electo  quien obtenga la mayoría de los votos válidamente emitidos, pero si ningún candidato logra al menos el cuarenta por ciento de los votos se producirá una segunda votación entre los candidatos  o  candidatas  que  hayan  obtenido  las  dos  más  altas  mayorías,  resultando elegido el que obtuviere la mayoría de los votos válidamente emitidos. La Gobernadora o Gobernador Regional ejercerá sus funciones por el término de cuatro años, pudiendo ser reelegido o reelegida consecutivamente sólo una vez para el período siguiente. En este caso, se considerará que se ha ejercido el cargo durante un período cuando el Gobernador o Gobernadora Regional haya cumplido más de la mitad del mandato. La Gobernadora o Gobernador regional, será elegido en votación directa, en conformidad con lo dispuesto en la Constitución y la ley.`,
+    afavor: `116`,
+    encontra: `13`,
+    abstencion: `23`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: `CASTILLO, IND 215, Para reemplazar en el inciso primero del artículo 33, las palabras “El Gobierno Regional” por “La gobernadora o gobernador regional”.`,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 24`,
+    titulo: `Del  Consejo de Alcaldes y Alcaldesas`,
+    texto: `Del  Consejo de Alcaldes y Alcaldesas. El  Consejo  de Alcaldes y Alcaldesas es un órgano de carácter consultivo que estará integrado por los alcaldes  y  alcaldesas  de  todas  las  comunas  de  la  región  autónoma  y  de  las  ciudades respectivas, el cual será coordinado por quien determinen sus integrantes por mayoría absoluta. El Consejo deberá sesionar y abordar las problemáticas de la región autónoma, promover una coordinación efectiva entre los distintos órganos con presencia regional y fomentar una cooperación eficaz entre los gobiernos locales en la forma que determine la ley.`,
+    afavor: `142`,
+    encontra: `5`,
+    abstencion: `2`,
+    aprobado: `Aprobada`,
+    estado: `Aprobado en general`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
+  },
+  {
+    numero: `Artículo 25`,
+    titulo: `De la Asamblea Legislativa Regional`,
+    texto: `De la Asamblea Legislativa Regional. La Asamblea Legislativa Regional  es  el  órgano  de  representación  popular,  colegiado,  autónomo, plurinacional  y  paritario,  dotado  de  potestades  legislativas,  resolutivas  y  fiscalizadoras en el ámbito de sus competencias, en conformidad a la Constitución y las leyes.La   Asamblea   Legislativa   Regional   estará   integrada   por   el   número   de Asambleístas Legislativos Regionales que fije la ley nacional en proporción a la población regional,  bajo  criterios  de  representatividad  territorial,  paridad  de  género  y  escaños reservados  para  los  pueblos  y  naciones  preexistentes  al  Estado. La  elección  de  los Asambleístas Regionales será por sufragio universal, directo y secreto, en conformidad a la ley nacional.Los  y  las  Asambleístas  Regionales  ejercerán  sus  funciones  por  el  término  de cuatro  años,  pudiendo  ser  reelegidos  consecutivamente  sólo  una  vez  para  el  período inmediatamente  siguiente. En  este  caso,  se  considerará  que  se  ha  ejercido  el  cargo durante un período cuando él o la Asambleísta Regional haya cumplido más de la mitad de su mandato. Los requisitos y exigencias para acceder al cargo estarán establecidos por la ley.Corresponderá  a  las  Asambleas  Regionales  elaborar  y  aprobar  su  propio reglamento, en los términos de la Constitución y el Estatuto Regional respectivo.Las  leyes  regionales  procurarán  suprimir  los  obstáculos  que  impidan  la  plena igualdad  en  el  goce  de derechos,  en  la  vida  social, cultural  y  económica,  tomando  en cuenta especialmente la diversidad geográfica y cultural, la igualdad y la lucha contra la violencia de género, la igualdad de las diversidades de género y sexuales, la existencia de Pueblos Originarios y las acciones afirmativas necesarias para el goce de derechos de individuos o grupos históricamente marginados.`,
+    afavor: `100`,
+    encontra: `51`,
+    abstencion: `2`,
+    aprobado: `Rechazada`,
+    estado: `Rechazado en general (vuelve a comisión)`,
+    fecha: `16/02/2022`,
+    indicacion: ``,
+    indAfavor: ``,
+    indEncontra: ``,
+    indAbstencion: ``,
+    indFecha: `30/12/1899`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Comisión de forma/General`,
   },
 ]
 
-export default fichas
+export default data

@@ -1,9 +1,10 @@
 import React from 'react'
 import Sharer from '../Sharer'
 import styled from 'styled-components'
-import Ficha from '../Ficha'
+import Comision from '../Comision'
 import data from '../Data'
 import LogoLibro from '../LogoLibro'
+import IconFlecha from '../IconFlecha'
 
 const Excerpt = styled.p`
   max-width: 700px;
@@ -88,31 +89,28 @@ const Header = () => {
       <p>
         <strong>Actualizado al 18 de febrero de 2022</strong>
       </p>
+      <IconFlecha />
     </HeaderWrap>
   )
 }
 
 const Body = () => {
+  // group by comision
+  const comisiones = data.reduce((acc, item) => {
+    if (!acc[item.comision]) {
+      acc[item.comision] = []
+    }
+    acc[item.comision].push(item)
+    return acc
+  }, {})
+
   return (
     <Wrap>
-      {/* {data.map((item, index) => {
+      {Object.keys(comisiones).map((comision, index) => {
         return (
-          <Ficha
-            key={index}
-            nombre={item.nombre}
-            cargo={item.cargo}
-            edad={item.edad}
-            partido={item.partido}
-            profesion={item.profesion}
-            nivelAcademico={item.nivelAcademico}
-            colegio={item.colegio}
-            universidad={item.universidad}
-            biografia={item.biografia}
-            foto={item.foto}
-            url={item.url}
-          />
+          <Comision key={index} title={comision} items={comisiones[comision]} />
         )
-      })} */}
+      })}
     </Wrap>
   )
 }

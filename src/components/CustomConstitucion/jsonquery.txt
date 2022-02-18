@@ -1,0 +1,39 @@
+Número artículo 	
+Título	
+Artículo	
+A favor	
+En Contra	
+Abstención	
+Apruebo/Rechazo	
+Estado de la norma: 1. Aprobado en general 2. Rechazado en general y vuelve a la Comisión	
+Fecha	
+Indicación 	
+A favor	
+En Contra 	
+Abstención 	
+Fecha	
+Norma constitucional "definitiva"	
+Conceptos clave	
+¿Qué significa?	
+Comisión
+
+
+=concatenate("{
+numero: `";A2;"`,
+titulo: `";B2;"`,
+texto: `";C2;"`,
+afavor: `";D2;"`,
+encontra: `";E2;"`,
+abstencion: `";F2;"`,
+aprobado: `";G2;"`,
+estado: `";H2;"`,
+fecha: `";TEXT(I2;"DD/MM/YYYY");"`,indicacion: `";K2;"`,
+indAfavor: `";L2;"`,
+indEncontra: `";M2;"`,
+indAbstencion: `";N2;"`,
+indFecha: `";TEXT(O2;"DD/MM/YYYY");"`,
+textodefinitivo: `";P2;"`,
+conceptos: `";Q2;"`,
+quesignifica: `";R2;"`,
+comision: `";S2;"`
+},")
