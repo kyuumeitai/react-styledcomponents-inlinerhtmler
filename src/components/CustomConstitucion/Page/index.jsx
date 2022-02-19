@@ -48,6 +48,9 @@ const HeaderWrap = styled.div`
 const Wrap = styled.div`
   padding: 0 30px;
   ${serif}
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
   h2 {
     ${serif}
     line-height: 1.1;

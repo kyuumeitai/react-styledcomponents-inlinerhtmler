@@ -2,7 +2,7 @@ import React from 'react'
 import Articulo from './Articulo'
 import Titulo from './Titulo'
 import styled from 'styled-components'
-import { getLuminance, lighten } from 'polished'
+import { getLuminance, setLightness } from 'polished'
 
 const Columns = styled.div`
   display: grid;
@@ -18,6 +18,7 @@ const Columns = styled.div`
 `
 
 const colors = [
+  '#FFE400',
   '#fee08b',
   '#e6f598',
   '#abdda4',
@@ -30,13 +31,11 @@ const colors = [
   '#fdae61',
 ]
 
-//create a function to generate a color based on the index repeating itself if it's more than the number of colors
 const getColor = (index, luminanceQuantity) => {
-  //if color luminance is too dark, use a lighter color
   const color = colors[index % colors.length]
   const luminance = getLuminance(color)
   if (luminance < 0.5) {
-    return lighten(luminanceQuantity, color)
+    return setLightness(luminanceQuantity, color)
   }
   return color
 }
@@ -51,12 +50,20 @@ const Comision = ({ title, items, index }) => {
         title={title}
         excerpt={`fecha votación`}
         index={indexStr}
-        mainColor={getColor(index, 0.3)}
-        bgColor={getColor(index, 0.6)}
+        mainColor={getColor(index, 0.5)}
+        bgColor={getColor(index, 0.8)}
       />
       <div>
         {items.map((item, index) => {
-          return <Articulo key={index} {...item} />
+          return (
+            <Articulo
+              key={index}
+              {...item}
+              index={indexStr}
+              mainColor={getColor(index, 0.5)}
+              bgColor={getColor(index, 0.8)}
+            />
+          )
         })}
       </div>
     </Columns>

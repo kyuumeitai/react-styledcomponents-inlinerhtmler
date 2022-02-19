@@ -1,4 +1,72 @@
 import React from 'react'
+import styled from 'styled-components'
+import { transparentize } from 'polished'
+
+const Wrap = styled.div`
+  padding: 3.5vw;
+  @media (max-width: 768px) {
+    padding: 5vw;
+  }
+  margin-bottom: 4rem;
+  background-color: ${props =>
+    props.bgColor ? transparentize(0.8, props.bgColor) : '#ccc'};
+  h2 {
+    font-size: 26px;
+    margin-bottom: 26px;
+    small {
+      padding-right: 0.3rem;
+      font-family: 'Homemade Apple', cursive;
+      font-size: 22px;
+    }
+  }
+  p {
+    font-size: 18px;
+    padding-bottom: 18px;
+  }
+`
+
+const VotacionStyled = styled.div`
+  h2 {
+    margin-bottom: 5px;
+  }
+  dl {
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column: span 1 !important;
+    gap: 10px;
+    border-top: dashed 1px black;
+    dd {
+      grid-column: span 1 !important;
+      padding: 10px 0 0;
+      line-height: 1;
+      text-align: center;
+      position: relative;
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: -5px;
+        border-left: dashed 1px black;
+        height: 100%;
+        top: 3px;
+      }
+      &:first-of-type {
+        border-left: none;
+        &::before {
+          display: none;
+        }
+      }
+      font-weight: bold;
+      strong {
+        display: block;
+
+        font-weight: normal;
+        order: 2;
+      }
+    }
+  }
+`
 
 const Articulo = ({
   abstencion,
@@ -19,28 +87,12 @@ const Articulo = ({
   texto,
   textodefinitivo,
   titulo,
+  bgColor,
+  mainColor,
+  index,
 }) => {
-  // abstencion: "14"
-  // afavor: "125"
-  // aprobado: "Aprobada"
-  // comision: "Comisión de forma/General"
-  // conceptos: ""
-  // encontra: "15"
-  // estado: "Aprobado en general"
-  // fecha: "16/02/2022"
-  // indAbstencion: ""
-  // indAfavor: ""
-  // indEncontra: ""
-  // indFecha: "30/12/1899"
-  // indicacion: ""
-  // numero: "Artículo 15"
-  // quesignifica: ""
-  // texto: "Libertad de circulación entre entidades territoriales. Ninguna entidad  territorial  o  autoridad  podrá  adoptar  medidas  que  directa  o  indirectamente impidan  el  ejercicio  de  la  libertad  de  movimiento,  la  libre  circulación  de  bienes  y  de residencia de las personas al interior de ellas, así como en todo el territorio del Estado, sin perjuicio de las limitaciones contempladas en esta Constitución y la ley."
-  // textodefinitivo: ""
-  // titulo: "Libertad de circulación entre entidades territoriales"
-
   return (
-    <div>
+    <Wrap bgColor={bgColor} mainColor={mainColor}>
       <h2>
         <small>{numero}:</small>
         {titulo}
@@ -56,27 +108,29 @@ const Articulo = ({
           fecha={fecha}
         />
       )}
-    </div>
+    </Wrap>
   )
 }
 
 const Votacion = ({ afavor, abstencion, encontra, fecha }) => {
   return (
-    <div>
+    <VotacionStyled>
       <h2>Votación</h2>
-      <p>
-        <strong>Fecha:</strong> {fecha}
-      </p>
-      <p>
-        <strong>A favor:</strong> {afavor}
-      </p>
-      <p>
-        <strong>En contra:</strong> {encontra}
-      </p>
-      <p>
-        <strong>Abstenciones:</strong> {abstencion}
-      </p>
-    </div>
+      <dl>
+        <dd>
+          <strong>Fecha:</strong> {fecha}
+        </dd>
+        <dd>
+          <strong>A favor:</strong> {afavor}
+        </dd>
+        <dd>
+          <strong>En contra:</strong> {encontra}
+        </dd>
+        <dd>
+          <strong>Abstenciones:</strong> {abstencion}
+        </dd>
+      </dl>
+    </VotacionStyled>
   )
 }
 
