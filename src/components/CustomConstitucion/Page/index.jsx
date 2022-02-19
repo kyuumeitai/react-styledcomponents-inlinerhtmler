@@ -1,10 +1,15 @@
 import React from 'react'
 import Sharer from '../Sharer'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import Comision from '../Comision'
 import data from '../Data'
 import LogoLibro from '../LogoLibro'
 import IconFlecha from '../IconFlecha'
+
+const serif = css`
+  font-family: Georgia, 'Libre Baskerville', Cambria, Cochin, Times,
+    'Times New Roman', serif;
+`
 
 const Excerpt = styled.p`
   max-width: 700px;
@@ -25,6 +30,10 @@ const HeaderWrap = styled.div`
   margin: 2rem auto;
   max-width: 700px;
   text-align: center;
+  ${serif}
+  .amano {
+    font-family: 'Homemade Apple', cursive;
+  }
   .sharer {
     margin-left: auto;
     margin-right: auto;
@@ -32,23 +41,22 @@ const HeaderWrap = styled.div`
   }
   h1 {
     line-height: 1.1;
+    ${serif}
   }
 `
 
 const Wrap = styled.div`
-  display: grid;
   padding: 0 30px;
+  ${serif}
+  h2 {
+    ${serif}
+    line-height: 1.1;
+  }
+  .amano {
+    font-family: 'Homemade Apple', cursive;
+  }
   @media (max-width: 768px) {
     padding: 0 10px;
-  }
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  grid-column: span 1 !important;
-  > article {
-    grid-column: span 1 !important;
-  }
-  @media (orientation: portrait) {
-    grid-template-columns: repeat(1, 1fr);
   }
 `
 
@@ -68,13 +76,14 @@ const Header = () => {
         <LogoLibro />
       </StLogo>
       <h1>
-        ¿Cómo avanza la <span>Nueva Constitución?</span>
+        <span className="amano">¿Cómo avanza la</span>
+        <br /> <span>Nueva Constitución?</span>
       </h1>
       <Sharer
         className="sharer"
         url="https://www.latercera.com/como-avanza-la-nueva-constitucion-chilena/"
-        description={`El gabinete de Gabriel Boric - La Tercera`}
-        hashtags="Gabinete,GabineteGabrielBoric,GabineteBoricLT"
+        description={`Cómo avanza la nueva constitución - La Tercera`}
+        hashtags="constitucion,chile"
       />
       <Excerpt>
         El pasado 15 de febrero el plano de la Convención Constituyente comenzó
@@ -108,9 +117,18 @@ const Body = () => {
     <Wrap>
       {Object.keys(comisiones).map((comision, index) => {
         return (
-          <Comision key={index} title={comision} items={comisiones[comision]} />
+          <Comision
+            key={index}
+            title={comision}
+            items={comisiones[comision]}
+            index={index + 1}
+          />
         )
       })}
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+      </style>
     </Wrap>
   )
 }
