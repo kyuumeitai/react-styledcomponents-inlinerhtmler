@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { transparentize } from 'polished'
 
 const TituloStyled = styled.div`
   position: relative;
@@ -24,7 +25,8 @@ const TituloStyled = styled.div`
     display: block;
     letter-spacing: -1rem;
     z-index: -1;
-    color: ${props => (props.mainColor ? props.mainColor : '#ccc')};
+    color: ${props =>
+      props.mainColor ? transparentize(0.5, props.mainColor) : '#ccc'};
   }
 `
 

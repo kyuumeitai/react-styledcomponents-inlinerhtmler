@@ -2,7 +2,6 @@ import React from 'react'
 import Articulo from './Articulo'
 import Titulo from './Titulo'
 import styled from 'styled-components'
-import { getLuminance, setLightness } from 'polished'
 
 const Columns = styled.div`
   display: grid;
@@ -33,10 +32,7 @@ const colors = [
 
 const getColor = (index, luminanceQuantity) => {
   const color = colors[index % colors.length]
-  const luminance = getLuminance(color)
-  if (luminance < 0.5) {
-    return setLightness(luminanceQuantity, color)
-  }
+
   return color
 }
 
