@@ -3,8 +3,11 @@ import styled from 'styled-components'
 import { transparentize } from 'polished'
 
 const TituloStyled = styled.div`
-  position: relative;
   max-width: 350px;
+
+  position: sticky;
+  top: 4rem;
+  margin-bottom: 4rem;
   h2 {
     line-height: 1.1;
     font-size: 30px;

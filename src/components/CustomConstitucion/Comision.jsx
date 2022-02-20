@@ -8,7 +8,10 @@ const Columns = styled.div`
   grid-template-columns: 1fr 2fr;
   grid-column: span 1 !important;
   gap: 2rem;
-  > article {
+  align-items: flex-start;
+  transform: translate3d(0px, 0px, 0px);
+  div,
+  .ltcolfix {
     grid-column: span 1 !important;
   }
   @media (orientation: portrait) {
@@ -43,13 +46,14 @@ const Comision = ({ title, items, index }) => {
   return (
     <Columns>
       <Titulo
+        className="com"
         title={title}
         excerpt={`fecha votación`}
         index={indexStr}
         mainColor={getColor(index, 0.5)}
         bgColor={getColor(index, 0.8)}
       />
-      <div>
+      <div className="lt-colfix">
         {items.map((item, index) => {
           return (
             <Articulo

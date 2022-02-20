@@ -16,7 +16,8 @@ const Excerpt = styled.p`
   /* margin-right: auto; */
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: 1.6rem;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
@@ -24,6 +25,10 @@ const Excerpt = styled.p`
     text-align: center;
     font-size: 1.3rem;
   }
+`
+
+const Sep = styled.hr`
+  border-top: 1px dashed black;
 `
 
 const HeaderWrap = styled.div`
@@ -42,6 +47,36 @@ const HeaderWrap = styled.div`
   h1 {
     line-height: 1.1;
     ${serif}
+    font-size: 60px;
+    .amano {
+      font-size: 30px;
+    }
+    @media (max-width: 768px) {
+      font-size: 40px;
+    }
+  }
+  .aprobados {
+    font-size: 24px;
+  }
+  strong {
+    font-weight: bold;
+  }
+  .mt-30 {
+    margin-top: 30px;
+  }
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+  .claim {
+    font-size: 18px;
+    background-color: yellow;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+  }
+  .icon-flecha {
+    max-width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 `
 
@@ -51,10 +86,12 @@ const Wrap = styled.div`
   margin-left: auto;
   margin-right: auto;
   max-width: 1300px;
+
   h2 {
     ${serif}
     line-height: 1.1;
   }
+
   .amano {
     font-family: 'Homemade Apple', cursive;
   }
@@ -64,9 +101,12 @@ const Wrap = styled.div`
 `
 
 const StLogo = styled.div`
-  max-width: 100%;
+  max-width: 260px;
   overflow: hidden;
   padding: 1px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
   svg {
     max-width: 100%;
   }
@@ -82,6 +122,10 @@ const Header = () => {
         <span className="amano">¿Cómo avanza la</span>
         <br /> <span>Nueva Constitución?</span>
       </h1>
+      <p className="aprobados">
+        Cuáles son los artículos <span className="amano">aprobados</span> para
+        el texto final
+      </p>
       <Sharer
         className="sharer"
         url="https://www.latercera.com/como-avanza-la-nueva-constitucion-chilena/"
@@ -98,10 +142,17 @@ const Header = () => {
         propuesta de nueva Constitución que será aprobada o rechazada en el
         plebiscito de salida.
       </Excerpt>
-      <p>
-        <strong>Actualizado al 18 de febrero de 2022</strong>
+      <Sep />
+
+      <p className="claim">
+        Importante: Los artículos aprobados pueden sumar incisos adicionales en
+        el marco de su tramitación.
       </p>
-      <IconFlecha />
+
+      <p className="mt-30">
+        -<strong>Actualizado al 18 de febrero de 2022</strong>-
+      </p>
+      <IconFlecha className="icon-flecha" />
     </HeaderWrap>
   )
 }

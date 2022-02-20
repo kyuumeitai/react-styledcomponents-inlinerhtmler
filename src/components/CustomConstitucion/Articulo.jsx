@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { transparentize } from 'polished'
+import dasherize from './dasherize'
 
 const Wrap = styled.div`
   padding: 3.5vw;
@@ -91,8 +92,10 @@ const Articulo = ({
   mainColor,
   index,
 }) => {
+  const tituloStr = dasherize(`${comision.slice(0, 40)}-${titulo.slice(0, 40)}`)
+
   return (
-    <Wrap bgColor={bgColor} mainColor={mainColor}>
+    <Wrap bgColor={bgColor} mainColor={mainColor} id={tituloStr}>
       <h2>
         <small>{numero}:</small>
         {titulo}
