@@ -2,6 +2,7 @@ import React from 'react'
 import Articulo from './Articulo'
 import Titulo from './Titulo'
 import styled from 'styled-components'
+import data from './DataComisiones'
 
 const Columns = styled.div`
   display: grid;
@@ -42,13 +43,15 @@ const getColor = (index, luminanceQuantity) => {
 const Comision = ({ title, items, index }) => {
   //from index, generate number with 0 prefixes if less than 10
   const indexStr = index < 10 ? `0${index}` : index
-  //
+
+  const comision = data.find(comision => comision.numero === index.toString())
+
   return (
     <Columns>
       <Titulo
         className="com"
         title={title}
-        excerpt={`fecha votación`}
+        excerpt={comision.fecha}
         index={indexStr}
         mainColor={getColor(index, 0.5)}
         bgColor={getColor(index, 0.8)}

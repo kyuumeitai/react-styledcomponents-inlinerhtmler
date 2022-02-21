@@ -24,6 +24,17 @@ const Wrap = styled.div`
     font-size: 18px;
     padding-bottom: 18px;
   }
+  .tachado {
+    text-decoration: line-through;
+    opacity: 0.3;
+  }
+  h3 {
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
 `
 
 const VotacionStyled = styled.div`
@@ -43,6 +54,7 @@ const VotacionStyled = styled.div`
       line-height: 1;
       text-align: center;
       position: relative;
+      margin: 0;
       &::before {
         content: '';
         display: block;
@@ -93,16 +105,17 @@ const Articulo = ({
   index,
 }) => {
   const tituloStr = dasherize(`${comision.slice(0, 40)}-${titulo.slice(0, 40)}`)
-
+  if (!textodefinitivo || textodefinitivo.length === 0) return null
   return (
     <Wrap bgColor={bgColor} mainColor={mainColor} id={tituloStr}>
       <h2>
         <small>{numero}:</small>
         {titulo}
       </h2>
-      {textodefinitivo && textodefinitivo.length > 0 && (
+      {textodefinitivo && textodefinitivo.length > 0 ? (
         <p>{textodefinitivo}</p>
-      )}
+      ) : null}
+
       {fecha && fecha.length > 0 && (
         <Votacion
           afavor={afavor}

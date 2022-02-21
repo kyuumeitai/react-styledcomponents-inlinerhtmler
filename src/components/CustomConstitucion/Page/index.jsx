@@ -2,7 +2,7 @@ import React from 'react'
 import Sharer from '../Sharer'
 import styled, { css } from 'styled-components'
 import Comision from '../Comision'
-import data from '../Data'
+import data from '../DataArticulos'
 import LogoLibro from '../LogoLibro'
 import IconFlecha from '../IconFlecha'
 

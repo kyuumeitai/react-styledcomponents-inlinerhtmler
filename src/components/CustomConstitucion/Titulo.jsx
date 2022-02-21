@@ -4,16 +4,36 @@ import { transparentize } from 'polished'
 
 const TituloStyled = styled.div`
   max-width: 350px;
-
+  background: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1) 60%,
+    rgba(255, 255, 255, 0.8) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 2;
   position: sticky;
-  top: 4rem;
+  top: 0rem;
+  padding-top: 60px;
   margin-bottom: 4rem;
+
   h2 {
     line-height: 1.1;
     font-size: 30px;
     small {
       font-size: 28px;
       line-height: 0.8;
+    }
+  }
+  @media (max-width: 768px) {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    min-height: 150px;
+    max-width: 100%;
+    h2 {
+      font-size: 26px;
+      small {
+        font-size: 18px;
+      }
     }
   }
   .numberbg {
@@ -30,6 +50,10 @@ const TituloStyled = styled.div`
     z-index: -1;
     color: ${props =>
       props.mainColor ? transparentize(0.5, props.mainColor) : '#ccc'};
+    @media (max-width: 768px) {
+      font-size: 40vw;
+      top: -2rem;
+    }
   }
 `
 

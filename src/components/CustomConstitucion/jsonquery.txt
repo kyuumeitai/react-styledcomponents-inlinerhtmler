@@ -37,3 +37,10 @@ conceptos: `";Q2;"`,
 quesignifica: `";R2;"`,
 comision: `";S2;"`
 },")
+
+=concatenate("{
+comision: `";A2;"`,
+numero: `";B2;"`,
+fecha: `";C2;"`
+}")
+
