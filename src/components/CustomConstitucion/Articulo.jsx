@@ -75,7 +75,6 @@ const VotacionStyled = styled.div`
         display: block;
 
         font-weight: normal;
-        order: 2;
       }
     }
   }
