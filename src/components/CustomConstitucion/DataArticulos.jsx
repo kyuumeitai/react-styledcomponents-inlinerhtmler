@@ -102,7 +102,7 @@ const data = [
     Las juezas y jueces no podrán desempeñar ninguna otra función o empleo, salvo actividades académicas en los términos que establezca la ley. 
     Las juezas y jueces sólo ejercerán la función jurisdiccional, no pudiendo desempeñar función administrativa ni legislativa alguna. 
     Las juezas y jueces no podrán militar en partidos políticos.`,
-    conceptos: `Imparcialidad`,
+    conceptos: `Jurisdicción, Imparcialidad, `,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
@@ -166,7 +166,7 @@ const data = [
     textodefinitivo: `Derecho de acceso a la justicia. Los tribunales deben brindar una atención adecuada a quienes presenten
     peticiones o consultas ante ellos, otorgando siempre un trato digno y respetuoso. Una
     ley establecerá sus derechos y deberes.`,
-    conceptos: ``,
+    conceptos: ` Atención adecuada,Trato digno`,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
@@ -191,7 +191,7 @@ const data = [
     indAbstencion: ``,
     indFecha: `17/02/2022`,
     textodefinitivo: `Tutela jurisdiccional efectiva. Todas las personas tienen derecho a requerir de los tribunales de justicia la tutela efectiva de sus derechos e intereses legítimos, de manera oportuna y eficaz conforme a los principios y estándares reconocidos en la Constitución y las leyes.`,
-    conceptos: ``,
+    conceptos: `Tutela jurisdiccional, derecho a requerir, interés legítimo`,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
   },
@@ -500,7 +500,7 @@ const data = [
     textodefinitivo: `Del Estado Regional. Chile es un Estado Regional, plurinacional e intercultural conformado por entidades territoriales autónomas, en un marco de equidad y solidaridad entre todas ellas, preservando la unidad e integridad del Estado. El  Estado promoverá  la cooperación, la integración armónica y eldesarrollo adecuado y justo entre las diversas entidades territoriales.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 2`,
@@ -521,7 +521,7 @@ const data = [
     textodefinitivo: `De las Entidades Territoriales. El Estado se organiza territorialmente en regiones autónomas,  comunas autónomas, autonomías territoriales indígenas y territorios especiales. La creación, modificación, delimitación y supresión de las entidades territoriales deberá considerar criterios objetivos en función de antecedentes históricos, geográficos, sociales, culturales, ecosistémicos y económicos, garantizando la participación popular, democrática y vinculante de sus habitantes, de acuerdo con la Constitución y la ley.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 3`,
@@ -541,7 +541,7 @@ const data = [
     textodefinitivo: `Del Territorio. Chile, en su diversidad geográfica, natural, histórica y cultural, forma un territorio único e indivisible. Los  límites del  territorio  son  los  que  establecen  las  leyes  y  los  tratados internacionales. `,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 4`,
@@ -561,7 +561,7 @@ const data = [
     textodefinitivo: `Del Maritorio. Es deber del Estado proteger los  espacios y ecosistemas marinos y marino-costeros, propiciando las diversas vocaciones y usos asociados a ellos, y asegurando, en todo caso, su preservación, conservación y restauración ecológica. La ley establecerá su ordenación espacial y gestión integrada, mediante un trato diferenciado, autónomo y descentralizado, según corresponda, en base a la equidad y justicia territorial.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 5`,
@@ -581,7 +581,7 @@ const data = [
     textodefinitivo: `De la Autonomía de las entidades territoriales. Las regiones autónomas, comunas autónomas y autonomías territoriales indígenas están dotadas de autonomía política, administrativa y financiera para la realización de sus fines e intereses en los términos establecidos por la presente Constitución y la ley. En ningún caso el ejercicio de la autonomía podrá atentar en contra del carácter único e indivisible del Estado de Chile, ni permitirá la secesión territorial.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 6`,
@@ -601,7 +601,7 @@ const data = [
     textodefinitivo: `De la solidaridad, cooperación y asociatividad territorial en el Estado  Regional. Las  entidades  territoriales  se coordinan  y  asocian  en relaciones  de solidaridad,   cooperación,   reciprocidad  y  apoyo  mutuo, evitando la duplicidad de funciones, en conformidad a los mecanismos que establezca la ley. Dos o más entidades territoriales, con o sin continuidad territorial, podrán pactar convenios  y  constituir  asociaciones  territoriales con la finalidad  de  lograr  objetivos comunes, promover la cohesión social, mejorar la prestación de los servicios públicos, incrementar  la  eficiencia  y  eficacia  en  el  ejercicio  de  sus  competencias y potenciar el desarrollo social, cultural, económico sostenible yequilibrado. Las asociaciones de entidades territoriales, en ningún caso, alterarán la organización territorial del Estado.`,
     conceptos: ``,
     quesignifica: `asociatividad territorial`,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 7`,
@@ -622,7 +622,7 @@ const data = [
     textodefinitivo: `De la Participación en las entidades territoriales en el Estado Regional. Las entidades  territoriales  garantizan el derecho  de  sus  habitantes a participar, individual o colectivamente en las decisiones públicas, comprendiendo en ella la formulación, ejecución,  evaluación, fiscalización y control democrático de la función pública, con arreglo a la Constitución y las leyes. Los  pueblos y naciones  preexistentes al Estado deberán  ser  consultados y otorgar el consentimiento libre, previo e informado en aquellas materias o asuntos que les afecten en sus derechos reconocidos en esta Constitución.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 8`,
@@ -644,7 +644,7 @@ const data = [
     textodefinitivo: `Del Desarrollo Territorial. Es deber de las entidades territoriales, en el ámbito de sus competencias, establecer una política permanente de equidad territorial de desarrollo sostenible y armónico con la naturaleza. Las entidades territoriales considerarán  para  su  planificación social, política, administrativa, cultural, territorial y económica los criterios de suficiencia presupuestaria, inclusión e interculturalidad, integración socioespacial, perspectiva de género, enfoque socio ecosistémico, enfoque en derechos humanos y los demás que establezca esta Constitución.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 9`,
@@ -664,7 +664,7 @@ const data = [
     textodefinitivo: `De la Equidad, Solidaridad y justicia territorial. El Estado garantiza un tratamiento equitativo y un desarrollo armónico y solidario entre las diversas entidades territoriales, propendiendo al interés   general, no pudiendo establecer diferencias  arbitrarias entre ellas, asegurando a su vez,  las  mismas condiciones de acceso a los servicios  públicos, al empleo y a todas las prestaciones  estatales, sin perjuicio del lugar que habiten en el territorio, estableciendo de ser necesario, acciones afirmativas en favor de los grupos empobrecidos e históricamente vulnerados. El Estado de Chile promoverá un desarrollo territorial equitativo, armónico y solidario que permita una  integración  efectiva de las distintas localidades,  tanto  urbanas como rurales, promoviendo la equidad horizontal en la provisión de bienes y servicios.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 10`,
@@ -685,7 +685,7 @@ const data = [
     textodefinitivo: `De la Plurinacionalidad e interculturalidad en el Estado Regional. Las entidades territoriales y sus órganos reconocen, garantizan y promuevenen todo su actuar  el  reconocimiento político y jurídico de los pueblos y naciones preexistentes al  Estadoque habitan sus territorios; su supervivencia, existencia y desarrollo armónico e integral; la distribución equitativa del poder y de los espacios de participación política; el uso, reconocimiento y promoción de las lenguas indígenas que se hablan en ellas, propiciando el entendimiento  intercultural, el respeto de formas diversas de ver, organizar y concebir el mundo y de relacionarse con la naturaleza; la protección y el respeto de los derechos de autodeterminación y de autonomía de los territorios indígenas, en coordinación con el resto de las entidades territoriales`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 11`,
@@ -705,7 +705,7 @@ const data = [
     textodefinitivo: `De la  postulación  y  cesación  a  los  cargos  de  las  entidades territoriales. La  elección  de  las  y  los  representantes  por  votación  popular  de  las entidades  territoriales  se  efectuará  asegurando  la  paridad  de  género,  la  probidad,  la representatividad territorial,la pertenencia territorial, avecindamiento y la representación efectiva  de los pueblos y naciones preexistentes al Estado.La  Constitución  y  la  ley  establecerán  los  requisitos  para  la  postulación  y  las causales de cesación de dichos cargos. La calificación y procedencia de estas causales de cesación se realizará a través de un procedimiento expedito ante la justicia electoral, en conformidad a la ley.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 12`,
@@ -725,7 +725,7 @@ const data = [
     textodefinitivo: ` Principio de no tutela entre entidades territoriales. Ninguna entidad territorial podrá ejercer tutela sobre otra entidad territorial, sin perjuicio de la aplicación de los principios de coordinación, de asociatividad, de solidaridad, y los conflictos de competencias que puedan ocasionarse.`,
     conceptos: ``,
     quesignifica: `Tutela, entidad territorial`,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 13`,
@@ -745,7 +745,7 @@ const data = [
     textodefinitivo: `Correspondencia entre competencias y recursos. Sin perjuicio de las competencias que establece esta Constitución y la ley, el Estado podrá transferir a las entidades territoriales aquellas competencias de titularidad estatal que por su propia naturaleza son susceptibles de transferencia. Estas transferencias deberán ir acompañadas siempre por el personal y los recursos financieros suficientes y oportunos para su adecuada ejecución. Una ley regulará el régimen  jurídico del procedimiento de transferencia de competencias y sus sistemas de evaluación y control.`,
     conceptos: ``,
     quesignifica: `Titularidad, régimen jurídico`,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 14`,
@@ -765,7 +765,7 @@ const data = [
     textodefinitivo: `Cuestiones de competencia. La ley establecerá el procedimiento para resolución de las distintas contiendas de competencia que se susciten entre el Estado y las entidades territoriales, o entre ellas, las que serán conocidas por el órgano encargado de la justicia constitucional.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 15`,
@@ -785,7 +785,7 @@ const data = [
     textodefinitivo: ``,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 16`,
@@ -805,7 +805,7 @@ const data = [
     textodefinitivo: `Radicación preferente de competencias. Las funciones públicas  deberán  radicarse  priorizando  la  entidad local sobre la regional  y  ésta  última sobre el Estado, sin perjuicio de aquellas competencias que la propia Constitución o las leyes reserven a cada una de estas  entidades  territoriales. La Región Autónoma o el Estado, cuando así lo exija el interés general, podrán subrogar de manera transitoria y supletoria las competencias que no puedan ser asumidas por la entidad local.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 17`,
@@ -825,7 +825,7 @@ const data = [
     textodefinitivo: `Diferenciación territorial. El Estado deberá generar políticas públicas diferenciadas y transferir las competencias que mejor se ajusten a las necesidades y particularidades de los entes territoriales, con los respectivos recursos. La ley establecerá los criterios y requisitos para la aplicación de diferencias territoriales, así como los mecanismos de solidaridad y equidad que compensen las desigualdades entre los distintos niveles territoriales.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 18`,
@@ -845,7 +845,7 @@ const data = [
     textodefinitivo: `De las Regiones Autónomas. Las Regiones autónomas son entidades políticas y territoriales dotadas de personalidad jurídica de derecho público y patrimonio propio que gozan de autonomía  para  el  desarrollo de los intereses regionales, la gestión de sus recursos  económicos y el ejercicio de las atribuciones legislativa, reglamentaria, ejecutiva y fiscalizadora a través de sus órganos en el ámbito de sus competencias, con arreglo a lo dispuesto en la Constitución y la ley.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 19`,
@@ -865,7 +865,7 @@ const data = [
     textodefinitivo: ``,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 20`,
@@ -885,7 +885,7 @@ const data = [
     textodefinitivo: ``,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 21`,
@@ -905,7 +905,7 @@ const data = [
     textodefinitivo: ``,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 22`,
@@ -926,7 +926,7 @@ const data = [
     textodefinitivo: ``,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 23`,
@@ -946,7 +946,7 @@ const data = [
     textodefinitivo: `Del Gobierno Regional. El Gobierno Regional es el órgano ejecutivo de la Región Autónoma.Una Gobernadora o Gobernador Regional dirigirá el Gobierno Regional, ejerciendo la función administrativa y reglamentaria y representará a la Región autónoma ante las demás autoridades nacionales e internacionales, en el marco de la  política nacional de relaciones internacionales con funciones de coordinación e intermediación entre el gobierno central y la región. La Gobernadora o Gobernador regional tendrá la representación judicial y extrajudicial de la región. En la elección de  Gobernadora o Gobernador Regional, resultará electo quien obtenga la mayoría de los votos válidamente emitidos, pero si ningún candidato logra al menos el cuarenta por ciento de los votos se producirá una segunda votación entre los candidatos o candidatas  que hayan obtenido las dos más altas mayorías, resultando elegido el que obtuviere la mayoría de los votos válidamente emitidos. La Gobernadora o Gobernador Regional ejercerá sus funciones por el término de cuatro años, pudiendo ser reelegido o reelegida consecutivamente sólo una vez para el período siguiente. En este caso, se considerará que se ha ejercido el cargo durante un período cuando el Gobernador o Gobernadora Regional haya cumplido más de la mitad del mandato. La Gobernadora o Gobernador regional, será elegido en votación directa, en conformidad con lo dispuesto en la Constitución y la ley.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 24`,
@@ -966,7 +966,7 @@ const data = [
     textodefinitivo: `Del Consejo de Alcaldes y Alcaldesas. El Consejo de Alcaldes y Alcaldesas es un órgano de carácter consultivo que estará integrado por los alcaldes y alcaldesas de todas las comunas de la región  autónoma y de las ciudades respectivas, el cual será coordinado por quien determinen sus integrantes por mayoría absoluta. El Consejo deberá sesionar y abordar las problemáticas de la región autónoma, promover una coordinación efectiva entre los distintos órganos con presencia regional y fomentar una cooperación eficaz entre los gobiernos locales en la forma que determine la ley.`,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
   {
     numero: `Artículo 25`,
@@ -986,7 +986,7 @@ const data = [
     textodefinitivo: ``,
     conceptos: ``,
     quesignifica: ``,
-    comision: `Comisión de forma/General`,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
   },
 ]
 

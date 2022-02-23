@@ -21,9 +21,11 @@ const Columns = styled.div`
 `
 
 const colors = [
-  '#FFE400',
   '#fee08b',
-  '#e6f598',
+
+  '#FFE400',
+  // '#fee08b',
+  // '#e6f598',
   '#abdda4',
   '#66c2a5',
   '#3288bd',
@@ -43,7 +45,6 @@ const getColor = (index, luminanceQuantity) => {
 const Comision = ({ title, items, index }) => {
   //from index, generate number with 0 prefixes if less than 10
   const indexStr = index < 10 ? `0${index}` : index
-
   const comision = data.find(comision => comision.numero === index.toString())
 
   return (
@@ -57,10 +58,10 @@ const Comision = ({ title, items, index }) => {
         bgColor={getColor(index, 0.8)}
       />
       <div className="lt-colfix">
-        {items.map((item, index) => {
+        {items.map((item, subindex) => {
           return (
             <Articulo
-              key={index}
+              key={subindex}
               {...item}
               index={indexStr}
               mainColor={getColor(index, 0.5)}

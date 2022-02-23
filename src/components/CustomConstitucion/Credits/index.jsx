@@ -9,21 +9,14 @@ const Credits = () => (
 
       <p className="col">
         <span>Coordinación y Edición:</span>
-        <strong>Juan Manuel Ojeda</strong>
-        <strong>Tania Opazo</strong>
         <strong>Sebastián Rivas</strong>
+        <strong>Tania Opazo</strong>
       </p>
 
       <p className="col">
         <span>Periodistas:</span>
         <strong>Valentina Danker</strong>
-        <strong>Felipe Díaz</strong>
         <strong>Sofía Gómez</strong>
-        <strong>Sebastián Labrín</strong>
-        <strong>Juan Manuel Ojeda</strong>
-        <strong>Carlos Said</strong>
-        <strong>Daniela Jiménez</strong>
-        <strong>Julie Arredondo</strong>
       </p>
 
       <p className="col">

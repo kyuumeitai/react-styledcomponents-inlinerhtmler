@@ -13,7 +13,7 @@ const TituloStyled = styled.div`
   z-index: 2;
   position: sticky;
   top: 0rem;
-  padding-top: 60px;
+  padding-top: 80px;
   margin-bottom: 4rem;
 
   h2 {
@@ -25,12 +25,13 @@ const TituloStyled = styled.div`
     }
   }
   @media (max-width: 768px) {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 30px;
     min-height: 150px;
     max-width: 100%;
     h2 {
-      font-size: 26px;
+      font-size: 22px;
+      margin-bottom: 10px;
       small {
         font-size: 18px;
       }

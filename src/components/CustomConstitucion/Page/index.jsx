@@ -5,6 +5,7 @@ import Comision from '../Comision'
 import data from '../DataArticulos'
 import LogoLibro from '../LogoLibro'
 import IconFlecha from '../IconFlecha'
+import dataComisiones from '../DataComisiones'
 
 const serif = css`
   font-family: Georgia, 'Libre Baskerville', Cambria, Cochin, Times,
@@ -48,15 +49,25 @@ const HeaderWrap = styled.div`
     line-height: 1.1;
     ${serif}
     font-size: 60px;
+    margin-bottom: 15px;
     .amano {
+      line-height: 1.3;
+      display: block;
       font-size: 30px;
     }
     @media (max-width: 768px) {
-      font-size: 40px;
+      font-size: 35px;
+      .amano {
+        font-size: 24px;
+      }
     }
   }
   .aprobados {
     font-size: 24px;
+    line-height: 1.2;
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
   }
   strong {
     font-weight: bold;
@@ -119,8 +130,11 @@ const Header = () => {
         <LogoLibro />
       </StLogo>
       <h1>
-        <span className="amano">¿Cómo avanza la</span>
-        <br /> <span>Nueva Constitución?</span>
+        <span className="amano">
+          ¿Cómo avanza <br />
+          la redacción de la
+        </span>
+        <span>Nueva Constitución?</span>
       </h1>
       <p className="aprobados">
         Cuáles son los artículos <span className="amano">aprobados</span> para
@@ -133,7 +147,7 @@ const Header = () => {
         hashtags="constitucion,chile"
       />
       <Excerpt>
-        El pasado 15 de febrero el plano de la Convención Constituyente comenzó
+        El pasado 15 de febrero el pleno de la Convención Constituyente comenzó
         a votar los artículos que emanaron de sus distintas comisiones. <br />
         <br />A continuación les compartimos los artículos que ya fueron
         aprobados por dos tercios del pleno en votación general y particular, y
@@ -159,14 +173,22 @@ const Header = () => {
 
 const Body = () => {
   // group by comision
-  const comisiones = data.reduce((acc, item) => {
+  console.log(dataComisiones)
+  console.log(data)
+  const comisiones = dataComisiones.reduce((acc, item) => {
     if (!acc[item.comision]) {
       acc[item.comision] = []
     }
-    acc[item.comision].push(item)
+    console.log('item', item)
+    acc[item.comision].push(...data.filter(i => i.comision === item.comision))
+    // acc[item.comision].push(item)
     return acc
   }, {})
 
+  console.log('comisiones after', comisiones)
+
+  //add dataComisiones to comisiones array
+  //.Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional
   return (
     <Wrap>
       {Object.keys(comisiones).map((comision, index) => {
