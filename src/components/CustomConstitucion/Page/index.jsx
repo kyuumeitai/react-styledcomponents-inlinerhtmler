@@ -83,6 +83,10 @@ const HeaderWrap = styled.div`
     background-color: yellow;
     color: rgba(0, 0, 0, 0.7);
     padding: 5px 10px;
+    a {
+      font-weight: bold;
+      color: black;
+    }
   }
   .icon-flecha {
     max-width: 50px;
@@ -159,12 +163,21 @@ const Header = () => {
       <Sep />
 
       <p className="claim">
-        Importante: Los artículos aprobados pueden sumar incisos adicionales en
-        el marco de su tramitación.
+        <strong>Importante</strong>: El detalle de las votaciones que se muestra
+        en esta página corresponde a la votación en general. Además los
+        artículos aprobados pueden sumar incisos adicionales en el marco de su
+        tramitación. Para entender más del proceso de votación lee la siguiente
+        nota:{' '}
+        <a
+          href="https://www.latercera.com/interactivo/noticia/como-funciona-la-convencion-constitucional/GN3SWTR4KBCGPHDG7YYP5C5Q5E/"
+          target="_blank"
+          rel="noopener noreferrer">
+          ¿Cómo funciona la Convención Constitucional?
+        </a>
       </p>
 
       <p className="mt-30">
-        -<strong>Actualizado al 18 de febrero de 2022</strong>-
+        -<strong>Actualizado al 25 de febrero de 2022</strong>-
       </p>
       <IconFlecha className="icon-flecha" />
     </HeaderWrap>
