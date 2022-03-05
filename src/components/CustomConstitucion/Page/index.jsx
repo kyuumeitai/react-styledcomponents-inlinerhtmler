@@ -177,7 +177,7 @@ const Header = () => {
       </p>
 
       <p className="mt-30">
-        -<strong>Actualizado al 25 de febrero de 2022</strong>-
+        -<strong>Actualizado al 5 de marzo de 2022</strong>-
       </p>
       <IconFlecha className="icon-flecha" />
     </HeaderWrap>

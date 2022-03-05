@@ -17,6 +17,8 @@ Conceptos clave
 ¿Qué significa?	
 Comisión
 
+Aprobada en 
+Norma aprobada
 
 =concatenate("{
 numero: `";A2;"`,
@@ -35,7 +37,9 @@ indFecha: `";TEXT(O2;"DD/MM/YYYY");"`,
 textodefinitivo: `";P2;"`,
 conceptos: `";Q2;"`,
 quesignifica: `";R2;"`,
-comision: `";S2;"`
+comision: `";S2;"`,
+aprobadaEn: `";V2;"`,
+normaAprobada: `";W2;"`,
 },")
 
 =concatenate("{

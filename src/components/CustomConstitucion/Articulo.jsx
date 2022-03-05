@@ -80,6 +80,17 @@ const VotacionStyled = styled.div`
   }
 `
 
+const AprobadaStyled = styled.div`
+  margin-top: 2rem;
+  p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  strong {
+    font-weight: bold;
+  }
+`
+
 const Articulo = ({
   abstencion,
   afavor,
@@ -102,6 +113,8 @@ const Articulo = ({
   bgColor,
   mainColor,
   index,
+  aprobadaEn,
+  normaAprobada,
 }) => {
   const tituloStr = dasherize(`${comision.slice(0, 40)}-${titulo.slice(0, 40)}`)
   if (!textodefinitivo || textodefinitivo.length === 0) return null
@@ -123,6 +136,7 @@ const Articulo = ({
           fecha={fecha}
         />
       )}
+      {/* {<Aprobada aprobadaEn={aprobadaEn} normaAprobada={normaAprobada} />} */}
     </Wrap>
   )
 }
@@ -133,7 +147,7 @@ const Votacion = ({ afavor, abstencion, encontra, fecha }) => {
       <h2>Votación</h2>
       <dl>
         <dd>
-          <strong>Fecha:</strong> {fecha}
+          <strong>Inicio de Votación:</strong> {fecha}
         </dd>
         <dd>
           <strong>A favor:</strong> {afavor}
@@ -146,6 +160,23 @@ const Votacion = ({ afavor, abstencion, encontra, fecha }) => {
         </dd>
       </dl>
     </VotacionStyled>
+  )
+}
+
+const Aprobada = ({ aprobadaEn, normaAprobada }) => {
+  return (
+    <AprobadaStyled>
+      {aprobadaEn && (
+        <p>
+          Aprobada en: <strong>{aprobadaEn}</strong>
+        </p>
+      )}
+      {normaAprobada && (
+        <p>
+          Norma aprobada: <strong>{normaAprobada}</strong>
+        </p>
+      )}
+    </AprobadaStyled>
   )
 }
 

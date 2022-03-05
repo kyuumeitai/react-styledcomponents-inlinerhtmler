@@ -20,9 +20,9 @@ const data = [
     fecha: `Fecha de votación pendiente: Mesa Directiva define citación`,
   },
   {
-    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico `,
+    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     numero: `5`,
-    fecha: `Fecha de votación pendiente: Mesa Directiva define citación`,
+    fecha: `Votación desde el 3 de marzo`,
   },
   {
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
