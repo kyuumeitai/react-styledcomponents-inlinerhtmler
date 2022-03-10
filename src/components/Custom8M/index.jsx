@@ -50,14 +50,24 @@ const NoNote = ({ date }) => {
   )
 }
 
-const Note = ({ title, description, imgurl, date }) => {
+const Note = ({ title, description, imgurl, url, date }) => {
   return (
     <div>
-      <figure>
-        <img src={imgurl} alt={title} />
-      </figure>
-      <h4>{date}</h4>
-      <h3>{title}</h3>
+      <a href={url} target="_blank" rel="noopener noreferrer">
+        <figure>
+          <img src={imgurl} alt={title} />
+        </figure>
+      </a>
+      <h4>
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          {date}
+        </a>
+      </h4>
+      <h3>
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          {title}
+        </a>
+      </h3>
       <p>{description}</p>
     </div>
   )
