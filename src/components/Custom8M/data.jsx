@@ -36,7 +36,14 @@ const data = [
       'La que históricamente se ha encargado de empoderar comunidades y potenciar las habilidades de otras mujeres. La que organiza ollas comunes o redes de cuidado para que otras puedan salir adelante articulando un tejido social fundamental para estos tiempos.',
     imgurl: 'https://especiales.latercera.com/8m-files/03.png',
     note: {
-      date: '11 Marzo',
+      title:
+        'Luchar contra la violencia de género: Aída Moreno, dirigenta social',
+      description: 'Por Trinidad Rojas',
+      imgurl:
+        'https://www.latercera.com/resizer/HxOyBWQC4g4k0Zp5hT_Dn-Gp-YA=/arc-anglerfish-arc2-prod-copesa/public/XIWPWCJNVVB35E72RUFROKXIW4.jpg',
+      url:
+        'https://www.latercera.com/paula/luchar-contra-la-violencia-de-genero-aida-moreno-dirigenta-social/',
+      date: '10 Marzo',
     },
   },
   {
