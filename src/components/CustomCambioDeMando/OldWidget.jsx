@@ -1,9 +1,12 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
+import Separador from './Separador'
+import LogoElecciones from './LogoElecciones'
 import Bg from './Bg'
+import Sharer from './Sharer'
 
-import LT from './svg/output/IsoLt'
-import CambioWhite from './svg/output/CambioWhite'
+import Gabriel from './Gabriel'
+import Boric from './Boric'
 
 const imports = css``
 
@@ -13,15 +16,13 @@ const Hero = styled.article`
   color: white;
   overflow: hidden;
   .logo {
+    z-index: 2;
     position: absolute;
-    top: 40px;
-    right: 20px;
-    width: 80px;
-    z-index: 3;
+    top: 10px;
+    right: 10px;
+    width: 240px;
     @media (max-width: 768px) {
-      width: 30px;
-      top: 5px;
-      right: 5px;
+      display: none;
     }
   }
 `
@@ -33,11 +34,6 @@ const Excerpt = styled.p`
   padding-bottom: 1rem;
   font-size: 1.6rem;
   text-align: left;
-  @media (orientation: portrait) {
-    padding-top: 0.4rem;
-    text-align: left;
-    font-size: 1rem;
-  }
 `
 
 const Content = styled.div`
@@ -47,19 +43,16 @@ const Content = styled.div`
 const CustomBg = styled.a`
   position: relative;
   overflow: hidden;
-  background-color: black;
-
   display: block;
+  background-color: black;
   text-decoration: none;
   .texto {
     margin-top: 12rem;
     max-width: 900px;
     text-align: left;
     position: relative;
-    z-index: 3;
-    @media (max-width: 768px) {
-      margin-top: 7rem;
-    }
+    z-index: 4;
+
     h1 {
       font-weight: normal;
       @media (orientation: portrait) {
@@ -67,7 +60,7 @@ const CustomBg = styled.a`
       }
       strong {
         font-family: 'Acta Display', serif;
-        font-size: 4rem;
+        font-size: 8rem;
         line-height: 0.8;
         display: block;
         position: relative;
@@ -75,14 +68,7 @@ const CustomBg = styled.a`
         font-weight: bold;
         text-shadow: 5px 5px 0px black, -3px -3px 10px rgba(0, 0, 0, 0.5);
         @media (orientation: portrait) {
-          font-size: 2.2rem;
-        }
-        span {
           font-size: 4rem;
-          display: block;
-          @media (orientation: portrait) {
-            font-size: 2.2rem;
-          }
         }
       }
       line-height: 1;
@@ -92,11 +78,6 @@ const CustomBg = styled.a`
         text-transform: uppercase;
         font-size: 2.6rem;
         letter-spacing: 0.1em;
-        @media (orientation: portrait) {
-          font-size: 1.4rem;
-          line-height: 1.1;
-          display: block;
-        }
       }
     }
   }
@@ -125,6 +106,24 @@ const CustomBg = styled.a`
       width: 100%;
     }
   }
+  .gabriel {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+    pointer-events: none;
+    width: 60%;
+    opacity: 0.6;
+    z-index: 3;
+  }
+  .boric {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    width: 50%;
+    opacity: 0.3;
+    z-index: 2;
+  }
 
   .fl-right {
     text-aligh: right;
@@ -143,14 +142,6 @@ const MaxWidth = styled.div`
   }
 `
 
-const CambioStyled = styled(CambioWhite)`
-  max-width: 300px;
-  margin-bottom: 10px;
-  @media (max-width: 768px) {
-    max-width: 200px;
-  }
-`
-
 const Button = styled.span`
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -159,9 +150,6 @@ const Button = styled.span`
   font-size: 1.2rem;
   border-radius: 30px;
   margin-bottom: 3rem;
-  @media (max-width: 768px) {
-    margin-bottom: 1rem;
-  }
 `
 
 const Custom = () => {
@@ -171,23 +159,23 @@ const Custom = () => {
       <MaxWidth>
         <Hero>
           <h2 className="logo">
-            <LT />
+            <LogoElecciones />
           </h2>
           <div className="texto">
             <h1>
-              <CambioStyled />
               <strong>
-                <span>De Sebastián Piñera</span>a Gabriel Boric
+                Gabriel
+                <br /> Boric Font
               </strong>
-              {/* <small>
-                Cambio de mando <br />
-                presidencial 2022
-              </small> */}
+              <small>
+                Una nueva generación
+                <br /> entra a La Moneda
+              </small>
             </h1>
             <Excerpt>
-              El nuevo mandatario será investido formalmente hoy en el Salón de
-              Honor del Congreso. Revisa aquí toda la cobertura de La Tercera
-              para este evento.
+              Llegará con 36 años,{' '}
+              <strong>el gobernante más joven de la historia de Chile</strong>{' '}
+              desde Ramón Freire en 1823. Revisa este especial.
             </Excerpt>
             <Button>Ver el especial</Button>
           </div>
@@ -196,10 +184,12 @@ const Custom = () => {
           <Bg />
         </div>
 
+        <Gabriel className="gabriel" />
+        <Boric className="boric" />
         <div className="fotobg">
           <img
             src="https://especiales.latercera.com/boric-presidente-assets/president-boric.jpg"
-            alt="Gabriel Boric, Presidente de la República"
+            alt="Gabriel Boric Presidente"
           />
         </div>
       </MaxWidth>

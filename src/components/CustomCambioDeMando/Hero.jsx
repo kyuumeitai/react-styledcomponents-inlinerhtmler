@@ -5,8 +5,8 @@ import LogoElecciones from './LogoElecciones'
 import Bg from './Bg'
 import Sharer from './Sharer'
 
-import Gabriel from './Gabriel'
-import Boric from './Boric'
+import LT from './svg/output/IsoLt'
+import CambioWhite from './svg/output/CambioWhite'
 
 const imports = css``
 
@@ -17,9 +17,15 @@ const Hero = styled.article`
   overflow: hidden;
   .logo {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 240px;
+    top: 40px;
+    right: 20px;
+    width: 80px;
+    z-index: 3;
+    @media (max-width: 768px) {
+      width: 30px;
+      top: 5px;
+      right: 5px;
+    }
   }
 `
 
@@ -32,6 +38,7 @@ const Excerpt = styled.p`
   text-align: left;
   @media (orientation: portrait) {
     text-align: center;
+    font-size: 1.2rem;
   }
 `
 
@@ -58,7 +65,7 @@ const CustomBg = styled.div`
       }
       strong {
         font-family: 'Acta Display', serif;
-        font-size: 8rem;
+        font-size: 6rem;
         line-height: 0.8;
         display: block;
         position: relative;
@@ -66,7 +73,14 @@ const CustomBg = styled.div`
         font-weight: bold;
         text-shadow: 5px 5px 0px black, -3px -3px 10px rgba(0, 0, 0, 0.5);
         @media (orientation: portrait) {
+          font-size: 3.3rem;
+        }
+        span {
           font-size: 4rem;
+          display: block;
+          @media (orientation: portrait) {
+            font-size: 2rem;
+          }
         }
       }
       line-height: 1;
@@ -76,6 +90,11 @@ const CustomBg = styled.div`
         text-transform: uppercase;
         font-size: 2.6rem;
         letter-spacing: 0.1em;
+        @media (orientation: portrait) {
+          font-size: 1.4rem;
+          line-height: 1.1;
+          display: block;
+        }
       }
     }
   }
@@ -104,24 +123,6 @@ const CustomBg = styled.div`
       width: 100%;
     }
   }
-  .gabriel {
-    position: absolute;
-    bottom: -5%;
-    right: 0;
-    pointer-events: none;
-    width: 60%;
-    opacity: 0.6;
-    z-index: 3;
-  }
-  .boric {
-    position: absolute;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    width: 50%;
-    opacity: 0.3;
-    z-index: 2;
-  }
 
   .fl-right {
     text-aligh: right;
@@ -140,6 +141,14 @@ const MaxWidth = styled.div`
   }
 `
 
+const CambioStyled = styled(CambioWhite)`
+  max-width: 300px;
+  margin-bottom: 10px;
+  @media (max-width: 768px) {
+    max-width: 200px;
+  }
+`
+
 const Custom = () => {
   return (
     <CustomBg>
@@ -147,31 +156,28 @@ const Custom = () => {
       <MaxWidth>
         <Hero>
           <h2 className="logo">
-            <LogoElecciones />
+            <LT />
           </h2>
           <div className="texto">
             <h1>
+              <CambioStyled />
               <strong>
-                Gabriel
-                <br /> Boric Font
+                <span>De Sebastián Piñera</span>a Gabriel Boric
               </strong>
-              <small>
-                Una nueva generación
-                <br /> entra a La Moneda
-              </small>
+              {/* <small>
+                Cambio de mando <br />
+                presidencial 2022
+              </small> */}
             </h1>
             <Excerpt>
-              Llegará con 36 años, el gobernante{' '}
-              <strong>más joven de la historia de Chile</strong> desde Ramón
-              Freire en 1823. Además, será el primer presidente de una coalición
-              distinta a las dos que dominaron el panorama político desde el
-              retorno a la democracia. Acá, distintos ángulos para comprender a
-              Gabriel Boric Font.
+              El nuevo mandatario será investido formalmente hoy en el Salón de
+              Honor del Congreso. Revisa aquí toda la cobertura de La Tercera
+              para este evento.
             </Excerpt>
 
             <Sharer
-              url="https://www.latercera.com/gabriel-boric-presidente-chile/"
-              description={`Gabriel Boric Font - Presidente Electo de Chile - La Tercera`}
+              url="https://www.latercera.com/cambio-de-mando-pinera-boric/"
+              description={`De Piñera a Boric - Cambio de Mando - La Tercera`}
               hashtags="PresidenteBoric"
             />
           </div>
@@ -179,12 +185,12 @@ const Custom = () => {
         <div className="bg">
           <Bg />
         </div>
-
+        {/* 
         <Gabriel className="gabriel" />
-        <Boric className="boric" />
+        <Boric className="boric" /> */}
         <div className="fotobg">
           <img
-            src="https://especiales.latercera.com/boric-presidente-assets/president-boric.jpg"
+            src="https://especiales.latercera.com/boric-presidente-assets/president-pinera.jpg"
             alt="Gabriel Boric Presidente"
           />
         </div>
