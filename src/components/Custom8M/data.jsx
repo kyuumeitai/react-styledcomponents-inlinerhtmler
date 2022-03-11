@@ -6,7 +6,7 @@ const data = [
     imgurl: 'https://especiales.latercera.com/8m-files/01.png',
     note: {
       title: 'Tres mujeres que crean inclusión laboral para mujeres',
-      description: 'Isidora Correa',
+      description: 'Por Isidora Correa',
       imgurl:
         'https://www.latercera.com/resizer/5iOQT2l1HUj6Wyl-RB9F41GRNWk=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/D7NQB2AXK5G6LP7KUYZ66WIXSA.jpg',
       url:
@@ -20,6 +20,13 @@ const data = [
       'La que usa el conocimiento para transformar la vida de otras mujeres. Estudiosa de temas de género, se apropia de espacios como la literatura para contar historias de mujeres y para expresar nuestra visión de la sociedad y así, dar cuenta de nuestras desigualdades. ',
     imgurl: 'https://especiales.latercera.com/8m-files/02.png',
     note: {
+      title:
+        'Lucía Guerra y Montserrat Martorell: hacer feminismo desde la literatura',
+      description: 'Por Catalina Infante',
+      imgurl:
+        'https://www.latercera.com/resizer/TdCRmnte-NIHsOEbWTf5gymhd3s=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/VW6KAPLV2RAVRH7JKL6LCJ3X5Q.jpg',
+      url:
+        'https://www.latercera.com/paula/lucia-guerra-y-montserrat-martorell-hacer-feminismo-desde-la-literatura/',
       date: '10 Marzo',
     },
   },
