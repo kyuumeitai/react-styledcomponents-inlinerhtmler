@@ -170,9 +170,9 @@ const Custom = () => {
               </small> */}
             </h1>
             <Excerpt>
-              El nuevo mandatario será investido formalmente hoy en el Salón de
-              Honor del Congreso. Revisa aquí toda la cobertura de La Tercera
-              para este evento.
+              El nuevo mandatario fue investido formalmente hoy 11 de marzo en
+              el Salón de Honor del Congreso. Revisa aquí toda la cobertura de
+              La Tercera.
             </Excerpt>
 
             <Sharer
@@ -190,7 +190,7 @@ const Custom = () => {
         <Boric className="boric" /> */}
         <div className="fotobg">
           <img
-            src="https://especiales.latercera.com/boric-presidente-assets/president-ambos-2.jpg"
+            src="https://especiales.latercera.com/boric-presidente-assets/president-boric-2.jpg"
             alt="Gabriel Boric Presidente"
           />
         </div>

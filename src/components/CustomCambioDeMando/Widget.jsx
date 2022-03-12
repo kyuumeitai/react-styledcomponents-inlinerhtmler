@@ -198,7 +198,7 @@ const Custom = () => {
 
         <div className="fotobg">
           <img
-            src="https://especiales.latercera.com/boric-presidente-assets/president-ambos.jpg"
+            src="https://especiales.latercera.com/boric-presidente-assets/president-boric-3.jpg"
             alt="Gabriel Boric, Presidente de la República"
           />
         </div>
