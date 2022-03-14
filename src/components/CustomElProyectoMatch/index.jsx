@@ -206,7 +206,12 @@ const Wrap = styled.div`
 const CustomTheMatchProject = () => {
   return (
     <Overall>
-      <Hero text="<p>Comenzamos nuestro proyecto con una pregunta: ¿Cómo podríamos ayudar a nuestras audiencias a comprender el proceso constituyente y conocer a los candidatos que aspiraban a ser parte del órgano que redactaría la nueva constitución chilena? (y sus posiciones sobre temas clave).</p><p>Después de un año, varias iteraciones y productos, creamos una herramienta interactiva, intuitiva, fácil y entretenida para ayudar a las personas a involucrarse y participar en un proceso electoral tan importante que tuvimos durante 2021. Al mismo tiempo, construimos conjuntos de datos con información que ningún otro medio tuvo y que nos permite publicar análisis relevantes e interesantes sobre los cuerpos electos y los posibles resultados políticos de estas elecciones en el futuro de nuestro país.</p>">
+      <Hero
+        text="<p><br />Comenzamos nuestro proyecto con una pregunta: ¿Cómo podríamos ayudar a nuestras audiencias a comprender el proceso constituyente y conocer a los candidatos que aspiraban a ser parte del órgano que redactaría la nueva constitución chilena? (y sus posiciones sobre temas clave).</p>
+      
+      <p>Después de un año, varias iteraciones y productos, creamos una herramienta interactiva, intuitiva, fácil y entretenida para ayudar a las personas a involucrarse y participar en un proceso electoral tan importante que tuvimos durante 2021. 
+      
+      Al mismo tiempo, construimos un conjunto de datos con información que ningún otro medio tenía y que nos permitió publicar análisis relevantes sobre los resultados y las posibles proyecciones políticas de estas elecciones en el futuro de nuestro país.</p>">
         <Columns>
           {content.card.map((item, index) => {
             return <Card {...item} key={index} />
@@ -215,7 +220,7 @@ const CustomTheMatchProject = () => {
       </Hero>
 
       <Wrap>
-        <span className="featured-title">All Features</span>
+        <span className="featured-title">Todos los Productos</span>
 
         {content.side.map((item, index) => {
           return (
