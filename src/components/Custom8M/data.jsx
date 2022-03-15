@@ -52,6 +52,13 @@ const data = [
       'La que a través de sus conocimientos sobre el cuerpo nos ayuda a hacer valer nuestros derechos sexuales y reproductivos que por tanto tiempo fueron pasados a llevar. Mujeres que acompañan física y emocionalmente a otras durante el embarazo, el parto y que también nos enseña a sentir placer, a conocer nuestro cuerpo y cuidarlo. ',
     imgurl: 'https://especiales.latercera.com/8m-files/04.png',
     note: {
+      title:
+        'María Jesús Leturia y su trabajo acompañando psico-afectivamente a la mujer en la etapa de gestación, parto y el posparto',
+      description: 'Por Consuelo Lomas',
+      imgurl:
+        'https://www.latercera.com/resizer/wHgLfDa-5fWLdNqKBdR-SBnedIY=/arc-anglerfish-arc2-prod-copesa/public/5VVJCXJOLJHHVIL2KU7QWRR2AE.jpg',
+      url:
+        'https://www.latercera.com/paula/maria-jesus-leturia-mi-trabajo-consiste-en-acompanar-psico-afectivamente-a-la-mujer-en-la-etapa-de-gestacion-el-parto-y-el-posparto/',
       date: '14 Marzo',
     },
   },

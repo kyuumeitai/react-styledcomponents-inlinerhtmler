@@ -1,37 +1,60 @@
 <style>
-  .bann-8m a {
-    display: block;
+  .branded-8m {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-column: span 1 !important;
+    padding: 5px 5px;
+    align-items: center;
+    grid-gap: 4rem;
   }
-  .bann-8m a img {
-    display: block;
-    max-width: 100%;
+  .branded-8m small {
+    font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    margin-right: 5px;
   }
-  .bann-8m .mobile {
-    display: none;
+  .branded-8m img {
+    max-height: 50px;
+  }
+
+  .branded-8m div:first-of-type {
+    text-align: left;
+  }
+
+  .branded-8m div:last-of-type {
+    text-align: right;
+  }
+
+  .branded-8m div {
+    grid-column: span 1 !important;
+  }
+
+  @media (min-width: 768px) {
+    .branded-8m div {
+      grid-column: span 1 !important;
+    }
+  }
+  @media (min-width: 400px) {
+    .branded-8m div {
+      grid-column: span 1 !important;
+    }
   }
 
   @media (max-width: 800px) {
-    .bann-8m .desktop {
-      display: none;
-    }
-    .bann-8m .mobile {
-      display: block;
+    .branded-8m {
+      grid-template-columns: 1fr;
+      padding: 10px 10px;
+      grid-gap: 5px;
     }
   }
 </style>
-<div class="bann-8m">
-  <a
-    href="https://www.latercera.com/8m-en-8-arquetipos-de-mujeres/?utm_source=widgethomelt&utm_medium=web&utm_campaign=paula8m"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
+<div class="align-left branded-8m">
+  <div><h3>8M en 8 arquetipos</h3></div>
+  <div>
+    <small>Presentado por:</small>
+
     <img
-      class="desktop"
-      src="https://www.latercera.com/resizer/IZ3d7EX3pASnX_kSTpW2SDc2t-E=/arc-anglerfish-arc2-prod-copesa/public/MTEGU34GF5AE3LJ3ATZKGMZJFI.jpg"
+      src="https://www.latercera.com/resizer/L7-wy8Io68fyC__2YzfshjsCZcM=/arc-anglerfish-arc2-prod-copesa/public/3NGVFMC75BE3ZLTZESC4YAAJQE.png"
     />
-    <img
-      class="mobile"
-      src="https://www.latercera.com/resizer/hBtEOOla3gDVZ8EPi-7Tl7mhr4Q=/arc-anglerfish-arc2-prod-copesa/public/OOL24BAMYZC3VKJ54QKE6G6XZA.jpg"
-    />
-  </a>
+  </div>
 </div>
