@@ -28,7 +28,7 @@ const content = {
     },
     {
       date: 'Noviembre 2021',
-      title: 'Tu Match Electoral: elecciones presidenciales y congreso',
+      title: 'Tu Match Electoral: elecciones presidenciales y Congreso',
       image:
         'https://interactivo.latercera.com/match-project-assets/09-tu-match-electoral.png',
       url: 'https://interactivo.latercera.com/tu-match-electoral/',
@@ -63,7 +63,7 @@ const content = {
       url:
         'https://interactivo.latercera.com/tu-match-constituyente/con-quien-compartes-tus-ideas-de-pais/',
       description:
-        'Nuestro primer match, nuestro beta. Comenzamos a iterar este proyecto preguntándole a figuras públicas sobre temas clave de la constitución para que la gente pudiera descubrir con quién tienen más afinidad.',
+        'Nuestro primer match, nuestro beta. Comenzamos a iterar este proyecto preguntándole a figuras públicas sobre temas clave de la constitución para que la gente pudiera descubrir con quién tenían más afinidad.',
     },
     {
       date: 'Enero 2021',
@@ -73,7 +73,7 @@ const content = {
         'https://interactivo.latercera.com/match-project-assets/02-quienes-son-los-candidatos-y-candidatas-a-constituyentes-de-tu-distrito.png',
       url: 'https://interactivo.latercera.com/candidatos-constituyentes/',
       description:
-        'Construimos un conjunto de datos con información detallada de todos los 1400 candidatos a la Convención Constitucional, incluso antes de que el Servicio Electoral publicara la lista oficial. Se ha convertido en una “Wikipedia alternativa” a los convencionales constitucionales.',
+        'Construimos un conjunto de datos con información detallada de los 1400 candidatos a la Convención Constitucional, incluso antes de que el Servicio Electoral publicara la lista oficial. Se ha convertido en una “Wikipedia alternativa” a los convencionales constitucionales.',
     },
     {
       date: 'Marzo 2021',
@@ -105,7 +105,7 @@ const content = {
       url:
         'https://www.latercera.com/investigacion-y-datos/noticia/como-piensan-las-listas-de-la-convencion-constitucional/2WKACYWFUNGXXLLYIE45RNI2NA/ ',
       description:
-        'Hicimos un análisis detallado, tomando como referencia las listas electorales y partidos de las constituyentes convencionales.',
+        'Hicimos un análisis detallado, tomando como referencia las listas electorales y partidos de los convencionales constituyentes.',
     },
     {
       date: 'Julio 2021',
@@ -116,12 +116,12 @@ const content = {
       url:
         'https://latercera.com/interactivo/zoom-a-los-elegidos-de-la-convencion-constitucional/',
       description:
-        'Para ayudar a nuestras audiencias a conocer a los constituyentes convencionales, el día que comenzó la convención constituyente lanzamos este landing con la lista completa, vinculada a los perfiles que habíamos construido anteriormente.',
+        'Para ayudar a nuestras audiencias a conocer a los convencionales constituyentes, el día que se inauguró la Convención Constitucional lanzamos este landing con la lista completa, vinculada a los perfiles que habíamos construido anteriormente.',
     },
     {
       date: 'Julio 2021',
       title:
-        'Los elegidos: ¿Quiénes son y cómo piensa la Convención Constitucional?',
+        'Los Elegidos: ¿Quiénes son y cómo piensa la Convención Constitucional?',
       image:
         'https://interactivo.latercera.com/match-project-assets/07-los-elegidos.png',
       url:
@@ -141,12 +141,12 @@ const content = {
     },
     {
       date: 'Noviembre 2021',
-      title: 'Tu Match Electoral: Edición presidencial y congreso',
+      title: 'Tu Match Electoral: Edición presidencial y Congreso',
       image:
         'https://interactivo.latercera.com/match-project-assets/09-tu-match-electoral.png',
       url: 'https://interactivo.latercera.com/tu-match-electoral/',
       description:
-        'Para estas elecciones presidenciales, senatoriales y de diputados hicimos una versión nueva de nuestro match. Dejamos el resultado tradicional, pero además, con la ayuda del científico de datos Jorge Fábrega, desarrollamos un “mapa ideológico”, usando el método de escalado NOMINATE, haciendo un gráfico de un eje para el Congreso, y dos ejes -como una clásica Brújula Política - para presidente.',
+        'Para estas elecciones presidenciales, senatoriales y de diputados hicimos una versión nueva de nuestro match. Mantuvimos nuestro resultado tradicional pero, además, con la ayuda del científico de datos Jorge Fábrega, desarrollamos un “mapa ideológico”, usando el método denominado Nominate Score, haciendo gráficos de un eje para el Congreso, y dos ejes -como la clásica Brújula Política- para presidente.',
     },
     {
       date: 'Noviembre 2021',
@@ -155,7 +155,7 @@ const content = {
         'https://interactivo.latercera.com/match-project-assets/10-los-candidatos-electos.png',
       url: 'https://interactivo.latercera.com/candidatos-electorales/electos/',
       description:
-        'Al día siguiente de la elección publicamos una página sencilla y limpia para mostrar todos los resultados de los diputados y senadores electos.',
+        'Al día siguiente de la elección publicamos una página sencilla y limpia para mostrar todos los resultados con los respectivos diputados y senadores electos.',
     },
     {
       date: 'Diciembre 2021',

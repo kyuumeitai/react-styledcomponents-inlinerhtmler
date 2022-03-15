@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import LogoTMP from '../comps/LogoTheMatchProjectEn'
+import LogoTMP from '../comps/LogoTheMatchProject'
 import LogoLeft from '../comps/LogoLeft'
 import LogoRight from '../comps/LogoRight'
 
