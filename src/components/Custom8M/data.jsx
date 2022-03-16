@@ -68,6 +68,13 @@ const data = [
       'Se ha tomado la lucha por una educación integral y no sexista como una lucha personal. Aún teniendo todo un sistema en contra, les enseña a niños y niñas desde la primera infancia, la importancia de la igualdad de género y el respeto por otros y otras. ',
     imgurl: 'https://especiales.latercera.com/8m-files/05.png',
     note: {
+      title:
+        'Lorella Lopresti, profesora feminista: “El sistema educativo tradicional es un espacio de disciplinamiento del patriarcado”',
+      description: 'Por Daniela González. Foto: Alejandra González',
+      imgurl:
+        'https://www.latercera.com/resizer/mTm4hQn4vBab-3NWj3YW5m54UWc=/arc-anglerfish-arc2-prod-copesa/public/YBIBXT5PFJFDDDY3DO54QWBTJM.jpg',
+      url:
+        'https://www.latercera.com/paula/lorella-lopresti-profesora-feminista-el-sistema-educativo-tradicional-es-un-espacio-de-disciplinamiento-del-patriarcado/',
       date: '15 Marzo',
     },
   },
@@ -77,6 +84,13 @@ const data = [
       'Es la que decide llevar su activismo y vocación al espacio de deliberación en el que se toman las decisiones que determinan la vida de otras mujeres. Es la que actúa en la primera línea, de puente y mediadora recogiendo las demandas sociales y llevándolas a espacios de poder. ',
     imgurl: 'https://especiales.latercera.com/8m-files/06.png',
     note: {
+      title:
+        'Profesora, política y activista feminista, María Antonieta Saa: “En el Congreso me encontraban loca. Decían ‘ahí viene la María Antonieta con su locura del feminismo”.',
+      description: 'Por Emiliana Pariente',
+      imgurl:
+        'https://www.latercera.com/resizer/fahyO-h-O2F-eMpC6-I3SdbRpq4=/arc-anglerfish-arc2-prod-copesa/public/FI7ZLF7BYZFSVMT5LP6OMXH7VE.jpg',
+      url:
+        'https://www.latercera.com/paula/profesora-politica-y-activista-feminista-maria-antonieta-saa-en-el-congreso-me-encontraban-loca-decian-ahi-viene-la-maria-antonieta-con-su-locura-del-feminismo/',
       date: '16 Marzo',
     },
   },
