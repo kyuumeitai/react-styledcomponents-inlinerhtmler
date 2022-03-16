@@ -136,7 +136,7 @@ const Articulo = ({
           fecha={fecha}
         />
       )}
-      {/* {<Aprobada aprobadaEn={aprobadaEn} normaAprobada={normaAprobada} />} */}
+      {<Aprobada aprobadaEn={aprobadaEn} normaAprobada={normaAprobada} />}
     </Wrap>
   )
 }
@@ -149,7 +149,7 @@ const Votacion = ({ afavor, abstencion, encontra, fecha }) => {
         <dd>
           <strong>Inicio de Votación:</strong> {fecha}
         </dd>
-        <dd>
+        {/* <dd>
           <strong>A favor:</strong> {afavor}
         </dd>
         <dd>
@@ -157,7 +157,7 @@ const Votacion = ({ afavor, abstencion, encontra, fecha }) => {
         </dd>
         <dd>
           <strong>Abstenciones:</strong> {abstencion}
-        </dd>
+        </dd> */}
       </dl>
     </VotacionStyled>
   )

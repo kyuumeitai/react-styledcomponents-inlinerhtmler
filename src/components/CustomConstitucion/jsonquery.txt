@@ -21,25 +21,19 @@ Aprobada en
 Norma aprobada
 
 =concatenate("{
-numero: `";A2;"`,
-titulo: `";B2;"`,
-texto: `";C2;"`,
-afavor: `";D2;"`,
-encontra: `";E2;"`,
-abstencion: `";F2;"`,
-aprobado: `";G2;"`,
-estado: `";H2;"`,
-fecha: `";TEXT(I2;"DD/MM/YYYY");"`,indicacion: `";K2;"`,
-indAfavor: `";L2;"`,
-indEncontra: `";M2;"`,
-indAbstencion: `";N2;"`,
-indFecha: `";TEXT(O2;"DD/MM/YYYY");"`,
-textodefinitivo: `";P2;"`,
-conceptos: `";Q2;"`,
-quesignifica: `";R2;"`,
-comision: `";S2;"`,
-aprobadaEn: `";V2;"`,
-normaAprobada: `";W2;"`,
+numero: `";B2;"`,
+titulo: `";C2;"`,
+afavor: `";F2;"`,
+encontra: `";G2;"`,
+abstencion: `";H2;"`,
+aprobado: `";I2;"`,
+fecha: `";TEXT(E2;"DD/MM/YYYY");"`,
+textodefinitivo: `";J2;"`,
+conceptos: `";N2;"`,
+quesignifica: `";O2;"`,
+comision: `";A2;"`,
+aprobadaEn: `";K2;"`,
+normaAprobada: `";L2;"`,
 },")
 
 =concatenate("{
@@ -48,3 +42,8 @@ numero: `";B2;"`,
 fecha: `";C2;"`
 }")
 
+
+
+
+
+={query(importrange("https://docs.google.com/spreadsheets/d/1DYsua4o63MP-AO6XorzzzPqf3BILVMNQcZu2AG3cKBs/edit#gid=0";"Comisión sistema de justicia/ General!A2:Q40");"where Col2 is not null"; -1);query(importrange("https://docs.google.com/spreadsheets/d/1DYsua4o63MP-AO6XorzzzPqf3BILVMNQcZu2AG3cKBs/edit#gid=0";"Comisión de forma/General!A2:Q40");"where Col2 is not null"; -1);query(importrange("https://docs.google.com/spreadsheets/d/1DYsua4o63MP-AO6XorzzzPqf3BILVMNQcZu2AG3cKBs/edit#gid=0";"Comisión principios constitucionales/General!A2:Q40");"where Col2 is not null"; -1);query(importrange("https://docs.google.com/spreadsheets/d/1DYsua4o63MP-AO6XorzzzPqf3BILVMNQcZu2AG3cKBs/edit#gid=0";"Comisión Derechos Fundamentales/General!A2:Q40");"where Col2 is not null"; -1);query(importrange("https://docs.google.com/spreadsheets/d/1DYsua4o63MP-AO6XorzzzPqf3BILVMNQcZu2AG3cKBs/edit#gid=0";"Comisión Medioambiente/General!A2:Q40");"where Col2 is not null"; -1);query(importrange("https://docs.google.com/spreadsheets/d/1DYsua4o63MP-AO6XorzzzPqf3BILVMNQcZu2AG3cKBs/edit#gid=0";"Comisión sistemas de conoc./General!A2:Q40");"where Col2 is not null"; -1)}

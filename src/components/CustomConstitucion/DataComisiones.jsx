@@ -17,7 +17,7 @@ const data = [
   {
     comision: `Derechos Fundamentales `,
     numero: `4`,
-    fecha: `Fecha de votación pendiente: Mesa Directiva define citación`,
+    fecha: `Votación desde el 10 de marzo`,
   },
   {
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
@@ -32,7 +32,7 @@ const data = [
   {
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     numero: `7`,
-    fecha: `Fecha de votación pendiente: Mesa Directiva define citación`,
+    fecha: `Votación desde el 24 de febrero`,
   },
 ]
 

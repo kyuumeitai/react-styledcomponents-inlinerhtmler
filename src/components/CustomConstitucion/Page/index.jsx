@@ -177,7 +177,11 @@ const Header = () => {
       </p>
 
       <p className="mt-30">
-        -<strong>Actualizado al 5 de marzo de 2022</strong>-
+        -
+        <strong>
+          Última votación en particular del pleno: 16 de marzo de 2022
+        </strong>
+        -
       </p>
       <IconFlecha className="icon-flecha" />
     </HeaderWrap>
