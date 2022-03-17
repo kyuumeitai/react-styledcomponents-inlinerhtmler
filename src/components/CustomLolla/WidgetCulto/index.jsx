@@ -150,7 +150,7 @@ const StBgLolla = styled.img`
   height: 1920px;
   transform: scale(1.3) translate3d(-12%, 12%, 0);
   animation-direction: alternate;
-  animation: ${move} 50s infinite;
+  animation: ${move} 30s infinite;
   transform-origin: center center;
   animation-timing-function: ease;
   z-index: -1;
@@ -162,7 +162,6 @@ const CustomLollazo = () => {
       <Center>
         <Cols>
           <StCulto schema="white" />
-          <StTextCaminoA />
         </Cols>
         <ColLolla>
           <StLogoLolla />
