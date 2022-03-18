@@ -100,6 +100,13 @@ const data = [
       'Alejada de la ciudad, esta mujer trabaja directamente con su comunidad en la búsqueda de mejores condiciones. Tiene una importante conexión con su entorno y su lucha está centrada en las agresiones al medio ambiente que se traducen en una amenaza para su comunidad.',
     imgurl: 'https://especiales.latercera.com/8m-files/07.png',
     note: {
+      title:
+        'Haydée Aguilar, líder de comunidad kawésqar: “Las mujeres tenemos una conexión especial con el medioambiente”',
+      description: 'Por María Paz Salas',
+      imgurl:
+        'https://www.latercera.com/resizer/oDkTb23s7V0bNIo3no4p3_TjFy8=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/NCFKQORQEVEEZCIUS632SFOQC4.jpg',
+      url:
+        'https://www.latercera.com/paula/haydee-aguilar-lider-de-comunidad-kawesqar-las-mujeres-tenemos-una-conexion-especial-con-el-medioambiente/',
       date: '17 Marzo',
     },
   },
@@ -109,7 +116,14 @@ const data = [
       'Esta profesional trabaja sanando o acompañando a otras mujeres. Las ayuda a comprender que son parte de una sociedad y que por tanto sus problemas no son privados, sino públicos. Así las libera de estereotipos desde físicos y sexuales, hasta aquellos que tienen que ver con el rol que debemos cumplir en la sociedad.',
     imgurl: 'https://especiales.latercera.com/8m-files/08.png',
     note: {
-      date: '18 Marzo',
+      title:
+        'La psicóloga feminista: “Aquello que no nos permite hablar ni liberarnos no está dentro de nosotras”',
+      description: 'Patricia Morales y Foto: Alejandra González',
+      imgurl:
+        'https://www.latercera.com/resizer/kCEoTbBcSQm2-GQubKBWXFduJQ0=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/KJKNZLFYEZHTXFRMWHFHHF5MFY.jpg',
+      url:
+        'https://www.latercera.com/paula/la-psicologa-feminista-aquello-que-no-nos-permite-hablar-ni-liberarnos-no-esta-dentro-de-nosotras/',
+      date: '17 Marzo',
     },
   },
 ]
