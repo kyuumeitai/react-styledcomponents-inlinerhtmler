@@ -2,16 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Article from '../Article'
 import Header from '../Header'
-import CustomWidget from '../CustomVideoTocarLaCopa/Home/'
+import CustomWidget from '../CustomCopihueCountdown/Widget/'
 import { StWidget, StHeader, StBody } from './style.css'
 
 const Preview = ({ articles, header, site }) => {
   const colnumber = articles.length
   return (
     <StWidget>
-      <StHeader theme={header.theme}>
+      {/* <StHeader theme={header.theme}>
         <Header header={header} site={site} />
-      </StHeader>
+      </StHeader> */}
       <StBody columns={colnumber} theme={header.theme} layout={header.layout}>
         {articles.length > 0 ? (
           articles.map((article, index) => {
