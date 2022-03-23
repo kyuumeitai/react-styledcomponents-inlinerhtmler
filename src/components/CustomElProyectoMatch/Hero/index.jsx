@@ -22,6 +22,13 @@ const HeroStyled = styled.div`
         text-align: center;
         padding-bottom: 1rem;
       }
+      a {
+        color: #000;
+        text-decoration: underline;
+        &:hover {
+          color: CornflowerBlue;
+        }
+      }
     }
   }
   .children-wrap {

@@ -207,11 +207,11 @@ const CustomTheMatchProject = () => {
   return (
     <Overall>
       <Hero
-        text="<p><br />Comenzamos nuestro proyecto con una pregunta: ¿Cómo podríamos ayudar a nuestras audiencias a comprender el proceso constituyente y conocer a los candidatos que aspiraban a ser parte del órgano que redactaría la nueva constitución chilena? (y sus posiciones sobre temas clave).</p>
+        text={`<p><br />Comenzamos nuestro proyecto con una pregunta: ¿Cómo podríamos ayudar a nuestras audiencias a comprender el proceso constituyente y conocer a los candidatos que aspiraban a ser parte del órgano que redactaría la nueva constitución chilena? (y sus posiciones sobre temas clave).</p>
       
       <p>Después de un año, varias iteraciones y productos, creamos una herramienta interactiva, intuitiva, fácil y entretenida para ayudar a las personas a involucrarse y participar en un proceso electoral tan importante que tuvimos durante 2021. 
       
-      Al mismo tiempo, construimos un conjunto de datos con información que ningún otro medio tenía y que nos permitió publicar análisis relevantes sobre los resultados y las posibles proyecciones políticas de estas elecciones en el futuro de nuestro país.</p>">
+      Al mismo tiempo, construimos un conjunto de datos con información que ningún otro medio tenía y que nos permitió publicar análisis relevantes sobre los resultados y las posibles proyecciones políticas de estas elecciones en el futuro de nuestro país.</p><p> Si quieres saber más de este proyecto lee el siguiente artículo: <a href="https://www.latercera.com/interactivo/noticia/el-proyecto-match/UWSYW7APDBFZLDPZQ7CZMIH5PQ/?utm_source=landing&utm_medium=web&utm_campaign=landingExplainerMatchES" target="_blank" rel="noreferrer noopener">El Proyecto Match</a>.</p>`}>
         <Columns>
           {content.card.map((item, index) => {
             return <Card {...item} key={index} />
