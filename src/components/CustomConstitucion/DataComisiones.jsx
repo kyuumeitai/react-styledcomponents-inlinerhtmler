@@ -2,12 +2,12 @@ const data = [
   {
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     numero: `1`,
-    fecha: `Fecha de votación pendiente: Mesa Directiva define citación`,
+    fecha: ``,
   },
   {
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     numero: `2`,
-    fecha: `Fecha de votación pendiente: Mesa Directiva define citación`,
+    fecha: `Votación desde el 18 de marzo`,
   },
   {
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,

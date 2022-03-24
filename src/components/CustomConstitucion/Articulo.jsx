@@ -37,9 +37,16 @@ const Wrap = styled.div`
   }
 `
 
-const VotacionStyled = styled.div`
+const BlockStyled = styled.div`
+  &.mt {
+    margin-top: 30px;
+  }
   h2 {
     margin-bottom: 5px;
+    border-bottom: dashed 1px black;
+  }
+  a {
+    color: black;
   }
   dl {
     padding-top: 5px;
@@ -47,7 +54,6 @@ const VotacionStyled = styled.div`
     grid-template-columns: repeat(4, 1fr);
     grid-column: span 1 !important;
     gap: 10px;
-    border-top: dashed 1px black;
     dd {
       grid-column: span 1 !important;
       padding: 10px 0 0;
@@ -121,7 +127,7 @@ const Articulo = ({
   return (
     <Wrap bgColor={bgColor} mainColor={mainColor} id={tituloStr}>
       <h2>
-        <small>{numero}:</small>
+        <small>Artículo {numero}:</small>
         {titulo}
       </h2>
       {textodefinitivo && textodefinitivo.length > 0 ? (
@@ -137,13 +143,14 @@ const Articulo = ({
         />
       )}
       {<Aprobada aprobadaEn={aprobadaEn} normaAprobada={normaAprobada} />}
+      {conceptos && conceptos.length > 0 && <Glosario conceptos={conceptos} />}
     </Wrap>
   )
 }
 
 const Votacion = ({ afavor, abstencion, encontra, fecha }) => {
   return (
-    <VotacionStyled>
+    <BlockStyled>
       <h2>Votación</h2>
       <dl>
         <dd>
@@ -159,7 +166,7 @@ const Votacion = ({ afavor, abstencion, encontra, fecha }) => {
           <strong>Abstenciones:</strong> {abstencion}
         </dd> */}
       </dl>
-    </VotacionStyled>
+    </BlockStyled>
   )
 }
 
@@ -177,6 +184,32 @@ const Aprobada = ({ aprobadaEn, normaAprobada }) => {
         </p>
       )}
     </AprobadaStyled>
+  )
+}
+
+const Glosario = ({ conceptos }) => {
+  const explotedConcepts = conceptos.split(',')
+  return (
+    <BlockStyled className="mt">
+      <h2>
+        Conceptos <span className="amano">clave</span>
+      </h2>
+      <nav>
+        {explotedConcepts.map((concepto, index) => (
+          <>
+            <a
+              key={concepto}
+              href={`https://interactivo.latercera.com/glosario-constitucional/${dasherize(
+                concepto,
+              )}/?utm_source=LTconstitucionARC&utm_medium=referral&utm_campaign=glosario-constitucional`}
+              target="_blank">
+              <strong>{concepto}</strong>
+            </a>
+            {explotedConcepts.length - 1 !== index && <span>, </span>}
+          </>
+        ))}
+      </nav>
+    </BlockStyled>
   )
 }
 
