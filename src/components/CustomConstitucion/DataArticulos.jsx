@@ -14,8 +14,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `2`,
     titulo: `Pluralismo jurídico`,
     afavor: `114`,
@@ -29,8 +29,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `3`,
     titulo: `Independencia jurisdiccional, imparcialidad y exclusividad`,
     afavor: `113`,
@@ -48,8 +48,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `4`,
     titulo: `De la inamovilidad`,
     afavor: `130`,
@@ -63,8 +63,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `5`,
     titulo: `Derecho de acceso a la justicia`,
     afavor: `140`,
@@ -73,13 +73,13 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `15/02/2022`,
     textodefinitivo: `La Constitución garantiza el pleno acceso a la justicia a todas las personas y colectivos. Es deber del Estado remover los obstáculos sociales, culturales y económicos que impidan o limiten la posibilidad de acudir a los órganos jurisdiccionales para la tutela y el ejercicio de sus derechos. Los tribunales deben brindar una atención adecuada a quienes presenten peticiones o consultas ante ellos, otorgando siempre un trato digno y respetuoso. Una ley establecerá sus derechos y deberes.`,
-    conceptos: ` Atención adecuada,Trato digno`,
+    conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `6`,
     titulo: `Tutela jurisdiccional efectiva`,
     afavor: `128`,
@@ -88,13 +88,13 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `15/02/2022`,
     textodefinitivo: `Todas las personas tienen derecho a requerir de los tribunales de justicia la tutela efectiva de sus derechos e intereses legítimos, de manera oportuna y eficaz conforme a los principios y estándares reconocidos en la Constitución y las leyes.`,
-    conceptos: `Tutela jurisdiccional, derecho a requerir, interés legítimo`,
+    conceptos: `Tutela jurisdiccional`,
     quesignifica: `El derecho de toda persona a requerir la protección del Estado ante sus derechos e intereses legítimos.`,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `7`,
     titulo: ` Inexcusabilidad e indelegabilidad`,
     afavor: `114`,
@@ -108,8 +108,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `8`,
     titulo: ` Ejecución de las resoluciones`,
     afavor: `130`,
@@ -124,8 +124,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `9`,
     titulo: `Fundamentación y lenguaje claro`,
     afavor: `114`,
@@ -139,8 +139,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `10`,
     titulo: `Gratuidad`,
     afavor: `141`,
@@ -155,8 +155,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `11`,
     titulo: `Principio de responsabilidad jurisdiccional`,
     afavor: `113`,
@@ -165,13 +165,13 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `15/02/2022`,
     textodefinitivo: `Las juezas y jueces son personalmente responsables por los delitos de cohecho, falta de observancia en materia sustancial de las leyes que reglan el procedimiento, y, en general, por toda prevaricación, denegación o torcida administración de justicia. La ley determinará los casos y el modo de hacer efectiva esta responsabilidad. Los perjuicios por error judicial otorgarán el derecho a una indemnización por el Estado, conforme al procedimiento establecido en la Constitución y las leyes.`,
-    conceptos: `Cohecho, Prevaricación,Torcida administración de justicia`,
+    conceptos: `Cohecho, Prevaricación`,
     quesignifica: `Los jueces y juezas responsables personalmente si cometen delitos que afecten el ejercicio de sus labores. Será la ley la quien determine los casos y el modo de hacer efectiva esa responsabilidad, y quienes se vean afectados serán indemnizados por el Estado.`,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `12`,
     titulo: `Publicidad, Probidad y Transparencia`,
     afavor: `145`,
@@ -185,8 +185,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `13`,
     titulo: `Principio de Justicia Abierta`,
     afavor: `128`,
@@ -195,13 +195,13 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `15/02/2022`,
     textodefinitivo: `La función jurisdiccional se basa en los principios rectores de la Justicia Abierta, que se manifiesta en la transparencia, participación y colaboración, con el fin de garantizar el Estado de Derecho, promover la paz social y fortalecer la democracia.`,
-    conceptos: `Gobierno abierto, Transparencia, Justicia abierta`,
+    conceptos: `Justicia abierta`,
     quesignifica: `La justicia debe ser transparente, participativa y colaborativa para garantizar el Estado de Derecho y fortalecer la democracia.`,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `14`,
     titulo: ` Paridad y perspectiva de género`,
     afavor: `115`,
@@ -217,8 +217,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `15`,
     titulo: ` Plurinacionalidad, pluralismo jurídico e interculturalidad`,
     afavor: `114`,
@@ -227,13 +227,13 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `15/02/2022`,
     textodefinitivo: `La función jurisdiccional se define en su estructura, integración y procedimientos conforme a los principios de plurinacionalidad, pluralismo jurídico e interculturalidad. Cuando se trate de personas indígenas, los tribunales y sus funcionarios deberán adoptar una perspectiva intercultural en el tratamiento y resolución de las materias de su competencia, tomando debidamente en consideración las costumbres, tradiciones, protocolos y los sistemas normativos de los pueblos indígenas, conforme a los tratados e instrumentos internacionales de derechos humanos de los que Chile es parte.`,
-    conceptos: `Pluralismo Jurídico, Plurinacional, Interculturalidad`,
+    conceptos: `Pluralismo Jurídico, Plurinacionalidad, Interculturalidad`,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `16`,
     titulo: `Mecanismos Colaborativos de Resolución de Conflictos`,
     afavor: `150`,
@@ -248,8 +248,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `1`,
     titulo: `Principio de unidad jurisdiccional`,
     afavor: `109`,
@@ -263,8 +263,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `2`,
     titulo: `Diferenciación funcional y estatuto común de lostribunales`,
     afavor: `109`,
@@ -278,8 +278,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `3`,
     titulo: `Cesación de juezas y jueces`,
     afavor: `109`,
@@ -293,8 +293,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `4`,
     titulo: `Fuero`,
     afavor: `109`,
@@ -308,8 +308,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `5`,
     titulo: `Autonomía financiera`,
     afavor: `109`,
@@ -323,8 +323,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `6`,
     titulo: `Publicidad`,
     afavor: `109`,
@@ -338,8 +338,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `7`,
     titulo: `Principio de proximidad e itinerancia`,
     afavor: `109`,
@@ -353,8 +353,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `8`,
     titulo: `De los Tribunales`,
     afavor: `109`,
@@ -368,8 +368,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `9`,
     titulo: `Acceso a la justicia intercultural`,
     afavor: `109`,
@@ -383,8 +383,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `10`,
     titulo: `Tutela efectiva de los derechos de los pueblos y naciones indígenas`,
     afavor: `109`,
@@ -398,8 +398,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `11`,
     titulo: `De los principios para la composición paritaria y plurinacional de los Tribunales del Sistema Nacional de Justicia.`,
     afavor: `109`,
@@ -413,8 +413,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `12`,
     titulo: `De la Corte Suprema`,
     afavor: `109`,
@@ -428,8 +428,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `13`,
     titulo: `De las Cortes de Apelaciones`,
     afavor: `109`,
@@ -443,8 +443,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `14`,
     titulo: `De los Tribunales de Instancia`,
     afavor: `109`,
@@ -458,8 +458,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `15`,
     titulo: `Tribunales administrativos`,
     afavor: `109`,
@@ -476,8 +476,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `16`,
     titulo: `Establecimientos penitenciarios`,
     afavor: `109`,
@@ -494,8 +494,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `17`,
     titulo: `Principios y deberes`,
     afavor: `109`,
@@ -509,8 +509,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `18`,
     titulo: `Tribunales de ejecución de penas`,
     afavor: `109`,
@@ -525,8 +525,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `19`,
     titulo: `De la justicia vecinal y los juzgados vecinales`,
     afavor: `109`,
@@ -541,8 +541,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `20`,
     titulo: `Centros de justicia vecinal`,
     afavor: `109`,
@@ -558,8 +558,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `21`,
     titulo: ``,
     afavor: `109`,
@@ -574,8 +574,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `22`,
     titulo: `Perspectiva de género y paridad`,
     afavor: `109`,
@@ -589,8 +589,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `23`,
     titulo: `Reparación integral`,
     afavor: `109`,
@@ -604,8 +604,8 @@ const data = [
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `1`,
     titulo: `Del Estado Regional`,
     afavor: `112`,
@@ -619,8 +619,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `2`,
     titulo: `De las Entidades Territoriales`,
     afavor: `103`,
@@ -634,8 +634,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `3`,
     titulo: `Del Territorio`,
     afavor: `128`,
@@ -649,8 +649,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `4`,
     titulo: `Del Maritorio`,
     afavor: `111`,
@@ -664,8 +664,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `5`,
     titulo: `De la Autonomía de las entidades territoriales`,
     afavor: `111`,
@@ -679,8 +679,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `6`,
     titulo: `De la solidaridad, cooperación y asociatividad territorial en el Estado Regional`,
     afavor: `141`,
@@ -695,8 +695,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `7`,
     titulo: `De la Participación en las entidades territoriales en el Estado Regional`,
     afavor: `116`,
@@ -711,8 +711,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `8`,
     titulo: `Del Desarrollo Territorial`,
     afavor: `120`,
@@ -726,8 +726,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `9`,
     titulo: `De la Equidad y justicia territorial`,
     afavor: `146`,
@@ -741,8 +741,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `10`,
     titulo: `De la Plurinacionalidad e Interculturalidad en el Estado Regional`,
     afavor: `115`,
@@ -756,8 +756,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `11`,
     titulo: `De la postulación y cesación a los cargos de las entidades territoriales`,
     afavor: `117`,
@@ -771,8 +771,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `12`,
     titulo: `Principio de no tutela entre entidades territoriales`,
     afavor: `146`,
@@ -786,8 +786,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `13`,
     titulo: `Correspondencia entre competencias y recursos`,
     afavor: `149`,
@@ -796,14 +796,14 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `16/02/2022`,
     textodefinitivo: `Sin perjuicio de las competencias que establece esta Constitución y la ley, el Estado podrá transferir a las entidades territoriales aquellas competencias de titularidad estatal que por su propia naturaleza son susceptibles de transferencia. Estas transferencias deberán ir acompañadas siempre por el personal y los recursos financieros suficientes y oportunos para su adecuada ejecución. Una ley regulará el régimen  jurídico del procedimiento de transferencia de competencias y sus sistemas de evaluación y control.`,
-    conceptos: `Titularidad, régimen jurídico`,
+    conceptos: `Régimen jurídico`,
     quesignifica: `El Estado podrá transferir las competencias necesarias a las entidades territoriales dependiendo de las necesidades específicas de cada territorio. Así mismo, se deberán entregar los recursos y el personal oportuno para la adecuada ejecución de estas competencias. 
     `,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `14`,
     titulo: `Cuestiones de competencia`,
     afavor: `139`,
@@ -817,8 +817,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `15`,
     titulo: `Libertad de circulación entre entidades territoriales`,
     afavor: `125`,
@@ -832,8 +832,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `16`,
     titulo: `Radicación preferente de competencias`,
     afavor: `129`,
@@ -848,8 +848,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `17`,
     titulo: `Diferenciación territorial`,
     afavor: `151`,
@@ -863,8 +863,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `18`,
     titulo: `De las Regiones Autónomas`,
     afavor: `109`,
@@ -879,8 +879,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `19`,
     titulo: `Diferenciación territorial`,
     afavor: `87`,
@@ -895,8 +895,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `20`,
     titulo: `Del Estatuto Regional`,
     afavor: `105`,
@@ -911,8 +911,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `21`,
     titulo: `De la elaboración, aprobación y reforma del Estatuto Regional`,
     afavor: `91`,
@@ -929,8 +929,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `22`,
     titulo: `De las Autoridades Regionales`,
     afavor: `91`,
@@ -944,8 +944,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `23`,
     titulo: `Del Gobierno Regional`,
     afavor: `116`,
@@ -961,8 +961,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `24`,
     titulo: `Del  Consejo de Alcaldes y Alcaldesas`,
     afavor: `142`,
@@ -976,8 +976,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `25`,
     titulo: `De la Asamblea Legislativa Regional`,
     afavor: `100`,
@@ -993,8 +993,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `26`,
     titulo: `Del Consejo Social Regional`,
     afavor: `110`,
@@ -1008,8 +1008,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `27`,
     titulo: `De  las  competencias  de  la  Región  autónoma`,
     afavor: `109`,
@@ -1025,8 +1025,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `28`,
     titulo: `De  las  entidades  con  competencias  sobre  todo  el territorio`,
     afavor: `113`,
@@ -1040,8 +1040,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `29`,
     titulo: `Del   Consejo   de   Gobernaciones`,
     afavor: `109`,
@@ -1055,8 +1055,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `30`,
     titulo: `De los Ministerios y Servicios Públicos`,
     afavor: `82`,
@@ -1070,8 +1070,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `31`,
     titulo: `Atribuciones  exclusivas  dela  Asamblea  Legislativa Regional. `,
     afavor: `100`,
@@ -1100,8 +1100,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `32`,
     titulo: `Competencia exclusiva de la legislación regional.Son materias de la ley regional:`,
     afavor: `102`,
@@ -1115,8 +1115,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `33`,
     titulo: `De las competencias legislativas concurrentes`,
     afavor: `82`,
@@ -1130,8 +1130,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `34`,
     titulo: `De  la  legislación  regional`,
     afavor: `102`,
@@ -1145,8 +1145,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `35`,
     titulo: `De las atribuciones exclusivas del Gobierno Regional`,
     afavor: `104`,
@@ -1163,8 +1163,8 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `36`,
     titulo: `Del control y la fiscalización`,
     afavor: `88`,
@@ -1178,8 +1178,54 @@ const data = [
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
+    numero: `1`,
+    titulo: `De la Comuna Autónoma`,
+    afavor: `114`,
+    encontra: `25`,
+    abstencion: `14`,
+    aprobado: `Aprobada`,
+    fecha: `29/03/2022`,
+    textodefinitivo: `La Comuna Autónoma es la entidad territorial base del Estado regional, dotada de personalidad jurídica de derecho público y patrimonio propio, que gozan de autonomía para el cumplimiento de sus fines y el ejercicio de sus competencias, con arreglo a lo dispuesto en la Constitución y la ley. La ley clasificará las comunas en distintos tipos, las que deberán ser consideradas por los órganos del Estado para el establecimiento de regímenes administrativos y económico-fiscales diferenciados, la implementación de políticas, planes y programas atendiendo a las diversas realidades locales, y en especial, para el traspaso de competencias y recursos. El establecimiento de los tipos comunales deberá considerar, a lo menos, criterios demográficos, económicos, culturales, geográficos, socioambientales, urbanos y rurales.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
+    aprobadaEn: `Primera instancia`,
+    normaAprobada: `Parcialmente`,
+  },
+  {
+    numero: `2`,
+    titulo: `Igualdad en la prestación de los servicios públicos municipales y desarrollo equitativo`,
+    afavor: `114`,
+    encontra: `25`,
+    abstencion: `14`,
+    aprobado: `Aprobada`,
+    fecha: `29/03/2022`,
+    textodefinitivo: `El Estado garantizará a la Municipalidad el financiamiento y recursos suficientes, para el justo y equitativo desarrollo de cada comuna, conforme a los mecanismos que señale la Constitución y la ley.
+    Para el gobierno comunal se observará como principio básico la búsqueda de un desarrollo territorial armónico y equitativo, propendiendo a que todas las personas tengan acceso a igual nivel y calidad de servicios públicos municipales, sin distingo del lugar que habiten.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
+    aprobadaEn: `Primera instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
+    numero: `3`,
+    titulo: `De la creación o supresión de Comunas Autónomas`,
+    afavor: `114`,
+    encontra: `25`,
+    abstencion: `14`,
+    aprobado: `Aprobada`,
+    fecha: `29/03/2022`,
+    textodefinitivo: `Una ley regulará la administración transitoria de las comunas que se creen, el procedimiento de instalación de las nuevas municipalidades, de traspaso del personal municipal y de los servicios y los resguardos necesarios para cautelar el uso y disposición de los bienes que se encuentren situados en los territorios de las nuevas comunas.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
+    aprobadaEn: `Primera instancia`,
+    normaAprobada: `Parcialmente`,
+  },
+  {
     numero: `1`,
     titulo: `Estado`,
     afavor: `104`,
@@ -1193,8 +1239,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `2`,
     titulo: `Personas`,
     afavor: `42`,
@@ -1208,8 +1254,53 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
+    numero: `2A`,
+    titulo: `Las Personas y su Protección`,
+    afavor: `9`,
+    encontra: `122`,
+    abstencion: `19`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
+    numero: `2E`,
+    titulo: `Personas`,
+    afavor: `38`,
+    encontra: `95`,
+    abstencion: `16`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
+    numero: `Nuevo artículo`,
+    titulo: ``,
+    afavor: `38`,
+    encontra: `106`,
+    abstencion: `4`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
     numero: `3`,
     titulo: `Soberanía`,
     afavor: `90`,
@@ -1223,8 +1314,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `4`,
     titulo: `Plurinacionalidad`,
     afavor: `93`,
@@ -1238,8 +1329,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `5`,
     titulo: `Democracia`,
     afavor: `101`,
@@ -1253,8 +1344,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `6`,
     titulo: `Igualdad Sustantiva`,
     afavor: `104`,
@@ -1268,8 +1359,23 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
+    numero: `6D`,
+    titulo: `Principio de Antirracismo`,
+    afavor: `93`,
+    encontra: `34`,
+    abstencion: `25`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
     numero: `7`,
     titulo: `Familias`,
     afavor: `86`,
@@ -1283,8 +1389,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `8`,
     titulo: `Estado Regional`,
     afavor: `78`,
@@ -1298,8 +1404,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `9`,
     titulo: `Naturaleza`,
     afavor: `104`,
@@ -1313,8 +1419,98 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
+    numero: `9A`,
+    titulo: `Principio del Buen Vivir`,
+    afavor: `78`,
+    encontra: `58`,
+    abstencion: `14`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
+    numero: `9G`,
+    titulo: `Principio de responsabilidad`,
+    afavor: `97`,
+    encontra: `19`,
+    abstencion: `36`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
+    numero: `9M`,
+    titulo: `Chile es un país oceánico`,
+    afavor: `120`,
+    encontra: `21`,
+    abstencion: `12`,
+    aprobado: `Aprobada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: `Es deber integral del Estado la conservación, preservación y cuidado de los ecosistemas marinos y costeros continentales, insulares y antárticos.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: `Primera instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
+    numero: `10G`,
+    titulo: `El ejercicio de la soberanía reconoce como limitación el respeto a los derechos humanos`,
+    afavor: `38`,
+    encontra: `92`,
+    abstencion: `22`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
+    numero: `10L`,
+    titulo: ``,
+    afavor: `91`,
+    encontra: `41`,
+    abstencion: `20`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
+    numero: `10O`,
+    titulo: `Derecho a la reparación integral`,
+    afavor: `82`,
+    encontra: `42`,
+    abstencion: `29`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
     numero: `11`,
     titulo: `Interculturalidad`,
     afavor: `109`,
@@ -1328,8 +1524,23 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
+    numero: `11A`,
+    titulo: `Derecho a participar en la vida cultural`,
+    afavor: `9`,
+    encontra: `134`,
+    abstencion: `9`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
     numero: `12`,
     titulo: `Plurilingüismo`,
     afavor: `111`,
@@ -1343,8 +1554,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `13`,
     titulo: `Estado Laico`,
     afavor: `71`,
@@ -1358,8 +1569,23 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
+    numero: `13 E`,
+    titulo: ``,
+    afavor: `100`,
+    encontra: `32`,
+    abstencion: `19`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
     numero: `14`,
     titulo: `Probidad y Transparencia`,
     afavor: `106`,
@@ -1375,8 +1601,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `15`,
     titulo: `Supremacía Constitucional y Legal`,
     afavor: `110`,
@@ -1390,8 +1616,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `17`,
     titulo: `Emblemas Nacionales`,
     afavor: `106`,
@@ -1405,8 +1631,23 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
+    numero: `18A`,
+    titulo: ``,
+    afavor: `77`,
+    encontra: `66`,
+    abstencion: `7`,
+    aprobado: `Rechazada`,
+    fecha: `11/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
     numero: `20`,
     titulo: ``,
     afavor: `53`,
@@ -1420,8 +1661,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `22`,
     titulo: `Justicia Intercultural`,
     afavor: `30`,
@@ -1435,8 +1676,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `24`,
     titulo: `El Estado reconoce la dignidad del trabajo`,
     afavor: `59`,
@@ -1450,8 +1691,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `26`,
     titulo: `Principio de Protección al Trabajo Decente`,
     afavor: `49`,
@@ -1465,8 +1706,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `27`,
     titulo: `Chile y armas de destrucción masiva`,
     afavor: `63`,
@@ -1480,8 +1721,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `28`,
     titulo: ``,
     afavor: `31`,
@@ -1495,8 +1736,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `29`,
     titulo: ``,
     afavor: `24`,
@@ -1510,8 +1751,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `30`,
     titulo: ``,
     afavor: `33`,
@@ -1525,8 +1766,8 @@ const data = [
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `1`,
     titulo: `Objeto y fin`,
     afavor: `106`,
@@ -1540,8 +1781,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `2`,
     titulo: `Cláusula de obligaciones generales y sujetos obligados`,
     afavor: `73`,
@@ -1549,14 +1790,15 @@ const data = [
     abstencion: `12`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `El Estado debe respetar, proteger, garantizar y promover la plena satisfacción y ejercicio de los derechos fundamentales, así como adoptar las medidas necesarias para eliminar todos los obstáculos que pudieran limitar o entorpecer su realización.
+    Toda persona, institución, asociación o grupo deberá respetar los derechos fundamentales, conforme a la Constitución y las leyes.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `Parcialmente`,
+  },
+  {
     numero: `3`,
     titulo: `Principio de progresividad y no regresión de los derechos fundamentales`,
     afavor: `132`,
@@ -1570,8 +1812,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `4`,
     titulo: `Financiamiento de los derechos fundamentales`,
     afavor: `101`,
@@ -1585,23 +1827,23 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `5`,
-    titulo: `Límites de los derechos fundamentales.`,
+    titulo: `Regulación y limitación de los derechos fundamentales.`,
     afavor: `13`,
     encontra: `130`,
     abstencion: `8`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `En virtud de una ley se podrá regular el ejercicio de los derechos fundamentales, para hacerlos compatibles entre sí o con otros fines amparados por la Constitución.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `6`,
     titulo: `Titularidad de los derechos.`,
     afavor: `90`,
@@ -1609,29 +1851,34 @@ const data = [
     abstencion: `6`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Las personas naturales son titulares de derechos fundamentales. Los derechos podrán ser ejercidos y exigidos individual o colectivamente.
+    Los Pueblos y Naciones Indígenas son titulares de derechos fundamentales colectivos.
+    La Naturaleza será titular de los derechos reconocidos en esta Constitución que le sean aplicables.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `Parcialmente`,
+  },
+  {
     numero: `7`,
-    titulo: `Derecho a la libertad de conciencia, pensamiento, creencias, cosmovisión y religión`,
+    titulo: ``,
     afavor: `75`,
     encontra: `47`,
     abstencion: `29`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Toda persona tiene derecho a la libertad de pensamiento, de conciencia, de religión y cosmovisión; este derecho incluye la libertad de profesar y cambiar de religión o creencias. Ninguna religión, ni creencia es la oficial del Estado, sin perjuicio de su reconocimiento y libre ejercicio en el espacio público o privado, mediante el culto, la celebración de los ritos, las prácticas espirituales y la enseñanza.
+    Podrán erigir templos, dependencias y lugares para el culto; mantener, proteger y acceder a los lugares sagrados y aquellos de relevancia espiritual, rescatar y preservar los objetos de culto o que tengan un significado sagrado.
+    El Estado reconoce la espiritualidad como elemento esencial del ser humano.
+    Las agrupaciones religiosas y espirituales podrán organizarse como personas jurídicas de conformidad a la ley. Respetando los derechos, deberes y principios que esta Constitución establece. Éstas no podrán perseguir fines de lucro y sus bienes deberán gestionarse de forma transparente de acuerdo con lo que establezca la ley.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `8`,
     titulo: `Derecho a la libertad de expresión.`,
     afavor: `25`,
@@ -1639,29 +1886,32 @@ const data = [
     abstencion: `6`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Toda persona, natural o jurídica, tiene derecho a la libertad de expresión y opinión, en cualquier forma y por cualquier medio. Este derecho comprende la libertad de buscar, recibir y difundir informaciones e ideas de toda índole.
+    No existirá censura previa sino únicamente las responsabilidades ulteriores que determine la ley.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `Parcialmente`,
+  },
+  {
     numero: `9`,
-    titulo: `Derecho a la seguridad individual.`,
+    titulo: `El derecho a vivir en entornos seguros y libres de violencia.`,
     afavor: `73`,
     encontra: `56`,
     abstencion: `22`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Es deber del Estado proteger en forma equitativa el ejercicio de este derecho a todas las 
+    personas, a través de una política de prevención de la violencia y el delito que considerará especialmente las condiciones materiales, ambientales, sociales y el fortalecimiento comunitario de los territorio. 
+    Las acciones de prevención, persecución y sanción de  los  delitos, así como la reinserción social de las personas condenadas, serán desarrolladas por los organismos públicos que señale esta Constitución y la ley, en forma coordinada y con irrestricto respeto a los derechos humanos.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `Parcialmente`,
+  },
+  {
     numero: `10`,
     titulo: `Libertad personal ambulatoria`,
     afavor: `115`,
@@ -1675,8 +1925,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `11`,
     titulo: `Derecho a la libertad ambulatoria y prohibición de desplazamiento forzado.`,
     afavor: `78`,
@@ -1684,14 +1934,29 @@ const data = [
     abstencion: `12`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Toda persona tiene derecho a trasladarse, residir y permanecer en cualquier lugar del territorio nacional, así como a entrar y salir de éste. La ley regulará el ejercicio de este derecho.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
+    numero: `11 bis`,
+    titulo: `Prohibición de desplazamiento forzado`,
+    afavor: `121`,
+    encontra: `1`,
+    abstencion: `27`,
+    aprobado: `Aprobada`,
+    fecha: `31/03/2022`,
+    textodefinitivo: `Ninguna persona será sometida a desplazamiento forzado dentro del territorio nacional, salvo en las excepciones que establezca la ley`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Derechos Fundamentales `,
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `Parcialmente`,
+  },
+  {
     numero: `12`,
     titulo: `Derecho a la identidad.`,
     afavor: `67`,
@@ -1699,14 +1964,16 @@ const data = [
     abstencion: `15`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Toda persona tiene derecho al libre desarrollo y pleno reconocimiento de su identidad, en todas sus dimensiones y manifestaciones, 
+    incluyendo las características sexuales, identidades y expresiones de género, nombre y orientaciones sexoafectivas.
+    El Estado garantizará el pleno ejercicio de este derecho a través de acciones afirmativas, procedimientos y leyes correspondientes.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `13`,
     titulo: `Derecho a la autonomía y a la libre determinación.`,
     afavor: `108`,
@@ -1720,8 +1987,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `14`,
     titulo: `Libertad de emprender y desarrollar actividades económicas.`,
     afavor: `42`,
@@ -1729,14 +1996,16 @@ const data = [
     abstencion: `14`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Toda persona, natural o jurídica, tiene libertad de emprender y desarrollar actividades económicas. Su ejercicio deberá ser compatible con los derechos consagrados en esta Constitución y con la protección de la naturaleza.
+    El contenido y los límites de este derecho serán determinados por las leyes que regulen su ejercicio, las que deberán promover el desarrollo de las empresas de menor tamaño y asegurarán la protección de los consumidores.
+    Las prácticas de colusión entre empresas y abusos de posición monopólica, así como las concentraciones empresariales que afecten el funcionamiento eficiente, justo y leal de los mercados, se entenderán como conductas contrarias al interés social. La ley establecerá las sanciones a los responsables`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `15`,
     titulo: `Inviolabilidad del hogar y de las comunicaciones`,
     afavor: `41`,
@@ -1744,14 +2013,17 @@ const data = [
     abstencion: `26`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `La protección, promoción y respeto del derecho a la privacidad de las personas, sus familias y comunidades. 
+    Ninguna persona ni autoridad podrá afectar, restringir o impedir el ejercicio del derecho a la privacidad salvo en los casos y formas que determine la ley.
+    Los recintos privados son inviolables. La entrada, registro o allanamiento sólo se podrán realizar con orden judicial previa dictada en los casos  específicos y en la forma que determine la ley, salvo las hipótesis de flagrancia.
+    Toda forma de documentación y comunicación privada es inviolable, incluyendo sus metadatos. La interceptación, captura, apertura, registro o revisión sólo se podrá realizar con orden judicial previa dictada en la forma y para los casos específicos que determine la ley.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `16`,
     titulo: `Derechos sexuales y reproductivos`,
     afavor: `109`,
@@ -1766,8 +2038,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `17`,
     titulo: `Educación sexual integral`,
     afavor: `105`,
@@ -1781,8 +2053,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `18`,
     titulo: `Derecho de propiedad`,
     afavor: `42`,
@@ -1790,14 +2062,16 @@ const data = [
     abstencion: `11`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Derecho de  propiedad. Toda persona, natural o jurídica, tiene derecho de propiedad en todas sus especies y sobre toda clase de bienes, salvo aquellos que la  naturaleza ha hecho comunes a todas las personas y los que la Constitución o la ley declaren inapropiables.
+    Los títulos que habiliten la prestación de servicios públicos o la explotación, uso y aprovechamiento  de bienes comunes no quedarán amparados por este derecho y se someterán al estatuto que defina la ley, la cual  deberá cautelar el interés social y el equilibrio ecológico.
+    Corresponderá a la ley determinar el modo de adquirir la propiedad, su  contenido,  límites y deberes, conforme con su función social y ecológica.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `Parcialmente`,
+  },
+  {
     numero: `19`,
     titulo: `Se protege la propiedad intelectual e industrial.`,
     afavor: `18`,
@@ -1811,8 +2085,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `20`,
     titulo: ``,
     afavor: `19`,
@@ -1820,14 +2094,14 @@ const data = [
     abstencion: `5`,
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Ninguna persona puede ser privada de su propiedad, sino en virtud de una ley que autorice la expropiación por causa de utilidad pública o interés general declarado por el legislador.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `Parcialmente`,
+  },
+  {
     numero: `21`,
     titulo: `Derecho de propiedad de los pueblos y naciones indígenas.`,
     afavor: `56`,
@@ -1841,8 +2115,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `22`,
     titulo: `Del despojo, desposesión y restitución territorial de los Pueblos y Naciones Indígenas`,
     afavor: `53`,
@@ -1856,8 +2130,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `23`,
     titulo: `Derecho a la vida`,
     afavor: `145`,
@@ -1871,8 +2145,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `24`,
     titulo: `Derecho a la integridad personal.`,
     afavor: `154`,
@@ -1886,8 +2160,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `25`,
     titulo: `Prohibición de la desaparición forzada`,
     afavor: `141`,
@@ -1902,8 +2176,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `26`,
     titulo: `Imprescriptibilidad y prohibición de la amnistía.`,
     afavor: `122`,
@@ -1917,8 +2191,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `27`,
     titulo: `Deberes de prevención, investigación y sanción`,
     afavor: `116`,
@@ -1932,8 +2206,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `28`,
     titulo: `Derecho a la honra`,
     afavor: `94`,
@@ -1947,8 +2221,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `29`,
     titulo: `Derecho al acceso a la justicia y a la tutela judicial efectiva`,
     afavor: `90`,
@@ -1962,8 +2236,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `30`,
     titulo: `Derecho al debido proceso.`,
     afavor: `66`,
@@ -1977,8 +2251,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `31`,
     titulo: ``,
     afavor: `8`,
@@ -1992,8 +2266,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `32`,
     titulo: `Derecho a intérprete o traductor`,
     afavor: `25`,
@@ -2007,8 +2281,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `33`,
     titulo: `Derecho al juicio previo.`,
     afavor: `9`,
@@ -2022,8 +2296,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `34`,
     titulo: `Derecho a la defensa jurídica`,
     afavor: `26`,
@@ -2037,8 +2311,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `35`,
     titulo: `Derecho a la defensa penal`,
     afavor: `4`,
@@ -2052,8 +2326,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `36`,
     titulo: `Derecho a ser oído y a la prueba`,
     afavor: `4`,
@@ -2067,8 +2341,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `37`,
     titulo: `Derecho a guardar silencio`,
     afavor: `14`,
@@ -2082,8 +2356,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `38`,
     titulo: `Derecho a la no autoincriminación`,
     afavor: `10`,
@@ -2097,23 +2371,8 @@ const data = [
     comision: `Derechos Fundamentales `,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
-    numero: `39`,
-    titulo: ``,
-    afavor: `4`,
-    encontra: `103`,
-    abstencion: `46`,
-    aprobado: `Rechazada`,
-    fecha: `10/03/2022`,
-    textodefinitivo: ``,
-    conceptos: ``,
-    quesignifica: ``,
-    comision: `Derechos Fundamentales `,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `1`,
     titulo: `Crisis climática y ecológica`,
     afavor: `110`,
@@ -2121,14 +2380,14 @@ const data = [
     abstencion: `13`,
     aprobado: `Aprobada`,
     fecha: `03/03/2022`,
-    textodefinitivo: `Crisis climática y ecológica. El Estado promoverá el diálogo, cooperación y solidaridad internacional para adaptarse, mitigar y afrontar la crisis climática y ecológica y proteger la Naturaleza`,
+    textodefinitivo: `Crisis climática y ecológica. Es deber del Estado adoptar acciones de prevención, adaptación, y mitigación de los riesgos, vulnerabilidades y efectos provocados por la crisis climática y ecológica. El Estado promoverá el diálogo, cooperación y solidaridad internacional para adaptarse, mitigar y afrontar la crisis climática y ecológica y proteger la Naturaleza`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: `Primera instancia`,
-    normaAprobada: `Parcialmente`,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `2`,
     titulo: ``,
     afavor: `95`,
@@ -2142,8 +2401,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `3`,
     titulo: ``,
     afavor: `63`,
@@ -2157,8 +2416,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `4`,
     titulo: ``,
     afavor: `95`,
@@ -2166,14 +2425,15 @@ const data = [
     abstencion: `5`,
     aprobado: `Rechazada`,
     fecha: `03/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `La Naturaleza tiene derecho a que se respete y proteja su existencia, a la regeneración, a la mantención y a la restauración de sus funciones y equilibrios dinámicos, que comprenden los ciclos naturales, los ecosistemas y la biodiversidad.
+    El Estado a través de sus instituciones debe garantizar y promover los derechos de la Naturaleza según lo determine la Constitución y las Leyes.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `5`,
     titulo: ``,
     afavor: `108`,
@@ -2187,8 +2447,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `6`,
     titulo: ``,
     afavor: `54`,
@@ -2202,8 +2462,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `7`,
     titulo: ``,
     afavor: `61`,
@@ -2217,8 +2477,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `8`,
     titulo: ``,
     afavor: `52`,
@@ -2232,8 +2492,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `9`,
     titulo: ``,
     afavor: `81`,
@@ -2241,14 +2501,14 @@ const data = [
     abstencion: `30`,
     aprobado: `Rechazada`,
     fecha: `03/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `La Ley podrá establecer restricciones al ejercicio de determinados derechos o libertades para proteger el medio ambiente y la Naturaleza.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `10`,
     titulo: ``,
     afavor: `44`,
@@ -2262,8 +2522,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `11`,
     titulo: ``,
     afavor: `46`,
@@ -2277,8 +2537,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `12`,
     titulo: ``,
     afavor: `76`,
@@ -2292,8 +2552,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `13`,
     titulo: ``,
     afavor: `61`,
@@ -2307,8 +2567,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `14`,
     titulo: ``,
     afavor: `50`,
@@ -2322,8 +2582,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `15`,
     titulo: ``,
     afavor: `67`,
@@ -2337,8 +2597,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `16`,
     titulo: ``,
     afavor: `58`,
@@ -2352,8 +2612,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `17`,
     titulo: ``,
     afavor: `80`,
@@ -2367,8 +2627,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `18`,
     titulo: ``,
     afavor: `49`,
@@ -2382,8 +2642,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `19`,
     titulo: ``,
     afavor: `96`,
@@ -2397,23 +2657,23 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `20`,
-    titulo: ``,
+    titulo: `De la gestión de residuos`,
     afavor: `91`,
     encontra: `28`,
     abstencion: `34`,
     aprobado: `Rechazada`,
     fecha: `03/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Es deber del Estado normar y fomentar la gestión, reducción y valorización de residuos, en la forma que determine la Ley.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `21`,
     titulo: ``,
     afavor: `60`,
@@ -2427,8 +2687,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `22`,
     titulo: ``,
     afavor: `60`,
@@ -2442,8 +2702,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `23`,
     titulo: ``,
     afavor: `103`,
@@ -2451,14 +2711,17 @@ const data = [
     abstencion: `20`,
     aprobado: `Aprobada`,
     fecha: `03/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Los animales son sujetos de especial protección. El Estado los protegerá, reconociendo su sintiencia y el derecho de vivir una vida libre de maltrato.
+    El Estado y sus organismos promoverán una educación basada en la empatía y en el respeto hacia los animales.
+    23b.
+    El Estado protege la biodiversidad, debiendo preservar, conservar y restaurar el hábitat de las especies nativas silvestres, en tal cantidad y distribución que sostenga adecuádamente la viabilidad de sus poblaciones y asegure las condiciones para su supervivencia y no extinción.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `24`,
     titulo: ``,
     afavor: `65`,
@@ -2472,8 +2735,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `25`,
     titulo: ``,
     afavor: `103`,
@@ -2487,23 +2750,23 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `26`,
-    titulo: ``,
+    titulo: `Principios ambientales`,
     afavor: `93`,
     encontra: `51`,
     abstencion: `8`,
     aprobado: `Rechazada`,
     fecha: `03/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Son principios para la protección de la Naturaleza y el medio ambiente, a lo menos, los principios de progresividad, precautorio, preventivo, justicia ambiental, solidaridad intergeneracional, responsabilidad y acción climática justa.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `27`,
     titulo: ``,
     afavor: `99`,
@@ -2517,8 +2780,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `28`,
     titulo: ``,
     afavor: `82`,
@@ -2532,8 +2795,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `29`,
     titulo: ``,
     afavor: `75`,
@@ -2547,8 +2810,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `30`,
     titulo: ``,
     afavor: `63`,
@@ -2562,8 +2825,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `31`,
     titulo: ``,
     afavor: `67`,
@@ -2577,8 +2840,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `32`,
     titulo: ``,
     afavor: `91`,
@@ -2592,23 +2855,24 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `33`,
-    titulo: ``,
+    titulo: `Democracia ambiental`,
     afavor: `103`,
     encontra: `34`,
     abstencion: `16`,
     aprobado: `Aprobada`,
     fecha: `03/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Se reconoce el derecho de participación informada en materias ambientales. Los mecanismos de participación serán determinados por ley. 
+    Todas las personas tienen derecho a acceder a la información ambiental que conste en poder o custodia del Estado. Los particulares deberán entregar la información ambiental relacionada con su actividad, en los términos que establezca la ley. `,
     conceptos: ``,
     quesignifica: ``,
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-    },
-    {
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
     numero: `34`,
     titulo: ``,
     afavor: `67`,
@@ -2622,8 +2886,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `35`,
     titulo: ``,
     afavor: `62`,
@@ -2637,8 +2901,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `36`,
     titulo: ``,
     afavor: `61`,
@@ -2652,8 +2916,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `37`,
     titulo: ``,
     afavor: `106`,
@@ -2667,8 +2931,8 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `38`,
     titulo: ``,
     afavor: `70`,
@@ -2682,8 +2946,23 @@ const data = [
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
+    numero: `Artículo transitorio primero`,
+    titulo: ``,
+    afavor: `58`,
+    encontra: `68`,
+    abstencion: `25`,
+    aprobado: `Rechazada`,
+    fecha: `03/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
     numero: `1`,
     titulo: `Democracia paritaria`,
     afavor: `97`,
@@ -2697,8 +2976,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `2`,
     titulo: ``,
     afavor: `102`,
@@ -2712,8 +2991,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `3`,
     titulo: ``,
     afavor: `105`,
@@ -2727,8 +3006,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `4`,
     titulo: ``,
     afavor: `108`,
@@ -2742,8 +3021,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `5`,
     titulo: ``,
     afavor: `107`,
@@ -2761,8 +3040,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `6`,
     titulo: ``,
     afavor: `99`,
@@ -2776,8 +3055,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `7`,
     titulo: ``,
     afavor: `87`,
@@ -2791,8 +3070,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `8`,
     titulo: ``,
     afavor: `88`,
@@ -2806,8 +3085,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `9`,
     titulo: ``,
     afavor: `7`,
@@ -2821,8 +3100,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `10`,
     titulo: ``,
     afavor: `77`,
@@ -2836,8 +3115,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `11`,
     titulo: ``,
     afavor: `10`,
@@ -2851,8 +3130,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `12`,
     titulo: ``,
     afavor: `55`,
@@ -2866,8 +3145,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `13`,
     titulo: ``,
     afavor: `5`,
@@ -2881,8 +3160,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `14`,
     titulo: ``,
     afavor: `39`,
@@ -2896,8 +3175,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `15`,
     titulo: ``,
     afavor: `31`,
@@ -2911,8 +3190,23 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
+    numero: `15A`,
+    titulo: ``,
+    afavor: `42`,
+    encontra: `84`,
+    abstencion: `23`,
+    aprobado: `Rechazada`,
+    fecha: `18/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
     numero: `16`,
     titulo: ``,
     afavor: `24`,
@@ -2926,8 +3220,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `17`,
     titulo: ``,
     afavor: `40`,
@@ -2941,8 +3235,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `18`,
     titulo: ``,
     afavor: `27`,
@@ -2956,8 +3250,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `19`,
     titulo: ``,
     afavor: `10`,
@@ -2971,8 +3265,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `20`,
     titulo: ``,
     afavor: `9`,
@@ -2986,8 +3280,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `21`,
     titulo: ``,
     afavor: `40`,
@@ -3001,8 +3295,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `22`,
     titulo: ``,
     afavor: `41`,
@@ -3016,8 +3310,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `23`,
     titulo: ``,
     afavor: `2`,
@@ -3031,8 +3325,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `24`,
     titulo: ``,
     afavor: `1`,
@@ -3046,8 +3340,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `25`,
     titulo: ``,
     afavor: `1`,
@@ -3061,8 +3355,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `26`,
     titulo: ``,
     afavor: `0`,
@@ -3076,8 +3370,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `27`,
     titulo: ``,
     afavor: `0`,
@@ -3091,8 +3385,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `28`,
     titulo: ``,
     afavor: `22`,
@@ -3106,8 +3400,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `29`,
     titulo: ``,
     afavor: `25`,
@@ -3121,8 +3415,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `30`,
     titulo: ``,
     afavor: `0`,
@@ -3136,8 +3430,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `31`,
     titulo: ``,
     afavor: `28`,
@@ -3151,8 +3445,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `32`,
     titulo: ``,
     afavor: `34`,
@@ -3166,8 +3460,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `33`,
     titulo: ``,
     afavor: `64`,
@@ -3181,8 +3475,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `34`,
     titulo: ``,
     afavor: `26`,
@@ -3196,8 +3490,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `35`,
     titulo: ``,
     afavor: `2`,
@@ -3211,8 +3505,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `36`,
     titulo: ``,
     afavor: `20`,
@@ -3226,8 +3520,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `37`,
     titulo: ``,
     afavor: `38`,
@@ -3241,8 +3535,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `38`,
     titulo: ``,
     afavor: `7`,
@@ -3256,8 +3550,8 @@ const data = [
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `1`,
     titulo: `Derecho a la comunicación social`,
     afavor: `101`,
@@ -3271,8 +3565,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Segunda Instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `2`,
     titulo: ``,
     afavor: `113`,
@@ -3286,8 +3580,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Segunda Instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `3`,
     titulo: `Concentración de la propiedad de medios`,
     afavor: `101`,
@@ -3301,8 +3595,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Segunda Instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `4`,
     titulo: `Promoción de medios de comunicación e información`,
     afavor: `96`,
@@ -3316,8 +3610,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Segunda Instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `5`,
     titulo: ``,
     afavor: `99`,
@@ -3331,8 +3625,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `6`,
     titulo: ``,
     afavor: `88`,
@@ -3346,8 +3640,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `7`,
     titulo: ``,
     afavor: `87`,
@@ -3361,8 +3655,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `8`,
     titulo: ``,
     afavor: `132`,
@@ -3376,8 +3670,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `9`,
     titulo: `Derechos culturales`,
     afavor: `97`,
@@ -3391,8 +3685,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Segunda Instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `10`,
     titulo: ``,
     afavor: `89`,
@@ -3406,8 +3700,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `11`,
     titulo: ``,
     afavor: `95`,
@@ -3421,8 +3715,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `12`,
     titulo: ``,
     afavor: `146`,
@@ -3442,8 +3736,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `13`,
     titulo: ``,
     afavor: `109`,
@@ -3457,8 +3751,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `14`,
     titulo: ``,
     afavor: `87`,
@@ -3472,8 +3766,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `15`,
     titulo: ``,
     afavor: `116`,
@@ -3487,8 +3781,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `16`,
     titulo: ``,
     afavor: `93`,
@@ -3502,8 +3796,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `17`,
     titulo: ``,
     afavor: `82`,
@@ -3517,8 +3811,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `18`,
     titulo: ``,
     afavor: `135`,
@@ -3532,8 +3826,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `19`,
     titulo: ``,
     afavor: `113`,
@@ -3547,8 +3841,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Segunda Instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `20`,
     titulo: ``,
     afavor: `122`,
@@ -3562,8 +3856,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `21`,
     titulo: ``,
     afavor: `127`,
@@ -3577,8 +3871,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `22`,
     titulo: ``,
     afavor: `125`,
@@ -3592,8 +3886,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `23`,
     titulo: ``,
     afavor: `110`,
@@ -3607,8 +3901,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `24`,
     titulo: `Derecho al ocio  `,
     afavor: `97`,
@@ -3622,8 +3916,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Segunda Instancia`,
     normaAprobada: `En su totalidad`,
-    },
-    {
+  },
+  {
     numero: `25`,
     titulo: ``,
     afavor: `53`,
@@ -3637,8 +3931,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `26`,
     titulo: ``,
     afavor: `112`,
@@ -3652,8 +3946,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: `Segunda Instancia`,
     normaAprobada: `Parcialmente`,
-    },
-    {
+  },
+  {
     numero: `27`,
     titulo: ``,
     afavor: `93`,
@@ -3667,8 +3961,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `28`,
     titulo: ``,
     afavor: `98`,
@@ -3682,8 +3976,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `29`,
     titulo: ``,
     afavor: `105`,
@@ -3697,8 +3991,8 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },
-    {
+  },
+  {
     numero: `30`,
     titulo: ``,
     afavor: `96`,
@@ -3712,6 +4006,6 @@ const data = [
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
     aprobadaEn: ``,
     normaAprobada: ``,
-    },]
-
+  },
+]
 export default data
