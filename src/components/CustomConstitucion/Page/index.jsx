@@ -179,7 +179,7 @@ const Header = () => {
       <p className="mt-30">
         -
         <strong>
-          Última votación en particular del pleno: 31 de marzo de 2022
+          Última votación en particular del pleno: 5 de abril de 2022
         </strong>
         -
       </p>
