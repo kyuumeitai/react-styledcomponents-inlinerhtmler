@@ -131,7 +131,10 @@ const Header = () => {
   return (
     <HeaderWrap>
       <StLogo>
-        <LogoLibro />
+        <img
+          src="https://interactivo.latercera.com/constitucion-assets/LogoLibro.svg"
+          alt=""
+        />
       </StLogo>
       <h1>
         <span className="amano">
@@ -179,7 +182,7 @@ const Header = () => {
       <p className="mt-30">
         -
         <strong>
-          Última votación en particular del pleno: 11 de abril de 2022
+          Última votación en particular del pleno: Jueves 14 de abril de 2022
         </strong>
         -
       </p>
