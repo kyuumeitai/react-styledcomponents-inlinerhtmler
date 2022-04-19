@@ -9,7 +9,7 @@ const data = [
     fecha: `15/02/2022`,
     textodefinitivo: `La jurisdicción es una función pública que se ejerce en nombre de los pueblos y que consiste en conocer y juzgar, por medio de un debido proceso los conflictos de relevancia jurídica y hacer ejecutar lo resuelto, de conformidad a la Constitución y las leyes, así como los tratados e instrumentos internacionales sobre derechos humanos de los que Chile es parte. Se ejerce exclusivamente por los tribunales de justicia y las autoridades de los pueblos indígenas reconocidos por la Constitución o las leyes dictadas conforme a ella. Al ejercer la jurisdicción se debe velar por la tutela y promoción de los derechos humanos y de la naturaleza, del sistema democrático y el principio de juridicidad.`,
     conceptos: `Jurisdicción, Función pública, Efecto de cosa juzgada, Relevancia jurídica, Debido proceso, Estándares internacionales, Tutela y promoción de los derechos humanos, Principio de juridicidad 
-    `,
+`,
     quesignifica: `La jurisdicción, es decir, la autoridad o poder para juzgar y aplicar las leyes, es una función pública ejercida exclusivamente por los tribunales de justicia o las autoridades de los pueblos indígenas reconocidos en la Constitución. Esto a través de un ""debido proceso"" conforme lo estipulado en la Constitución y las leyes, además de los tratados e instrumentos internacionales sobre derechos humanos a los Chile suscribe. Al ejercer la jurisdicción se debe proteger y promover los derechos humanos y de la naturaleza, además del sistema democrático y el principio de juridicidad.`,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
     aprobadaEn: `Segunda instancia`,
@@ -39,10 +39,10 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `15/02/2022`,
     textodefinitivo: `Las juezas y jueces que ejercen jurisdicción son independientes entre sí y de todo otro poder o autoridad, debiendo actuar y resolver de forma imparcial. En sus providencias, sólo están sometidos al imperio de la ley. 
-    La función jurisdiccional la ejercen exclusivamente los tribunales establecidos por ley. Ningún otro órgano del Estado, persona o grupo de personas, podrán ejercer la función jurisdiccional, conocer causas pendientes, modificar los fundamentos o el contenido de las resoluciones judiciales o reabrir procesos concluidos. 
-    Las juezas y jueces no podrán desempeñar ninguna otra función o empleo, salvo actividades académicas en los términos que establezca la ley. 
-    Las juezas y jueces sólo ejercerán la función jurisdiccional, no pudiendo desempeñar función administrativa ni legislativa alguna. 
-    Las juezas y jueces no podrán militar en partidos políticos.`,
+La función jurisdiccional la ejercen exclusivamente los tribunales establecidos por ley. Ningún otro órgano del Estado, persona o grupo de personas, podrán ejercer la función jurisdiccional, conocer causas pendientes, modificar los fundamentos o el contenido de las resoluciones judiciales o reabrir procesos concluidos. 
+Las juezas y jueces no podrán desempeñar ninguna otra función o empleo, salvo actividades académicas en los términos que establezca la ley. 
+Las juezas y jueces sólo ejercerán la función jurisdiccional, no pudiendo desempeñar función administrativa ni legislativa alguna. 
+Las juezas y jueces no podrán militar en partidos políticos.`,
     conceptos: `Jurisdicción, Imparcialidad`,
     quesignifica: `Los jueces y juezas son independientes al momento de ejercer sus funciones y deberán cumplir sus funciones de forma imparcial. En el caso de dictar una sentencia, esta debe regirse por los parámetros establecidos en la ley.`,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -118,7 +118,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `15/02/2022`,
     textodefinitivo: `Para hacer ejecutar las resoluciones y practicar o hacer practicar las actuaciones que determine la ley, los tribunales de justicia podrán impartir órdenes o instrucciones directas a la fuerza pública, debiendo cumplir lo mandatado de forma rápida y expedita, sin poder calificar su fundamento, oportunidad o legalidad.
-    Las sentencias dictadas contra el Estado de Chile por tribunales internacionales de derechos humanos, cuya jurisdicción ha sido reconocida por éste, serán cumplidas por los tribunales de justicia conforme al procedimiento establecido por la ley, aun si contraviniere una sentencia firme pronunciada por estos.`,
+Las sentencias dictadas contra el Estado de Chile por tribunales internacionales de derechos humanos, cuya jurisdicción ha sido reconocida por éste, serán cumplidas por los tribunales de justicia conforme al procedimiento establecido por la ley, aun si contraviniere una sentencia firme pronunciada por estos.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -149,7 +149,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `15/02/2022`,
     textodefinitivo: `El acceso a la función jurisdiccional será gratuito, sin perjuicio de las actuaciones judiciales y sanciones procesales establecidas por la ley.
-    La justicia arbitral será siempre voluntaria. La ley no podrá establecer arbitrajes forzosos.`,
+La justicia arbitral será siempre voluntaria. La ley no podrá establecer arbitrajes forzosos.`,
     conceptos: `Justicia arbitral`,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -210,8 +210,8 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `15/02/2022`,
     textodefinitivo: `La función jurisdiccional se regirá por los principios de paridad y perspectiva de género. Todos los órganos y personas que intervienen en la función jurisdiccional deben garantizar la igualdad sustantiva.
-    El Estado garantiza que los nombramientos en el Sistema Nacional de Justicia respeten el principio de paridad en todos los órganos de la jurisdicción, incluyendo la designación de las presidencias.
-    Los tribunales, cualquiera sea su competencia, deben resolver con enfoque de género.`,
+El Estado garantiza que los nombramientos en el Sistema Nacional de Justicia respeten el principio de paridad en todos los órganos de la jurisdicción, incluyendo la designación de las presidencias.
+Los tribunales, cualquiera sea su competencia, deben resolver con enfoque de género.`,
     conceptos: `Paridad de género, Perspectiva de género `,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -242,7 +242,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `15/02/2022`,
     textodefinitivo: `Es deber del Estado promover e implementar mecanismos colaborativos de resolución de conflictos que garanticen la participación activa y el diálogo.
-    Sólo la ley podrá determinar los requisitos y efectos de los mecanismos alternativos de resolución de conflictos.`,
+Sólo la ley podrá determinar los requisitos y efectos de los mecanismos alternativos de resolución de conflictos.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -378,7 +378,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `17/03/2022`,
     textodefinitivo: `Es deber del Estado garantizar que los órganos que intervienen en el proceso respeten y promuevan el derecho a acceder a una justicia con perspectiva intercultural.
-    Las personas tienen derecho a una asistencia jurídica especializada,intérpretes, facilitadores interculturales y peritajes consultivos, cuando así lo requieran y no puedan proveérselas por sí mismas.`,
+Las personas tienen derecho a una asistencia jurídica especializada,intérpretes, facilitadores interculturales y peritajes consultivos, cuando así lo requieran y no puedan proveérselas por sí mismas.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -424,7 +424,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `17/03/2022`,
     textodefinitivo: `La Corte Suprema es un órgano colegiado con jurisdicción en todo el país, que tiene como función velar por la correcta aplicación del derecho y uniformar su interpretación, así como las demás atribuciones que establezca esta Constitución y la ley. La presidencia de la Corte Suprema será ejercida por una persona elegida por sus pares. Durará en sus funciones dos años sin posibilidad de ejercer nuevamente el cargo. Quien ejerza la Presidencia no podrá integrar alguna de las salas. Se compondrá de veintiún juezas y jueces y funcionará en pleno o salas especializadas.
-    Sus juezas y jueces durarán en sus cargos un máximo de catorce años, sin posibilidad de reelección.`,
+Sus juezas y jueces durarán en sus cargos un máximo de catorce años, sin posibilidad de reelección.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -440,7 +440,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `17/03/2022`,
     textodefinitivo: `Las Cortes de Apelaciones son órganos colegiados con jurisdicción sobre una región o parte de ella, cuya función principal es resolver las impugnaciones que se interpongan contra resoluciones de los tribunales de instancia, así como las demás competencias que establezca la Constitución y la ley. Funcionarán en pleno o en salas preferentemente especializadas.
-    La presidencia de cada Corte de Apelaciones será́ ejercida por una persona elegida por sus pares. Durará́ en sus funciones dos años`,
+La presidencia de cada Corte de Apelaciones será́ ejercida por una persona elegida por sus pares. Durará́ en sus funciones dos años`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -471,9 +471,9 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `17/03/2022`,
     textodefinitivo: `Los Tribunales Administrativos conocen y resuelven las acciones dirigidas en contra de la Administración del Estado o promovidas por ésta y de las demás materias que establezca la ley.
-    Habrá al menos un Tribunal Administrativo en cada región del país, los que podrán funcionar en salas especializadas.
-    Los asuntos de competencia de estos tribunales no podrán ser sometidos a arbitraje.
-    La ley establecerá un procedimiento unificado, simple y expedito para conocer y resolver tales asuntos.`,
+Habrá al menos un Tribunal Administrativo en cada región del país, los que podrán funcionar en salas especializadas.
+Los asuntos de competencia de estos tribunales no podrán ser sometidos a arbitraje.
+La ley establecerá un procedimiento unificado, simple y expedito para conocer y resolver tales asuntos.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -489,9 +489,9 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `17/03/2022`,
     textodefinitivo: `Sólo el Estado puede ejecutar el cumplimiento de penas y medidas privativas de libertad, a través de instituciones públicas especialmente establecidas para estos fines.
-    La función establecida en este artículo no podrá ser ejercida por privados.
-    Para la inserción, integración y reparación de las personas privadas de libertad, los establecimientos penitenciarios deben contar con espacios para el estudio, trabajo, deporte, las artes y culturas.
-    En el caso de mujeres embarazadas y madres de lactantes, el Estado adoptará las medidas necesarias tales como infraestructura y equipamiento tanto en el régimen de control cerrado, abierto y post penitenciario.`,
+La función establecida en este artículo no podrá ser ejercida por privados.
+Para la inserción, integración y reparación de las personas privadas de libertad, los establecimientos penitenciarios deben contar con espacios para el estudio, trabajo, deporte, las artes y culturas.
+En el caso de mujeres embarazadas y madres de lactantes, el Estado adoptará las medidas necesarias tales como infraestructura y equipamiento tanto en el régimen de control cerrado, abierto y post penitenciario.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -522,7 +522,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `17/03/2022`,
     textodefinitivo: `Habrá tribunales de ejecución de penas que velarán por los derechos fundamentales de las personas condenadas o sujetas a medidas de seguridad, conforme a lo reconocido en esta Constitución y los tratados e instrumentos internacionales de derechos humanos, procurando su integración e inserción social.
-    Ejercerán funciones jurisdiccionales en materia de ejecución de penas y medidas de seguridad, control jurisdiccional de la potestad disciplinaria de las autoridades penitenciarias, protección de los derechos y beneficios de los internos en los establecimientos penitenciarios y demás que señale la ley.`,
+Ejercerán funciones jurisdiccionales en materia de ejecución de penas y medidas de seguridad, control jurisdiccional de la potestad disciplinaria de las autoridades penitenciarias, protección de los derechos y beneficios de los internos en los establecimientos penitenciarios y demás que señale la ley.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -538,7 +538,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `17/03/2022`,
     textodefinitivo: `La justicia vecinal se compone por los juzgados vecinales y los centros de justicia vecinal.
-    En cada comuna del país que sea asiento de una municipalidad habrá, a lo menos, un juzgado vecinal que ejerce la función jurisdiccional respecto de todas aquellas controversias jurídicas que se susciten a nivel comunal que no sean competencia de otro tribunal y de los demás asuntos que la ley les encomiende, conforme a un procedimiento breve, oral, simple y expedito.`,
+En cada comuna del país que sea asiento de una municipalidad habrá, a lo menos, un juzgado vecinal que ejerce la función jurisdiccional respecto de todas aquellas controversias jurídicas que se susciten a nivel comunal que no sean competencia de otro tribunal y de los demás asuntos que la ley les encomiende, conforme a un procedimiento breve, oral, simple y expedito.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -554,8 +554,8 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `17/03/2022`,
     textodefinitivo: `Los centros de justicia vecinal son órganos encargados de promover la solución de conflictos vecinales y de pequeña cuantía dentro de una comunidad determinada por ley, en base al diálogo social, la paz y la participación de las partes involucradas, debiendo priorizar su instalación en zonas rurales y lugares alejados de áreas urbanas.
-    Los centros de justicia vecinal deberán orientar e informar al público en materias jurídicas, haciendo las derivaciones que fuesen necesarias, así como ejercer las demás funciones que la ley les encomiende.
-    La organización, atribuciones, materias y procedimientos que correspondan a los centros de justicia vecinal se regirán por la ley respectiva.`,
+Los centros de justicia vecinal deberán orientar e informar al público en materias jurídicas, haciendo las derivaciones que fuesen necesarias, así como ejercer las demás funciones que la ley les encomiende.
+La organización, atribuciones, materias y procedimientos que correspondan a los centros de justicia vecinal se regirán por la ley respectiva.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -571,7 +571,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `17/03/2022`,
     textodefinitivo: `El Sistema de Justicia deberá adoptar todas las medidas para prevenir, sancionar y erradicar la violencia contra mujeres, disidencias y diversidades sexo genéricas, en todas sus manifestaciones y ámbitos.
-    El Consejo de la Justicia deberá asegurar la formación inicial y capacitación constante de la totalidad de funcionarias y funcionarios y auxiliares de la administración de justicia, con el fin de eliminar estereotipos de género y garantizar la incorporación de la perspectiva de género, el enfoque interseccional y de derechos humanos, sin discriminación en la administración de justicia.`,
+El Consejo de la Justicia deberá asegurar la formación inicial y capacitación constante de la totalidad de funcionarias y funcionarios y auxiliares de la administración de justicia, con el fin de eliminar estereotipos de género y garantizar la incorporación de la perspectiva de género, el enfoque interseccional y de derechos humanos, sin discriminación en la administración de justicia.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -587,7 +587,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `17/03/2022`,
     textodefinitivo: `La función jurisdiccional debe ejercerse bajo un enfoque interseccional, debiendo garantizar la igualdad sustantiva y el cumplimiento de las obligaciones internacionales de derechos humanos en la materia.
-    Este deber resulta extensivo a todo órgano jurisdiccional y auxiliar, funcionarias y funcionarios del Sistema de Justicia, durante todo el curso del proceso y en todas las actuaciones que realicen. Asimismo, los tribunales, cualquiera sea su competencia.`,
+Este deber resulta extensivo a todo órgano jurisdiccional y auxiliar, funcionarias y funcionarios del Sistema de Justicia, durante todo el curso del proceso y en todas las actuaciones que realicen. Asimismo, los tribunales, cualquiera sea su competencia.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Justicia, Órganos Autónomos de Control y Reforma Constitucional `,
@@ -693,7 +693,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `16/02/2022`,
     textodefinitivo: `Las entidades territoriales se coordinan y asocian en relaciones de solidaridad, cooperación, reciprocidad y apoyo mutuo, evitando la duplicidad de funciones, en conformidad a los mecanismos que establezca la ley. Dos o más entidades territoriales, con o sin continuidad territorial, podrán pactar convenios y constituir  asociaciones  territoriales con la finalidad de lograr objetivos comunes, promover la cohesión social, mejorar la prestación de los servicios públicos, incrementar  la  eficiencia y eficacia en el ejercicio de sus  competencias y potenciar el desarrollo social, cultural, económico sostenible yequilibrado. El  Estado  promoverá y apoyará la cooperación y asociatividad con las entidades territoriales y entre ellas. 
-    La  ley establecerá las bases generales para la creación y funcionamiento de estas  asociaciones, en concordancia con la normativa regional respectiva.Las asociaciones de entidades territoriales, en ningún caso, alterarán la organización territorial del Estado.`,
+La  ley establecerá las bases generales para la creación y funcionamiento de estas  asociaciones, en concordancia con la normativa regional respectiva.Las asociaciones de entidades territoriales, en ningún caso, alterarán la organización territorial del Estado.`,
     conceptos: `Asociatividad territorial`,
     quesignifica: `Esto significa que las regiones podrán coordinar una acción mutua y trabajo cooperador entre dos o más entidades para promover el desarrollo íntegro de cada una de las participantes, siempre y cuando no se altere el orden territorial de Chile.`,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
@@ -711,7 +711,7 @@ const data = [
     textodefinitivo: `Las entidades territoriales  garantizan el derecho  de  sus  habitantes a participar, individual o colectivamente en las decisiones públicas, comprendiendo en ella la formulación, ejecución,  evaluación, fiscalización y control democrático de la función pública, con arreglo a la Constitución y las leyes. Los  pueblos y naciones preexistentes al Estado deberán  ser  consultados y otorgar el consentimiento libre, previo e informado en aquellas materias o asuntos que les afecten en sus derechos reconocidos en esta Constitución.`,
     conceptos: ``,
     quesignifica: `Las entidades territoriales y sus órganos deben reconocer, garantizar y promover el reconocimiento político y jurídico de los pueblos y naciones preexistentes al Estado que habitan sus territorios. Es decir, deberá potenciar su desarrollo, cultura y lengua; distribuir el poder y los espacios de participación; respetar las diversas formas de ver el mundo, y la autodeterminación y autonomía de los territorios indígenas.
-    `,
+`,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
@@ -802,7 +802,7 @@ const data = [
     textodefinitivo: `Sin perjuicio de las competencias que establece esta Constitución y la ley, el Estado podrá transferir a las entidades territoriales aquellas competencias de titularidad estatal que por su propia naturaleza son susceptibles de transferencia. Estas transferencias deberán ir acompañadas siempre por el personal y los recursos financieros suficientes y oportunos para su adecuada ejecución. Una ley regulará el régimen  jurídico del procedimiento de transferencia de competencias y sus sistemas de evaluación y control.`,
     conceptos: `Régimen jurídico`,
     quesignifica: `El Estado podrá transferir las competencias necesarias a las entidades territoriales dependiendo de las necesidades específicas de cada territorio. Así mismo, se deberán entregar los recursos y el personal oportuno para la adecuada ejecución de estas competencias. 
-    `,
+`,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
@@ -848,7 +848,7 @@ const data = [
     textodefinitivo: `Las funciones públicas  deberán  radicarse  priorizando  la  entidad local sobre la regional  y  ésta  última sobre el Estado, sin perjuicio de aquellas competencias que la propia Constitución o las leyes reserven a cada una de estas  entidades  territoriales. La Región Autónoma o el Estado, cuando así lo exija el interés general, podrán subrogar de manera transitoria y supletoria las competencias que no puedan ser asumidas por la entidad local.`,
     conceptos: ``,
     quesignifica: `En la función pública, lo micro tiene preferencia. Es decir, la entidad local está sobre lo regional, y lo regional sobre el Estado. De igual forma, la Región Autónoma o el Estado, cuando sea estrictamente necesario, podrá tomar de manera transitoria y supletoria las competencias que la entidad local no pueda asumir. 
-    `,
+`,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
@@ -879,7 +879,7 @@ const data = [
     textodefinitivo: `Las Regiones autónomas son entidades políticas y territoriales dotadas de personalidad jurídica de derecho público y patrimonio propio que gozan de autonomía  para  el  desarrollo de los intereses regionales, la gestión de sus recursos  económicos y el ejercicio de las atribuciones legislativa, reglamentaria, ejecutiva y fiscalizadora a través de sus órganos en el ámbito de sus competencias, con arreglo a lo dispuesto en la Constitución y la ley.`,
     conceptos: ``,
     quesignifica: `Todas las regiones del país son autónomas en su territorio. Son responsables política y jurídicamente para regular sus vínculos con las entidades de carácter público, patrimonial y privado. Son autónomas para velar por el desarrollo de la región, gestionar sus recursos económicos y fiscalizar a través de sus órganos encargados tal como lo dice la Constitución y la ley. 
-    `,
+`,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
@@ -908,7 +908,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `18/02/2022`,
     textodefinitivo: `Cada Región Autónoma establecerá su organización administrativa y funcionamiento interno, en el marco de las competencias fiscalizadoras, normativas, resolutivas, administrativas y las demás establecidas en la Constitución y las leyes. 
-    El Estatuto Regional debe respetar los derechos fundamentales y los principios del Estado social y democrático de derecho reconocidos en los términos establecidos en la Constitución.`,
+El Estatuto Regional debe respetar los derechos fundamentales y los principios del Estado social y democrático de derecho reconocidos en los términos establecidos en la Constitución.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
@@ -924,8 +924,8 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `18/02/2022`,
     textodefinitivo: `El proyecto de Estatuto Regional será propuesto por la Gobernadora o Gobernador 
-    Regional a la Asamblea Regional  respectiva, para su deliberación  y  acuerdo, el cual será  aprobado por la mayoría absoluta de sus miembros en ejercicio.
-    El proceso de elaboración y reforma del Estatuto Regional deberá garantizar la participación popular, democrática y vinculante de sus habitantes.`,
+Regional a la Asamblea Regional  respectiva, para su deliberación  y  acuerdo, el cual será  aprobado por la mayoría absoluta de sus miembros en ejercicio.
+El proceso de elaboración y reforma del Estatuto Regional deberá garantizar la participación popular, democrática y vinculante de sus habitantes.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
@@ -958,8 +958,8 @@ const data = [
     textodefinitivo: `El Gobierno Regional es el órgano ejecutivo de la Región Autónoma. Una Gobernadora o Gobernador Regional dirigirá el Gobierno Regional, ejerciendo la función administrativa y reglamentaria y representará a la Región autónoma ante las demás autoridades nacionales e internacionales, en el marco de la  política nacional de relaciones internacionales con funciones de coordinación e intermediación entre el gobierno central y la región. La Gobernadora o Gobernador regional tendrá la representación judicial y extrajudicial de la región. En la elección de  Gobernadora o Gobernador Regional, resultará electo quien obtenga la mayoría de los votos válidamente emitidos, pero si ningún candidato logra al menos el cuarenta por ciento de los votos se producirá una segunda votación entre los candidatos o candidatas  que hayan obtenido las dos más altas mayorías, resultando elegido el que obtuviere la mayoría de los votos válidamente emitidos. La Gobernadora o Gobernador Regional ejercerá sus funciones por el término de cuatro años, pudiendo ser reelegido o reelegida consecutivamente sólo una vez para el período siguiente. En este caso, se considerará que se ha ejercido el cargo durante un período cuando el Gobernador o Gobernadora Regional haya cumplido más de la mitad del mandato. La Gobernadora o Gobernador regional, será elegido en votación directa, en conformidad con lo dispuesto en la Constitución y la ley.`,
     conceptos: ``,
     quesignifica: `Se indica que el Gobierno Regional es la representación ejecutiva para las diferentes ciudades del país. El encargado de dirigir la región es el Gobernador Regional, quien ejercerá las funciones administrativas, reglamentarias y protocolares en instancias políticas nacionales e internacionales. 
-    El cargo de Gobernador o Gobernadora se eligirá democráticamente a través de elecciones, resultando electo quien tenga mayor número de votos. Si ningún candidato logra el cuarenta por ciento de los votos se llevará a cabo una segunda vuelta entre los candidatos o candidatas que hayan obtenido las dos más altas mayorías. La duración en el cargo es de 4 años con posibilidad a reelección  solo una vez. 
-    Para la reelección, el Gobernador o Gobernadora tendrá que haber cumplido más de la mitad del mandato para que sea considerado como un periodo y podrá ser elegido en una votación directa conforme lo dicte la ley y la Constitución. `,
+El cargo de Gobernador o Gobernadora se eligirá democráticamente a través de elecciones, resultando electo quien tenga mayor número de votos. Si ningún candidato logra el cuarenta por ciento de los votos se llevará a cabo una segunda vuelta entre los candidatos o candidatas que hayan obtenido las dos más altas mayorías. La duración en el cargo es de 4 años con posibilidad a reelección  solo una vez. 
+Para la reelección, el Gobernador o Gobernadora tendrá que haber cumplido más de la mitad del mandato para que sea considerado como un periodo y podrá ser elegido en una votación directa conforme lo dicte la ley y la Constitución. `,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Primera instancia`,
     normaAprobada: `En su totalidad`,
@@ -988,8 +988,8 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `16/02/2022`,
     textodefinitivo: `La Asamblea Regional es el órgano colegiado de representación regional que, en conformidad a la Constitución, está dotado de potestades normativas, resolutivas y fiscalizadoras.
-    Una  ley  determinará los requisitos generales para acceder al cargo de Asambleísta Regional y su número en proporción a la población regional. La elección de Asambleístas Regionales será por sufragio universal directo y secreto.
-    Los y las Asambleístas Regionales ejercerán sus funciones por el término de cuatro años, pudiendo ser reelegidos consecutivamente sólo una vez para el período  inmediatamente  siguiente. En este caso, se considerará que se ha  ejercido el cargo durante un período cuando hayan cumplido más de la mitad de su mandato.`,
+Una  ley  determinará los requisitos generales para acceder al cargo de Asambleísta Regional y su número en proporción a la población regional. La elección de Asambleístas Regionales será por sufragio universal directo y secreto.
+Los y las Asambleístas Regionales ejercerán sus funciones por el término de cuatro años, pudiendo ser reelegidos consecutivamente sólo una vez para el período  inmediatamente  siguiente. En este caso, se considerará que se ha  ejercido el cargo durante un período cuando hayan cumplido más de la mitad de su mandato.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
@@ -1022,7 +1022,7 @@ const data = [
     textodefinitivo: `Son competencias de la Región autónoma: 1. La organización del Gobierno Regional, en conformidad con la Constitución y su Estatuto. 2. La organización político-administrativa y financiera de la Región autónoma, en función de la responsabilidad y eficiencia económica, con arreglo a la Constitución y las leyes. 3. Fomentar el desarrollo social, productivo y económico de la Región autónoma en el ámbito de sus competencias, en coordinación con las políticas, planes y programas nacionales. 4. Participar  en  acciones  de  cooperación  internacional,  dentro  de  los  marcos establecidos  por los tratados y  los convenios vigentes, en conformidad a los procedimientos establecidos en la Constitución y las leyes. 5. El desarrollo de la investigación,  tecnología y las ciencias en materias correspondientes a la competencia regional. 6. La conservación, preservación, protección y restauración de la naturaleza, del equilibrio  ecológico y el uso racional del agua y los demás  elementos naturales de su territorio. 7. Aprobar,  mediando procesos de participación ciudadana,  los planes de descontaminación ambientales de la región autónoma. 8. El fomento y la protección  de  las  culturas, las artes, el patrimonio histórico, inmaterial arqueológico, lingüístico y  arquitectónico; y la formación artística en su territorio. 9. La planificación, ordenamiento territorial y manejo integrado de cuencas. 10. La política regional de vivienda, urbanismo, salud, transporte y educación en coordinación con las políticas, planes y programas nacionales,   respetando la universalidad de los derechos garantizados por esta Constitución.11. Las obras  públicas de interés ejecutadas en el territorio  de  la  región autónoma. 12. La planificación e implementación de la conectividad física y digital. 14. La regulación y administración del  borde  costero y maritorio de la Región autónoma, en el ámbito de sus competencias.15. La regulación y administración de los bosques, las reservas y los parques de las áreas silvestres protegidas y cualquier otro predio fiscal que se considere necesario para el cuidado de los servicios ecosistémicos que se otorgan a las comunidades, en el ámbito de sus competencias. 16. La  promoción y ordenación del turismo en el  ámbito  territorial de la región autónoma, en coordinación con la Comuna Autónoma. 17. Coordinar y delegar las competencias constitucionales compartidas con las demás entidades territoriales. 18. Establecer contribuciones y tasas dentro de su territorio previa autorización por ley.19.  La creación de empresas públicas  regionales  por parte de los órganos de la Región Autónoma competentes, en conformidad a los procedimientos regulados en la Constitución y la ley. 20. Establecer una política permanente de desarrollo sostenible y armónico con la naturaleza. 21.Ejercer  autónomamente la administración y coordinación  de todos los servicios públicos de su dependencia. 22. Promover la participación popular en asuntos de interés regional. 24. Las demás competencias que determine la Constitución y ley nacional. El ejercicio de estas competencias por la Región Autónoma no excluye la concurrencia y desarrollo coordinado con otros órganos  del  Estado,  conforme a la Constitución y la ley.`,
     conceptos: ``,
     quesignifica: `Algunas de las  atribuciones y capacidades de las regiones autónomas. Entre ellas se encuentran la organización del Gobierno Regional, fomentar el desarrollo social, productivo y económico de la Región autónoma; participar en acciones de cooperación internacional y el desarrollo de la investigación, tecnología y las ciencias dentro de la región en tanto sus competencias. Así mismo, la conservación, preservación, protección y restauración de la naturaleza; el fomento y la protección de las culturas, las artes, el patrimonio histórico, inmaterial arqueológico. También, la  planificación, ordenamiento territorial; la política regional de vivienda, urbanismo, salud, transporte y educación en coordinación con las políticas y programas nacionales; la promoción y ordenación del turismo en el ámbito territorial de la región autónoma, promover la participación popular en asuntos de interés regional. Entre otras competencias que determine la Constitución y la ley. 
-    `,
+`,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `Parcialmente`,
@@ -1081,21 +1081,21 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `16/02/2022`,
     textodefinitivo: `Son atribuciones de la Asamblea Regional, en conformidad a la Constitución, la ley y el Estatuto Regional:
-    1. Fiscalizar los actos del Gobierno Regional de acuerdo con el procedimiento establecido en el Estatuto Regional.
-    2. Fiscalizar los actos de la administración regional, para lo cual podrá requerir información de autoridades o jefaturas que desempeñen sus funciones en la Región Autónoma, citar a funcionarios públicos o autoridades regionales y crear comisiones especiales.
-    3. Solicitar al Gobernador o Gobernadora Regional rendir cuenta sobre su participación en el Consejo de Gobernaciones.
-    4. Aprobar, modificar o rechazar el Presupuesto Regional, el Plan de Desarrollo Regional y los Planes de Ordenamiento Territorial.
-    5. Aprobar, modificar o rechazar el Plan Regional de manejo integrado de cuencas.
-    6. Dictar su reglamento interno de funcionamiento.
-    7. Aprobar, a propuesta del Gobernador o Gobernadora Regional y previa ratificación del Consejo Territorial, la creación de empresas públicas regionales o la participación en empresas regionales.
-    8. Concurrir, en conjunto con el Gobernador Regional, en el ejercicio de la potestad reglamentaria, en la forma prescrita por la Constitución y las leyes. 
-    9. Ejercer la potestad reglamentaria de ejecución de ley cuando esta lo encomiende y dictar los demás reglamentos en materias de competencia de la región autónoma.” 
-    10. Dictar las normas regionales que hagan aplicables 
-    las leyes de acuerdo regional.
-    11. Iniciar el trámite legislativo ante el Consejo Territorial en materias de interés regional. 
-    12. Solicitar al Congreso la transferencia de la potestad legislativa en materias de interés de la Región Autónoma respectiva, en conformidad a la ley.
-    13. Las demás atribuciones que determine la Constitución y la ley.
-     `,
+1. Fiscalizar los actos del Gobierno Regional de acuerdo con el procedimiento establecido en el Estatuto Regional.
+2. Fiscalizar los actos de la administración regional, para lo cual podrá requerir información de autoridades o jefaturas que desempeñen sus funciones en la Región Autónoma, citar a funcionarios públicos o autoridades regionales y crear comisiones especiales.
+3. Solicitar al Gobernador o Gobernadora Regional rendir cuenta sobre su participación en el Consejo de Gobernaciones.
+4. Aprobar, modificar o rechazar el Presupuesto Regional, el Plan de Desarrollo Regional y los Planes de Ordenamiento Territorial.
+5. Aprobar, modificar o rechazar el Plan Regional de manejo integrado de cuencas.
+6. Dictar su reglamento interno de funcionamiento.
+7. Aprobar, a propuesta del Gobernador o Gobernadora Regional y previa ratificación del Consejo Territorial, la creación de empresas públicas regionales o la participación en empresas regionales.
+8. Concurrir, en conjunto con el Gobernador Regional, en el ejercicio de la potestad reglamentaria, en la forma prescrita por la Constitución y las leyes. 
+9. Ejercer la potestad reglamentaria de ejecución de ley cuando esta lo encomiende y dictar los demás reglamentos en materias de competencia de la región autónoma.” 
+10. Dictar las normas regionales que hagan aplicables 
+las leyes de acuerdo regional.
+11. Iniciar el trámite legislativo ante el Consejo Territorial en materias de interés regional. 
+12. Solicitar al Congreso la transferencia de la potestad legislativa en materias de interés de la Región Autónoma respectiva, en conformidad a la ley.
+13. Las demás atribuciones que determine la Constitución y la ley.
+ `,
     conceptos: ``,
     quesignifica: ``,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
@@ -1156,11 +1156,11 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `16/02/2022`,
     textodefinitivo: `Son atribuciones exclusivas de los Gobiernos Regionales las siguientes:1. Preparar y presentar ante la Asamblea Regional el Plan de Desarrollo Regional, en conformidad al Estatuto Regional.
-    2. Preparar y presentar ante la Asamblea  Regional el proyecto de Presupuesto Regional, en conformidad a esta Constitución y el Estatuto Regional.
-    3. Administrar y ejecutar el Presupuesto Regional, realizar actos y contratos en los que tenga interés, ejercer competencias fiscales propias conforme a la ley, y elaborar la planificación presupuestaria sobre la destinación y uso del presupuesto regional. 4. Preparar y presentar ante la Asamblea Regional el plan regional de ordenamiento  territorial, los planes de desarrollo urbano de las áreas metropolitanas y los planes de manejo integrado de cuencas, en conformidad al Estatuto Regional y la ley. 5. Organizar, administrar, supervigilar y fiscalizar los servicios públicos de la Región Autónoma y coordinarse con el Gobierno respecto de aquellos que detenten un carácter nacional y que funcionen en la Región. 6. Ejercer la potestad reglamentaria en todas aquellas materias que se  encuentren dentro del  ámbito de sus competencias, en conformidad a la Constitución, la ley y el Estatuto Regional. 8 Adoptar e implementar políticas públicas que fomenten y promocionen el desarrollo social, productivo, económico y cultural de la región autónoma, especialmente en ámbitos de competencia de la región autónoma. 12. Celebrar y ejecutar convenios con los Gobiernos de otras regiones autónomas para efectos de implementar programas y políticas públicas interregionales, así como toda otra forma de asociatividad territorial. 13. Celebrar y ejecutar acciones de cooperación  internacional, dentro de los marcos establecidos por los tratados y convenios que  el  país celebre al efecto  y  en conformidad a los procedimientos regulados en la ley. 17. Promover  la  innovación,  la  competitividad y la inversión en la respectiva región autónoma.18. Convocar a referéndum y plebiscitos regionales en virtud de lo previsto en la Constitución, el EstatutoRegional y la ley.19. Establecer sistemas de gestión de crisis entre los órganos que tienen asiento en  la  Región Autónoma, que incluyan, a  lo  menos, su  preparación, prevención, administración y manejo.20. Las demás atribuciones que señalen la Constitución, el Estatuto Regional y las leyes.`,
+2. Preparar y presentar ante la Asamblea  Regional el proyecto de Presupuesto Regional, en conformidad a esta Constitución y el Estatuto Regional.
+3. Administrar y ejecutar el Presupuesto Regional, realizar actos y contratos en los que tenga interés, ejercer competencias fiscales propias conforme a la ley, y elaborar la planificación presupuestaria sobre la destinación y uso del presupuesto regional. 4. Preparar y presentar ante la Asamblea Regional el plan regional de ordenamiento  territorial, los planes de desarrollo urbano de las áreas metropolitanas y los planes de manejo integrado de cuencas, en conformidad al Estatuto Regional y la ley. 5. Organizar, administrar, supervigilar y fiscalizar los servicios públicos de la Región Autónoma y coordinarse con el Gobierno respecto de aquellos que detenten un carácter nacional y que funcionen en la Región. 6. Ejercer la potestad reglamentaria en todas aquellas materias que se  encuentren dentro del  ámbito de sus competencias, en conformidad a la Constitución, la ley y el Estatuto Regional. 8 Adoptar e implementar políticas públicas que fomenten y promocionen el desarrollo social, productivo, económico y cultural de la región autónoma, especialmente en ámbitos de competencia de la región autónoma. 12. Celebrar y ejecutar convenios con los Gobiernos de otras regiones autónomas para efectos de implementar programas y políticas públicas interregionales, así como toda otra forma de asociatividad territorial. 13. Celebrar y ejecutar acciones de cooperación  internacional, dentro de los marcos establecidos por los tratados y convenios que  el  país celebre al efecto  y  en conformidad a los procedimientos regulados en la ley. 17. Promover  la  innovación,  la  competitividad y la inversión en la respectiva región autónoma.18. Convocar a referéndum y plebiscitos regionales en virtud de lo previsto en la Constitución, el EstatutoRegional y la ley.19. Establecer sistemas de gestión de crisis entre los órganos que tienen asiento en  la  Región Autónoma, que incluyan, a  lo  menos, su  preparación, prevención, administración y manejo.20. Las demás atribuciones que señalen la Constitución, el Estatuto Regional y las leyes.`,
     conceptos: ``,
     quesignifica: `Las atribuciones exclusivas del Gobernador y el Gobierno Regional, entre las más importantes se encuentran, administrar y ejecutar el Presupuesto Regional,ejercer competencias fiscales propias, supervigilar y fiscalizar los servicios públicos de la Región Autónoma en coordinación con el Gobierno; la implementación de  políticas públicas que fomenten y promocionen el desarrollo social de la región además de promover la innovación, la competitividad y la inversión en la respectiva región autónoma. También pueden convocar a referéndum y plebiscitos regionales y  establecer sistemas para la gestión de crisis entre los órganos que tienen asiento en la Región. 
-    `,
+`,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
     aprobadaEn: `Segunda instancia`,
     normaAprobada: `Parcialmente`,
@@ -1204,7 +1204,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `29/03/2022`,
     textodefinitivo: `El Estado garantizará a la Municipalidad el financiamiento y recursos suficientes, para el justo y equitativo desarrollo de cada comuna, conforme a los mecanismos que señale la Constitución y la ley.
-    Para el gobierno comunal se observará como principio básico la búsqueda de un desarrollo territorial armónico y equitativo, propendiendo a que todas las personas tengan acceso a igual nivel y calidad de servicios públicos municipales, sin distingo del lugar que habiten.`,
+Para el gobierno comunal se observará como principio básico la búsqueda de un desarrollo territorial armónico y equitativo, propendiendo a que todas las personas tengan acceso a igual nivel y calidad de servicios públicos municipales, sin distingo del lugar que habiten.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Forma de Estado, Ordenamiento, Autonomía, Descentralización, Equidad, Justicia Territorial, Gobiernos Locales y organización fiscal`,
@@ -1235,8 +1235,8 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `11/03/2022`,
     textodefinitivo: `Chile es un Estado social y democrático de derecho. Es plurinacional, intercultural y ecológico.
-    Se constituye como una República solidaria, su democracia es paritaria y reconoce como valores intrínsecos e irrenunciables la dignidad, la libertad, la igualdad sustantiva de los seres humanos y su relación indisoluble con la naturaleza.
-    La protección y garantía de los derechos humanos individuales y colectivos son el fundamento del Estado y orientan toda su actividad. Es deber del Estado generar las condiciones necesarias y proveer los bienes y servicios para asegurar el igual goce de los derechos y la integración de las personas en la vida política, económica, social y cultural para su pleno desarrollo.`,
+Se constituye como una República solidaria, su democracia es paritaria y reconoce como valores intrínsecos e irrenunciables la dignidad, la libertad, la igualdad sustantiva de los seres humanos y su relación indisoluble con la naturaleza.
+La protección y garantía de los derechos humanos individuales y colectivos son el fundamento del Estado y orientan toda su actividad. Es deber del Estado generar las condiciones necesarias y proveer los bienes y servicios para asegurar el igual goce de los derechos y la integración de las personas en la vida política, económica, social y cultural para su pleno desarrollo.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
@@ -1252,7 +1252,7 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `11/03/2022`,
     textodefinitivo: `En Chile, las personas nacen y permanecen libres, interdependientes e iguales en dignidad y derechos.
-    El Estado debe respetar, promover, proteger y garantizar los derechos fundamentales reconocidos en esta Constitución y en los tratados internacionales ratificados por Chile y que se encuentren vigentes. Para su protección, las personas gozarán de todas las garantías eficaces, oportunas, pertinentes y universales, nacionales e internacionales.`,
+El Estado debe respetar, promover, proteger y garantizar los derechos fundamentales reconocidos en esta Constitución y en los tratados internacionales ratificados por Chile y que se encuentren vigentes. Para su protección, las personas gozarán de todas las garantías eficaces, oportunas, pertinentes y universales, nacionales e internacionales.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
@@ -1313,8 +1313,8 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `11/03/2022`,
     textodefinitivo: `La soberanía reside en el Pueblo de Chile, conformado por diversas naciones.
-    Se ejerce democráticamente, de manera directa y mediante representantes, de conformidad a lo dispuesto en esta Constitución y las leyes.
-    Ningún sector del pueblo ni individuo alguno puede atribuirse su ejercicio. El ejercicio de la soberanía reconoce como limitación los derechos humanos en cuanto atributo que deriva de la dignidad humana.`,
+Se ejerce democráticamente, de manera directa y mediante representantes, de conformidad a lo dispuesto en esta Constitución y las leyes.
+Ningún sector del pueblo ni individuo alguno puede atribuirse su ejercicio. El ejercicio de la soberanía reconoce como limitación los derechos humanos en cuanto atributo que deriva de la dignidad humana.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
@@ -1345,9 +1345,9 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `11/03/2022`,
     textodefinitivo: `En Chile, la democracia es inclusiva y paritaria. Se ejerce en forma directa, participativa, comunitaria y representativa.
-    Es deber del Estado promover y garantizar la adopción de medidas para la participación efectiva de toda la sociedad en el proceso político y el pleno ejercicio de la democracia.
-    El Estado deberá asegurar la prevalencia del interés general, y el carácter electivo de los cargos de representación política con responsabilidad de quienes ejercen el poder.
-    La actividad política organizada contribuye a la expresión de la voluntad popular, y su funcionamiento respetará los principios de independencia, probidad, transparencia financiera y democracia interna.`,
+Es deber del Estado promover y garantizar la adopción de medidas para la participación efectiva de toda la sociedad en el proceso político y el pleno ejercicio de la democracia.
+El Estado deberá asegurar la prevalencia del interés general, y el carácter electivo de los cargos de representación política con responsabilidad de quienes ejercen el poder.
+La actividad política organizada contribuye a la expresión de la voluntad popular, y su funcionamiento respetará los principios de independencia, probidad, transparencia financiera y democracia interna.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
@@ -1393,7 +1393,7 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `11/03/2022`,
     textodefinitivo: `El Estado reconoce y protege a las familias en sus diversas formas, expresiones y modos de vida, no restringiéndose a vínculos exclusivamente filiativos y consanguíneos.
-    El Estado debe garantizar a las familias una vida digna, procurando que los trabajos de cuidados no representen una desventaja para quienes los ejercen.`,
+El Estado debe garantizar a las familias una vida digna, procurando que los trabajos de cuidados no representen una desventaja para quienes los ejercen.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
@@ -1604,8 +1604,8 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `11/03/2022`,
     textodefinitivo: `El ejercicio de las funciones públicas obliga a sus titulares a dar estricto cumplimiento a los principios de probidad, transparencia y rendición de cuentas en todas sus actuaciones, con primacía del interés general por sobre el particular.
-    Es deber del Estado promover la integridad de la función pública y erradicar la corrupción en todas sus formas, tanto en el sector público como privado. En cumplimiento de lo anterior, deberá adoptar medidas eficaces para prevenir, detectar y sancionar los actos de corrupción. Esta obligación abarca el deber de perseguir administrativa y judicialmente la aplicación de las sanciones administrativas, civiles y penales que correspondan, en la forma que determine la ley.
-    Una ley regulará los casos y las condiciones en las que los funcionarios, funcionarias y autoridades deleguen a terceros la administración de aquellos bienes y obligaciones que supongan un conflicto de interés en el ejercicio de la función pública. Asimismo, podrá considerar otras medidas apropiadas para resolverlos. La Constitución asegura a todas las personas la transparencia de la información pública en poder del Estado facilitando su acceso de manera comprensible y oportuna, en los plazos y condiciones que la ley establezca. Esta señalará́ la forma en que podrá ordenarse la reserva o secreto de dicha información, por razones de seguridad del Estado, protección de los derechos de las personas o cuando su publicidad afectare el debido cumplimiento de las funciones de la respectiva institución, conforme a sus fines.`,
+Es deber del Estado promover la integridad de la función pública y erradicar la corrupción en todas sus formas, tanto en el sector público como privado. En cumplimiento de lo anterior, deberá adoptar medidas eficaces para prevenir, detectar y sancionar los actos de corrupción. Esta obligación abarca el deber de perseguir administrativa y judicialmente la aplicación de las sanciones administrativas, civiles y penales que correspondan, en la forma que determine la ley.
+Una ley regulará los casos y las condiciones en las que los funcionarios, funcionarias y autoridades deleguen a terceros la administración de aquellos bienes y obligaciones que supongan un conflicto de interés en el ejercicio de la función pública. Asimismo, podrá considerar otras medidas apropiadas para resolverlos. La Constitución asegura a todas las personas la transparencia de la información pública en poder del Estado facilitando su acceso de manera comprensible y oportuna, en los plazos y condiciones que la ley establezca. Esta señalará́ la forma en que podrá ordenarse la reserva o secreto de dicha información, por razones de seguridad del Estado, protección de los derechos de las personas o cuando su publicidad afectare el debido cumplimiento de las funciones de la respectiva institución, conforme a sus fines.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
@@ -1621,7 +1621,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `11/03/2022`,
     textodefinitivo: `Chile es un Estado fundado en el principio de la supremacía constitucional y el respeto irrestricto a los derechos humanos. Los preceptos de esta Constitución obligan igualmente a toda persona, institución, autoridad o grupo. Los órganos del Estado y sus titulares e integrantes, actúan previa investidura regular y someten su actuar a la Constitución y a las normas dictadas conforme a esta, dentro de los límites y competencias por ellas establecidos. Ninguna magistratura, ninguna persona ni grupo de personas pueden atribuirse, ni aun a pretexto de circunstancias extraordinarias, autoridad, derechos o facultades distintas a las expresamente conferidas en virtud de la Constitución o las leyes. Todo acto en contravención a este artículo es nulo y originará las responsabilidades y sanciones que la ley señale. La acción de nulidad se ejercerá en los plazos y condiciones establecidos por esta Constitución y la ley.
-    Ninguna magistratura, persona ni grupo de personas, civiles o militares, pueden atribuirse otra autoridad, competencia o derechos que los que expresamente se les haya conferido en virtud de la Constitución y las leyes, ni aun a pretexto de circunstancias extraordinarias.`,
+Ninguna magistratura, persona ni grupo de personas, civiles o militares, pueden atribuirse otra autoridad, competencia o derechos que los que expresamente se les haya conferido en virtud de la Constitución y las leyes, ni aun a pretexto de circunstancias extraordinarias.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
@@ -1637,7 +1637,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `11/03/2022`,
     textodefinitivo: `Son emblemas nacionales de Chile la bandera, el escudo y el himno nacional.
-    El Estado reconoce los símbolos y emblemas de los distintos pueblos indígenas.`,
+El Estado reconoce los símbolos y emblemas de los distintos pueblos indígenas.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Principios Constitucionales, Democracia, Nacionalidad y Ciudadanía`,
@@ -1848,7 +1848,7 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
     textodefinitivo: `El Estado debe respetar, proteger, garantizar y promover la plena satisfacción y ejercicio de los derechos fundamentales, así como adoptar las medidas necesarias para eliminar todos los obstáculos que pudieran limitar o entorpecer su realización.
-    Toda persona, institución, asociación o grupo deberá respetar los derechos fundamentales, conforme a la Constitución y las leyes.`,
+Toda persona, institución, asociación o grupo deberá respetar los derechos fundamentales, conforme a la Constitución y las leyes.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
@@ -1909,8 +1909,8 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
     textodefinitivo: `Las personas naturales son titulares de derechos fundamentales. Los derechos podrán ser ejercidos y exigidos individual o colectivamente.
-    Los Pueblos y Naciones Indígenas son titulares de derechos fundamentales colectivos.
-    La Naturaleza será titular de los derechos reconocidos en esta Constitución que le sean aplicables.`,
+Los Pueblos y Naciones Indígenas son titulares de derechos fundamentales colectivos.
+La Naturaleza será titular de los derechos reconocidos en esta Constitución que le sean aplicables.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
@@ -1926,9 +1926,9 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
     textodefinitivo: `Toda persona tiene derecho a la libertad de pensamiento, de conciencia, de religión y cosmovisión; este derecho incluye la libertad de profesar y cambiar de religión o creencias. Ninguna religión, ni creencia es la oficial del Estado, sin perjuicio de su reconocimiento y libre ejercicio en el espacio público o privado, mediante el culto, la celebración de los ritos, las prácticas espirituales y la enseñanza.
-    Podrán erigir templos, dependencias y lugares para el culto; mantener, proteger y acceder a los lugares sagrados y aquellos de relevancia espiritual, rescatar y preservar los objetos de culto o que tengan un significado sagrado.
-    El Estado reconoce la espiritualidad como elemento esencial del ser humano.
-    Las agrupaciones religiosas y espirituales podrán organizarse como personas jurídicas de conformidad a la ley. Respetando los derechos, deberes y principios que esta Constitución establece. Éstas no podrán perseguir fines de lucro y sus bienes deberán gestionarse de forma transparente de acuerdo con lo que establezca la ley.`,
+Podrán erigir templos, dependencias y lugares para el culto; mantener, proteger y acceder a los lugares sagrados y aquellos de relevancia espiritual, rescatar y preservar los objetos de culto o que tengan un significado sagrado.
+El Estado reconoce la espiritualidad como elemento esencial del ser humano.
+Las agrupaciones religiosas y espirituales podrán organizarse como personas jurídicas de conformidad a la ley. Respetando los derechos, deberes y principios que esta Constitución establece. Éstas no podrán perseguir fines de lucro y sus bienes deberán gestionarse de forma transparente de acuerdo con lo que establezca la ley.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
@@ -1944,7 +1944,7 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
     textodefinitivo: `Toda persona, natural o jurídica, tiene derecho a la libertad de expresión y opinión, en cualquier forma y por cualquier medio. Este derecho comprende la libertad de buscar, recibir y difundir informaciones e ideas de toda índole.
-    No existirá censura previa sino únicamente las responsabilidades ulteriores que determine la ley.`,
+No existirá censura previa sino únicamente las responsabilidades ulteriores que determine la ley.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
@@ -1960,8 +1960,8 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
     textodefinitivo: `Es deber del Estado proteger en forma equitativa el ejercicio de este derecho a todas las 
-    personas, a través de una política de prevención de la violencia y el delito que considerará especialmente las condiciones materiales, ambientales, sociales y el fortalecimiento comunitario de los territorio. 
-    Las acciones de prevención, persecución y sanción de  los  delitos, así como la reinserción social de las personas condenadas, serán desarrolladas por los organismos públicos que señale esta Constitución y la ley, en forma coordinada y con irrestricto respeto a los derechos humanos.`,
+personas, a través de una política de prevención de la violencia y el delito que considerará especialmente las condiciones materiales, ambientales, sociales y el fortalecimiento comunitario de los territorio. 
+Las acciones de prevención, persecución y sanción de  los  delitos, así como la reinserción social de las personas condenadas, serán desarrolladas por los organismos públicos que señale esta Constitución y la ley, en forma coordinada y con irrestricto respeto a los derechos humanos.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
@@ -2022,8 +2022,8 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
     textodefinitivo: `Toda persona tiene derecho al libre desarrollo y pleno reconocimiento de su identidad, en todas sus dimensiones y manifestaciones, 
-    incluyendo las características sexuales, identidades y expresiones de género, nombre y orientaciones sexoafectivas.
-    El Estado garantizará el pleno ejercicio de este derecho a través de acciones afirmativas, procedimientos y leyes correspondientes.`,
+incluyendo las características sexuales, identidades y expresiones de género, nombre y orientaciones sexoafectivas.
+El Estado garantizará el pleno ejercicio de este derecho a través de acciones afirmativas, procedimientos y leyes correspondientes.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
@@ -2054,8 +2054,8 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
     textodefinitivo: `Toda persona, natural o jurídica, tiene libertad de emprender y desarrollar actividades económicas. Su ejercicio deberá ser compatible con los derechos consagrados en esta Constitución y con la protección de la naturaleza.
-    El contenido y los límites de este derecho serán determinados por las leyes que regulen su ejercicio, las que deberán promover el desarrollo de las empresas de menor tamaño y asegurarán la protección de los consumidores.
-    Las prácticas de colusión entre empresas y abusos de posición monopólica, así como las concentraciones empresariales que afecten el funcionamiento eficiente, justo y leal de los mercados, se entenderán como conductas contrarias al interés social. La ley establecerá las sanciones a los responsables.`,
+El contenido y los límites de este derecho serán determinados por las leyes que regulen su ejercicio, las que deberán promover el desarrollo de las empresas de menor tamaño y asegurarán la protección de los consumidores.
+Las prácticas de colusión entre empresas y abusos de posición monopólica, así como las concentraciones empresariales que afecten el funcionamiento eficiente, justo y leal de los mercados, se entenderán como conductas contrarias al interés social. La ley establecerá las sanciones a los responsables.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
@@ -2071,9 +2071,9 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
     textodefinitivo: `La protección, promoción y respeto del derecho a la privacidad de las personas, sus familias y comunidades. 
-    Ninguna persona ni autoridad podrá afectar, restringir o impedir el ejercicio del derecho a la privacidad salvo en los casos y formas que determine la ley.
-    Los recintos privados son inviolables. La entrada, registro o allanamiento sólo se podrán realizar con orden judicial previa dictada en los casos  específicos y en la forma que determine la ley, salvo las hipótesis de flagrancia.
-    Toda forma de documentación y comunicación privada es inviolable, incluyendo sus metadatos. La interceptación, captura, apertura, registro o revisión sólo se podrá realizar con orden judicial previa dictada en la forma y para los casos específicos que determine la ley.`,
+Ninguna persona ni autoridad podrá afectar, restringir o impedir el ejercicio del derecho a la privacidad salvo en los casos y formas que determine la ley.
+Los recintos privados son inviolables. La entrada, registro o allanamiento sólo se podrán realizar con orden judicial previa dictada en los casos  específicos y en la forma que determine la ley, salvo las hipótesis de flagrancia.
+Toda forma de documentación y comunicación privada es inviolable, incluyendo sus metadatos. La interceptación, captura, apertura, registro o revisión sólo se podrá realizar con orden judicial previa dictada en la forma y para los casos específicos que determine la ley.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
@@ -2089,7 +2089,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `10/03/2022`,
     textodefinitivo: `Todas las personas son titulares de derechos sexuales y derechos reproductivos. Estos comprenden, entre otros, el derecho a decidir de forma libre, autónoma e informada sobre el propio cuerpo, sobre el ejercicio de la sexualidad, la reproducción, el placer y la anticoncepción.
-    El Estado garantiza el ejercicio de los derechos sexuales y reproductivos sin discriminación, con enfoque de género, inclusión y pertinencia cultural, así como el acceso a la información, educación, salud, y a los servicios y prestaciones requeridos para ello, asegurando a todas las mujeres y personas con capacidad de gestar, las condiciones para un embarazo, una interrupción voluntaria del embarazo, parto y maternidad voluntarios y protegidos. Asimismo, garantiza su ejercicio libre de violencias y de interferencias por parte de terceros, ya sean individuos o instituciones.`,
+El Estado garantiza el ejercicio de los derechos sexuales y reproductivos sin discriminación, con enfoque de género, inclusión y pertinencia cultural, así como el acceso a la información, educación, salud, y a los servicios y prestaciones requeridos para ello, asegurando a todas las mujeres y personas con capacidad de gestar, las condiciones para un embarazo, una interrupción voluntaria del embarazo, parto y maternidad voluntarios y protegidos. Asimismo, garantiza su ejercicio libre de violencias y de interferencias por parte de terceros, ya sean individuos o instituciones.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
@@ -2120,8 +2120,8 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `10/03/2022`,
     textodefinitivo: `Toda persona, natural o jurídica, tiene derecho de propiedad en todas sus especies y sobre toda clase de bienes, salvo aquellos que la  naturaleza ha hecho comunes a todas las personas y los que la Constitución o la ley declaren inapropiables.
-    Los títulos que habiliten la prestación de servicios públicos o la explotación, uso y aprovechamiento  de bienes comunes no quedarán amparados por este derecho y se someterán al estatuto que defina la ley, la cual  deberá cautelar el interés social y el equilibrio ecológico.
-    Corresponderá a la ley determinar el modo de adquirir la propiedad, su  contenido,  límites y deberes, conforme con su función social y ecológica.`,
+Los títulos que habiliten la prestación de servicios públicos o la explotación, uso y aprovechamiento  de bienes comunes no quedarán amparados por este derecho y se someterán al estatuto que defina la ley, la cual  deberá cautelar el interés social y el equilibrio ecológico.
+Corresponderá a la ley determinar el modo de adquirir la propiedad, su  contenido,  límites y deberes, conforme con su función social y ecológica.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
@@ -2227,7 +2227,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `10/03/2022`,
     textodefinitivo: `Ninguna persona será sometida a desaparición forzada.
-    Toda persona víctima de desaparición forzada tiene derecho a ser buscada. El Estado garantizará el ejercicio de este derecho, disponiendo de todos los medios necesarios.`,
+Toda persona víctima de desaparición forzada tiene derecho a ser buscada. El Estado garantizará el ejercicio de este derecho, disponiendo de todos los medios necesarios.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Derechos Fundamentales `,
@@ -2483,7 +2483,7 @@ const data = [
     aprobado: `Rechazada`,
     fecha: `03/03/2022`,
     textodefinitivo: `La Naturaleza tiene derecho a que se respete y proteja su existencia, a la regeneración, a la mantención y a la restauración de sus funciones y equilibrios dinámicos, que comprenden los ciclos naturales, los ecosistemas y la biodiversidad.
-    El Estado a través de sus instituciones debe garantizar y promover los derechos de la Naturaleza según lo determine la Constitución y las Leyes.`,
+El Estado a través de sus instituciones debe garantizar y promover los derechos de la Naturaleza según lo determine la Constitución y las Leyes.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
@@ -2597,12 +2597,87 @@ const data = [
   },
   {
     numero: `12`,
-    titulo: ``,
+    titulo: `De los bienes comunes naturales`,
     afavor: `76`,
     encontra: `61`,
     abstencion: `15`,
     aprobado: `Rechazada`,
     fecha: `03/03/2022`,
+    textodefinitivo: ``,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
+    aprobadaEn: ``,
+    normaAprobada: ``,
+  },
+  {
+    numero: `12A`,
+    titulo: ``,
+    afavor: ``,
+    encontra: ``,
+    abstencion: ``,
+    aprobado: `Aprobada`,
+    fecha: `18/04/2022`,
+    textodefinitivo: `Son bienes comunes naturales el mar territorial y su fondo marino; las playas; las aguas, glaciares y humedales; los campos geotérmicos; el aire y la atmósfera; la alta montaña, las áreas protegidas y los bosques nativos; el subsuelo, y los demás que declaren la Constitución y la ley. Entre estos  bienes son inapropiables el agua en todos sus  estados y el aire; los reconocidos por el derecho internacional; y los que la Constitución o las leyes declaren como tales.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
+    numero: `12B`,
+    titulo: ``,
+    afavor: ``,
+    encontra: ``,
+    abstencion: ``,
+    aprobado: `Aprobada`,
+    fecha: `18/04/2022`,
+    textodefinitivo: `Tratándose de los bienes comunes naturales que sean inapropiables, el Estado deberá preservarlos, conservarlos y,  en  su caso, restaurarlos. Deberá, asimismo, administrarlos de forma democrática, solidaria, participativa y equitativa. Respecto de aquellos bienes comunes naturales que se encuentren en el dominio privado, el deber de custodia del Estado implica la facultad de regular su uso y goce, con las finalidades establecidas en el artículo primero.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
+    numero: `12C`,
+    titulo: ``,
+    afavor: ``,
+    encontra: ``,
+    abstencion: ``,
+    aprobado: `Aprobada`,
+    fecha: `18/04/2022`,
+    textodefinitivo: `Cualquier persona podrá exigir el cumplimiento de los deberes constitucionales de custodia de los  bienes comunes naturales. La ley determinará el procedimiento y los requisitos de esta acción.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
+    numero: `12D`,
+    titulo: ``,
+    afavor: ``,
+    encontra: ``,
+    abstencion: ``,
+    aprobado: `Aprobada`,
+    fecha: `18/04/2022`,
+    textodefinitivo: ` El Estado podrá otorgar autorizaciones administrativas para el uso de los bienes comunes naturales inapropiables, conforme a la ley, de  manera temporal, sujeto a causales de caducidad, extinción y revocación, con obligaciones específicas de conservación, justificadas en el interés  público, la protección de la naturaleza y el beneficio colectivo. Estas autorizaciones, ya sean individuales o colectivas, no generan derechos de propiedad.`,
+    conceptos: ``,
+    quesignifica: ``,
+    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `En su totalidad`,
+  },
+  {
+    numero: `12E`,
+    titulo: ``,
+    afavor: ``,
+    encontra: ``,
+    abstencion: ``,
+    aprobado: `Rechazada`,
+    fecha: `18/04/2002`,
     textodefinitivo: ``,
     conceptos: ``,
     quesignifica: ``,
@@ -2702,18 +2777,18 @@ const data = [
   },
   {
     numero: `19`,
-    titulo: ``,
+    titulo: `Acceso responsable a la Naturaleza`,
     afavor: `96`,
     encontra: `47`,
     abstencion: `7`,
     aprobado: `Rechazada`,
     fecha: `03/03/2022`,
-    textodefinitivo: ``,
+    textodefinitivo: `Acceso responsable a la Naturaleza. Se reconoce a todas las  personas el derecho  de  acceso responsable y universal a las  montañas, riberas  de ríos, mar, playas, lagos, lagunas y humedales, entre otros que defina la ley. La ley regulará el ejercicio de este  derecho, las obligaciones de los propietarios aledaños y el régimen de responsabilidad aplicable, entre otros`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
+    aprobadaEn: `Segunda instancia`,
+    normaAprobada: `Parcialmente`,
   },
   {
     numero: `20`,
@@ -2769,9 +2844,9 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `03/03/2022`,
     textodefinitivo: `El Estado los protegerá, reconociendo su sintiencia y el derecho de vivir una vida libre de maltrato.
-    El Estado y sus organismos promoverán una educación basada en la empatía y en el respeto hacia los animales.
-    23b.
-    El Estado protege la biodiversidad, debiendo preservar, conservar y restaurar el hábitat de las especies nativas silvestres, en tal cantidad y distribución que sostenga adecuádamente la viabilidad de sus poblaciones y asegure las condiciones para su supervivencia y no extinción.`,
+El Estado y sus organismos promoverán una educación basada en la empatía y en el respeto hacia los animales.
+23b.
+El Estado protege la biodiversidad, debiendo preservar, conservar y restaurar el hábitat de las especies nativas silvestres, en tal cantidad y distribución que sostenga adecuádamente la viabilidad de sus poblaciones y asegure las condiciones para su supervivencia y no extinción.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
@@ -2922,7 +2997,7 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `03/03/2022`,
     textodefinitivo: `Se reconoce el derecho de participación informada en materias ambientales. Los mecanismos de participación serán determinados por ley. 
-    Todas las personas tienen derecho a acceder a la información ambiental que conste en poder o custodia del Estado. Los particulares deberán entregar la información ambiental relacionada con su actividad, en los términos que establezca la ley. `,
+Todas las personas tienen derecho a acceder a la información ambiental que conste en poder o custodia del Estado. Los particulares deberán entregar la información ambiental relacionada con su actividad, en los términos que establezca la ley. `,
     conceptos: ``,
     quesignifica: ``,
     comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
@@ -2935,81 +3010,6 @@ const data = [
     afavor: `67`,
     encontra: `64`,
     abstencion: `21`,
-    aprobado: `Rechazada`,
-    fecha: `03/03/2022`,
-    textodefinitivo: ``,
-    conceptos: ``,
-    quesignifica: ``,
-    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-  },
-  {
-    numero: `35`,
-    titulo: ``,
-    afavor: `62`,
-    encontra: `68`,
-    abstencion: `22`,
-    aprobado: `Rechazada`,
-    fecha: `03/03/2022`,
-    textodefinitivo: ``,
-    conceptos: ``,
-    quesignifica: ``,
-    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-  },
-  {
-    numero: `36`,
-    titulo: ``,
-    afavor: `61`,
-    encontra: `69`,
-    abstencion: `21`,
-    aprobado: `Rechazada`,
-    fecha: `03/03/2022`,
-    textodefinitivo: ``,
-    conceptos: ``,
-    quesignifica: ``,
-    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-  },
-  {
-    numero: `37`,
-    titulo: ``,
-    afavor: `106`,
-    encontra: `33`,
-    abstencion: `14`,
-    aprobado: `Aprobada`,
-    fecha: `03/03/2022`,
-    textodefinitivo: ``,
-    conceptos: ``,
-    quesignifica: ``,
-    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-  },
-  {
-    numero: `38`,
-    titulo: ``,
-    afavor: `70`,
-    encontra: `36`,
-    abstencion: `45`,
-    aprobado: `Rechazada`,
-    fecha: `03/03/2022`,
-    textodefinitivo: ``,
-    conceptos: ``,
-    quesignifica: ``,
-    comision: `Medio Ambiente, Derechos de la Naturaleza, Bienes Naturales Comunes y Modelo Económico`,
-    aprobadaEn: ``,
-    normaAprobada: ``,
-  },
-  {
-    numero: `Artículo transitorio primero`,
-    titulo: ``,
-    afavor: `58`,
-    encontra: `68`,
-    abstencion: `25`,
     aprobado: `Rechazada`,
     fecha: `03/03/2022`,
     textodefinitivo: ``,
@@ -3088,10 +3088,10 @@ const data = [
     aprobado: `Aprobada`,
     fecha: `18/03/2022`,
     textodefinitivo: `Los pueblos y naciones indígenas preexistentes y sus miembros, en virtud de su libre determinación, tienen derecho al pleno ejercicio de sus derechos colectivos e individuales. En especial, tienen derecho a la autonomía y al autogobierno, a su propia cultura, a la identidad y cosmovisión, al patrimonio y la lengua, al reconocimiento de sus tierras, territorios, la protección del territorio marítimo, de la naturaleza en su dimensión material e inmaterial y al especial vínculo que mantienen con estos, a la cooperación e integración, al reconocimiento de sus instituciones, jurisdicciones y autoridades propias o tradicionales y a participar plenamente, si así lo desean, en la vida política, económica, social y cultural del Estado.
-    
-    Es deber del Estado Plurinacional, respetar, garantizar y promover con participación de los pueblos y naciones indígenas, el ejercicio de la libre determinación y de los derechos colectivos e individuales de que son titulares.
-    
-    En cumplimiento de lo anterior, el Estado debe garantizar la efectiva participación de los pueblos indígenas en el ejercicio y distribución del poder, incorporando su representación en la estructura del Estado, sus órganos e instituciones, así como su representación política en órganos de elección popular a nivel local, regional y nacional. Junto con ello, garantizará el diálogo intercultural en el ejercicio de las funciones públicas, creando institucionalidad y promoviendo políticas públicas que favorezcan el reconocimiento y comprensión de la diversidad étnica y cultural de los pueblos y naciones indígenas preexistentes al Estado.`,
+
+Es deber del Estado Plurinacional, respetar, garantizar y promover con participación de los pueblos y naciones indígenas, el ejercicio de la libre determinación y de los derechos colectivos e individuales de que son titulares.
+
+En cumplimiento de lo anterior, el Estado debe garantizar la efectiva participación de los pueblos indígenas en el ejercicio y distribución del poder, incorporando su representación en la estructura del Estado, sus órganos e instituciones, así como su representación política en órganos de elección popular a nivel local, regional y nacional. Junto con ello, garantizará el diálogo intercultural en el ejercicio de las funciones públicas, creando institucionalidad y promoviendo políticas públicas que favorezcan el reconocimiento y comprensión de la diversidad étnica y cultural de los pueblos y naciones indígenas preexistentes al Estado.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistema Político, Gobierno, Poder Legislativo y Sistema Electoral`,
@@ -3782,12 +3782,12 @@ const data = [
     aprobado: `Aprobado`,
     fecha: `24/02/2022`,
     textodefinitivo: `El Estado promueve, fomenta y garantiza el acceso, desarrollo y difusión de las culturas, las artes y los conocimientos, atendiendo a la diversidad cultural en todas sus manifestaciones y contribuciones, bajo los principios de colaboración e interculturalidad.
-    
-    El Estado debe generar las instancias para que la sociedad contribuya al desarrollo de la creatividad cultural y artística, en sus más diversas expresiones.
-    
-    El Estado promueve las condiciones para el libre desarrollo de la identidad cultural de las comunidades y personas, así como de sus procesos culturales.
-    
-    Esto se realizará con pleno respeto a los derechos, libertades y las autonomías que consagra esta Constitución.`,
+
+El Estado debe generar las instancias para que la sociedad contribuya al desarrollo de la creatividad cultural y artística, en sus más diversas expresiones.
+
+El Estado promueve las condiciones para el libre desarrollo de la identidad cultural de las comunidades y personas, así como de sus procesos culturales.
+
+Esto se realizará con pleno respeto a los derechos, libertades y las autonomías que consagra esta Constitución.`,
     conceptos: ``,
     quesignifica: ``,
     comision: `Sistemas de Conocimientos, Culturas, Ciencia, Tecnología, Artes y Patrimonios`,
