@@ -45,10 +45,10 @@ const HeaderWrap = styled.div`
     margin-right: auto;
     text-align: center;
   }
-  h1 {
+  h1,
+  h2 {
     line-height: 1.1;
     ${serif}
-    font-size: 60px;
     margin-bottom: 15px;
     .amano {
       line-height: 1.3;
@@ -59,6 +59,26 @@ const HeaderWrap = styled.div`
       font-size: 35px;
       .amano {
         font-size: 24px;
+      }
+    }
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    a {
+      border-radius: 6px;
+      margin-top: 20px;
+      display: inline-block;
+      padding: 20px 30px;
+      background-color: cornflowerblue;
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      &:hover {
+        background-color: #00a0d2;
+        color: white;
       }
     }
   }
@@ -145,14 +165,23 @@ const Header = () => {
       </h1>
       <p className="aprobados">
         Cuáles son los artículos <span className="amano">aprobados</span> para
-        el texto final
+        el texto final...
       </p>
-      <Sharer
+      <h2>
+        <a href="https://interactivo.latercera.com/como-avanza-la-nueva-constitucion-chilena/?utm_source=btn-click&utm_medium=web&utm_campaign=especial-comoavanzalaconstitucion">
+          Ingresar a nueva versión -&gt;
+        </a>
+      </h2>
+      {/* <a href="https://interactivo.latercera.com/como-avanza-la-nueva-constitucion-chilena/?utm_source=btn-click&utm_medium=web&utm_campaign=especial-comoavanzalaconstitucion">
+        Haz click aquí si no deseas esperar...
+      </a> */}
+
+      {/* <Sharer
         className="sharer"
         url="https://www.latercera.com/como-avanza-la-nueva-constitucion-chilena/"
         description={`Cómo avanza la nueva constitución - La Tercera`}
         hashtags="constitucion,chile"
-      />
+      /> */}
       <Excerpt>
         El pasado 15 de febrero el pleno de la Convención Constituyente comenzó
         a votar los artículos que emanaron de sus distintas comisiones. <br />
@@ -179,14 +208,14 @@ const Header = () => {
         </a>
       </p>
 
-      <p className="mt-30">
+      {/* <p className="mt-30">
         -
         <strong>
           Última votación en particular del pleno: Miércoles 20 de abril de 2022
         </strong>
         -
-      </p>
-      <IconFlecha className="icon-flecha" />
+      </p> */}
+      {/* <IconFlecha className="icon-flecha" /> */}
     </HeaderWrap>
   )
 }
@@ -233,7 +262,7 @@ const Page = () => {
   return (
     <div>
       <Header />
-      <Body />
+      {/* <Body /> */}
     </div>
   )
 }
