@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Article from '../Article'
 import Header from '../Header'
-import CustomWidget from '../CustomConstitucion/Page'
+import CustomWidget from '../Customs/CustomAsiEmpiezaNetflixChapter7'
 import { StWidget, StHeader, StBody } from './style.css'
 
 const Preview = ({ articles, header, site }) => {
