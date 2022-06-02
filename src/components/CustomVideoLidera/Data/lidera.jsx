@@ -17,7 +17,7 @@ const metadata = {
   title: 'Lidera Paula',
   supplemental: 'Lidera: Mujeres, trabajo y nuevos liderazgos.',
   synopsis:
-    '10 mujeres y 10 conversaciones que buscan indagar en los desafíos que hay que abordar respecto a las mujeres y el trabajo remunerado y no remunerado. La corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia son solo algunas de las temáticas que abordan las especialistas.',
+    'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
   mainlink: 'https://www.latercera.com/lidera-paula/00-teaser/',
   secondarylink: 'https://www.latercera.com/paula/noticia/nota-info/',
   btntext: 'Reproducir',
@@ -30,7 +30,7 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 01',
     name: 'Elisa Loncón',
-    title: 'Interculturalidad y liderazgo en el sector público',
+    title: 'Interculturalidad, plurinacionalidad y nuevos liderazgos',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Pronto',
@@ -43,7 +43,7 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 02',
     name: 'Teresa Matamala',
-    title: 'Mujeres y el futuro de sus carreras',
+    title: 'Mujeres y el avance de sus carreras profesionales',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Pronto',
@@ -107,7 +107,7 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 07',
     name: 'Maribel Vidal',
-    title: 'Claves para el liderazgo del futuro',
+    title: 'Claves para el liderazgo del futuro y la flexibilidad laboral',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Pronto',
