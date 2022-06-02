@@ -12,18 +12,18 @@ const CustomAsiEmpiezaNetflix = () => {
             <div className="video-proportion-16by9">
               <video
                 src="https://ads-lt.digitalproserver.com/ads/lab/desk-comp.mp4"
-                muted="true"
-                autoplay="true"
-                playsinline="true"
+                muted={true}
+                autoPlay={true}
+                playsInline={true}
                 preload="auto"
                 loop></video>
             </div>
             <div className="video-proportion-9by16">
               <video
                 src="https://ads-lt.digitalproserver.com/ads/lab/mob-comp.mp4"
-                muted="true"
-                autoplay="true"
-                playsinline="true"
+                muted={true}
+                autoPlay={true}
+                playsInline={true}
                 preload="auto"
                 loop></video>
             </div>

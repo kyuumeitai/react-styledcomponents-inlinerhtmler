@@ -1,25 +1,22 @@
-import React from "react";
-import { Wrap } from "../style.css";
+import React from 'react'
+import { Wrap } from '../style.css'
 
-import Player from "../Player";
-import Chapters from "../Chapters";
-import Header from "../Header";
-import Footer from "../Footer";
+import Player from '../Player'
+import Chapters from '../Chapters'
+import Footer from '../Footer'
 
-import { data } from "../Data/tocarlacopa";
+import { data } from '../Data/lidera'
 
 const VideoHome = () => {
-  const chapter = data[0];
+  const chapter = data[0]
 
   return (
     <Wrap>
-      <Header posmode="fixed" />
-
       <Player chapter={chapter} />
       <Chapters chapters={data} />
       <Footer />
     </Wrap>
-  );
-};
+  )
+}
 
-export default VideoHome;
+export default VideoHome

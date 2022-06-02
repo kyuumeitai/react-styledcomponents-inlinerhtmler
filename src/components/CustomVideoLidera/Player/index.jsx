@@ -1,6 +1,6 @@
-import React from "react";
-import { WrapChapter } from "../style.css";
-import Sharer from "../Sharer";
+import React from 'react'
+import { WrapChapter } from '../style.css'
+import Sharer from '../Sharer'
 
 const Player = ({ chapter }) => {
   const {
@@ -14,7 +14,7 @@ const Player = ({ chapter }) => {
     label,
     description,
     iframe,
-  } = chapter;
+  } = chapter
 
   return (
     <WrapChapter>
@@ -33,8 +33,7 @@ const Player = ({ chapter }) => {
                 webkitallowfullscreen="true"
                 frameborder="0"
                 scrolling="no"
-                allow="autoplay; fullscreen"
-              ></iframe>
+                allow="autoplay; fullscreen"></iframe>
             </div>
           </div>
         </div>
@@ -48,12 +47,12 @@ const Player = ({ chapter }) => {
         </div>
         <Sharer
           url={url}
-          description={`${pretitle}: ${name} ${title} - Tocar la Copa`}
-          hashtags="TocarLaCopa"
+          description={`${pretitle}: ${name} ${title} - Lidera Paula`}
+          hashtags="LideraPaula"
         />
       </div>
     </WrapChapter>
-  );
-};
+  )
+}
 
-export default Player;
+export default Player

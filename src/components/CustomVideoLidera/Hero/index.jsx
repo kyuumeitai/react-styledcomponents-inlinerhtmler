@@ -1,5 +1,5 @@
-import React from "react";
-import { WrapVideo } from "../style.css";
+import React from 'react'
+import { WrapVideo } from '../style.css'
 
 const VideoHero = ({ desktop, mobile }) => {
   return (
@@ -8,35 +8,31 @@ const VideoHero = ({ desktop, mobile }) => {
         <div className="video-proportion-16by9">
           <video
             src={desktop}
-            muted="true"
-            autoplay="true"
-            playsinline="true"
-            preload="auto"
-            loop
-          ></video>
+            muted={true}
+            autoPlay={true}
+            playsInline={true}
+            loop></video>
         </div>
         <div className="video-proportion-9by16">
           <video
             src={mobile}
-            muted="true"
-            autoplay="true"
-            playsinline="true"
-            preload="auto"
-            loop
-          ></video>
+            muted={true}
+            autoPlay={true}
+            playsInline={true}
+            loop></video>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 const ImageHero = ({ image }) => {
   return (
     <div className="hero-image-wrapper">
       <img src={image} alt="" />
     </div>
-  );
-};
+  )
+}
 
 const MetaLayer = ({
   logo,
@@ -59,8 +55,7 @@ const MetaLayer = ({
           {synopsis && (
             <p
               className="synopsis h-m"
-              dangerouslySetInnerHTML={{ __html: synopsis }}
-            ></p>
+              dangerouslySetInnerHTML={{ __html: synopsis }}></p>
           )}
 
           <div className="video-actions">
@@ -81,15 +76,13 @@ const MetaLayer = ({
                 className="btn-action btn-action-transparent"
                 href={secondarylink}
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <div className="btn-icon">
                   <div className="btn-icon-info" role="presentation">
                     <svg viewBox="0 0 24 24">
                       <path
                         d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-2 0a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8zm-9 6v-7h2v7h-2zm1-8.75a1.21 1.21 0 0 1-.877-.364A1.188 1.188 0 0 1 10.75 8c0-.348.123-.644.372-.886.247-.242.54-.364.878-.364.337 0 .63.122.877.364.248.242.373.538.373.886s-.124.644-.373.886A1.21 1.21 0 0 1 12 9.25z"
-                        fill="currentColor"
-                      ></path>
+                        fill="currentColor"></path>
                     </svg>
                   </div>
                 </div>
@@ -100,8 +93,8 @@ const MetaLayer = ({
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 const Hero = ({ desktop, mobile, image, metadata, className }) => {
   const {
@@ -111,9 +104,9 @@ const Hero = ({ desktop, mobile, image, metadata, className }) => {
     synopsis,
     mainlink,
     secondarylink,
-  } = metadata;
+  } = metadata
   return (
-    <WrapVideo className={className ? className : "wrap-home"}>
+    <WrapVideo className={className ? className : 'wrap-home'}>
       <VideoHero desktop={desktop} mobile={mobile} />
       <ImageHero image={image} />
       <span className="bg-vignette"></span>
@@ -126,7 +119,7 @@ const Hero = ({ desktop, mobile, image, metadata, className }) => {
         secondarylink={secondarylink}
       />
     </WrapVideo>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

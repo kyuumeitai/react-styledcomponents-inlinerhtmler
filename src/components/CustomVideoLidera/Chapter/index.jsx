@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const LinkOrDiv = ({ url, children }) => {
   if (url && url.length > 0) {
@@ -6,14 +6,14 @@ const LinkOrDiv = ({ url, children }) => {
       <a href={url} className="chap-wrap">
         {children}
       </a>
-    );
+    )
   }
-  return <div className="chap-wrap">{children}</div>;
-};
+  return <div className="chap-wrap">{children}</div>
+}
 
 const Chapter = ({ chapter, ...props }) => {
   return (
-    <div className={`chapter ${chapter.status.join(" ")}`} {...props}>
+    <div className={`chapter ${chapter.status.join(' ')}`} {...props}>
       <LinkOrDiv url={chapter.url}>
         <div className="chapter-img">
           <img src={chapter.img} alt={chapter.name} />
@@ -31,12 +31,11 @@ const Chapter = ({ chapter, ...props }) => {
           <div className="video-proportion-16by9">
             <video
               src={chapter.preview}
-              muted="true"
-              autoplay="true"
-              playsinline="true"
+              muted={true}
+              autoPlay={true}
+              playsInline={true}
               preload="auto"
-              loop
-            ></video>
+              loop></video>
           </div>
         </div>
         <div className="chapter-availability">
@@ -44,7 +43,7 @@ const Chapter = ({ chapter, ...props }) => {
         </div>
       </LinkOrDiv>
     </div>
-  );
-};
+  )
+}
 
-export default Chapter;
+export default Chapter
