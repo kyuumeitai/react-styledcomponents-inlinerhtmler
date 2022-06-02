@@ -41,6 +41,7 @@ const MetaLayer = ({
   synopsis,
   mainlink,
   secondarylink,
+  btntext,
 }) => {
   return (
     <div className="meta-layer">
@@ -68,7 +69,7 @@ const MetaLayer = ({
                     </svg>
                   </div>
                 </div>
-                <span className="btn-text">Reproducir</span>
+                <span className="btn-text">{btntext}</span>
               </a>
             )}
             {secondarylink && (
@@ -104,6 +105,7 @@ const Hero = ({ desktop, mobile, image, metadata, className }) => {
     synopsis,
     mainlink,
     secondarylink,
+    btntext,
   } = metadata
   return (
     <WrapVideo className={className ? className : 'wrap-home'}>
@@ -117,6 +119,7 @@ const Hero = ({ desktop, mobile, image, metadata, className }) => {
         synopsis={synopsis}
         mainlink={mainlink}
         secondarylink={secondarylink}
+        btntext={btntext}
       />
     </WrapVideo>
   )

@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const Sharers = styled.div`
   font-size: 13px;
-  font-family: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;
+  font-family: 'franklin-gothic-urw', helvetica, arial, verdana, sans-serif;
   a {
     display: flex;
     margin-bottom: 10px;
@@ -22,7 +22,7 @@ const Sharers = styled.div`
       height: 20px;
     }
   }
-`;
+`
 
 const WrapChapter = styled.div`
   background-color: black;
@@ -57,7 +57,7 @@ const WrapChapter = styled.div`
         font-size: 3vw;
         padding-bottom: 1.8vw;
         line-height: 1;
-        font-family: "franklin-gothic-urw", helvetica, arial, verdana,
+        font-family: 'franklin-gothic-urw', helvetica, arial, verdana,
           sans-serif;
 
         small {
@@ -74,7 +74,7 @@ const WrapChapter = styled.div`
       }
     }
   }
-`;
+`
 
 const WrapVideo = styled.div`
   position: relative;
@@ -93,7 +93,7 @@ const WrapVideo = styled.div`
   &.wrap-home {
     /* margin-top: 75px; */
     &::after {
-      content: "";
+      content: '';
       background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
       display: block;
       position: absolute;
@@ -140,6 +140,11 @@ const WrapVideo = styled.div`
     display: none;
     @media (max-width: 800px) {
       display: block;
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
     }
   }
 
@@ -182,7 +187,7 @@ const WrapVideo = styled.div`
       background-color: rgba(0, 0, 0, 0.6);
     }
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       z-index: 10;
       background-image: linear-gradient(
@@ -306,7 +311,7 @@ const WrapVideo = styled.div`
       font-size: 1.125vw;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
       margin-top: 0.1vw;
-      font-family: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;
+      font-family: 'franklin-gothic-urw', helvetica, arial, verdana, sans-serif;
       @media (max-width: 1400px) {
         font-size: 1.25vw;
       }
@@ -328,9 +333,9 @@ const WrapVideo = styled.div`
       }
     }
   }
-`;
+`
 
-const templateChilds = (quantity) => {
+const templateChilds = quantity => {
   return `
     &:nth-of-type(${quantity}n + 1) {
       transform-origin: left center;
@@ -344,12 +349,12 @@ const templateChilds = (quantity) => {
         transform-origin: center center;
       }
     }
-  `;
-};
+  `
+}
 
 const Wrap = styled.div`
   overflow: hidden;
-  font-family: "franklin-gothic-urw", helvetica, arial, verdana, sans-serif;
+  font-family: 'franklin-gothic-urw', helvetica, arial, verdana, sans-serif;
   position: relative;
 
   .video-proportion-16by9 {
@@ -382,7 +387,7 @@ const Wrap = styled.div`
       overflow: hidden;
     }
   }
-`;
+`
 
 const WrapMenu = styled.div`
   background-color: #191818;
@@ -397,10 +402,10 @@ const WrapMenu = styled.div`
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
 
-    grid-template-columns: ${(props) =>
+    grid-template-columns: ${props =>
       props.chaptersPerRow
         ? () => `repeat(${props.chaptersPerRow}, 1fr)`
-        : "repeat(3, 1fr)"};
+        : 'repeat(3, 1fr)'};
 
     grid-gap: 10px;
     padding: 18px 4% 12px 4%;
@@ -446,7 +451,7 @@ const WrapMenu = styled.div`
           bottom: 0;
           left: 0;
           right: 0;
-          content: "";
+          content: '';
           height: 50%;
           background-image: linear-gradient(
             rgba(0, 0, 0, 0),
@@ -456,7 +461,7 @@ const WrapMenu = styled.div`
         }
       }
 
-      ${(props) => templateChilds(props.chaptersPerRow)}
+      ${props => templateChilds(props.chaptersPerRow)}
 
       &:hover {
         &.available {
@@ -564,7 +569,7 @@ const WrapMenu = styled.div`
             align-items: flex-end;
           }
           &::after {
-            content: "";
+            content: '';
             position: absolute;
             left: 0;
             right: 0;
@@ -580,7 +585,7 @@ const WrapMenu = styled.div`
         h3 {
           font-size: 1.4vw;
           line-height: 1;
-          font-family: "franklin-gothic-urw", helvetica, arial, verdana,
+          font-family: 'franklin-gothic-urw', helvetica, arial, verdana,
             sans-serif;
           font-weight: normal;
           @media (max-width: 800px) {
@@ -613,7 +618,7 @@ const WrapMenu = styled.div`
       }
     }
   }
-`;
+`
 
 const WrapMenuFull = styled.div`
   background-color: #000;
@@ -662,7 +667,7 @@ const WrapMenuFull = styled.div`
           bottom: 0;
           left: 0;
           right: 0;
-          content: "";
+          content: '';
           height: 50%;
           background-image: linear-gradient(
             rgba(0, 0, 0, 0),
@@ -780,7 +785,7 @@ const WrapMenuFull = styled.div`
         h3 {
           font-size: 1.4vw;
           line-height: 1;
-          font-family: "franklin-gothic-urw", helvetica, arial, verdana,
+          font-family: 'franklin-gothic-urw', helvetica, arial, verdana,
             sans-serif;
           font-weight: normal;
           @media (max-width: 800px) {
@@ -796,7 +801,7 @@ const WrapMenuFull = styled.div`
         p {
           font-size: 1vw;
           line-height: 1;
-          font-family: "franklin-gothic-urw", helvetica, arial, verdana,
+          font-family: 'franklin-gothic-urw', helvetica, arial, verdana,
             sans-serif;
 
           @media (max-width: 800px) {
@@ -816,5 +821,5 @@ const WrapMenuFull = styled.div`
       }
     }
   }
-`;
-export { Wrap, WrapVideo, WrapMenu, WrapChapter, WrapMenuFull, Sharers };
+`
+export { Wrap, WrapVideo, WrapMenu, WrapChapter, WrapMenuFull, Sharers }
