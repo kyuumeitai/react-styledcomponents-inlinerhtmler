@@ -23,6 +23,7 @@ const Chapter = ({ chapter, ...props }) => {
             <h3>
               <small>{chapter.pretitle}</small>
               {chapter.name}
+              {chapter.aftername && <small>{chapter.aftername}</small>}
             </h3>
             <p>{chapter.title}</p>
           </div>

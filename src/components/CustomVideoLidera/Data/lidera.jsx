@@ -15,10 +15,10 @@ const metadata = {
   logo:
     'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
-  supplemental: 'Lidera: Mujeres, trabajo y nuevos liderazgos.',
+  supplemental: 'Mujeres, trabajo y nuevos liderazgos',
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera-paula/00-teaser/',
+  mainlink: 'https://www.latercera.com/lidera/00-teaser/',
   secondarylink: 'https://www.latercera.com/paula/noticia/nota-info/',
   btntext: 'Reproducir',
 }
@@ -30,6 +30,8 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 01',
     name: 'Elisa Loncón',
+    aftername:
+      'Doctora en Humanidades y Lingüística y primera presidenta de la CC',
     title: 'Interculturalidad, plurinacionalidad y nuevos liderazgos',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
@@ -43,6 +45,8 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 02',
     name: 'Teresa Matamala',
+    aftername:
+      'Gerenta general de la consultora Entorno Social y socia fundadora de REDMAD',
     title: 'Mujeres y el avance de sus carreras profesionales',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
@@ -55,6 +59,7 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 03',
     name: 'Vania Figueroa',
+    aftername: 'Académica y neurocientífica',
     title: 'Neurociencia con perspectiva de género',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
@@ -68,6 +73,7 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 04',
     name: 'Claudia Bobadilla',
+    aftername: 'Directora de empresas y fundadora de Puente Social',
     title: 'Fomentar la corresponsabilidad desde el sector privado',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
@@ -81,6 +87,7 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 05',
     name: 'Laura Pérez',
+    aftername: 'Ph.D. en Astrofísica',
     title: 'Cómo descentralizar la astronomía',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
@@ -94,6 +101,7 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 06',
     name: 'Marcela Bravo',
+    aftername: 'Gerenta General de Acción Empresas',
     title: 'Entender la sostenibilidad desde las empresas',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
@@ -107,6 +115,8 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 07',
     name: 'Maribel Vidal',
+    aftername:
+      'Vicepresidenta y Directora de Planificación Estratégica de McCann World Group',
     title: 'Claves para el liderazgo del futuro y la flexibilidad laboral',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
@@ -120,6 +130,7 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 08',
     name: 'Pilar Velasco',
+    aftername: 'Socia fundadora de Extend Comunicaciones',
     title: 'Políticas de género en una empresa B',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
@@ -131,12 +142,13 @@ const data = [
       'https://www.latercera.com/resizer/-wiA-L5zWrgcOj9IDSf8pdNL3RQ=/arc-anglerfish-arc2-prod-copesa/public/WATBI3KOZ5EWZOM7QB24ZFIRLI.jpg',
     status: ['soon'],
     pretitle: 'Capítulo 09',
-    name: 'Maria Ana Matthias',
-    title: 'Teletrabajo y la corresponsabilidad',
+    name: 'María Ana Matthias',
+    aftername: 'Directora de empresas y socia de REDMAD',
+    title: 'Teletrabajo y corresponsabilidad',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Pronto',
-    description: 'Teletrabajo y la corresponsabilidad',
+    description: 'Teletrabajo y corresponsabilidad',
   },
   {
     img:
@@ -144,6 +156,7 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 10',
     name: 'Pronto',
+    aftername: '',
     title: 'Pronto',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
@@ -152,12 +165,13 @@ const data = [
   },
 
   {
-    url: 'https://www.latercera.com/lidera-paula/00-teaser/',
+    url: 'https://www.latercera.com/lidera/00-teaser/',
     img:
       'https://www.latercera.com/resizer/r53hnahsLf8U91vabXvkYd1PlvM=/arc-anglerfish-arc2-prod-copesa/public/ODA7RTTR4JFUJOEEK6M27OZXQQ.jpg',
     status: ['new', 'available'],
     pretitle: 'Capítulo 00',
     name: 'Teaser',
+    aftername: '',
     title:
       'Lidera, el nuevo ciclo de conversaciones de La Tercera y Revista Paula',
     preview:
