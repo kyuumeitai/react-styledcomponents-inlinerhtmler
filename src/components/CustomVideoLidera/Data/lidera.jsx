@@ -155,7 +155,7 @@ const data = [
       'https://www.latercera.com/resizer/gLPKCjcrsequ7BKQVJmOG4V51ic=/arc-anglerfish-arc2-prod-copesa/public/C7VQRQSJXZF6JCKKC5VYJEUREM.jpg',
     status: ['soon'],
     pretitle: 'Capítulo 10',
-    name: 'Pronto',
+    name: 'Alessia Injoque',
     aftername: '',
     title: 'Pronto',
     preview:
@@ -179,7 +179,7 @@ const data = [
     label: 'Nuevo',
     description:
       'Lidera, el nuevo ciclo de conversaciones de La Tercera y Revista Paula, busca indagar en las amplias temáticas y desafíos que giran en torno a las mujeres y el trabajo remunerado y no remunerado. A través de la mirada de 10 especialistas tanto del mundo público como privado, se exponen temas de relevancia social, de los cuales mucho se ha hablado, aunque en pocas instancias se han abordado con una perspectiva integral y de género. Entre ellos, los nuevos liderazgos, la inclusión de mujeres en la alta dirección y en la ciencia, la corresponsabilidad parental, las alternativas al sistema actual de cuidados y de qué manera el sector privado puede y debe aportar al desarrollo de las condiciones equitativas entre hombres y mujeres.',
-    iframe: 'https://rudo.video/vod/bNWOnv',
+    iframe: 'https://rudo.video/vod/bObAfb',
   },
 ]
 
