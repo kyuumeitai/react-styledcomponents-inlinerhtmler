@@ -26,6 +26,7 @@ const Sharers = styled.div`
 
 const WrapChapter = styled.div`
   background-color: black;
+
   .video-wrapper {
     display: grid;
     align-items: center;
@@ -85,6 +86,7 @@ const WrapVideo = styled.div`
   @media (max-width: 800px) {
     height: 80vh;
   }
+
   &.wrap-small {
     width: 100%;
     height: 35vh;
@@ -394,6 +396,10 @@ const WrapMenu = styled.div`
   position: relative;
   z-index: 4;
   padding-bottom: 4vw;
+  img {
+    width: 100%;
+    display: block;
+  }
   &.wrapchapters-available {
     padding-bottom: 0px;
   }
@@ -661,6 +667,7 @@ const WrapMenuFull = styled.div`
       border-radius: 10px;
       overflow: hidden;
       position: relative;
+
       @media (max-width: 800px) {
         &::after {
           position: absolute;
@@ -759,6 +766,7 @@ const WrapMenuFull = styled.div`
           width: 42%;
           transition: all 0.3s;
           transition-delay: 1s;
+
           @media (max-width: 800px) {
             width: 100%;
             position: relative;
