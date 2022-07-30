@@ -1,66 +1,68 @@
 import React from 'react'
-import LogoBox from '../Logo2022Box'
-import LogoWide from '../Logo2022Wide'
+import LogoTiemposBlanco from '../LogoTiemposBlanco'
+import LogoEdicion72 from '../LogoEdicion72'
 import styled from 'styled-components'
-import { LaTercera } from '@labcon/copesa-logos'
-import Por from '../Por'
-
-const LogoWrap = styled.div`
-  .logowide{
-    display: block;
-  }
-  .logobox{
-    display: none;
-  }
-  padding-top: 15px;
-  padding-bottom: 15px;
-
-  @media(max-width: 768px) {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    .logowide{
-      display: none;
-    }
-    .logobox{
-      display: block;
-    }
-  }
-}
-`
 
 const Wrap = styled.div`
   grid-column: 1 / -1 !important;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: repeat(12, 1fr);
   gap: 1rem;
-  > div {
+  background-color: black;
+  padding: 1rem;
+  /* > div {
     grid-column: span 1 !important;
     > div {
       grid-column: span 1 !important;
     }
+  } */
+  .logoWrap {
+    grid-area: 1 / 1 / 2 / 4;
+  }
+  .sectionWrap {
+    grid-area: 1 / 4 / 2 / 10;
+  }
+  .presentedWrap {
+    grid-area: 1 / 10 / 2 / 13;
   }
   @media (max-width: 768px) {
-    grid-template-columns: 120px 1fr;
+    .logoWrap {
+      grid-area: 1 / 1 / 2 / 8;
+    }
+    .sectionWrap {
+      grid-area: 2 / 1 / 3 / 8;
+    }
+    .presentedWrap {
+      grid-area: 1 / 9 / 3 / 13;
+    }
   }
 `
 
-const Presented = styled.div`
+const LogoWrap = styled.div`
   display: flex;
-  justify-content: right;
+  justify-content: flex-start;
   align-items: center;
+  .logoTiempos {
+    max-height: 40px;
+  }
+`
+
+const SectionWrap = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .logoEdicion {
+    max-height: 25px;
+  }
 `
 
 const PresentedWrap = styled.div`
-  background-color: white;
-  padding: 10px;
   span {
     font-size: 11px;
-    font-size: 0.8rem;
-    color: #000;
+    color: white;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', franklin-gothic-urw, helvetica, arial,
       verdana, sans-serif;
-    margin-right: 6px;
     display: block;
     text-align: right;
   }
@@ -72,79 +74,52 @@ const PresentedWrap = styled.div`
     }
   }
 `
-const Section = styled.div`
-  display: block;
-  padding: 15px;
-  @media (max-width: 768px) {
-    padding: 4px;
-  }
-  &.ltpm {
-    padding-bottom: 0;
-  }
-  svg {
-    max-width: 100%;
-    height: 200px;
-    max-height: 80px;
-    @media (max-width: 768px) {
-      max-height: 40px;
-    }
+
+const BrandWrap = styled.div`
+  float: right;
+  a {
+    padding: 5px;
+    background-color: white;
+    display: block;
   }
 `
 
-const SectionWrap = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
-
-const RestWrap = styled.div`
-  background-color: ${props => (props.bgColor ? props.bgColor : 'black')};
-  display: grid;
-  grid-template-columns: 1fr 200px;
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr 120px;
-  }
-`
-
-const PorWrap = styled.div``
-const OverWrap = styled.div``
-
-const Custom2022Widget = ({ bgColor = '#000' }) => {
+const CustomTiemposLT = ({ bgColor = '#000' }) => {
   return (
-    <OverWrap>
-      <Wrap>
-        <LogoWrap>
-          <LogoBox className="logobox" mainColor={bgColor} />
-          <LogoWide className="logowide" mainColor={bgColor} />
-        </LogoWrap>
-        <RestWrap bgColor={bgColor}>
-          <SectionWrap>
-            <Section className="ltpm">
-              <LaTercera schema="light" />
-            </Section>
-          </SectionWrap>
-          <Presented>
-            <PresentedWrap>
-              <span>Presentado por: </span>
-              <a
-                href="https://www.ivitalia.cl/"
-                target="_blank"
-                rel="noopener noreferrer">
-                <img
-                  src="https://www.latercera.com/resizer/PYQxSGhSv9HpkjNGocj701g8cDE=/arc-anglerfish-arc2-prod-copesa/public/J2TK5HCGWVEA5L36DRDQEYSO2U.png
-"
-                  alt="Vitalia"
-                />
-              </a>
-            </PresentedWrap>
-          </Presented>
-        </RestWrap>
-      </Wrap>
-      <PorWrap>
-        <Por brand={<LaTercera schema="white" />} />
-      </PorWrap>
-    </OverWrap>
+    <Wrap>
+      <LogoWrap className="logoWrap">
+        <LogoTiemposBlanco className="logoTiempos" mainColor={bgColor} />
+      </LogoWrap>
+      <SectionWrap className="sectionWrap">
+        <LogoEdicion72 className="logoEdicion" mainColor={bgColor} />
+      </SectionWrap>
+      <PresentedWrap className="presentedWrap">
+        <span>Presentado por:</span>
+        <BrandWrap className="main">
+          <a
+            href="https://tanner.cl/?utm_source=latercera&utm_medium=web&utm_campaign=widgetHomeLT"
+            target="_blank"
+            rel="noopener noreferrer">
+            <img
+              src="https://www.latercera.com/resizer/dg5yTfkOZ4rkYFbdBxXXdG8fmr0=/arc-anglerfish-arc2-prod-copesa/public/6YBPUQZX7VESFITBZ6Z2DRPVO4.png"
+              alt="Tanner"
+            />
+          </a>
+        </BrandWrap>
+        {/* <BrandWrap className="secondary">
+          <a
+            href="https://www.ivitalia.cl/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <img
+              src="https://www.latercera.com/resizer/PYQxSGhSv9HpkjNGocj701g8cDE=/arc-anglerfish-arc2-prod-copesa/public/J2TK5HCGWVEA5L36DRDQEYSO2U.png"
+              alt="Vitalia"
+            />
+          </a>
+        </BrandWrap> */}
+      </PresentedWrap>
+    </Wrap>
   )
 }
 
-export default Custom2022Widget
+export default CustomTiemposLT
