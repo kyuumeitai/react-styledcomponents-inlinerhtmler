@@ -1,6 +1,6 @@
 import React from 'react'
 import LogoTiemposColor from '../LogoTiemposColor'
-import { Paula } from '@labcon/copesa-logos'
+import LogoPoder from '../LogoPoder'
 import styled from 'styled-components'
 
 const Wrap = styled.div`
@@ -87,9 +87,9 @@ const BrandWrap = styled.div`
   &.secondary {
     margin-top: 5px;
     img {
-      max-height: 20px;
+      max-height: 25px;
       @media (max-width: 768px) {
-        max-height: 10px;
+        max-height: 15px;
       }
     }
   }
@@ -105,7 +105,7 @@ const CustomTiemposLT = ({ bgColor = '#000' }) => {
   return (
     <Wrap>
       <LogoWrap className="logoWrap">
-        <Paula className="logoPoder" schema="light" width="140px" />
+        <LogoPoder className="logoPoder" />
       </LogoWrap>
       <SectionWrap className="sectionWrap">
         <LogoTiemposColor className="logoTiempos" mainColor={bgColor} />
@@ -126,12 +126,12 @@ const CustomTiemposLT = ({ bgColor = '#000' }) => {
           </BrandWrap>
           <BrandWrap className="secondary">
             <a
-              href="https://www.tricot.cl/?utm_source=latercera&utm_medium=web&utm_campaign=widgetHomeLT"
+              href="https://www.isinergia.cl/?utm_source=latercera&utm_medium=web&utm_campaign=widgetHomeLT"
               target="_blank"
               rel="noopener noreferrer">
               <img
-                src="https://www.latercera.com/resizer/xPcoWuVK69_SPRr_XYIST5XuAIY=/arc-anglerfish-arc2-prod-copesa/public/5OVWWMPNVFFYVAM7O5MQNQQZ5A.png"
-                alt="Arauco"
+                src="https://www.latercera.com/resizer/w-9ZqRH0THu1rxCZiq3QzY1ZucI=/arc-anglerfish-arc2-prod-copesa/public/BX45YPOWGFGLPEBQH3EU5QDDOI.png"
+                alt="Sinergia"
               />
             </a>
           </BrandWrap>
