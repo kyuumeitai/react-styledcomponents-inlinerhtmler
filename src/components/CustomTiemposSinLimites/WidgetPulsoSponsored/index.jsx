@@ -124,7 +124,10 @@ const CustomTiemposLT = ({ bgColor = '#000' }) => {
             </a>
           </BrandWrap>
           <BrandWrap className="secondary">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://zocosantiago.cl/?utm_source=la_tercera&utm_medium=cpm&utm_campaign=ed_especial_latercera"
+              target="_blank"
+              rel="noopener noreferrer">
               <img
                 src="https://www.latercera.com/resizer/HIto9rmnZfRe04C80NhffFq0HRM=/arc-anglerfish-arc2-prod-copesa/public/YS4SNN4GHRF4NJYUCBJTUKSZ2Q.png"
                 alt="Zoco"
