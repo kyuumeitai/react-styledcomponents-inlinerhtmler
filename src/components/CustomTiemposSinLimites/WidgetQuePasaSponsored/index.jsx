@@ -81,7 +81,6 @@ const PresentedWrap = styled.div`
 const BrandWrap = styled.div`
   a {
     padding: 5px;
-    background-color: white;
     display: block;
   }
   &.secondary {
@@ -119,7 +118,7 @@ const CustomTiemposLT = ({ bgColor = '#000' }) => {
               target="_blank"
               rel="noopener noreferrer">
               <img
-                src="https://www.latercera.com/resizer/dg5yTfkOZ4rkYFbdBxXXdG8fmr0=/arc-anglerfish-arc2-prod-copesa/public/6YBPUQZX7VESFITBZ6Z2DRPVO4.png"
+                src="https://www.latercera.com/resizer/IT0UfvMI_E-8QrhcHx21aJIPoZs=/arc-anglerfish-arc2-prod-copesa/public/YBT6WXJRPVHQXH2HF5ARPND2K4.png"
                 alt="Tanner"
               />
             </a>
@@ -130,7 +129,7 @@ const CustomTiemposLT = ({ bgColor = '#000' }) => {
               target="_blank"
               rel="noopener noreferrer">
               <img
-                src="https://www.latercera.com/resizer/Vg6b7cnIL0S-Us7BNgDoB-LShNc=/arc-anglerfish-arc2-prod-copesa/public/L7IIJZK4WNH3VESN4OY3KSRAC4.png"
+                src="https://www.latercera.com/resizer/Qvl7AVUVMaLlNixXkMNZ6TQY6cY=/arc-anglerfish-arc2-prod-copesa/public/KXUXIXKNNZE63ISWRLBUGTITMI.png"
                 alt="Arauco"
               />
             </a>
