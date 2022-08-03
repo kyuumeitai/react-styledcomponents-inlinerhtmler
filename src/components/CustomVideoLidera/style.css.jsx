@@ -330,11 +330,15 @@ const WrapVideo = styled.div`
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
         margin: 1vw 0;
         @media (max-width: 800px) {
-          font-size: 12px;
+          font-size: 20px;
         }
       }
       .synopsis {
         color: #999;
+        @media (max-width: 800px) {
+          font-size: 14px;
+          line-height: 1.1;
+        }
       }
     }
   }
