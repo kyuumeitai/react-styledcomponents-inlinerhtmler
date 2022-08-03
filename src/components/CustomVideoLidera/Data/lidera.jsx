@@ -18,26 +18,31 @@ const metadata = {
   supplemental: 'Mujeres, trabajo y nuevos liderazgos',
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera/00-teaser/',
+  mainlink: 'https://www.latercera.com/lidera/01-elisa-loncon/',
   secondarylink: 'https://www.latercera.com/paula/noticia/nota-info/',
   btntext: 'Reproducir',
 }
 
 const data = [
   {
+    url: 'https://www.latercera.com/lidera/01-elisa-loncon/',
     img:
       'https://www.latercera.com/resizer/0fTiuYpRKuCnSm073o62mZeAnTU=/arc-anglerfish-arc2-prod-copesa/public/KDYWMTR2CRFDLIETKH74WFCWQA.jpg',
-    status: ['soon'],
+    status: ['new', 'available'],
     pretitle: 'Capítulo 01',
     name: 'Elisa Loncón',
     aftername:
       'Doctora en Humanidades y Lingüística y primera presidenta de la CC',
     title: 'Interculturalidad, plurinacionalidad y nuevos liderazgos',
     preview:
-      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Pronto',
-    description:
-      'Interculturalidad, nuevos liderazgos, nuevas maneras de hacer política y conflicto en la Araucanía',
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap01-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En esta conversación íntima, la lingüista y expresidenta de la Convención Constitucional, Elisa Loncón, da cuenta de su experiencia liderando el proceso Constituyente y las múltiples instancias de discriminación a las que se vio enfrentada. Se abordan temas como el liderazgo desde la ternura y la humanidad; y la importancia de contar con la plurinacionalidad en la nueva Constitución del país. Además, apunta al diálogo desde la interculturalidad para abordar la problemática en la Macrozona sur.</p> 
+    
+    <p>“Los nuevos liderazgos tienen que priorizar la humanidad, una apertura a lo distinto y ser interculturales. Y necesitamos un empresariado que considere los derechos de la naturaleza y los derechos fundamentales de las personas”, cierra. </p>
+    
+    <p>Revisa <a href="https://www.youtube.com/watch?v=l61N1US2Bvk" target="_blank" rel="noopener noreferrer">la versión extendida en YouTube</a>.</p>`,
+    iframe: 'https://rudo.video/vod/bOsE1T',
   },
   {
     img:

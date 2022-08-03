@@ -43,12 +43,12 @@ const Player = ({ chapter }) => {
           <h2>
             <small>{pretitle}:</small> {name}
           </h2>
-          <p dangerouslySetInnerHTML={{ __html: description }}></p>
+          <div dangerouslySetInnerHTML={{ __html: description }}></div>
         </div>
         <Sharer
           url={url}
-          description={`${pretitle}: ${name} ${title} - Lidera Paula`}
-          hashtags="LideraPaula"
+          description={`${pretitle}: ${name} ${title} - Lidera - La Tercera`}
+          hashtags="Lidera"
         />
       </div>
     </WrapChapter>

@@ -26,7 +26,10 @@ const Sharers = styled.div`
 
 const WrapChapter = styled.div`
   background-color: black;
-
+  a {
+    color: white;
+    text-decoration: underline;
+  }
   .video-wrapper {
     display: grid;
     align-items: center;
