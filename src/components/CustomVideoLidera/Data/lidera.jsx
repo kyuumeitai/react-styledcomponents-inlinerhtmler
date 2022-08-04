@@ -46,6 +46,7 @@ const data = [
     
     <p>Revisa <a href="https://www.youtube.com/watch?v=l61N1US2Bvk" target="_blank" rel="noopener noreferrer">la versión extendida en YouTube</a>.</p>`,
     iframe: 'https://rudo.video/vod/bOsE1T',
+    extendedVideo: 'https://www.youtube.com/watch?v=l61N1US2Bvk',
   },
   {
     img:
