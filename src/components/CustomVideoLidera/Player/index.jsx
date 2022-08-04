@@ -32,7 +32,7 @@ const ViewOnYoutubeButton = ({ url }) => {
   )
 }
 
-const Player = ({ chapter }) => {
+const Player = ({ chapter, sitemetadata }) => {
   const {
     url,
     img,
@@ -46,6 +46,8 @@ const Player = ({ chapter }) => {
     iframe,
     extendedVideo,
   } = chapter
+
+  const { form } = sitemetadata
 
   return (
     <WrapChapter>
@@ -82,6 +84,11 @@ const Player = ({ chapter }) => {
           description={`${pretitle}: ${name} ${title} - Lidera - La Tercera`}
           hashtags="Lidera"
         />
+        {form && (
+          <div
+            className="theform"
+            dangerouslySetInnerHTML={{ __html: form }}></div>
+        )}
       </div>
     </WrapChapter>
   )

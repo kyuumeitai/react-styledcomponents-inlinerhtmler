@@ -24,6 +24,7 @@ const metadata = {
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
+  form: `<pnespwgtplaceholder holdername="embedded_1658958116085"></pnespwgtplaceholder>`,
 }
 
 const data = [

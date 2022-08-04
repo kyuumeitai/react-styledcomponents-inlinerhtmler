@@ -46,9 +46,9 @@ const WrapChapter = styled.div`
     color: white;
     padding: 18px 4% 12px 4%;
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 40% 1fr 300px;
     grid-gap: 22px;
-    align-items: center;
+    align-items: flex-start;
 
     @media (max-width: 800px) {
       grid-template-columns: 1fr 45px;
@@ -76,6 +76,8 @@ const WrapChapter = styled.div`
       p {
         padding-bottom: 1em;
       }
+    }
+    .theform {
     }
   }
 `
