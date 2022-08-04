@@ -2,7 +2,7 @@ import React from 'react'
 import LogoBox from '../Logo2022Box'
 import LogoWide from '../Logo2022Wide'
 import styled from 'styled-components'
-import { Paula } from '@labcon/copesa-logos'
+import { Paula } from 'copesa-logos'
 
 const LogoWrap = styled.div`
   .logowide{

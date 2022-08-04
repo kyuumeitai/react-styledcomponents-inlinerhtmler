@@ -2,7 +2,7 @@ import React from 'react'
 import LogoBox from '../Logo2022Box'
 import LogoWide from '../Logo2022Wide'
 import styled from 'styled-components'
-import { Pulso, LaTercera } from '@labcon/copesa-logos'
+import { Pulso, LaTercera } from 'copesa-logos'
 import Por from '../Por'
 
 const LogoWrap = styled.div`

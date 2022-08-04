@@ -1,6 +1,6 @@
 import React from 'react'
 import LogoTiemposColor from '../LogoTiemposColor'
-import { Culto } from '@labcon/copesa-logos'
+import { Culto } from 'copesa-logos'
 import styled from 'styled-components'
 
 const Wrap = styled.div`

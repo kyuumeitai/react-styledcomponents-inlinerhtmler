@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
-import { Culto } from '@labcon/copesa-logos'
+import { Culto } from 'copesa-logos'
 import LogoLolla from '../output/LogoLolla'
 import TextCaminoA from '../output/TextCaminoA.jsx'
 
