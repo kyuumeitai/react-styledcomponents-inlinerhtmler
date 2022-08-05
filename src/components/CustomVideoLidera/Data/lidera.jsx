@@ -46,7 +46,7 @@ const data = [
     pretitle: 'Capítulo 02',
     name: 'Teresa Matamala',
     aftername:
-      'Gerenta general de la consultora Entorno Social y socia fundadora de REDMAD',
+      'Experta en asuntos corporativos y sostenibilidad y socia de REDMAD',
     title: 'Mujeres y el avance de sus carreras profesionales',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
