@@ -15,29 +15,39 @@ const metadata = {
   logo:
     'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
-  supplemental: 'Mujeres, trabajo y nuevos liderazgos',
+  supplemental:
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 1: Elisa Loncón',
+
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera/00-teaser/',
-  secondarylink: 'https://www.latercera.com/paula/noticia/nota-info/',
+  mainlink: 'https://www.latercera.com/lidera/01-elisa-loncon/',
+  secondarylink:
+    'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
+  form: `<pnespwgtplaceholder holdername="embedded_1658958116085"></pnespwgtplaceholder>`,
 }
 
 const data = [
   {
+    url: 'https://www.latercera.com/lidera/01-elisa-loncon/',
     img:
       'https://www.latercera.com/resizer/0fTiuYpRKuCnSm073o62mZeAnTU=/arc-anglerfish-arc2-prod-copesa/public/KDYWMTR2CRFDLIETKH74WFCWQA.jpg',
-    status: ['soon'],
+    status: ['new', 'available'],
     pretitle: 'Capítulo 01',
     name: 'Elisa Loncón',
     aftername:
       'Doctora en Humanidades y Lingüística y primera presidenta de la CC',
     title: 'Interculturalidad, plurinacionalidad y nuevos liderazgos',
     preview:
-      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Pronto',
-    description:
-      'Interculturalidad, nuevos liderazgos, nuevas maneras de hacer política y conflicto en la Araucanía',
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap01-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En esta conversación íntima, la lingüista y expresidenta de la Convención Constitucional, Elisa Loncón, da cuenta de su experiencia liderando el proceso Constituyente y las múltiples instancias de discriminación a las que se vio enfrentada. Se abordan temas como el liderazgo desde la ternura y la humanidad; y la importancia de contar con la plurinacionalidad en la nueva Constitución del país. Además, apunta al diálogo desde la interculturalidad para abordar la problemática en la Macrozona sur.</p> 
+    
+    <p>“Los nuevos liderazgos tienen que priorizar la humanidad, una apertura a lo distinto y ser interculturales. Y necesitamos un empresariado que considere los derechos de la naturaleza y los derechos fundamentales de las personas”, cierra. </p>
+    
+    <p>Revisa <a href="https://www.youtube.com/watch?v=l61N1US2Bvk" target="_blank" rel="noopener noreferrer">la versión extendida en YouTube</a>.</p>`,
+    iframe: 'https://rudo.video/vod/bOsE1T',
+    extendedVideo: 'https://www.youtube.com/watch?v=l61N1US2Bvk',
   },
   {
     img:
@@ -155,7 +165,7 @@ const data = [
       'https://www.latercera.com/resizer/gLPKCjcrsequ7BKQVJmOG4V51ic=/arc-anglerfish-arc2-prod-copesa/public/C7VQRQSJXZF6JCKKC5VYJEUREM.jpg',
     status: ['soon'],
     pretitle: 'Capítulo 10',
-    name: 'Pronto',
+    name: 'Alessia Injoque',
     aftername: '',
     title: 'Pronto',
     preview:
@@ -179,7 +189,7 @@ const data = [
     label: 'Nuevo',
     description:
       'Lidera, el nuevo ciclo de conversaciones de La Tercera y Revista Paula, busca indagar en las amplias temáticas y desafíos que giran en torno a las mujeres y el trabajo remunerado y no remunerado. A través de la mirada de 10 especialistas tanto del mundo público como privado, se exponen temas de relevancia social, de los cuales mucho se ha hablado, aunque en pocas instancias se han abordado con una perspectiva integral y de género. Entre ellos, los nuevos liderazgos, la inclusión de mujeres en la alta dirección y en la ciencia, la corresponsabilidad parental, las alternativas al sistema actual de cuidados y de qué manera el sector privado puede y debe aportar al desarrollo de las condiciones equitativas entre hombres y mujeres.',
-    iframe: 'https://rudo.video/vod/bNWOnv',
+    iframe: 'https://rudo.video/vod/bObAfb',
   },
 ]
 

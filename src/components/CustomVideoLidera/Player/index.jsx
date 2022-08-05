@@ -2,7 +2,37 @@ import React from 'react'
 import { WrapChapter } from '../style.css'
 import Sharer from '../Sharer'
 
-const Player = ({ chapter }) => {
+import styled from 'styled-components'
+
+const Btn = styled.a`
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 3px;
+  background-color: #c00;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  font-stretch: 100%;
+  font-weight: 500;
+  padding: 10px 16px;
+  font-family: Roboto, Noto, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  text-align: center;
+  margin-bottom: 2rem;
+`
+
+const ViewOnYoutubeButton = ({ url }) => {
+  return (
+    <Btn href={url} target="_blank" rel="noopener noreferrer">
+      Ver conversación extendida en YouTube
+    </Btn>
+  )
+}
+
+const Player = ({ chapter, sitemetadata }) => {
   const {
     url,
     img,
@@ -14,7 +44,10 @@ const Player = ({ chapter }) => {
     label,
     description,
     iframe,
+    extendedVideo,
   } = chapter
+
+  const { form } = sitemetadata
 
   return (
     <WrapChapter>
@@ -43,13 +76,19 @@ const Player = ({ chapter }) => {
           <h2>
             <small>{pretitle}:</small> {name}
           </h2>
-          <p dangerouslySetInnerHTML={{ __html: description }}></p>
+          {extendedVideo && <ViewOnYoutubeButton url={extendedVideo} />}
+          <div dangerouslySetInnerHTML={{ __html: description }}></div>
         </div>
         <Sharer
           url={url}
-          description={`${pretitle}: ${name} ${title} - Lidera Paula`}
-          hashtags="LideraPaula"
+          description={`${pretitle}: ${name} ${title} - Lidera - La Tercera`}
+          hashtags="Lidera"
         />
+        {form && (
+          <div
+            className="theform"
+            dangerouslySetInnerHTML={{ __html: form }}></div>
+        )}
       </div>
     </WrapChapter>
   )

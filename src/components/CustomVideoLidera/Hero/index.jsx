@@ -51,7 +51,9 @@ const MetaLayer = ({
         </div>
         <div className="info-wrapper">
           {supplemental && (
-            <div className="supplemental h-m">{supplemental}</div>
+            <div
+              className="supplemental h-m"
+              dangerouslySetInnerHTML={{ __html: supplemental }}></div>
           )}
           {synopsis && (
             <p

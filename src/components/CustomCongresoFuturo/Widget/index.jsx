@@ -2,7 +2,7 @@ import React from 'react'
 import LogoAprender from '../LogoAprenderAConvivir'
 import LogoCongresoFuturo from '../LogoCongresoFuturo'
 import styled from 'styled-components'
-import { QuePasa } from '@labcon/copesa-logos'
+import { QuePasa } from 'copesa-logos'
 
 const Wrap = styled.div`
   grid-column: 1 / -1 !important;

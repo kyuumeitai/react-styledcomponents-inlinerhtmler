@@ -26,6 +26,10 @@ const Sharers = styled.div`
 
 const WrapChapter = styled.div`
   background-color: black;
+  a {
+    color: white;
+    text-decoration: underline;
+  }
   .video-wrapper {
     display: grid;
     align-items: center;
@@ -42,9 +46,9 @@ const WrapChapter = styled.div`
     color: white;
     padding: 18px 4% 12px 4%;
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 40% 1fr 300px;
     grid-gap: 22px;
-    align-items: center;
+    align-items: flex-start;
 
     @media (max-width: 800px) {
       grid-template-columns: 1fr 45px;
@@ -73,6 +77,8 @@ const WrapChapter = styled.div`
         padding-bottom: 1em;
       }
     }
+    .theform {
+    }
   }
 `
 
@@ -85,6 +91,7 @@ const WrapVideo = styled.div`
   @media (max-width: 800px) {
     height: 80vh;
   }
+
   &.wrap-small {
     width: 100%;
     height: 35vh;
@@ -325,11 +332,15 @@ const WrapVideo = styled.div`
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
         margin: 1vw 0;
         @media (max-width: 800px) {
-          font-size: 12px;
+          font-size: 20px;
         }
       }
       .synopsis {
         color: #999;
+        @media (max-width: 800px) {
+          font-size: 14px;
+          line-height: 1.1;
+        }
       }
     }
   }
@@ -394,6 +405,10 @@ const WrapMenu = styled.div`
   position: relative;
   z-index: 4;
   padding-bottom: 4vw;
+  img {
+    width: 100%;
+    display: block;
+  }
   &.wrapchapters-available {
     padding-bottom: 0px;
   }
@@ -661,6 +676,7 @@ const WrapMenuFull = styled.div`
       border-radius: 10px;
       overflow: hidden;
       position: relative;
+
       @media (max-width: 800px) {
         &::after {
           position: absolute;
@@ -759,6 +775,7 @@ const WrapMenuFull = styled.div`
           width: 42%;
           transition: all 0.3s;
           transition-delay: 1s;
+
           @media (max-width: 800px) {
             width: 100%;
             position: relative;
