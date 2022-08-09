@@ -125,8 +125,7 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 07',
     name: 'Maribel Vidal',
-    aftername:
-      'Vicepresidenta y Directora de Planificación Estratégica de McCann World Group',
+    aftername: 'Vicepresidenta de McCann y de REDMAD',
     title: 'Claves para el liderazgo del futuro y la flexibilidad laboral',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
@@ -153,7 +152,7 @@ const data = [
     status: ['soon'],
     pretitle: 'Capítulo 09',
     name: 'María Ana Matthias',
-    aftername: 'Directora de empresas y socia de REDMAD',
+    aftername: 'Directora de empresas y de REDMAD',
     title: 'Teletrabajo y corresponsabilidad',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
