@@ -16,11 +16,11 @@ const metadata = {
     'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 2: Teresa Matamala',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 3: Vania Figueroa',
 
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera/02-teresa-matamala/',
+  mainlink: 'https://www.latercera.com/lidera/03-vania-figueroa/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -69,19 +69,22 @@ const data = [
     extendedVideo: 'https://youtu.be/ku2CB1EFsYM',
   },
   {
+    url: 'https://www.latercera.com/lidera/03-vania-figueroa/',
     img:
       'https://www.latercera.com/resizer/9TbKGLbbFxxiGiE7JnhQzBsylkM=/arc-anglerfish-arc2-prod-copesa/public/QLLDPV2IGZCEXGH5M6GAALS7OU.jpg',
-    status: ['soon'],
+    status: ['available', 'new'],
     pretitle: 'Capítulo 03',
     name: 'Vania Figueroa',
     aftername: 'Académica y neurocientífica',
     title: 'Neurociencia con perspectiva de género',
     preview:
-      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Pronto',
-    description: 'Neurociencia con perspectiva de género',
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap03-comp.mp4',
+    label: 'Nuevo',
+    description:
+      '<p>En este capítulo, la doctora en neurociencia, Vania Figueroa, cuenta que a lo largo de la historia, hemos dado paso a una cultura dentro de la investigación científica que omite por completo el cuerpo femenino. Así mismo, se han validado mitos: “No existe el "cerebro masculino" y el "cerebro femenino", salvo por una leve diferencia en el tamaño, pero es a partir de estas ideas que se generan consecuencias sociales y políticas”, sostiene. Y es que, como profundiza, menos de un 30% de los investigadores a nivel mundial son mujeres. En Chile, apenas un 31% de las investigadoras cuenta con un doctorado. “A eso le llamamos "la tubería con fuga", porque en la medida que vamos subiendo de rango, no encontramos a mujeres en la ciencia. Pero esa fuga no es pasiva, se da gracias a un entorno que expulsa a las mujeres de la academia”, termina.</p> ',
+    iframe: 'https://rudo.video/vod/bOxCte',
+    extendedVideo: 'https://youtu.be/s_feVhGSqI8',
   },
-
   {
     img:
       'https://www.latercera.com/resizer/-vxpYBd8iNPPcGIMH_tiEuwe7j0=/arc-anglerfish-arc2-prod-copesa/public/2RKAZU2ATNF7DEVAJP2GNWI7TA.jpg',
