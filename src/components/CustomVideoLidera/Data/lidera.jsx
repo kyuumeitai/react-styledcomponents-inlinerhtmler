@@ -112,12 +112,24 @@ const data = [
     label: 'Pronto',
     description: 'Mujeres, ciencia y cómo descentralizar la astronomía',
   },
-
+  {
+    img:
+      'https://www.latercera.com/resizer/v7GWYIa48ep12KSCW9NMj4qNX6k=/arc-anglerfish-arc2-prod-copesa/public/ZVHCME6WIFBOBM4PE72PMCZVGI.jpg',
+    status: ['soon'],
+    pretitle: 'Capítulo 06',
+    name: 'Alessia Injoque',
+    aftername: '',
+    title: 'Liderazgos inclusivos y diversos',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Pronto',
+    description: 'Liderazgos inclusivos y diversos',
+  },
   {
     img:
       'https://www.latercera.com/resizer/BjjMfW4NW3vNhZrV-YJVfipyWhw=/arc-anglerfish-arc2-prod-copesa/public/X2FDT2XI2REQLEWOKNFN65CZMI.jpg',
     status: ['soon'],
-    pretitle: 'Capítulo 06',
+    pretitle: 'Capítulo 07',
     name: 'Marcela Bravo',
     aftername: 'Gerenta General de Acción Empresas',
     title: 'Entender la sostenibilidad desde las empresas',
@@ -131,7 +143,7 @@ const data = [
     img:
       'https://www.latercera.com/resizer/yjWZFvDNEjeGv8aX_ZDmj226wIw=/arc-anglerfish-arc2-prod-copesa/public/FN4LZI2ZYFBQDEFLC3DHH7MOUA.jpg',
     status: ['soon'],
-    pretitle: 'Capítulo 07',
+    pretitle: 'Capítulo 08',
     name: 'Maribel Vidal',
     aftername: 'Vicepresidenta de McCann y de REDMAD',
     title: 'Claves para el liderazgo del futuro y la flexibilidad laboral',
@@ -145,7 +157,7 @@ const data = [
     img:
       'https://www.latercera.com/resizer/wZ9Jy0Q5T2OgbrvTuWJIWeYnTjg=/arc-anglerfish-arc2-prod-copesa/public/WVDVEI4L75DVREU5KMET3R3OKY.jpg',
     status: ['soon'],
-    pretitle: 'Capítulo 08',
+    pretitle: 'Capítulo 09',
     name: 'Pilar Velasco',
     aftername: 'Socia fundadora de Extend Comunicaciones',
     title: 'Políticas de género en una empresa B',
@@ -158,7 +170,7 @@ const data = [
     img:
       'https://www.latercera.com/resizer/-wiA-L5zWrgcOj9IDSf8pdNL3RQ=/arc-anglerfish-arc2-prod-copesa/public/WATBI3KOZ5EWZOM7QB24ZFIRLI.jpg',
     status: ['soon'],
-    pretitle: 'Capítulo 09',
+    pretitle: 'Capítulo 10',
     name: 'María Ana Matthias',
     aftername: 'Directora de empresas y de REDMAD',
     title: 'Teletrabajo y corresponsabilidad',
@@ -166,19 +178,6 @@ const data = [
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Pronto',
     description: 'Teletrabajo y corresponsabilidad',
-  },
-  {
-    img:
-      'https://www.latercera.com/resizer/gLPKCjcrsequ7BKQVJmOG4V51ic=/arc-anglerfish-arc2-prod-copesa/public/C7VQRQSJXZF6JCKKC5VYJEUREM.jpg',
-    status: ['soon'],
-    pretitle: 'Capítulo 10',
-    name: 'Alessia Injoque',
-    aftername: '',
-    title: 'Pronto',
-    preview:
-      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Pronto',
-    description: '',
   },
 
   {
