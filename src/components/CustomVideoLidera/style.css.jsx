@@ -260,7 +260,7 @@ const WrapVideo = styled.div`
       transition-duration: 1300ms;
       transition-delay: 0ms;
       .logo-wrapper {
-        min-height: 7.2vw;
+        min-height: 6vw;
         position: relative;
         margin-bottom: 1.2vw;
 
