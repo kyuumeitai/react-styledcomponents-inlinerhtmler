@@ -230,9 +230,9 @@ const WrapVideo = styled.div`
     }
   }
   &.wrap-home .meta-layer {
-    bottom: 15%;
+    bottom: 0;
     @media (max-width: 1200px) {
-      bottom: 10%;
+      bottom: 0;
     }
   }
   &.wrap-home .wrapchapters-available {

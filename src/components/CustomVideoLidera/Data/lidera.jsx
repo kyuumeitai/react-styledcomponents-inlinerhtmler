@@ -16,11 +16,11 @@ const metadata = {
     'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 3: Vania Figueroa',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 4: <br />Claudia Bobadilla',
 
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera/03-vania-figueroa/',
+  mainlink: 'https://www.latercera.com/lidera/04-claudia-bobadilla/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -86,17 +86,21 @@ const data = [
     extendedVideo: 'https://youtu.be/s_feVhGSqI8',
   },
   {
+    url: 'https://www.latercera.com/lidera/04-claudia-bobadilla/',
     img:
       'https://www.latercera.com/resizer/-vxpYBd8iNPPcGIMH_tiEuwe7j0=/arc-anglerfish-arc2-prod-copesa/public/2RKAZU2ATNF7DEVAJP2GNWI7TA.jpg',
-    status: ['soon'],
+    status: ['available', 'new'],
     pretitle: 'Capítulo 04',
     name: 'Claudia Bobadilla',
     aftername: 'Directora de empresas y fundadora de Puente Social',
     title: 'Fomentar la corresponsabilidad desde el sector privado',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Pronto',
-    description: 'Corresponsabilidad en el sector privado',
+    label: 'Nuevo',
+    description:
+      '<p>En el cuarto capítulo de Lidera, conversamos con la directora de empresas y fundadora de Puente Social, Claudia Bobadilla, sobre corresponsabilidad, la crisis de los cuidados y de qué manera el sector privado puede y debe aportar mejorando las condiciones laborales para que todos los integrantes del núcleo familiar se involucren en la crianza. Además, la especialista dio cuenta de la falta de participación de los hombres en el postnatal parental desde la promulgación de la Ley. Revisa la versión completa en YouTube.</p>',
+    iframe: 'https://rudo.video/vod/bO0ukU',
+    extendedVideo: 'https://www.youtube.com/watch?v=pmLCrOw7V20',
   },
 
   {
