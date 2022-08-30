@@ -16,11 +16,11 @@ const metadata = {
     'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 4: <br />Claudia Bobadilla',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 5: <br />Laura Pérez',
 
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera/04-claudia-bobadilla/',
+  mainlink: 'https://www.latercera.com/lidera/05-laura-perez/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -104,17 +104,21 @@ const data = [
   },
 
   {
+    url: 'https://www.latercera.com/lidera/05-laura-perez/',
     img:
       'https://www.latercera.com/resizer/ttD3DRuqHvbS4OshCSz1aNJ-Mwc=/arc-anglerfish-arc2-prod-copesa/public/RBWJPMBHXJBHLDJL2IYSHBNEGU.jpg',
-    status: ['soon'],
+    status: ['new', 'available'],
     pretitle: 'Capítulo 05',
     name: 'Laura Pérez',
     aftername: 'Ph.D. en Astrofísica',
     title: 'Cómo descentralizar la astronomía',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Pronto',
-    description: 'Mujeres, ciencia y cómo descentralizar la astronomía',
+    label: 'Nuevo',
+    description:
+      '<p>La astrónoma y académica del departamento de Astronomía de la Universidad de Chile, Laura Pérez, conversó con la periodista Emiliana Pariente sobre cómo integrar la ciencia al relato social, el rol de la academia en acercar esta disciplina a la ciudadanía y la importancia de tener referentes para incentivar el desarrollo integral de estos rubros. Además, habló sobre los fenómenos astronómicos recientes, la descentralización de la ciencia y la importancia de la colaboración en el mundo de la investigación.</p>',
+    iframe: 'https://rudo.video/vod/bO2H3e',
+    extendedVideo: 'https://www.youtube.com/watch?v=XJa09TQvTz0',
   },
   {
     img:
