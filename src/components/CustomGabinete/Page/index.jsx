@@ -66,7 +66,7 @@ const Header = () => {
       <StLogo>
         <LogoGabineteChico />
       </StLogo>
-      <h1>Conoce a los 24 ministros del nuevo gobierno de Gabriel Boric</h1>
+      <h1>Conoce el nuevo equipo que acompañará al presidente Gabriel Boric</h1>
       <Sharer
         className="sharer"
         url="https://www.latercera.com/el-gabinete-de-gabriel-boric/"
@@ -74,12 +74,13 @@ const Header = () => {
         hashtags="Gabinete,GabineteGabrielBoric,GabineteBoricLT"
       />
       <Excerpt>
-        El Presidente electo anunció hoy lo que será su nuevo gabinete. Se trata
-        de 24 hombres y mujeres que desde el 11 de marzo asumirán en sus
-        carteras para dirigir las políticas públicas sectoriales respectivas y
-        darle forma a lo que será el primer gobierno del Frente Amplio. Estas
-        son las biografías de las nuevas autoridades que integrarán el Ejecutivo
-        durante los próximos cuatro años.
+        Tras la dura derrota que sufrió el Apruebo en el plebiscito de salida,
+        el gobierno de Gabriel Boric se vio obligado a realizar un profundo
+        ajuste en su gabinete. El cambio más relevante de todos probablemente
+        fue la salida de Izkia Siches del Ministerio del Interior, cartera a la
+        que ahora llega Carolina Tohá, una figura política de la ex
+        Concertación. Los cambios incluyen nuevos ministros en Salud, Segpres,
+        Energía y Ciencias.
       </Excerpt>
     </HeaderWrap>
   )
