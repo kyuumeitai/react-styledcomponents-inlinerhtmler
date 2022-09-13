@@ -15,11 +15,11 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 6: <br />Alessia Injoque',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 7: <br />Marcela Bravo',
 
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera/06-alessia-injoque/',
+  mainlink: 'https://www.latercera.com/lidera/07-marcela-bravo/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -134,14 +134,14 @@ const data = [
     url: 'https://www.latercera.com/lidera/07-marcela-bravo/',
 
     img: 'https://www.latercera.com/resizer/BjjMfW4NW3vNhZrV-YJVfipyWhw=/arc-anglerfish-arc2-prod-copesa/public/X2FDT2XI2REQLEWOKNFN65CZMI.jpg',
-    status: ['soon'],
+    status: ['new', 'available'],
     pretitle: 'Capítulo 07',
     name: 'Marcela Bravo',
     aftername: 'Gerenta General de Acción Empresas',
     title: 'Entender la sostenibilidad desde las empresas',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Pronto',
+    label: 'Nuevo',
     description:
       'En este capítulo conversamos con la ingeniera comercial y gerente general de Acción Empresas, Marcela Bravo, sobre la importancia de la sostenibilidad en las organizaciones, entendida como el nuevo paradigma que reemplaza a la tradicional Responsabilidad Social Empresarial (RSE). En conversación con la periodista Emiliana Pariente, Bravo analizó los nuevos liderazgos y detalló cómo el estallido social tuvo un impacto en el relacionamiento interno de las empresas. “Cuando las organizaciones se dieron cuenta que muchos de los que iban a protestar eran sus colaboradores, empezaron a querer entablar diálogos con las comunidades. Pasamos de creer que con generar trabajo o un producto bueno era suficiente, a entender que las empresas son ciudadanos corporativos que deben involucrarse y dialogar para entender la realidad”, señala.',
     iframe: 'https://rudo.video/vod/bO6Hrl',
