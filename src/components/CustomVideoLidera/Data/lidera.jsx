@@ -12,7 +12,8 @@ const logoproductor =
   'https://www.latercera.com/resizer/kXPp5UxoLulsiUCHx6GjdFCGC5s=/arc-anglerfish-arc2-prod-copesa/public/YE4IYFI4NNCD7JV4EMCR3OPPBI.png'
 
 const metadata = {
-  logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
+  logo:
+    'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
     '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 7: <br />Marcela Bravo',
@@ -29,7 +30,8 @@ const metadata = {
 const data = [
   {
     url: 'https://www.latercera.com/lidera/01-elisa-loncon/',
-    img: 'https://www.latercera.com/resizer/0fTiuYpRKuCnSm073o62mZeAnTU=/arc-anglerfish-arc2-prod-copesa/public/KDYWMTR2CRFDLIETKH74WFCWQA.jpg',
+    img:
+      'https://www.latercera.com/resizer/0fTiuYpRKuCnSm073o62mZeAnTU=/arc-anglerfish-arc2-prod-copesa/public/KDYWMTR2CRFDLIETKH74WFCWQA.jpg',
     status: ['new', 'available'],
     pretitle: 'Capítulo 01',
     name: 'Elisa Loncón',
@@ -49,7 +51,8 @@ const data = [
   },
   {
     url: 'https://www.latercera.com/lidera/02-teresa-matamala/',
-    img: 'https://www.latercera.com/resizer/lL-9Rm35GHokl1mxR6ZdCKoJqf4=/arc-anglerfish-arc2-prod-copesa/public/IPCK7GOVTJFJNF7ZUBWLP7UQLM.jpg',
+    img:
+      'https://www.latercera.com/resizer/lL-9Rm35GHokl1mxR6ZdCKoJqf4=/arc-anglerfish-arc2-prod-copesa/public/IPCK7GOVTJFJNF7ZUBWLP7UQLM.jpg',
     status: ['available', 'new'],
     pretitle: 'Capítulo 02',
     name: 'Teresa Matamala',
@@ -67,7 +70,8 @@ const data = [
   },
   {
     url: 'https://www.latercera.com/lidera/03-vania-figueroa/',
-    img: 'https://www.latercera.com/resizer/9TbKGLbbFxxiGiE7JnhQzBsylkM=/arc-anglerfish-arc2-prod-copesa/public/QLLDPV2IGZCEXGH5M6GAALS7OU.jpg',
+    img:
+      'https://www.latercera.com/resizer/9TbKGLbbFxxiGiE7JnhQzBsylkM=/arc-anglerfish-arc2-prod-copesa/public/QLLDPV2IGZCEXGH5M6GAALS7OU.jpg',
     status: ['available', 'new'],
     pretitle: 'Capítulo 03',
     name: 'Vania Figueroa',
@@ -83,7 +87,8 @@ const data = [
   },
   {
     url: 'https://www.latercera.com/lidera/04-claudia-bobadilla/',
-    img: 'https://www.latercera.com/resizer/-vxpYBd8iNPPcGIMH_tiEuwe7j0=/arc-anglerfish-arc2-prod-copesa/public/2RKAZU2ATNF7DEVAJP2GNWI7TA.jpg',
+    img:
+      'https://www.latercera.com/resizer/-vxpYBd8iNPPcGIMH_tiEuwe7j0=/arc-anglerfish-arc2-prod-copesa/public/2RKAZU2ATNF7DEVAJP2GNWI7TA.jpg',
     status: ['available', 'new'],
     pretitle: 'Capítulo 04',
     name: 'Claudia Bobadilla',
@@ -100,7 +105,8 @@ const data = [
 
   {
     url: 'https://www.latercera.com/lidera/05-laura-perez/',
-    img: 'https://www.latercera.com/resizer/ttD3DRuqHvbS4OshCSz1aNJ-Mwc=/arc-anglerfish-arc2-prod-copesa/public/RBWJPMBHXJBHLDJL2IYSHBNEGU.jpg',
+    img:
+      'https://www.latercera.com/resizer/ttD3DRuqHvbS4OshCSz1aNJ-Mwc=/arc-anglerfish-arc2-prod-copesa/public/RBWJPMBHXJBHLDJL2IYSHBNEGU.jpg',
     status: ['new', 'available'],
     pretitle: 'Capítulo 05',
     name: 'Laura Pérez',
@@ -116,7 +122,8 @@ const data = [
   },
   {
     url: 'https://www.latercera.com/lidera/06-alessia-injoque/',
-    img: 'https://www.latercera.com/resizer/v7GWYIa48ep12KSCW9NMj4qNX6k=/arc-anglerfish-arc2-prod-copesa/public/ZVHCME6WIFBOBM4PE72PMCZVGI.jpg',
+    img:
+      'https://www.latercera.com/resizer/v7GWYIa48ep12KSCW9NMj4qNX6k=/arc-anglerfish-arc2-prod-copesa/public/ZVHCME6WIFBOBM4PE72PMCZVGI.jpg',
     status: ['new', 'available'],
     pretitle: 'Capítulo 06',
     name: 'Alessia Injoque',
@@ -133,7 +140,8 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/07-marcela-bravo/',
 
-    img: 'https://www.latercera.com/resizer/BjjMfW4NW3vNhZrV-YJVfipyWhw=/arc-anglerfish-arc2-prod-copesa/public/X2FDT2XI2REQLEWOKNFN65CZMI.jpg',
+    img:
+      'https://www.latercera.com/resizer/BjjMfW4NW3vNhZrV-YJVfipyWhw=/arc-anglerfish-arc2-prod-copesa/public/X2FDT2XI2REQLEWOKNFN65CZMI.jpg',
     status: ['new', 'available'],
     pretitle: 'Capítulo 07',
     name: 'Marcela Bravo',
@@ -149,20 +157,25 @@ const data = [
   },
 
   {
-    img: 'https://www.latercera.com/resizer/yjWZFvDNEjeGv8aX_ZDmj226wIw=/arc-anglerfish-arc2-prod-copesa/public/FN4LZI2ZYFBQDEFLC3DHH7MOUA.jpg',
-    status: ['soon'],
+    url: 'https://www.latercera.com/lidera/08-maribel-vidal/',
+    img:
+      'https://www.latercera.com/resizer/yjWZFvDNEjeGv8aX_ZDmj226wIw=/arc-anglerfish-arc2-prod-copesa/public/FN4LZI2ZYFBQDEFLC3DHH7MOUA.jpg',
+    status: ['new', 'available'],
     pretitle: 'Capítulo 08',
     name: 'Maribel Vidal',
     aftername: 'Vicepresidenta de McCann y de REDMAD',
     title: 'Claves para el liderazgo del futuro y la flexibilidad laboral',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Pronto',
+    label: 'Nuevo',
     description:
-      'Las claves para el liderazgo del futuro y la flexibilidad laboral',
+      'En este capítulo, la vicepresidenta de McCann y de REDMAD, Maribel Vidal, rescata la importancia de los liderazgos modernos, horizontales y que son capaces de generar espacios de confianza, especialmente en momentos de crisis. Es enfática al decir que las habilidades y características de liderazgo son agnósticas de género y que lo que distingue a un buen liderazgo es la capacidad de leer el entorno, darse el tiempo para escuchar y, sobre todo, cuestionar constantemente los propios sesgos. Los desafíos para los líderes de aquí en adelante tienen que ver, como explica, con lograr generar políticas que resguarden la flexibilidad laboral y el trabajo híbrido basado en la confianza. “Tenemos que ser capaces de escuchar todas las voces para encontrar la mejor solución”, dice.',
+    iframe: 'https://rudo.video/vod/bO6Hww',
+    extendedVideo: 'https://youtu.be/iE12wJdMmxc',
   },
   {
-    img: 'https://www.latercera.com/resizer/wZ9Jy0Q5T2OgbrvTuWJIWeYnTjg=/arc-anglerfish-arc2-prod-copesa/public/WVDVEI4L75DVREU5KMET3R3OKY.jpg',
+    img:
+      'https://www.latercera.com/resizer/wZ9Jy0Q5T2OgbrvTuWJIWeYnTjg=/arc-anglerfish-arc2-prod-copesa/public/WVDVEI4L75DVREU5KMET3R3OKY.jpg',
     status: ['soon'],
     pretitle: 'Capítulo 09',
     name: 'Pilar Velasco',
@@ -174,7 +187,8 @@ const data = [
     description: 'Las políticas de género en una empresa B y el emprendimiento',
   },
   {
-    img: 'https://www.latercera.com/resizer/-wiA-L5zWrgcOj9IDSf8pdNL3RQ=/arc-anglerfish-arc2-prod-copesa/public/WATBI3KOZ5EWZOM7QB24ZFIRLI.jpg',
+    img:
+      'https://www.latercera.com/resizer/-wiA-L5zWrgcOj9IDSf8pdNL3RQ=/arc-anglerfish-arc2-prod-copesa/public/WATBI3KOZ5EWZOM7QB24ZFIRLI.jpg',
     status: ['soon'],
     pretitle: 'Capítulo 10',
     name: 'María Ana Matthias',
@@ -188,7 +202,8 @@ const data = [
 
   {
     url: 'https://www.latercera.com/lidera/00-teaser/',
-    img: 'https://www.latercera.com/resizer/r53hnahsLf8U91vabXvkYd1PlvM=/arc-anglerfish-arc2-prod-copesa/public/ODA7RTTR4JFUJOEEK6M27OZXQQ.jpg',
+    img:
+      'https://www.latercera.com/resizer/r53hnahsLf8U91vabXvkYd1PlvM=/arc-anglerfish-arc2-prod-copesa/public/ODA7RTTR4JFUJOEEK6M27OZXQQ.jpg',
     status: ['new', 'available'],
     pretitle: 'Capítulo 00',
     name: 'Teaser',
