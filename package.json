@@ -4,7 +4,7 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "copesa-logos": "git+https://bitbucket.org/labcon/copesa-logos.git",
     "formik": "^2.1.4",
     "lodash": "^4.17.21",
