@@ -58,15 +58,12 @@ const Player = ({ chapter, sitemetadata }) => {
               <iframe
                 id="vrudo"
                 class="vrudo"
-                src={`${iframe}?stv=0`}
+                src={`${iframe}`}
                 width="560"
                 height="315"
-                allowscriptaccess="always"
-                allowfullscreen="true"
-                webkitallowfullscreen="true"
                 frameborder="0"
-                scrolling="no"
-                allow="autoplay; fullscreen"></iframe>
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
+                allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -81,8 +78,8 @@ const Player = ({ chapter, sitemetadata }) => {
         </div>
         <Sharer
           url={url}
-          description={`${pretitle}: ${name} ${title} - Lidera - La Tercera`}
-          hashtags="Lidera"
+          description={`${pretitle}: ${name} - Ultra Todo - Series La Tercera`}
+          hashtags="UltraTodo"
         />
         {form && (
           <div

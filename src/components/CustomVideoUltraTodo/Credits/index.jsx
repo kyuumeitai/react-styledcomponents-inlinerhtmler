@@ -1,72 +1,83 @@
-import React from "react";
+import React from 'react'
 
-import { StCredits } from "./style.css";
+import { StCredits } from './style.css'
 
 const Credits = () => (
   <StCredits>
     <div className="creditsWrapper">
       <h2>Créditos</h2>
 
-      <p>
+      <div class="wra">
         <div className="col">
-          <span>Dirección:</span>
+          <span>Edición y montaje:</span>
         </div>
         <div className="col">
-          <strong>Daniela Cruzat</strong>
+          <strong>Sebastián Millán</strong>
         </div>
-      </p>
-      <p>
+      </div>
+      <div class="wra">
         <div className="col">
-          <span>Realización:</span>
-        </div>
-        <div className="col">
-          <strong>Ángel Quinteros</strong>
-        </div>
-      </p>
-      <p>
-        <div className="col">
-          <span>Diseño y animación:</span>
-        </div>
-        <div className="col">
-          <strong>Valentina Marmié</strong>
-          <strong>Alfredo Duarte</strong>
-        </div>
-      </p>
-      <p>
-        <div className="col">
-          <span>Producción:</span>
-        </div>
-        <div className="col">
-          <strong>Daniela Cruzat</strong>
-          <strong>Alejandra Olguín</strong>
-        </div>
-      </p>
-      <p>
-        <div className="col">
-          <span>Dirección de Arte:</span>
-        </div>
-        <div className="col">
-          <strong>Verónica Calderón</strong>
-        </div>
-      </p>
-      <p>
-        <div className="col">
-          <span>Desarrollo Web:</span>
-        </div>
-        <div className="col">
-          <strong>Álex Acuña Viera</strong>
-        </div>
-      </p>
-      <p>
-        <div className="col">
-          <span>Editor General Laboratorio de Contenidos:</span>
+          <span>Edición General</span>
         </div>
         <div className="col">
           <strong>Ignacio Bazán</strong>
         </div>
-      </p>
+      </div>
+      <div class="wra">
+        <div className="col">
+          <span>Edición y producción periodística:</span>
+        </div>
+        <div className="col">
+          <strong>Jorge Arellano</strong>
+        </div>
+      </div>
+      <div class="wra">
+        <div className="col">
+          <span>Producción periodística:</span>
+        </div>
+        <div className="col">
+          <strong>Daniela Durán</strong>
+        </div>
+      </div>
+
+      <div class="wra">
+        <div className="col">
+          <span>Cámaras:</span>
+        </div>
+        <div className="col">
+          <strong>Álex Utreras</strong>
+          <strong>Rodrigo Bacigalupe</strong>
+          <strong>Ángel Quinteros</strong>
+          <strong>Catalina Jaque</strong>
+          <strong>Sebastián Millán</strong>
+        </div>
+      </div>
+      <div class="wra">
+        <div className="col">
+          <span>Dirección de Arte:</span>
+        </div>
+        <div className="col">
+          <strong>Patricia Holmquist</strong>
+        </div>
+      </div>
+      <div class="wra">
+        <div className="col">
+          <span>Gráficas:</span>
+        </div>
+        <div className="col">
+          <strong>Sebastián Sánchez</strong>
+        </div>
+      </div>
+      <div class="wra">
+        <div className="col">
+          <span>Desarrollo:</span>
+        </div>
+        <div className="col">
+          <strong>Álex Acuña Viera</strong>
+        </div>
+      </div>
     </div>
   </StCredits>
-);
+)
 
-export default Credits;
+export default Credits

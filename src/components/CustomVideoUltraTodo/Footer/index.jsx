@@ -1,14 +1,14 @@
-import React from "react";
-import { StFooter } from "./style.css";
-import Credits from "../Credits";
+import React from 'react'
+import { StFooter } from './style.css'
+import Credits from '../Credits'
 
 const Footer = () => {
   return (
     <>
-      {/* <Credits /> */}
+      <Credits />
       <StFooter></StFooter>
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

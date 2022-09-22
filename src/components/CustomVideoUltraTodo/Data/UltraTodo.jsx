@@ -1,9 +1,9 @@
 const desktop =
-  'https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp.mp4'
+  'https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp-v2.mp4'
 const mobile =
-  'https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp.mp4'
+  'https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp-v2.mp4'
 const image =
-  'https://www.latercera.com/resizer/toqhpPnqp05sf7BgrDH9P7K09Fg=/arc-anglerfish-arc2-prod-copesa/public/QTWSLKSASFHOVDNA5J5O4L7HII.jpg'
+  'https://www.latercera.com/resizer/o1MrAkNSap319VEjgE9yoKguPYQ=/arc-anglerfish-arc2-prod-copesa/public/JQCYQKHNTVA5HAUQNCM3BA3PWY.jpg'
 
 const sponsor =
   'https://www.latercera.com/resizer/CDuEaFeGx2OhhX7GeAzArfhueqQ=/arc-anglerfish-arc2-prod-copesa/public/U3223TJYFRAR7HNHDUQUZJBGUE.png'
@@ -20,7 +20,7 @@ const metadata = {
   mainlink:
     'https://www.latercera.com/ultra-todo/01-el-sonido-que-conquisto-el-mundo/',
   secondarylink:
-    'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-ultra-todo/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
+    'https://www.latercera.com/ultra-todo/01-el-sonido-que-conquisto-el-mundo/',
   btntext: 'Reproducir',
   form: ``,
 }
@@ -28,7 +28,7 @@ const metadata = {
 const data = [
   {
     url: 'https://www.latercera.com/ultra-todo/01-el-sonido-que-conquisto-el-mundo/',
-    img: 'https://www.latercera.com/resizer/NbYgpKPlgeWuIVIuGHpOMSIRGw0=/arc-anglerfish-arc2-prod-copesa/public/3LY3POYIUVC2JHFDL2WRLEES6U.jpg',
+    img: 'https://www.latercera.com/resizer/UEOqmzoiDxrF-ZjNoFn2GZMigFw=/arc-anglerfish-arc2-prod-copesa/public/HC5YH6VQDZE7ZEY4HISDPNF64Q.jpg',
     status: ['new', 'available'],
     pretitle: 'Capítulo 01',
     name: 'El Sonido que Conquistó el Mundo',
@@ -40,8 +40,7 @@ const data = [
     label: 'Nuevo',
     description: `¿Panamá? ¿Jamaica? ¿Puerto Rico? Aunque varios países se disputan la creación del reggaetón, todos apuntan a un gran acelerador: Daddy Yankee. Aquí exploramos los orígenes de la música urbana en el Caribe y cómo el fenómeno se fue esparciendo en Chile y sus artistas.</p>
     `,
-    iframe: 'https://rudo.video/vod/bOsE1T',
-    extendedVideo: 'https://www.youtube.com/watch?v=l61N1US2Bvk',
+    iframe: 'https://www.youtube.com/embed/USg8VOB6tfM?autoplay=1&rel=0',
   },
   {
     img: 'https://www.latercera.com/resizer/I9lUSNlGh6c_N1N7Jvvk7KLHDGA=/arc-anglerfish-arc2-prod-copesa/public/5SLSZ3ZSJBB2XLMOA2B654V4BY.jpg',

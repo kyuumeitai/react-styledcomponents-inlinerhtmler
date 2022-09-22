@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const StCredits = styled.div`
   text-align: center;
@@ -15,7 +15,8 @@ const StCredits = styled.div`
     margin-bottom: 1rem;
   }
 
-  p {
+  p,
+  .wra {
     margin-bottom: 1rem;
     text-transform: uppercase;
     font-size: 1rem;
@@ -24,6 +25,6 @@ const StCredits = styled.div`
     font-weight: bold;
     display: block;
   }
-`;
+`
 
-export { StCredits };
+export { StCredits }

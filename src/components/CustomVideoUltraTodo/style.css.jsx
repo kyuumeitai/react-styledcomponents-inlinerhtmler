@@ -260,9 +260,10 @@ const WrapVideo = styled.div`
       transition-duration: 1300ms;
       transition-delay: 0ms;
       .logo-wrapper {
-        min-height: 6vw;
+        min-height: 4vw;
         position: relative;
         margin-bottom: 1.2vw;
+        max-width: 320px;
 
         svg,
         img {
@@ -401,7 +402,13 @@ const Wrap = styled.div`
 `
 
 const WrapMenu = styled.div`
-  background-color: #191818;
+  display: block;
+  background-image: linear-gradient(
+    rgb(42, 35, 62),
+    rgb(42, 35, 62) calc(10rem),
+    rgb(23, 20, 36)
+  );
+
   position: relative;
   z-index: 4;
   padding-bottom: 4vw;
@@ -598,14 +605,14 @@ const WrapMenu = styled.div`
           }
         }
         h3 {
-          font-size: 1.4vw;
+          font-size: 2vw;
           line-height: 1;
           font-family: 'franklin-gothic-urw', helvetica, arial, verdana,
             sans-serif;
           font-weight: normal;
           @media (max-width: 800px) {
-            font-size: 13px;
-            padding: 0 1rem;
+            font-size: 18px;
+            padding: 0 1rem 1rem;
           }
           small {
             display: block;
