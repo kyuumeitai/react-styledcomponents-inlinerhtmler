@@ -96,6 +96,7 @@ const WrapVideo = styled.div`
     width: 100%;
     height: 35vh;
     min-height: 460px;
+    z-index: 0;
   }
   &.wrap-home {
     /* margin-top: 75px; */
@@ -267,7 +268,7 @@ const WrapVideo = styled.div`
         svg,
         img {
           width: 100%;
-          max-width: 150px;
+          max-width: 140px;
           transform-origin: bottom left;
         }
       }
