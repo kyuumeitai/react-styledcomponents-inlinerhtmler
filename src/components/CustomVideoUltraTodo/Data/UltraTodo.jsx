@@ -16,13 +16,37 @@ const metadata = {
   title: 'Ultra Todo',
   supplemental: 'Disponible Capítulo 1: <br />El Sonido que Conquistó el Mundo',
   synopsis:
-    'Desde Daddy Yankee a Bad Bunny, en Chile se ha seguido con atención (y devoción) el fenómeno de la música urbana. Ultra Todos, de la calle a la cima, es un viaje que va desde los inicios del género, pasando por todas sus mutaciones, que han derivado en una nueva generación de músicos chilenos que se abren al mundo.',
+    'Desde Daddy Yankee a Bad Bunny, en Chile se ha seguido con atención (y devoción) el fenómeno de la música urbana. Ultra Todo, de la calle a la cima, es un viaje que va desde los inicios del género, pasando por todas sus mutaciones, que han derivado en una nueva generación de músicos chilenos que se abren al mundo.',
   mainlink:
     'https://www.latercera.com/ultra-todo/01-el-sonido-que-conquisto-el-mundo/',
   secondarylink:
     'https://www.latercera.com/ultra-todo/01-el-sonido-que-conquisto-el-mundo/',
   btntext: 'Reproducir',
   form: ``,
+}
+
+const related = {
+  title: 'Series ',
+  cards: [
+    {
+      title: 'Así Empieza:',
+      description: 'En la mente de los creadores',
+      logo: 'https://www.latercera.com/resizer/pbhqfjDE5qo5TbWfa5t9xhNgjt8=/arc-anglerfish-arc2-prod-copesa/public/XKK56QITX5H3HFW3QEQUEAM4CM.png',
+      url: 'https://www.latercera.com/asi-empieza/',
+    },
+    {
+      title: 'Lidera:',
+      description: 'Mujeres, trabajo y nuevos liderazgos',
+      logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
+      url: 'https://www.latercera.com/lidera/',
+    },
+    {
+      title: 'Tocar la Copa:',
+      description: 'La serie de Colo Colo 91',
+      logo: 'https://www.latercera.com/resizer/go0FcTuU03fektSvJpdhRwHt_Tk=/arc-anglerfish-arc2-prod-copesa/public/SA34TUFLA5AJ5JODAIKHBULBII.png',
+      url: 'https://www.latercera.com/tocar-la-copa/',
+    },
+  ],
 }
 
 const data = [
@@ -68,4 +92,13 @@ const data = [
   },
 ]
 
-export { desktop, mobile, image, sponsor, logoproductor, metadata, data }
+export {
+  desktop,
+  mobile,
+  image,
+  sponsor,
+  logoproductor,
+  metadata,
+  data,
+  related,
+}
