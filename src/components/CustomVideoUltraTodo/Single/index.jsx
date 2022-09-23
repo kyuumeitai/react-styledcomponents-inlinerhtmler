@@ -5,7 +5,7 @@ import Player from '../Player'
 import Chapters from '../Chapters'
 import Footer from '../Footer'
 
-import { data, metadata } from '../Data/lidera'
+import { data, metadata } from '../Data/UltraTodo'
 
 const VideoHome = () => {
   const chapter = data[0]
