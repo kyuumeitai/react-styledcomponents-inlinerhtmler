@@ -1,19 +1,19 @@
 import React from 'react'
 import { Wrap } from '../style.css'
 import Hero from '../HeroBanner'
-const videomobile = `https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/loop-home-banner-comp.mp4`
-const videodesktop = `https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/loop-home-banner-comp.mp4`
-const image = `https://www.latercera.com/resizer/9-xENSLfEN7gvnVcUFahEoofPyg=/arc-anglerfish-arc2-prod-copesa/public/DGULDB6IPBHVJIXCAXYG25PN54.jpg`
+const videomobile = `https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp-v2.mp4`
+const videodesktop = `https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp-v2.mp4`
+const image =
+  'https://www.latercera.com/resizer/o1MrAkNSap319VEjgE9yoKguPYQ=/arc-anglerfish-arc2-prod-copesa/public/JQCYQKHNTVA5HAUQNCM3BA3PWY.jpg'
 
 const metadata = {
-  logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
-  title: 'Lidera Paula',
-  supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br />Capítulo 7: Marcela Bravo',
+  logo: 'https://www.latercera.com/resizer/6nNsneiQ1HThThlJveV0zTMW_pw=/arc-anglerfish-arc2-prod-copesa/public/H6FCZSAEEZGK7BKIHCATD5VY4M.png',
+  title: 'Ultra Todo',
+  supplemental: 'Disponible Capítulo 1: <br />El Sonido que Conquistó el Mundo',
   synopsis:
-    'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo.',
+    'Desde Daddy Yankee a Bad Bunny, un viaje que va desde los inicios del género, pasando por todas sus mutaciones, que han derivado en una nueva generación de músicos chilenos que se abren al mundo.',
   mainlink:
-    'https://www.latercera.com/lidera/07-marcela-bravo/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
+    'https://www.latercera.com/ultra-todo/01-el-sonido-que-conquisto-el-mundo/?utm_source=widgetLT&utm_medium=web&utm_campaign=ultra-todo',
 
   btntext: 'Reproducir',
 }
