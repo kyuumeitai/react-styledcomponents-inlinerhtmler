@@ -263,12 +263,11 @@ const WrapVideo = styled.div`
         min-height: 4vw;
         position: relative;
         margin-bottom: 1.2vw;
-        max-width: 320px;
-
+        max-width: 300px;
         svg,
         img {
           width: 100%;
-          max-width: 190px;
+          max-width: 150px;
           transform-origin: bottom left;
         }
       }

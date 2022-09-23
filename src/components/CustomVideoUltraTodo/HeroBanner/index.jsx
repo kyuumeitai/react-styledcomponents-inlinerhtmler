@@ -64,7 +64,11 @@ const MetaLayer = ({
 
           <div className="video-actions">
             {mainlink && (
-              <a className="btn-action btn-action-solid" href={mainlink}>
+              <a
+                className="btn-action btn-action-solid"
+                href={mainlink}
+                target="_blank"
+                rel="noopener noreferrer">
                 <div className="btn-icon">
                   <div className="btn-icon-play" role="presentation">
                     <svg viewBox="0 0 24 24">
@@ -122,7 +126,10 @@ const Hero = ({ desktop, mobile, image, metadata, className }) => {
   } = metadata
   return (
     <WrapVideo className={className ? className : 'wrap-home'}>
-      <StOverallLink href={mainlink}></StOverallLink>
+      <StOverallLink
+        href={mainlink}
+        target="_blank"
+        rel="noopener noreferrer"></StOverallLink>
       <VideoHero desktop={desktop} mobile={mobile} />
       <ImageHero image={image} />
       <span className="bg-vignette"></span>
