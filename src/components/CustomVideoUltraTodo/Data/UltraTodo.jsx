@@ -26,25 +26,31 @@ const metadata = {
 }
 
 const related = {
-  title: 'Series ',
+  title: 'Otras Series',
   cards: [
     {
       title: 'Así Empieza:',
       description: 'En la mente de los creadores',
       logo: 'https://www.latercera.com/resizer/pbhqfjDE5qo5TbWfa5t9xhNgjt8=/arc-anglerfish-arc2-prod-copesa/public/XKK56QITX5H3HFW3QEQUEAM4CM.png',
       url: 'https://www.latercera.com/asi-empieza/',
+      bgimg:
+        'https://www.latercera.com/resizer/V8P3LsefjwTV2CxemRO_RjSjcyg=/arc-anglerfish-arc2-prod-copesa/public/PDOT5TG6CRAWVCEMRWFI63HM5M.jpg',
     },
     {
       title: 'Lidera:',
       description: 'Mujeres, trabajo y nuevos liderazgos',
       logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
       url: 'https://www.latercera.com/lidera/',
+      bgimg:
+        'https://www.latercera.com/resizer/CoypQ1pES79sbZhiwhwxft5T2Gw=/arc-anglerfish-arc2-prod-copesa/public/DBZE6KMKLBHVJMAMTVTDYSNUBM.jpg',
     },
     {
       title: 'Tocar la Copa:',
       description: 'La serie de Colo Colo 91',
       logo: 'https://www.latercera.com/resizer/go0FcTuU03fektSvJpdhRwHt_Tk=/arc-anglerfish-arc2-prod-copesa/public/SA34TUFLA5AJ5JODAIKHBULBII.png',
       url: 'https://www.latercera.com/tocar-la-copa/',
+      bgimg:
+        'https://www.latercera.com/resizer/xt0Dg-JoE03UtBgnciWI6-dWzQ8=/arc-anglerfish-arc2-prod-copesa/public/IU7K7DFW5NC2FLPQBGUXC5GXK4.jpg',
     },
   ],
 }

@@ -6,25 +6,55 @@ import styled from 'styled-components'
 
 const Related = () => {
   return (
-    <Wrap>
-      <h3>{related.title}</h3>
-      <Cols>
-        {related.cards.map((item, index) => {
-          const { title, logo, url, bgimg } = item
-          return (
-            <Card
-              key={index}
-              title={title}
-              logo={logo}
-              url={url}
-              bgimg={bgimg}
-            />
-          )
-        })}
-      </Cols>
-    </Wrap>
+    <WrapRelated>
+      <Inner>
+        <h3>{related.title}</h3>
+        <Cols>
+          {related.cards.map((item, index) => {
+            const { title, logo, url, bgimg } = item
+            return (
+              <Card
+                key={index}
+                title={title}
+                logo={logo}
+                url={url}
+                bgimg={bgimg}
+              />
+            )
+          })}
+        </Cols>
+      </Inner>
+    </WrapRelated>
   )
 }
+
+const WrapRelated = styled(Wrap)`
+  display: block;
+  background-image: linear-gradient(
+    rgb(23, 20, 36),
+    rgb(42, 35, 62) calc(10rem),
+    rgb(42, 35, 62)
+  );
+  padding-bottom: 2rem;
+  color: white;
+`
+
+const WrapCols = styled.div``
+
+const Inner = styled.div`
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  @media (max-width: 1200px) {
+    max-width: 100vw;
+  }
+  h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+    font-weight: 700;
+  }
+`
 
 const Cols = styled.div`
   display: grid;
@@ -34,15 +64,35 @@ const Cols = styled.div`
     1fr
   );
   grid-gap: 10px;
+  @media screen and (max-device-width: 640px) {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll hidden;
+    scroll-snap-type: x mandatory;
+    padding-left: 1.25rem;
+  }
+
   .card {
+    padding-right: 20px;
+    margin-right: 20px;
+    scroll-snap-align: center;
+    scroll-margin-left: 20px;
+    overflow: hidden;
     border: 1px solid #ccc;
     border-radius: 6px;
     background-color: black;
-    display: block;
-    height: 200px;
     display: flex;
     align-items: flex-end;
     position: relative;
+    height: 200px;
+    width: 100%;
+    @media screen and (max-device-width: 640px) {
+      height: auto;
+      padding-top: 3rem;
+      width: 75%;
+      flex: 1 0 auto;
+    }
     span {
       display: block;
     }
@@ -52,6 +102,8 @@ const Cols = styled.div`
     }
     .overlay {
       padding: 10px;
+      position: relative;
+      z-index: 2;
       img {
         max-height: 60px;
       }
@@ -64,6 +116,11 @@ const Cols = styled.div`
       height: 100%;
       bottom: 0;
       right: 0;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
     }
   }
 `

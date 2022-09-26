@@ -57,7 +57,7 @@ const Credits = () => (
           <span>Dirección de Arte:</span>
         </div>
         <div className="col">
-          <strong>Patricia Holmquist</strong>
+          <strong>Patricia Holmqvist</strong>
         </div>
       </div>
       <div class="wra">
