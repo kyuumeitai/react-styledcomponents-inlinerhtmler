@@ -13,7 +13,7 @@ const metadata = {
   synopsis:
     'Desde Daddy Yankee a Bad Bunny, un viaje que va desde los inicios del género, pasando por todas sus mutaciones, que han derivado en una nueva generación de músicos chilenos que se abren al mundo.',
   mainlink:
-    'https://www.youtube.com/watch?v=USg8VOB6tfM?utm_source=widgetLT&utm_medium=web&utm_campaign=ultra-todo',
+    'https://www.latercera.com/ultra-todo/01-el-sonido-que-conquisto-el-mundo/?utm_source=widgetL4&utm_medium=web&utm_campaign=ultra-todo',
 
   btntext: 'Reproducir',
 }
