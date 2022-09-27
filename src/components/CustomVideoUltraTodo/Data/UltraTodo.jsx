@@ -70,7 +70,7 @@ const data = [
     label: 'Nuevo',
     description: `¿Panamá? ¿Jamaica? ¿Puerto Rico? Aunque varios países se disputan la creación del reggaetón, todos apuntan a un gran acelerador: Daddy Yankee. Aquí exploramos los orígenes de la música urbana en el Caribe y cómo el fenómeno se fue esparciendo en Chile y sus artistas.</p>
     `,
-    iframe: 'https://www.youtube.com/embed/USg8VOB6tfM?autoplay=1&rel=0',
+    iframe: 'https://rudo.video/vod/bODjPK',
   },
   {
     img: 'https://www.latercera.com/resizer/I9lUSNlGh6c_N1N7Jvvk7KLHDGA=/arc-anglerfish-arc2-prod-copesa/public/5SLSZ3ZSJBB2XLMOA2B654V4BY.jpg',

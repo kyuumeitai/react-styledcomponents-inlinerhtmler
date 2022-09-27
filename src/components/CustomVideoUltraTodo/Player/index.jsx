@@ -58,12 +58,15 @@ const Player = ({ chapter, sitemetadata }) => {
               <iframe
                 id="vrudo"
                 class="vrudo"
-                src={`${iframe}`}
+                src={`${iframe}?stv=0`}
                 width="560"
                 height="315"
+                allowscriptaccess="always"
+                allowfullscreen="true"
+                webkitallowfullscreen="true"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
-                allowfullscreen></iframe>
+                scrolling="no"
+                allow="autoplay; fullscreen"></iframe>
             </div>
           </div>
         </div>
