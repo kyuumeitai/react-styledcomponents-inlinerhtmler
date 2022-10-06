@@ -9,7 +9,7 @@ const Credits = () => (
 
       <div class="wra">
         <div className="col">
-          <span>Edición y montaje:</span>
+          <span>Dirección y montaje:</span>
         </div>
         <div className="col">
           <strong>Sebastián Millán</strong>

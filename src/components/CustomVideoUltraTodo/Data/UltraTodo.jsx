@@ -14,13 +14,11 @@ const logoproductor =
 const metadata = {
   logo: 'https://www.latercera.com/resizer/6nNsneiQ1HThThlJveV0zTMW_pw=/arc-anglerfish-arc2-prod-copesa/public/H6FCZSAEEZGK7BKIHCATD5VY4M.png',
   title: 'Ultra Todo',
-  supplemental: 'Disponible Capítulo 1: <br />El Sonido que Conquistó el Mundo',
+  supplemental: 'Disponible Capítulo 2: <br />La Nueva Generación',
   synopsis:
     'Desde Daddy Yankee a Bad Bunny, en Chile se ha seguido con atención (y devoción) el fenómeno de la música urbana. Ultra Todo, de la calle a la cima, es un viaje que va desde los inicios del género, pasando por todas sus mutaciones, que han derivado en una nueva generación de músicos chilenos que se abren al mundo.',
-  mainlink:
-    'https://www.latercera.com/ultra-todo/01-el-sonido-que-conquisto-el-mundo/',
-  secondarylink:
-    'https://www.latercera.com/ultra-todo/01-el-sonido-que-conquisto-el-mundo/',
+  mainlink: 'https://www.latercera.com/ultra-todo/02-la-nueva-generacion/',
+  secondarylink: 'https://www.latercera.com/ultra-todo/02-la-nueva-generacion/',
   btntext: 'Reproducir',
   form: ``,
 }
@@ -62,23 +60,24 @@ const data = [
     status: ['new', 'available'],
     pretitle: 'Capítulo 01',
     name: 'El Sonido que Conquistó el Mundo',
-    // aftername:
-    //   'Doctora en Humanidades y Lingüística y primera presidenta de la CC',
-    // title: 'Interculturalidad, plurinacionalidad y nuevos liderazgos',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp.mp4',
-    label: 'Nuevo',
+    label: 'Disponible',
     description: `¿Panamá? ¿Jamaica? ¿Puerto Rico? Aunque varios países se disputan la creación del reggaetón, todos apuntan a un gran acelerador: Daddy Yankee. Aquí exploramos los orígenes de la música urbana en el Caribe y cómo el fenómeno se fue esparciendo en Chile y sus artistas.</p>
     `,
     iframe: 'https://rudo.video/vod/bODjPK',
   },
   {
-    img: 'https://www.latercera.com/resizer/I9lUSNlGh6c_N1N7Jvvk7KLHDGA=/arc-anglerfish-arc2-prod-copesa/public/5SLSZ3ZSJBB2XLMOA2B654V4BY.jpg',
-    status: ['soon'],
+    url: 'https://www.latercera.com/ultra-todo/02-la-nueva-generacion/',
+    img: 'https://www.latercera.com/resizer/sVR6YRY2bwxpjSGTyMbuV1Jg6kE=/arc-anglerfish-arc2-prod-copesa/public/W5W2OQ5IBRGATJ4WI26ZDKOFFU.jpg',
+    status: ['new', 'available'],
     pretitle: 'Capítulo 02',
     name: 'La Nueva Generación',
-    label: 'Pronto',
-    description: ``,
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp.mp4',
+    label: 'Nuevo',
+    description: `¿Cómo Chile pasa a exportar sonidos urbanos al resto del mundo? En este capítulo te contamos cómo se arma una escena local tan vibrante como diversa, pero que también enfrenta algunos estigmas como las drogas y la violencia.`,
+    iframe: 'https://rudo.video/vod/bOGixb',
   },
   {
     img: 'https://www.latercera.com/resizer/o1MrAkNSap319VEjgE9yoKguPYQ=/arc-anglerfish-arc2-prod-copesa/public/JQCYQKHNTVA5HAUQNCM3BA3PWY.jpg',
