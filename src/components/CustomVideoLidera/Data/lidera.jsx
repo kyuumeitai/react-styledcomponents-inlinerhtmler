@@ -214,7 +214,23 @@ const data = [
     iframe: 'https://rudo.video/vod/bOFx2R',
     extendedVideo: 'https://youtu.be/k2RCultBgWk',
   },
-
+  {
+    url: 'https://www.latercera.com/lidera/11-barbara-swears/',
+    img: 'https://www.latercera.com/resizer/QaKjR82ybat-VrM5FpfxnwOeCFo=/arc-anglerfish-arc2-prod-copesa/public/WLTSCWOS2VBVHIYPO554C7MPFQ.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Capítulo 11',
+    name: 'Bárbara Swears',
+    aftername: 'Dirigenta social comunal',
+    title:
+      'Lidera, el nuevo ciclo de conversaciones de La Tercera y Revista Paula',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Disponible',
+    description:
+      'En este capítulo, la presidenta de la Coordinadora de Mujeres de Independencia, Bárbara Swears, habla de la importancia de hacer política desde los territorios, de articularse en torno a la comunidad y de la dirigencia social en periodos de cambio. Analiza por qué, contrario a lo que se esperaba, ganó el Rechazo en comunas populares e históricamente marginalizadas, cuyas demandas suelen ser las que se recogían en el borrador de nueva Constitución. Una mezcla entre miedo y desinformación, en un país en el que escasea la educación cívica, fueron los factores que predominaron, según ella, en su comuna. Reflexiona además sobre las historias de violencia doméstica que se vivieron durante la pandemia y la importancia de revisar de qué manera se modulan los liderazgos vecinales hoy. ',
+    iframe: 'https://rudo.video/vod/bOKVO0',
+    extendedVideo: 'https://youtu.be/cujTG9D2LS0',
+  },
   {
     url: 'https://www.latercera.com/lidera/00-teaser/',
     img: 'https://www.latercera.com/resizer/r53hnahsLf8U91vabXvkYd1PlvM=/arc-anglerfish-arc2-prod-copesa/public/ODA7RTTR4JFUJOEEK6M27OZXQQ.jpg',
