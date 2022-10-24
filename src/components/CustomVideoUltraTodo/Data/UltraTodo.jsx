@@ -75,17 +75,21 @@ const data = [
     name: 'La Nueva Generación',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp.mp4',
-    label: 'Nuevo',
+    label: 'Disponible',
     description: `¿Cómo Chile pasa a exportar sonidos urbanos al resto del mundo? En este capítulo te contamos cómo se arma una escena local tan vibrante como diversa, pero que también enfrenta algunos estigmas como las drogas y la violencia.`,
     iframe: 'https://rudo.video/vod/bOGixb',
   },
   {
-    img: 'https://www.latercera.com/resizer/o1MrAkNSap319VEjgE9yoKguPYQ=/arc-anglerfish-arc2-prod-copesa/public/JQCYQKHNTVA5HAUQNCM3BA3PWY.jpg',
-    status: ['soon'],
+    url: 'https://www.latercera.com/ultra-todo/03-mujeres-con-beat/',
+    img: 'https://panel-cl2.rudo.video/public/upload/cl2/latercera/943111/05b246cd4a42e57ccc0941affa94202a.png',
+    status: ['new', 'available'],
     pretitle: 'Capítulo 03',
     name: 'Mujeres con beat',
-    label: 'Pronto',
-    description: ``,
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp.mp4',
+    label: 'Nuevo',
+    description: `Mujeres con beat`,
+    iframe: 'https://rudo.video/vod/bOMYvm',
   },
   {
     img: 'https://www.latercera.com/resizer/3ZC9TjY7h_asFN4riGFcmqF-bMc=/arc-anglerfish-arc2-prod-copesa/public/6E66OMK2GVHXXIMEB3VUQUY3UU.jpg',
