@@ -231,22 +231,6 @@ const data = [
     iframe: 'https://rudo.video/vod/bOKVO0',
     extendedVideo: 'https://youtu.be/cujTG9D2LS0',
   },
-  {
-    url: 'https://www.latercera.com/lidera/00-teaser/',
-    img: 'https://www.latercera.com/resizer/r53hnahsLf8U91vabXvkYd1PlvM=/arc-anglerfish-arc2-prod-copesa/public/ODA7RTTR4JFUJOEEK6M27OZXQQ.jpg',
-    status: ['new', 'available'],
-    pretitle: 'Capítulo 00',
-    name: 'Teaser',
-    aftername: '',
-    title:
-      'Lidera, el nuevo ciclo de conversaciones de La Tercera y Revista Paula',
-    preview:
-      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Disponible',
-    description:
-      'Lidera, el nuevo ciclo de conversaciones de La Tercera y Revista Paula, busca indagar en las amplias temáticas y desafíos que giran en torno a las mujeres y el trabajo remunerado y no remunerado. A través de la mirada de 10 especialistas tanto del mundo público como privado, se exponen temas de relevancia social, de los cuales mucho se ha hablado, aunque en pocas instancias se han abordado con una perspectiva integral y de género. Entre ellos, los nuevos liderazgos, la inclusión de mujeres en la alta dirección y en la ciencia, la corresponsabilidad parental, las alternativas al sistema actual de cuidados y de qué manera el sector privado puede y debe aportar al desarrollo de las condiciones equitativas entre hombres y mujeres.',
-    iframe: 'https://rudo.video/vod/bObAfb',
-  },
 ]
 
 export { desktop, mobile, image, sponsor, logoproductor, metadata, data }

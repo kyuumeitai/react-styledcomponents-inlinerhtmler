@@ -9,7 +9,7 @@ import { data } from '../Data/lidera'
 const VideoHome = () => {
   return (
     <Wrap>
-      <Chapters chapters={data} />
+      <Chapters chapters={data.reverse()} />
       <Footer />
     </Wrap>
   )
