@@ -9,16 +9,12 @@ import { desktop, mobile, image, metadata, data } from '../Data/UltraTodo'
 const VideoHome = () => {
   return (
     <Wrap>
-      {/* <Header posmode="fixed" /> */}
-
       <Hero
         desktop={desktop}
         mobile={mobile}
         image={image}
         metadata={metadata}
       />
-      <Chapters chapters={data} />
-      <Footer />
     </Wrap>
   )
 }
