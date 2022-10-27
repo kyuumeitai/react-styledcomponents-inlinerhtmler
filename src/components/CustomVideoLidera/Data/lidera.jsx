@@ -15,11 +15,11 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 11: <br />Bárbara Swears',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 12: <br />Julieta Martínez',
 
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera/11-barbara-swears/',
+  mainlink: 'https://www.latercera.com/lidera/12-julieta-martinez/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -230,6 +230,23 @@ const data = [
       'En este capítulo, la presidenta de la Coordinadora de Mujeres de Independencia, Bárbara Swears, habla de la importancia de hacer política desde los territorios, de articularse en torno a la comunidad y de la dirigencia social en periodos de cambio. Analiza por qué, contrario a lo que se esperaba, ganó el Rechazo en comunas populares e históricamente marginalizadas, cuyas demandas suelen ser las que se recogían en el borrador de nueva Constitución. Una mezcla entre miedo y desinformación, en un país en el que escasea la educación cívica, fueron los factores que predominaron, según ella, en su comuna. Reflexiona además sobre las historias de violencia doméstica que se vivieron durante la pandemia y la importancia de revisar de qué manera se modulan los liderazgos vecinales hoy. ',
     iframe: 'https://rudo.video/vod/bOKVO0',
     extendedVideo: 'https://youtu.be/cujTG9D2LS0',
+  },
+
+  {
+    url: 'https://www.latercera.com/lidera/12-julieta-martinez/',
+    img: 'https://www.latercera.com/resizer/KD_yree821b-M8278NAAv6XHIXI=/arc-anglerfish-arc2-prod-copesa/public/LGZ3IA4ODRD25LVLUDFUOMQG6Y.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Capítulo 12',
+    name: 'Julieta Martínez',
+    aftername: 'Dirigenta social comunal',
+    title:
+      'Lidera, el nuevo ciclo de conversaciones de La Tercera y Revista Paula',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Disponible',
+    description:
+      'En este capítulo hablamos con la activista por la justicia climática y la equidad de género, Julieta Martínez, sobre las principales prioridades medioambientales del momento; sobre la capacidad de los sistemas de someterse a perturbaciones y mantener sus funciones, conocida como la resiliencia climática; y sobre cómo avanzar hacia un modelo de desarrollo sustentable y sostenible. También habló sobre la importancia de la voz de los jóvenes y el adultocentrismo al que se enfrentan. Por último, en un mundo en el que un 80% de los refugiados climáticos son mujeres y niñas, Martínez constata que la crisis climática tiene cara de mujer y por eso la educación de las niñas es una herramienta fundamental para combatirla. “Como ciudadanos tenemos la capacidad de hacer un cambio si elegimos lo que consumimos”, reflexiona aquí.',
+    iframe: 'https://www.youtube.com/embed/PDKUb0AjLws',
   },
 ]
 

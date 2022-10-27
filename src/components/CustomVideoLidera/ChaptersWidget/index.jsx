@@ -5,11 +5,12 @@ import Chapters from '../Chapters'
 import Footer from '../Footer'
 
 import { data } from '../Data/lidera'
+const reversed = [...data.reverse()]
 
 const VideoHome = () => {
   return (
     <Wrap>
-      <Chapters chapters={data.reverse()} />
+      <Chapters chapters={reversed} />
       <Footer />
     </Wrap>
   )
