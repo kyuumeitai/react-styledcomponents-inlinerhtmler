@@ -4,7 +4,7 @@ import Hero from "../Hero";
 // import Chapters from "../Chapters";
 import Header from "../Header";
 // import Footer from "../Footer";
-import {desktop, mobile, image, metadata} from '../Data/tocarlacopa'
+import {desktop, mobile, image, metadata} from '../Data/UltraTodo'
 
 
 const SuperWidget = () => {
