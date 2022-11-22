@@ -260,8 +260,11 @@ const data = [
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Disponible',
-    description:
-      'Lidera, el nuevo ciclo de conversaciones de La Tercera y revista Paula',
+    description: `<p>En este capítulo hablamos con la Ministra de la Mujer y Equidad de Género, Antonia Orellana, sobre la reforma previsional y de qué manera busca poner énfasis en el mejoramiento de las pensiones de las mujeres jubiladas.</p>
+
+      <p>Además, abordamos la ley de Responsabilidad Parental y Pago Efectivo de Deuda de Alimentos, que incluye la creación del Registro Nacional de Deudores de Pensiones de Alimentos, que entró en vigencia el 18 de noviembre y que busca coordinar medidas para promover y garantizar el cumplimiento del pago.</p>
+      
+      <p>Ad portas del Día Internacional de la Eliminación de la Violencia contra la Mujer, finalmente conversamos sobre el derecho a vivir una vida libre de violencia, en un contexto en el que -de acuerdo a datos de ONU Mujeres- 1 de cada 3 mujeres han experimentado al menos un episodio de agresión física o sexual.</p>`,
     iframe: 'https://www.youtube.com/embed/B9VGO9eQXRI',
   },
 ]
