@@ -14,11 +14,11 @@ const logoproductor =
 const metadata = {
   logo: 'https://www.latercera.com/resizer/6nNsneiQ1HThThlJveV0zTMW_pw=/arc-anglerfish-arc2-prod-copesa/public/H6FCZSAEEZGK7BKIHCATD5VY4M.png',
   title: 'Ultra Todo',
-  supplemental: 'Disponible Capítulo 3: <br />Mujeres con Beat',
+  supplemental: 'Disponible Capítulo 4: <br />Cómo se crea una estrella: La industria y su fandom',
   synopsis:
     'Desde Daddy Yankee a Bad Bunny, en Chile se ha seguido con atención (y devoción) el fenómeno de la música urbana. Ultra Todo, de la calle a la cima, es un viaje que va desde los inicios del género, pasando por todas sus mutaciones, que han derivado en una nueva generación de músicos chilenos que se abren al mundo.',
-  mainlink: 'https://www.latercera.com/ultra-todo/03-mujeres-con-beat/',
-  secondarylink: 'https://www.latercera.com/ultra-todo/03-mujeres-con-beat/',
+  mainlink: 'https://www.latercera.com/ultra-todo/04-como-se-crea-una-estrella/',
+  secondarylink: 'https://www.latercera.com/ultra-todo/04-como-se-crea-una-estrella/',
   btntext: 'Reproducir',
   form: ``,
 }
@@ -87,17 +87,21 @@ const data = [
     name: 'Mujeres con beat',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp.mp4',
-    label: 'Nuevo',
+    label: 'Disponible',
     description: `¿Cómo es surgir en el mundo de la música urbana siendo mujer? Varias de sus exponentes, que hacen desde trap a reggeatón pasando por el pop, nos cuentan cuáles son las barreras y también cuál es la principal herramienta para hacerse camino en la música: la colaboración.`,
     iframe: 'https://rudo.video/vod/bOMYvm',
   },
   {
-    img: 'https://www.latercera.com/resizer/3ZC9TjY7h_asFN4riGFcmqF-bMc=/arc-anglerfish-arc2-prod-copesa/public/6E66OMK2GVHXXIMEB3VUQUY3UU.jpg',
-    status: ['soon'],
+    url: 'https://www.latercera.com/ultra-todo/04-como-se-crea-una-estrella/',
+    img: 'https://www.latercera.com/resizer/EW7qMWRq86JVOMMx_NzjuVrouRs=/600x0/latercera.com/resizer/d7vIABxTl-KlRPvR8xmZl2Q_tw0=/arc-anglerfish-arc2-prod-copesa/public/F4THPGGCIJCMBDUY2RBSMAJ6TU.png',
+    status: ['new', 'available'],
     pretitle: 'Capítulo 04',
     name: 'Cómo se crea una estrella: La industria y su fandom',
-    label: 'Pronto',
-    description: ``,
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/ultra-todo/intro-desktop-comp.mp4',
+    label: 'Nuevo',
+    description: `¿Cómo una artista de región llega a triunfar en el mundo de la música urbana? ¿Qué tan decisivo es el uso de RRSS en los artistas que emergen y los que se consolidan? ¿Importa aún tener sello discográfico y estar en MTV? En este último capítulo, los artistas y la escena que se mueve alrededor de ellos elaboran sobre lo que se necesita para lo que ellos describen como "pegarse".`,
+    iframe: 'https://rudo.video/vod/bOVJsI',
   },
 ]
 
