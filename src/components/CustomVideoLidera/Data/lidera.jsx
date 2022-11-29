@@ -276,7 +276,7 @@ const data = [
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Nuevo',
-    description: `<p>Directora académica del ESE Business School, U. de los Andes.</p>`,
+    description: `<p>En este capítulo hablamos con la directora académica del ESE Business School de la Universidad de Los Andes, María José Bosch, sobre cómo lograr, desde distintas aristas, el balance entre el trabajo y la familia; de qué manera los líderes de las organizaciones son facilitadores claves de ese balance; y por qué ese balance, o flexibilidad, contribuye tanto al bienestar de los colaboradores como al de la organización y, en consecuencia, a la equidad de género. Siendo una de las impulsoras del proyecto de Ley de la Sala Cuna Universal, Bosch analiza por qué ha sido tan difícil su tramitación y si la medida, que de base busca fomentar la participación laboral femenina y suprimir la discriminación en los contratos, viene a solucionar un problema o si tiene que ser parte de un trabajo más grande que contemple a su vez la educación. Por último, la especialista reflexiona respecto a si realmente hemos aprendido las lecciones que nos dejaron la pandemia y el teletrabajo, y devela por qué siguen habiendo medidas organizacionales que obstaculizan la flexibilidad laboral.</p>`,
     iframe: 'https://www.youtube.com/embed/Vz8CU6FnsCY',
   },
 ]
