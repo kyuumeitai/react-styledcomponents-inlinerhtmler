@@ -15,11 +15,11 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 13: <br />Antonia Orellana',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 14: <br />María José Bosch',
 
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera/13-antonia-orellana/',
+  mainlink: 'https://www.latercera.com/lidera/14-maria-jose-bosch/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -238,9 +238,8 @@ const data = [
     status: ['new', 'available'],
     pretitle: 'Capítulo 12',
     name: 'Julieta Martínez',
-    aftername: 'Dirigenta social comunal',
-    title:
-      'Lidera, el nuevo ciclo de conversaciones de La Tercera y Revista Paula',
+    aftername: '',
+    title: 'Voces jóvenes por el medioambiente y la equidad',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Disponible',
@@ -255,8 +254,7 @@ const data = [
     pretitle: 'Capítulo 13',
     name: 'Antonia Orellana',
     aftername: 'Ministra de la Mujer y la Equidad de Género',
-    title:
-      'Lidera, el nuevo ciclo de conversaciones de La Tercera y Revista Paula',
+    title: 'En vías a una sociedad equitativa desde las políticas públicas',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Disponible',
@@ -266,6 +264,20 @@ const data = [
       
       <p>Ad portas del Día Internacional de la Eliminación de la Violencia contra la Mujer, finalmente conversamos sobre el derecho a vivir una vida libre de violencia, en un contexto en el que -de acuerdo a datos de ONU Mujeres- 1 de cada 3 mujeres han experimentado al menos un episodio de agresión física o sexual.</p>`,
     iframe: 'https://www.youtube.com/embed/B9VGO9eQXRI',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/14-maria-jose-bosch/',
+    img: 'https://www.latercera.com/resizer/d5pZMa0PRq_HU8AAMUBNKPkXXnc=/arc-anglerfish-arc2-prod-copesa/public/W52M356CPZHOPIYVJSWZNQZLNY.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Capítulo 14',
+    name: 'María José Bosch',
+    aftername: 'Directora académica del ESE Business School, U. de los Andes',
+    title: 'Aprendizajes del teletrabajo para organizaciones más justas',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>Directora académica del ESE Business School, U. de los Andes.</p>`,
+    iframe: 'https://www.youtube.com/embed/Vz8CU6FnsCY',
   },
 ]
 
