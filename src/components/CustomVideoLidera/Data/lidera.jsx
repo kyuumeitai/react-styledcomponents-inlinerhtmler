@@ -15,11 +15,11 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 14: <br />María José Bosch',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 15: <br />María José Cifuentes',
 
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera/14-maria-jose-bosch/',
+  mainlink: 'https://www.latercera.com/lidera/15-maria-jose-cifuentes/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -278,6 +278,24 @@ const data = [
     label: 'Nuevo',
     description: `<p>En este capítulo hablamos con la directora académica del ESE Business School de la Universidad de Los Andes, María José Bosch, sobre cómo lograr, desde distintas aristas, el balance entre el trabajo y la familia; de qué manera los líderes de las organizaciones son facilitadores claves de ese balance; y por qué ese balance, o flexibilidad, contribuye tanto al bienestar de los colaboradores como al de la organización y, en consecuencia, a la equidad de género. Siendo una de las impulsoras del proyecto de Ley de la Sala Cuna Universal, Bosch analiza por qué ha sido tan difícil su tramitación y si la medida, que de base busca fomentar la participación laboral femenina y suprimir la discriminación en los contratos, viene a solucionar un problema o si tiene que ser parte de un trabajo más grande que contemple a su vez la educación. Por último, la especialista reflexiona respecto a si realmente hemos aprendido las lecciones que nos dejaron la pandemia y el teletrabajo, y devela por qué siguen habiendo medidas organizacionales que obstaculizan la flexibilidad laboral.</p>`,
     iframe: 'https://www.youtube.com/embed/Vz8CU6FnsCY',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/15-maria-jose-cifuentes/',
+    img: 'https://www.latercera.com/resizer/CWb5Z8Q7lMZN4x5oD_R8lUAlczM=/arc-anglerfish-arc2-prod-copesa/public/FIPMK4NDLNF7PAJNP6ZO3NNN5I.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Capítulo 15',
+    name: 'María José Cifuentes',
+    aftername:
+      'Directora de Audiencias y Programación del Centro Cultural Gabriela Mistral (GAM)',
+    title: 'Cultura para potenciar el bienestar social',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En este capítulo, conversamos con la directora de Audiencias y Programación del Centro Cultural Gabriela Mistral (GAM), María José Cifuentes, sobre la importancia del arte y el rol social de los trabajadores de la cultura, en apoyar el bienestar de las personas, en un país como Chile, donde más de un 20% de la población tiene dificultades de salud mental.</p>
+
+    <p>Cifuentes abordó la reactivación del sector de Baquedano post estallido social, y calificó como histórico el aumento de recursos destinado al Ministerio de las Culturas, las Artes y el Patrimonio en el Proyecto de Ley de Presupuesto de 2023. Finalmente, comentó sus aprendizajes en puestos de liderazgo, en un área altamente competitiva como la artística; apelando a la importancia de la horizontalidad, sentido de la colaboración y la relevancia de capacidad de generar redes para la creación.
+    </p>`,
+    iframe: 'https://www.youtube.com/embed/bp1HqX615zc',
   },
 ]
 
