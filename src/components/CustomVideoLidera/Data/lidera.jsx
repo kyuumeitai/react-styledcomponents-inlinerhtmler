@@ -318,12 +318,12 @@ const data = [
     status: ['new', 'available'],
     pretitle: 'Capítulo 17',
     name: 'Karen Thal',
-    aftername: '',
+    aftername: 'Gerente general de Cadem',
     title: 'Leer a la opinión pública en tiempos de cambio',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Nuevo',
-    description: `<p>Leer a la opinión pública en tiempos de cambio.</p>`,
+    description: `<p>En este capítulo, hablamos con la gerente general de Cadem, Karen Thal, sobre cómo interpretar y tener una lectura certera de la ciudadanía en tiempos de cambio, como los que vivimos hoy; sobre la influencia que tienen las encuestas en la formulación de la opinión ciudadana y la relevancia que tienen al momento de tomar decisiones a nivel de política pública. Finalmente, la especialista en investigación de mercado explica la serie de estudios que ha realizado Cadem para seguir las inquietudes de la sociedad post estallido, afirmando que parte de las prioridades de los chilenos hoy están asociadas a la economía y la seguridad.</p>`,
     iframe: 'https://www.youtube.com/embed/tkc4ClKkbnQ',
   },
 ]
