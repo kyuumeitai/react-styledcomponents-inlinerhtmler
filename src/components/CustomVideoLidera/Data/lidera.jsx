@@ -15,11 +15,11 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 16: <br />Antonella Oberti',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 17: <br />Karen Thal',
 
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera/16-antonella-oberti/',
+  mainlink: 'https://www.latercera.com/lidera/17-karen-thal/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -307,10 +307,24 @@ const data = [
     title: 'Las deudas del sistema con las mujeres privadas de libertad',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Nuevo',
+    label: 'Disponible',
     description: `<p>Desde sus inicios, en la concepción de las cárceles, ha habido una carencia; han sido construidas por y para hombres y hasta el día de hoy están faltas de una perspectiva de género. En este capítulo hablamos con Antonella Oberti, Directora de Incidencia de la Red de Acción Carcelaria, para ver de qué manera se puede pensar un sistema penitenciario que considere las individualidades y dificultades propias de la mujer, para así terminar con las condiciones injustas y desfavorables a las que se enfrentan cuando están privadas de libertad, tales como la denominada pobreza menstrual, entre otras. A eso se le suma que del total de las mujeres reclusas, el 89% son madres y un 45% de ellas ha sufrido situaciones traumáticas como violencia intrafamiliar o abuso sexual. </p>
     <p>¿Cómo es la maternidad en las cárceles? ¿Qué significa vivir una doble condena, tanto judicial como social? Y, finalmente, ¿de qué manera se les hace un seguimiento psicoterapéutico y de contención durante y después de la condena? “La mayoría está condenada por delitos de microtráfico de drogas, porque es lo que les permite realizar a su vez lo que la sociedad espera de ellas, como maternar, criar y cuidar la casa”, explica la especialista. “Lo que se suele medir como una reinserción exitosa es que no vuelvan a delinquir una vez que egresan, pero ese concepto es estrecho y por lo mismo se habla de inserción social más que reinserción, porque finalmente se trata de una población que llega a la cárcel porque les falló el colegio, el barrio, la salud, la familia y el Estado”.</p>`,
     iframe: 'https://www.youtube.com/embed/i-AGffklc1A',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/17-karen-thal/',
+    img: 'https://www.latercera.com/resizer/X-H8omoRPvYiKFx5ZWbbfF3X1X8=/arc-anglerfish-arc2-prod-copesa/public/7OQQO4YT3BDCJMY75AMFPVSUAE.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Capítulo 17',
+    name: 'Karen Thal',
+    aftername: '',
+    title: 'Leer a la opinión pública en tiempos de cambio',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>Leer a la opinión pública en tiempos de cambio.</p>`,
+    iframe: 'https://www.youtube.com/embed/tkc4ClKkbnQ',
   },
 ]
 
