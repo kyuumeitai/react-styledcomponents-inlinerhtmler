@@ -1,53 +1,75 @@
 import React from 'react'
 import { Formik } from 'formik'
 import Select from 'react-select'
-import { StForm, StLabel, StInput, StTextarea, StButton, StTitle, StError, StCols, StCol } from './style.css'
+import {
+  StForm,
+  StLabel,
+  StInput,
+  StTextarea,
+  StButton,
+  StTitle,
+  StError,
+  StCols,
+  StCol,
+} from './style.css'
 
-const HeaderForm = ({onAddHeader, header}) => {
-  const { title, presentedby, url, urlesp, img, imgesp, source, medium, theme, bajada, brand, layout} = header
-  const addHeader = (Header) => {
-
+const HeaderForm = ({ onAddHeader, header }) => {
+  const {
+    title,
+    presentedby,
+    url,
+    urlesp,
+    img,
+    imgesp,
+    source,
+    medium,
+    theme,
+    bajada,
+    brand,
+    layout,
+  } = header
+  const addHeader = Header => {
     onAddHeader({
-      ...Header
+      ...Header,
     })
   }
 
   const availableLayout = [
     {
       value: 'default',
-      label: 'Por Defecto'
+      label: 'Por Defecto',
     },
     {
       value: 'featured',
-      label: 'Primero Destacado'
-    }
+      label: 'Primero Destacado',
+    },
   ]
 
   const availableThemes = [
     {
       value: 'default',
-      label: 'Por Defecto'
+      label: 'Por Defecto',
     },
     {
       value: 'piensadigital',
-      label: 'Piensa Digital'
+      label: 'Piensa Digital',
     },
     {
       value: 'culto',
-      label: 'Culto'
+      label: 'Culto',
     },
     {
       value: 'degradado',
-      label: 'Degradado negro, imagen de fondo'
+      label: 'Degradado negro, imagen de fondo',
     },
     {
       value: 'uno',
-      label: 'Un artículo con degradado y logo interior'
+      label: 'Un artículo con degradado y logo interior',
     },
     {
       value: 'videowithiframe',
-      label: 'Video e Iframe juntos degradado'
-    }
+      label: 'Video e Iframe juntos degradado',
+    },
   ]
 
   return (
@@ -66,18 +88,24 @@ const HeaderForm = ({onAddHeader, header}) => {
         theme: theme || '',
         layout: layout || '',
       }}
-
-      onSubmit={(values, {setSubmitting, resetForm}) => {
-
+      onSubmit={(values, { setSubmitting, resetForm }) => {
         addHeader(values)
         setTimeout(() => {
           setSubmitting(false)
           // resetForm()
         }, 200)
-      }}
-
-    >
-      {({ values, touched, errors, dirty, isSubmitting, handleChange, handleBlur, handleSubmit, handleReset }) => (
+      }}>
+      {({
+        values,
+        touched,
+        errors,
+        dirty,
+        isSubmitting,
+        handleChange,
+        handleBlur,
+        handleSubmit,
+        handleReset,
+      }) => (
         <StForm onSubmit={handleSubmit}>
           <StTitle>Configurar Header</StTitle>
           <StCols cols="1">
@@ -96,9 +124,7 @@ const HeaderForm = ({onAddHeader, header}) => {
                 name="title"
                 onChange={handleChange}
                 onBlur={handleBlur}
-                border={
-                  errors.title && touched.title && '1px solid tomato'
-                }
+                border={errors.title && touched.title && '1px solid tomato'}
               />
 
               <StLabel htmlFor="brand">
@@ -115,16 +141,12 @@ const HeaderForm = ({onAddHeader, header}) => {
                 value={values.brand}
                 onChange={handleChange}
                 onBlur={handleBlur}
-                border={
-                  errors.brand && touched.brand && '1px solid tomato'
-                }
+                border={errors.brand && touched.brand && '1px solid tomato'}
               />
 
               <StLabel htmlFor="img-header">
                 URL de imagen logo auspiciador
-              {errors.img && touched.img && (
-                  <StError>{errors.img}</StError>
-                )}
+                {errors.img && touched.img && <StError>{errors.img}</StError>}
               </StLabel>
               <StInput
                 id="img-header"
@@ -134,34 +156,28 @@ const HeaderForm = ({onAddHeader, header}) => {
                 value={values.img}
                 onChange={handleChange}
                 onBlur={handleBlur}
-                border={
-                  errors.img && touched.img && '1px solid tomato'
-                }
+                border={errors.img && touched.img && '1px solid tomato'}
               />
 
               <StLabel htmlFor="url-header-sponsor">
                 URL de destino auspiciador
-              {errors.url && touched.url && (
-                  <StError>{errors.url}</StError>
-                )}
+                {errors.url && touched.url && <StError>{errors.url}</StError>}
               </StLabel>
               <StInput
                 id="url-header-sponsor"
                 type="text"
-                placeholder="https://www.placecage.com/"
+                placeholder="#"
                 value={values.url}
                 name="url"
                 onChange={handleChange}
                 onBlur={handleBlur}
-                border={
-                  errors.url && touched.url && '1px solid tomato'
-                }
+                border={errors.url && touched.url && '1px solid tomato'}
               />
 
               <StLabel htmlFor="bajada">
                 Bajada
-              {errors.bajada && touched.bajada && (
-                  <div className="input-feedback">  {errors.bajada}</div>
+                {errors.bajada && touched.bajada && (
+                  <div className="input-feedback"> {errors.bajada}</div>
                 )}
               </StLabel>
               <StTextarea
@@ -173,13 +189,11 @@ const HeaderForm = ({onAddHeader, header}) => {
                 onBlur={handleBlur}
                 border={
                   errors.bajada && touched.bajada && '1px solid tomato'
-                }
-              >
-              </StTextarea>
+                }></StTextarea>
 
               <StLabel htmlFor="presentedby">
                 Texto "Presentado por"
-              {errors.presentedby && touched.presentedby && (
+                {errors.presentedby && touched.presentedby && (
                   <StError>{errors.presentedby}</StError>
                 )}
               </StLabel>
@@ -192,32 +206,32 @@ const HeaderForm = ({onAddHeader, header}) => {
                 onChange={handleChange}
                 onBlur={handleBlur}
                 border={
-                  errors.presentedby && touched.presentedby && '1px solid tomato'
+                  errors.presentedby &&
+                  touched.presentedby &&
+                  '1px solid tomato'
                 }
               />
 
               <StLabel htmlFor="urlesp">
                 URL de destino Especial
-              {errors.urlesp && touched.urlesp && (
+                {errors.urlesp && touched.urlesp && (
                   <StError>{errors.urlesp}</StError>
                 )}
               </StLabel>
               <StInput
                 id="urlesp"
                 type="text"
-                placeholder="https://www.placecage.com/"
+                placeholder="#"
                 value={values.urlesp}
                 name="urlesp"
                 onChange={handleChange}
                 onBlur={handleBlur}
-                border={
-                  errors.urlesp && touched.urlesp && '1px solid tomato'
-                }
+                border={errors.urlesp && touched.urlesp && '1px solid tomato'}
               />
 
               <StLabel htmlFor="imgesp">
                 URL de imagen Logo del Especial
-              {errors.imgesp && touched.imgesp && (
+                {errors.imgesp && touched.imgesp && (
                   <StError>{errors.imgesp}</StError>
                 )}
               </StLabel>
@@ -229,14 +243,12 @@ const HeaderForm = ({onAddHeader, header}) => {
                 value={values.imgesp}
                 onChange={handleChange}
                 onBlur={handleBlur}
-                border={
-                  errors.imgesp && touched.imgesp && '1px solid tomato'
-                }
+                border={errors.imgesp && touched.imgesp && '1px solid tomato'}
               />
 
               <StLabel htmlFor="theme">
                 Estilo de Widget
-              {errors.theme && touched.theme && (
+                {errors.theme && touched.theme && (
                   <StError>{errors.theme}</StError>
                 )}
               </StLabel>
@@ -245,7 +257,9 @@ const HeaderForm = ({onAddHeader, header}) => {
                 id="theme"
                 name="theme"
                 type="select"
-                value={availableThemes.filter(theme => theme.value === values.theme)}
+                value={availableThemes.filter(
+                  theme => theme.value === values.theme,
+                )}
                 onChange={selectedOption => {
                   handleChange('theme')(selectedOption.value)
                 }}
@@ -254,7 +268,7 @@ const HeaderForm = ({onAddHeader, header}) => {
               />
               <StLabel htmlFor="layout">
                 Layout
-              {errors.layout && touched.layout && (
+                {errors.layout && touched.layout && (
                   <StError>{errors.layout}</StError>
                 )}
               </StLabel>
@@ -262,7 +276,9 @@ const HeaderForm = ({onAddHeader, header}) => {
                 id="layout"
                 name="layout"
                 type="select"
-                value={availableLayout.filter(layout => layout.value === values.layout)}
+                value={availableLayout.filter(
+                  layout => layout.value === values.layout,
+                )}
                 onChange={selectedOption => {
                   handleChange('layout')(selectedOption.value)
                 }}
