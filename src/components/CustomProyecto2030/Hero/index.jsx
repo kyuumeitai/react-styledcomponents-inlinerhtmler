@@ -46,12 +46,31 @@ const HeroStyled = styled.div`
           font-size: 1.5rem;
           text-transform: none;
           font-weight: normal;
+          &.mt-2 {
+            margin-top: 2rem;
+          }
         }
         @media (max-width: 768px) {
           font-size: 3rem;
           &.secondary {
             font-size: 2rem;
           }
+        }
+      }
+      ul.tertiary {
+        margin-bottom: 1em;
+        font-size: 1.5rem;
+        text-transform: none;
+        font-weight: normal;
+        font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+        text-align: left;
+        li {
+          padding-left: 1em;
+          list-style: circle;
+          list-style-position: inside;
+          color: white;
+          font-family: franklin-gothic-urw, helvetica, arial, verdana,
+            sans-serif;
         }
       }
 

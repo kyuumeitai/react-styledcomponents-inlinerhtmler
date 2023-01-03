@@ -3,6 +3,7 @@ import Hero from './Hero'
 import styled from 'styled-components'
 import WhatsappButton from './WhatsappButton'
 import Sharer from './Sharer'
+import { Video } from './Video'
 
 const Columns = styled.div`
   display: grid;
@@ -43,35 +44,56 @@ const Wrap = styled.div`
   }
 `
 const CustomTheMatchProject = () => {
+  const videoHorizontal = 'https://rudo.video/vod/bPmHXq'
+  const videoVertical = 'https://rudo.video/vod/bPmHX8'
+  const videoSuffix = '/autostart/true?volume=0&stv=0'
   return (
-    <Overall>
-      <Hero>
-        <p>
-          Sin ti,
-          <br /> no hay <span className="chueco">futuro.</span>
-        </p>
-        {/* <p className="secondary">
-          {' '}
-        </p> */}
-        <p className="tertiary">
-          Súmale tu voz al futuro de la próxima década. Sé parte del Proyecto
-          20.30 y abramos el diálogo para conversar sobre: salud mental, tiempo
-          libre, sexualidad, trabajo y familia. Escríbenos por WhatsApp y
-          envíanos un audio, video o texto contando una historia u opinión sobre
-          cualquiera de los temas que te proponemos.
-        </p>
-        <div className="centered">
-          <WhatsappButton />
-        </div>
-        <div className="centered">
-          <Sharer
-            url="https://www.latercera.com/proyecto2030/"
-            description="Sé parte"
-            hashtags={['proyecto2030']}
-          />
-        </div>
-      </Hero>
-    </Overall>
+    <>
+      <Overall>
+        <Hero>
+          <p>
+            Sin ti,
+            <br /> no hay <span className="chueco">futuro.</span>
+          </p>
+
+          <p className="tertiary">
+            Súmale tu voz al futuro de la próxima década. Sé parte del Proyecto
+            20.30 y abramos el diálogo. Cuéntanos cuáles son tus esperanzas y
+            tus temores sobre alguno de los siguientes temas:
+          </p>
+          <ul className="tertiary">
+            <li>Salud mental</li>
+            <li>Tiempo libre</li>
+            <li>Sexualidad</li>
+            <li>Activismo y política</li>
+            <li>Trabajo y familia. </li>
+          </ul>
+
+          <div className="centered">
+            <WhatsappButton />
+          </div>
+          <p className="tertiary mt-2">
+            Escríbenos por WhatsApp y envíanos un audio, video o texto contando
+            una historia u opinión que refleje tu estado de ánimo o tus
+            expectativas de futuro en las temáticas que acá proponemos. Y si
+            crees que un asunto importante para ti se queda afuera, participa de
+            todas formas. Lo importante es conocer tu versión del mundo en el
+            que te mueves.
+          </p>
+          <div className="centered">
+            <Sharer
+              url="https://www.latercera.com/proyecto2030/"
+              description="Sé parte"
+              hashtags={['proyecto2030']}
+            />
+          </div>
+        </Hero>
+      </Overall>
+      <Video
+        mobile={`${videoVertical}${videoSuffix}`}
+        desktop={`${videoHorizontal}${videoSuffix}`}
+      />
+    </>
   )
 }
 
