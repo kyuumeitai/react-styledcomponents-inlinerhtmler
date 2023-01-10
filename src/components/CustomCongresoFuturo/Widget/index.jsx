@@ -1,6 +1,7 @@
 import React from 'react'
-import LogoAprender from '../LogoAprenderAConvivir'
-import LogoCongresoFuturo from '../LogoCongresoFuturo'
+import LogoSinLimiteReal from '../LogoSinLimiteReal'
+import LogoCongresoFuturo from '../LogoCongresoFuturo2022'
+import LogoUAutonoma from '../LogoUAutonoma'
 import styled from 'styled-components'
 import { QuePasa } from 'copesa-logos'
 
@@ -8,7 +9,9 @@ const Wrap = styled.div`
   grid-column: 1 / -1 !important;
   display: grid;
   grid-template-columns: 400px 1fr 400px;
+  padding: 1rem;
   gap: 1rem;
+  background-color: #212529;
   > div {
     grid-column: span 1;
     > div {
@@ -18,6 +21,18 @@ const Wrap = styled.div`
   @media (max-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
   }
+  .presentado-por {
+    background-color: transparent;
+    color: white;
+  }
+  .logoautonoma {
+    max-width: 100%;
+    max-height: 100px;
+    @media (max-width: 768px) {
+      max-height: 50px;
+      max-width: 80px;
+    }
+  }
 `
 
 const LogoWrap = styled.div`
@@ -26,21 +41,25 @@ const LogoWrap = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  @media(max-width: 768px) {
+  a {
+    display: block;
+    padding-right: 10px;
+  }
+  @media (max-width: 768px) {
     grid-column: span 2 !important;
   }
-  .logo-aprender{
+  .logo-aprender {
     max-height: 80px;
     margin-right: 10px;
   }
-  .logo-congreso{
+  .logo-congreso {
     max-height: 80px;
   }
-  @media(max-width: 768px) {
+  @media (max-width: 768px) {
     padding-top: 4px;
     padding-bottom: 4px;
   }
-  svg{
+  svg {
     max-width: 100%;
     height: 200px;
     max-height: 80px;
@@ -48,7 +67,6 @@ const LogoWrap = styled.div`
       max-height: 40px;
     }
   }
-}
 `
 
 const PresentedWrap = styled.div`
@@ -82,7 +100,6 @@ const Presented = styled.div`
   }
   a.logo1 {
     max-width: 160px;
-    margin-right: 40px;
   }
   a.logo2 {
     max-width: 130px;
@@ -125,36 +142,33 @@ const Custom2022Widget = ({ bgColor = '#E51261' }) => {
   return (
     <Wrap>
       <LogoWrap>
-        <LogoAprender mainColor={bgColor} className="logo-aprender" />
-        <LogoCongresoFuturo mainColor={bgColor} className="logo-congreso" />
+        <a
+          href="https://www.congresofuturo.cl/?utm_source=latercera&utm_medium=web&utm_campaign=congresofuturo"
+          target="_blank"
+          rel="noopener noreferrer">
+          <LogoSinLimiteReal mainColor={bgColor} className="logo-aprender" />
+        </a>
+        <a
+          href="https://www.congresofuturo.cl/?utm_source=latercera&utm_medium=web&utm_campaign=congresofuturo"
+          target="_blank"
+          rel="noopener noreferrer">
+          <LogoCongresoFuturo mainColor={bgColor} className="logo-congreso" />
+        </a>
       </LogoWrap>
       <SectionWrap>
         <Section>
-          <QuePasa dark="#4bc7bd" />
+          <QuePasa dark="#ccc" />
         </Section>
       </SectionWrap>
       <PresentedWrap>
-        <span>Presentado por: </span>
+        <span className="presentado-por">Presentado por: </span>
         <Presented>
           <a
             className="logo1"
-            href="https://www.usm.cl/?utm_source=latercera&utm_medium=web&utm_campaign=congresofuturo"
+            href="https://www.uautonoma.cl/?utm_source=latercera&utm_medium=web&utm_campaign=congresofuturo"
             target="_blank"
             rel="noopener noreferrer">
-            <img
-              src="https://www.latercera.com/resizer/1GzmOgppjm6hqGr2uGqmMvN8lCI=/arc-anglerfish-arc2-prod-copesa/public/MYZOOESANZHKLCZY7ZIAN2EPHU.png"
-              alt="Universidad Técnica Federico Santa María"
-            />
-          </a>
-          <a
-            className="logo2"
-            href="https://www.arauco.cl/chile/?utm_source=latercera&utm_medium=web&utm_campaign=congresofuturo"
-            target="_blank"
-            rel="noopener noreferrer">
-            <img
-              src="https://www.latercera.com/resizer/X_Z4qB5FCi-spJuz8F1ivJTsHuo=/arc-anglerfish-arc2-prod-copesa/public/VKVT5Q3WM5GY7JDE3NMH6DO2IQ.png"
-              alt="Arauco"
-            />
+            <LogoUAutonoma className="logoautonoma" />
           </a>
         </Presented>
       </PresentedWrap>
