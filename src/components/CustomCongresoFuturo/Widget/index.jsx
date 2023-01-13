@@ -2,6 +2,8 @@ import React from 'react'
 import LogoSinLimiteReal from '../LogoSinLimiteReal'
 import LogoCongresoFuturo from '../LogoCongresoFuturo2022'
 import LogoUAutonoma from '../LogoUAutonoma'
+import LogoAntofagastaMineralsBlack from '../LogoAntofagastaMineralsBlack'
+
 import styled from 'styled-components'
 import { QuePasa } from 'copesa-logos'
 
@@ -99,10 +101,17 @@ const Presented = styled.div`
     display: block;
   }
   a.logo1 {
-    max-width: 160px;
+    max-width: 140px;
+    margin-right: 5px;
+    svg {
+      max-width: 100%;
+    }
   }
   a.logo2 {
-    max-width: 130px;
+    max-width: 160px;
+    svg {
+      max-width: 100%;
+    }
   }
   img {
     max-width: 100%;
@@ -169,6 +178,13 @@ const Custom2022Widget = ({ bgColor = '#E51261' }) => {
             target="_blank"
             rel="noopener noreferrer">
             <LogoUAutonoma className="logoautonoma" />
+          </a>
+          <a
+            className="logo2"
+            href="https://www.aminerals.cl/?utm_source=latercera&utm_medium=web&utm_campaign=congresofuturo"
+            target="_blank"
+            rel="noopener noreferrer">
+            <LogoAntofagastaMineralsBlack />
           </a>
         </Presented>
       </PresentedWrap>
