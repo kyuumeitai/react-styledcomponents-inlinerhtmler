@@ -343,7 +343,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/19-valentina-munoz/',
     img: 'https://www.latercera.com/resizer/4OV_ZiysfBCzD-wnldeVQ-v2-40=/arc-anglerfish-arc2-prod-copesa/public/6ECLTJULSFHDBBILZ5442YWARA.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 19',
     name: 'Valentina Muñoz',
     aftername:
@@ -352,9 +352,23 @@ const data = [
       'Nuevos liderazgos para el desarrollo sostenible y uso ético de las tecnologías',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Nuevo',
+    label: 'Disponible',
     description: `<p>En este capítulo hablamos con la programadora, activista por los derechos digitales y defensora de los objetivos de desarrollo sostenible de la ONU, Valentina Muñoz, sobre la importancia de velar por los derechos humanos en los espacios digitales; sobre quiénes son responsables de esa regulación; el extractivismo de datos y el potencial que tienen las tecnologías digitales de abordar inequidades pero también -de no ser reguladas- de exacerbarlas. A eso, se le suma su visión respecto a cómo hacer, hoy en día, tecnologías inclusivas con perspectiva de género y de qué manera poner la digitalización al servicio de las agendas de desarrollo sostenible. En eso, afirma, la educación de las niñas es una herramienta clave.</p>`,
     iframe: 'https://www.youtube.com/embed/zAxk3sYEuIo',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/20-alejandra-matus/',
+    img: 'https://www.latercera.com/resizer/_esN-AiUFxEV1uqeS8HfElxLkUA=/arc-anglerfish-arc2-prod-copesa/public/VSF4TU7Q5VCV3LHEFMHO76APAA.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Capítulo 20',
+    name: 'Alejandra Matus',
+    aftername: 'Periodista',
+    title: 'Nuevos medios y perspectiva de género en el periodismo',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En 2021, y al alero del proceso constituyente, la periodista Alejandra Matus -con apoyo de Corporación Humanas- fundó La Neta, un medio independiente que buscaba informar sobre lo que ocurría, día a día, en la Convención Constitucional. Tras el cierre de esa primera etapa -a raíz del triunfo del Rechazo-, en este capítulo de Lidera; Matus hace un balance sobre dicho proyecto, indicando que cumplió su función al transformarse en uno de los referentes noticiosos de dicho órgano, aunque reconoció el desafío que supuso mantener la distancia en cuanto a la cobertura. Además, abordó el fenómeno de la desinformación en redes sociales y habló sobre los puntos de tope en el periodismo con respecto a la perspectiva de género. “Tendemos a darle validez o autoridad a las voces de los comentaristas hombres en política, economía o justicia. Y aún no existe valoración social para que las mujeres hablen de dichos temas”, finaliza.</p>`,
+    iframe: 'https://www.youtube.com/embed/ISctIwvFvgo',
   },
 ]
 
