@@ -120,9 +120,7 @@ const Header = () => {
     <HeaderWrap>
       <StLogo>
         <div className="logowr">
-          <a href="https://www.latercera.com/el-gabinete-de-gabriel-boric/">
-            <LogoGabineteChico />
-          </a>
+          <h2>Expertos</h2>
         </div>
       </StLogo>
     </HeaderWrap>
@@ -156,9 +154,18 @@ const Body = () => {
             <Face
               key={index}
               nombre={item.nombre}
-              cargo={item.cargo}
+              apellido={item.apellido}
+              edad={item.edad}
+              profesion={item.profesion}
+              universidad={item.universidad}
+              filiacion={item.filiacion}
+              cupo={item.cupo}
+              posgrado={item.posgrado}
+              cargoactual={item.cargoactual}
+              cargosanteriores={item.cargosanteriores}
               foto={item.foto}
               url={item.url}
+              origen={item.origen}
               size={'small'}
             />
           )

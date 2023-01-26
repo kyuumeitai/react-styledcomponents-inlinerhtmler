@@ -56,16 +56,30 @@ const Figure = ({ src, alt }) => {
   )
 }
 
-const Face = ({ nombre, cargo, foto, url, size = 'small' }) => {
+const Face = ({
+  nombre,
+  apellido,
+  edad,
+  profesion,
+  universidad,
+  filiacion,
+  cupo,
+  posgrado,
+  cargoactual,
+  cargosanteriores,
+  foto,
+  url,
+  origen,
+  size = 'small',
+}) => {
+  const nombrecompleto = `${nombre} ${apellido}`
   return (
     <Wrap className={size}>
       <a href={url}>
-        <Figure src={foto} alt={nombre} />
+        <Figure src={foto} alt={nombrecompleto} />
       </a>
-      <h2>
-        <a href={url}>{nombre}</a>
-      </h2>
-      <p>{cargo}</p>
+      <h2>{nombrecompleto}</h2>
+      <p>{profesion}</p>
     </Wrap>
   )
 }
