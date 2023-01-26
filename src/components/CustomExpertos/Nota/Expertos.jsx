@@ -140,13 +140,13 @@ const WrapSmall = styled.div`
 const StLogo = styled.h2`
   display: block;
   width: 100%;
-  color: white;
+  color: black;
   .logowr {
     position: relative;
     &::after,
     &::before {
       content: '';
-      border-top: 1px solid white;
+      border-top: 1px solid black;
       position: absolute;
       top: 50%;
     }
