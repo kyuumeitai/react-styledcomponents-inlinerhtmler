@@ -1,0 +1,129 @@
+<style>
+  .blob {
+    background: black;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    box-shadow: 0 0 0 0 rgb(0 0 0);
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    margin: 7px 17px 10px;
+  }
+
+  .white-blob {
+    background: white;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+    animation: pulse-white 2s infinite;
+  }
+
+  .ls-desktop {
+    width: 365px;
+  }
+
+  .ls-goto {
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    width: 85%;
+    height: 43px;
+    background: #952323;
+    margin: 0 auto;
+  }
+
+  .ls-close {
+    height: 50px;
+    width: 50px;
+    background: url(https://ads-lt.digitalproserver.com/ads/cerrar.png);
+    position: absolute;
+    right: 0;
+    margin-top: -20px;
+  }
+
+  .ls-sponsor {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: 1fr 140px;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: -15px;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .presented-by {
+    font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    margin-right: 5px;
+  }
+
+  .logostream {
+    display: block;
+    max-width: 100%;
+  }
+
+  .ls-streaming {
+    width: 367px;
+    height: 645px;
+  }
+
+  .ls-streaming iframe {
+    width: 367px;
+    height: 645px;
+  }
+
+  @media (max-width: 768px) {
+    .ls-streaming {
+      width: 95%;
+      height: 570px;
+    }
+    .ls-streaming iframe {
+      width: 98%;
+      height: 550px;
+    }
+  }
+
+  @keyframes pulse-white {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+</style>
+
+<div class="ls-widget">
+  <button class="ls-close" onclick="remove(this)">Cerrar</button>
+
+  <div class="ls-sponsor">
+    <span class="presented-by">Presentado por: </span>
+    <img
+      class="logostream"
+      src="https://ads-lt.digitalproserver.com/ads/lab/samsung/logo-samsung-black.svg"
+      title="Samsung"
+      alt="Samsung"
+    />
+  </div>
+  <div class="ls-goto">
+    <div class="white-blob blob"></div>
+    <a href="https://www.samsung.com/cl/" target="_blank">
+      <p>Ir a la transmisión en Samsung</p>
+    </a>
+  </div>
+  <div class="ls-streaming">
+    <iframe src="https://google.com" frameborder="0" scrolling="no"></iframe>
+  </div>
+  <iframe
+    src="https://securepubads.g.doubleclick.net/gampad/adx?iu=/124506296/Especiales/Pixel_streamingLG2&sz=1x1&c=%%CACHEBUSTER%%&tile=1"
+    height="1"
+    width="1"
+  ></iframe>
+</div>
