@@ -17,17 +17,12 @@
     animation: pulse-white 2s infinite;
   }
 
-  .ls-desktop {
-    width: 365px;
-  }
-
   .ls-goto {
     border-radius: 5px;
     color: white;
     text-align: center;
     width: 85%;
     height: 43px;
-    background: #952323;
     margin: 0 auto;
   }
 
@@ -41,6 +36,8 @@
   }
 
   .ls-sponsor {
+    font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+
     display: grid;
     grid-column: 1 / -1;
     grid-template-columns: 1fr 140px;
@@ -101,7 +98,7 @@
 </style>
 
 <div class="ls-widget">
-  <button class="ls-close" onclick="remove(this)">Cerrar</button>
+  <button class="ls-close" onclick="remove()">Cerrar</button>
 
   <div class="ls-sponsor">
     <span class="presented-by">Presentado por: </span>
