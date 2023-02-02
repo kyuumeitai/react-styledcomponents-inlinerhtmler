@@ -7,12 +7,12 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="https://especiales.latercera.com/publicidad/ripley/junio-13/demo.css"
+      href="https://especiales.latercera.com/publicidad/cubo-new/nanocubo.css"
       media="all"
     />
   </head>
   <body>
-    <div class="cube-wrap example1">
+    <div class="cube-wrap formatcube">
       <div id="cube" class="cube">
         <div class="cube-face1">
           <a
@@ -30,81 +30,47 @@
             href="%%CLICK_URL_UNESC%%https://ad.doubleclick.net/ddm/trackclk/N1500117.279374LACUARTA/B29312030.358341581;dc_trk_aid=549485730;dc_trk_cid=186078959;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd="
             target="_blank"
           >
-            <img class="step3-img2" src="%%FILE:JPG2%%" alt="" />
+            <img class="step2-img1" src="%%FILE:JPG2%%" alt="" />
           </a>
           <img
             src="https://ad.doubleclick.net/ddm/trackimp/N1500117.279374LACUARTA/B29312030.358341581;dc_trk_aid=549485730;dc_trk_cid=186078959;ord=%%CACHEBUSTER%%;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=?"
           />
         </div>
-        <div class="cube-top">
+        <div class="cube-face3">
           <a
             href="%%CLICK_URL_UNESC%%https://ad.doubleclick.net/ddm/trackclk/N1500117.279374LACUARTA/B29312030.358341575;dc_trk_aid=549469538;dc_trk_cid=186078959;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd="
             target="_blank"
           >
-            <img class="step4-img3" src="%%FILE:JPG1%%" alt="" />
+            <img class="step3-img1" src="%%FILE:JPG1%%" alt="" />
           </a>
           <img
             src="https://ad.doubleclick.net/ddm/trackimp/N1500117.279374LACUARTA/B29312030.358341575;dc_trk_aid=549469538;dc_trk_cid=186078959;ord=%%CACHEBUSTER%%;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=?"
           />
         </div>
-        <div class="cube-bottom">
+        <div class="cube-face4">
           <a
             href="%%CLICK_URL_UNESC%%https://ad.doubleclick.net/ddm/trackclk/N1500117.279374LACUARTA/B29312030.358680153;dc_trk_aid=549616351;dc_trk_cid=186078959;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd="
             target="_blank"
           >
-            <img class="step2-img2" src="%%FILE:JPG4%%" alt="" />
+            <img class="step4-img1" src="%%FILE:JPG4%%" alt="" />
           </a>
           <img
             src="https://ad.doubleclick.net/ddm/trackimp/N1500117.279374LACUARTA/B29148132.355971981;dc_trk_aid=546742799;dc_trk_cid=184724580;ord=%%CACHEBUSTER%%;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=?"
           />
         </div>
-        <div class="cube-face3" style="display: none"></div>
-        <div class="cube-face4" style="display: none"></div>
       </div>
     </div>
 
-    <script src="https://especiales.latercera.com/publicidad/demo-banner/cubo/jquery.min.js"></script>
+    <script src="https://especiales.latercera.com/publicidad/cubo-new/jquery.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function () {
         var step = 2
         $('.cube').addClass('step1')
         $('.step1-img1').css('display', 'block')
-        $('.step1-img2').css('display', 'block')
         setInterval(function () {
           if (step == 5) {
             step = 1
             $('.cube').removeClass('step4')
-          }
-          if (step == 1) {
-            setTimeout(function () {
-              $('.step1-img1').css('display', 'block')
-              $('.step1-img2').css('display', 'block')
-            }, 5)
-            setTimeout(function () {
-              $('.step2-img1').css('display', 'none')
-            }, 2000)
-          }
-          if (step == 2) {
-            setTimeout(function () {
-              $('.step2-img2').css('display', 'block')
-            }, 5)
-            setTimeout(function () {
-              $('.step2-img1').addClass('slideDown').css('display', 'block')
-            }, 2000)
-          }
-          if (step == 3) {
-            setTimeout(function () {
-              $('.step3-img1').addClass('fadeIn').css('display', 'block')
-            }, 500)
-            setTimeout(function () {
-              $('.step3-img2').css('display', 'block')
-            }, 5)
-          }
-          if (step == 4) {
-            $('.step4-img3').css('display', 'block')
-            setTimeout(function () {
-              $('.step4-img4').addClass('slideUp').css('display', 'block')
-            }, 2000)
           }
           $('.cube')
             .addClass('step' + step)
