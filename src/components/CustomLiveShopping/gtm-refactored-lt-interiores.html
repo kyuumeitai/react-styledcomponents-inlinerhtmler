@@ -1,4 +1,10 @@
 <script>
+  function removeAllSpm() {
+    var spm = document.getElementsByClassName('spm')
+    if (spm.length > 0) {
+      spm[0].parentNode.removeChild(spm[0])
+    }
+  }
   function insertStreaming(
     classSelector,
     iframeUrl,
@@ -39,36 +45,38 @@
       '</div>'
   }
 
-  var classSelector = 'tsidebar'
+  var topClassSelector = 'top-fully'
+  var classSelector = 'La_Tercera_com/LT_interior/interior_300x50 arcad'
   var iframeUrl =
-    'https://on.mediastre.am/events/mediastream--eventos-us/liveshop-epico/live/?utm_source=iframe&utm_medium=LaTerceraDesktop&utm_campaign=Liveshopping'
+    'https://on.mediastre.am/events/mediastream--eventos-us/liveshop-epico/live/?utm_source=iframe&utm_medium=LaTerceraInteriores&utm_campaign=Liveshopping'
   var pixelhtml =
     "<a href='https://pubads.g.doubleclick.net/gampad/jump?iu=/124506296/Publirreportajes/2023/ENERO/Samsung_Livestream&sz=1x1&c=[TIMESTAMP]'><img src='https://pubads.g.doubleclick.net/gampad/ad?iu=/124506296/Publirreportajes/2023/ENERO/Samsung_Livestream&sz=1x1&c=[TIMESTAMP]'/></a>"
+
   var logoUrl =
     'https://ads-lt.digitalproserver.com/ads/lab/samsung/logo-samsung-white.svg'
   var logoBrand = 'Samsung'
   var presentedGoTo =
     'https://www.latercera.com/liveshopping/?utm_source=La+Tercera&utm_medium=BotonTransmision_HomeLT&utm_campaign=Liveshopping&utm_term=Liveshopping'
-  var streamClassName = 'streamingDesktop'
+  var streamClassName = 'streamingMobile'
 
   setTimeout(function () {
-    return insertStreaming(
+    insertStreaming(
       classSelector,
       iframeUrl,
       pixelhtml,
       logoUrl,
       logoBrand,
-      presentedGoTo,
-      streamClassName
+      presentedGoTo
     )
+    removeAllSpm()
   }, 3000)
-  document.querySelector('meta[http-equiv]').remove()
 </script>
 <style>
   .ls-widget {
     background-color: black;
     border-radius: 10px;
     overflow: hidden;
+    min-width: 338px;
   }
 
   .blob {

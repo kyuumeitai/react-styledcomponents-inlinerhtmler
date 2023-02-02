@@ -9,7 +9,7 @@
   function insertStreaming(
     classSelector,
     iframeUrl,
-    pixelUrl,
+    pixelhtml,
     logoUrl,
     logoBrand,
     presentedGoTo,
@@ -24,54 +24,47 @@
     )
     streamingElement.innerHTML =
       '\
-    <div class="ls-widget">\
+    <div class="ls-widget ajuste-1440-cards">\
       <div class="ls-sponsor">\
         <span class="presented-by">Presentado por: </span>\
-        <img class="logostream" src="' +
-      logoUrl +
-      '" title="' +
-      logoBrand +
-      '" alt="' +
-      logoBrand +
-      '"/>\
-      </div>\
-      <div class="ls-goto">\
-        <div class="white-blob blob"></div>\
-        <a href="' +
+          <div class="ls-goto">\
+          <a class="ls-goto-btn" href="' +
       presentedGoTo +
       '" target="_blank">\
-          <p>Ir a la transmisión en ' +
-      logoBrand +
-      '</p>\
-        </a>\
+            <span>Ir a las ofertas </span>\
+            <span class="white-blob blob"></span>\
+          </a>\
+        </div>\
       </div>\
       <div class="ls-streaming">\
         <iframe src="' +
       iframeUrl +
       '" frameborder="0" scrolling="no"></iframe>\
       </div>\
-      <iframe src="' +
-      pixelUrl +
-      '" height="1" width="1"></iframe>\
-    </div>'
+      ' +
+      pixelhtml +
+      '</div>'
   }
 
-  var classSelector = 'top-fully'
+  var topClassSelector = 'top-fully'
+  var classSelector = 'insert-liveshopping-mobile'
   var iframeUrl =
-    'https://on.mediastre.am/events/mediastream--eventos-us/liveshop-epico/?utm_source=iframe&utm_medium=lt&utm_campaign=embed-mobile'
-  var pixelUrl =
-    'https://securepubads.g.doubleclick.net/gampad/adx?iu=/124506296/Especiales/Pixel_streamingLG2&sz=1x1&c=%%CACHEBUSTER%%&tile=1'
+    'https://on.mediastre.am/events/mediastream--eventos-us/liveshop-epico/live/?utm_source=iframe&utm_medium=LaTerceraMobile&utm_campaign=Liveshopping'
+  var pixelhtml =
+    "<a href='https://pubads.g.doubleclick.net/gampad/jump?iu=/124506296/Publirreportajes/2023/ENERO/Samsung_Livestream&sz=1x1&c=[TIMESTAMP]'><img src='https://pubads.g.doubleclick.net/gampad/ad?iu=/124506296/Publirreportajes/2023/ENERO/Samsung_Livestream&sz=1x1&c=[TIMESTAMP]'/></a>"
+
   var logoUrl =
     'https://ads-lt.digitalproserver.com/ads/lab/samsung/logo-samsung-white.svg'
   var logoBrand = 'Samsung'
-  var presentedGoTo = 'https://www.samsung.com/cl/live/'
+  var presentedGoTo =
+    'https://www.latercera.com/liveshopping/?utm_source=La+Tercera&utm_medium=BotonTransmision_HomeLT&utm_campaign=Liveshopping&utm_term=Liveshopping'
   var streamClassName = 'streamingMobile'
 
   setTimeout(function () {
     insertStreaming(
       classSelector,
       iframeUrl,
-      pixelUrl,
+      pixelhtml,
       logoUrl,
       logoBrand,
       presentedGoTo
@@ -85,21 +78,19 @@
     border-radius: 10px;
     overflow: hidden;
   }
+
   .blob {
-    background: black;
     border-radius: 50%;
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    box-shadow: 0 0 0 0 rgb(0 0 0);
+    height: 9px;
+    width: 9px;
+    display: inline-block;
     transform: scale(1);
     animation: pulse 2s infinite;
-    margin: 7px 17px 10px;
   }
 
   .white-blob {
-    background: white;
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+    background: rgb(255, 0, 0);
+    box-shadow: 0 0 0 0 rgb(255, 0, 0);
     animation: pulse-white 2s infinite;
   }
 
@@ -109,8 +100,18 @@
     color: white;
     font-size: 11px;
     text-transform: uppercase;
-    text-align: center;
-    margin: 0 auto;
+    line-height: 1.5;
+    text-align: right;
+    padding: 0;
+    position: relative;
+    grid-column: span 1 !important;
+  }
+
+  .ls-goto-btn {
+    color: white;
+    padding: 4px 9px;
+    border: 1px solid white;
+    border-radius: 6px;
   }
 
   .ls-close {
@@ -126,7 +127,7 @@
     font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
     display: grid;
     grid-column: 1 / -1;
-    grid-template-columns: 1fr 140px;
+    grid-template-columns: 1fr 180px;
     align-items: center;
     text-align: left;
     padding: 10px;
@@ -138,6 +139,7 @@
     font-size: 11px;
     text-transform: uppercase;
     font-weight: 400;
+    padding-right: 10px;
   }
 
   .logostream {
