@@ -1,0 +1,60 @@
+<style>
+  .branded-8m {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-column: span 1 !important;
+    padding: 5px 5px;
+    align-items: center;
+    grid-gap: 4rem;
+  }
+  .branded-8m small {
+    font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    margin-right: 5px;
+  }
+  .branded-8m img {
+    max-height: 50px;
+  }
+
+  .branded-8m div:first-of-type {
+    text-align: left;
+  }
+
+  .branded-8m div:last-of-type {
+    text-align: right;
+  }
+
+  .branded-8m div {
+    grid-column: span 1 !important;
+  }
+
+  @media (min-width: 768px) {
+    .branded-8m div {
+      grid-column: span 1 !important;
+    }
+  }
+  @media (min-width: 400px) {
+    .branded-8m div {
+      grid-column: span 1 !important;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .branded-8m {
+      grid-template-columns: 1fr;
+      padding: 10px 10px;
+      grid-gap: 5px;
+    }
+  }
+</style>
+<div class="align-left branded-8m">
+  <div><h3>8M en 8 arquetipos</h3></div>
+  <div>
+    <small>Presentado por:</small>
+
+    <img
+      src="https://www.latercera.com/resizer/L7-wy8Io68fyC__2YzfshjsCZcM=/arc-anglerfish-arc2-prod-copesa/public/3NGVFMC75BE3ZLTZESC4YAAJQE.png"
+    />
+  </div>
+</div>
