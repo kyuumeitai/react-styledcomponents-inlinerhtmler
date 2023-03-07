@@ -88,9 +88,11 @@ const Hero = () => {
       </HeroWrap>
       <PresentadoPor />
       <Intro>
-        El 8M es el día en que recordamos que la sociedad aún tiene una deuda
-        con las mujeres, por la violencia y discriminación que vivimos a diario.
-        Por eso salimos a las calles.{' '}
+        En esta nueva versión del 8M queremos hacerle un zoom al éxito femenino
+        para visibilizar la red de apoyo que existe en cada una de estas
+        historias descubriendo a las mujeres comunes que hay detrás, la
+        relevancia de la mentoría, networking, diversidad y cómo encontrar a la
+        mujer exitosa que está cerca de ti.{' '}
       </Intro>
       <DottedHr />
     </Wrap>

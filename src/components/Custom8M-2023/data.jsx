@@ -19,13 +19,28 @@ const data = [
     title: '',
     description: '',
     imgurl:
-      'https://www.latercera.com/resizer/NR3Zc3dUj0W0xU_4jxIsRmWgXO8=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/6TM6H7UU6JASVASQVCWRGHDTEQ.jpg',
+      'https://www.latercera.com/resizer/1YDZjIzBu6bI0in_jroV_yUzp-A=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/5GQUD4PUIVFAFFEVS3NFPM4LTQ.jpg',
     note: {
-      title: 'La mentoría que me cambió la vida',
+      title: 'No se lo digas a: una mujer en este 8M',
       description:
-        'María José López (29) y Lissette Latin son hoy buenas amigas. Hablan casi todos los días por Whatsapp e incluso tienen algunos proyectos juntas en relación a un tema que las unió profundamente: los hijos con una discapacidad. Pero el vínculo entre ambas no siempre fue como amigas. Comenzó cuando Lissette acompañó como mentora a María José durante una de las etapas más difíciles pero más gratificantes de su vida: la maternidad.',
+        'Este 8M se conmemora una vez más el Día Internacional de la Mujer, una fecha en que se revindica el papel fundamental que juegan las mujeres en la sociedad y en el que se recuerda la lucha contra la desigualdad de género que aún persiste.',
       imgurl: '',
-      url: 'https://www.latercera.com/paula/la-mentoria-que-me-cambio-la-vida/',
+      url: 'https://www.latercera.com/paula/no-se-lo-digas-a-una-mujer-en-este-8m/',
+      date: '',
+    },
+  },
+  {
+    title: '',
+    description: '',
+    imgurl:
+      'https://www.latercera.com/resizer/YkLovZsAoiXUctQBxrLLhaFVfgI=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/ESISSUU7L5A77F2AL4EGXKQVOQ.jpg',
+    note: {
+      title:
+        'Sharoni Rosenberg y su camino acompañando a mujeres a encontrar el propósito',
+      description:
+        'Antes de sus 33 años, la abogada y actual conferencista Sharoni Rosenberg – fundadora de la consultora Purposely y autora del libro El propósito no era lo que yo creía: pero en el camino descubrí mucho más- era lo que siempre ella había considerado como una mujer ‘exitosa’: una hija preocupada, una madre atenta con su familia, una buena esposa y una persona reconocida en su trabajo.',
+      imgurl: '',
+      url: 'https://www.latercera.com/paula/sharoni-rosenberg-y-su-camino-acompanando-a-mujeres-a-encontrar-el-proposito/',
       date: '',
     },
   },
