@@ -3,6 +3,50 @@ const data = [
     title: '',
     description: '',
     imgurl:
+      'https://www.latercera.com/resizer/EuYRhjm16qX0xki-SmHH62qz728=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/KOHXAJE6SJCTNMAFOIU6PGWFXI.jpg',
+    note: {
+      title: 'La brecha salarial que aún persiste',
+      description:
+        'Esta y otras cifras impactantes se dieron a conocer en los días previos a este 8 de marzo, a través del Informe La Mujer, la Empresa y el Derecho, que contempla el estudio en 190 países y que da cuenta de los avances en materia jurídica que han contribuido a una mayor igualdad de acceso de oportunidades económicas entre hombres y mujeres en los últimos 50 años, advirtiendo que la velocidad de estos ha caído a su nivel más bajo en los últimos 20 años y que, actualmente, la mujer goza sólo de tres cuartas partes de los mismos derechos que el hombre.',
+      imgurl: '',
+      url: 'https://www.latercera.com/paula/la-brecha-salarial-que-aun-persiste/',
+      date: '',
+    },
+  },
+  {
+    title: '',
+    description: '',
+    imgurl:
+      'https://www.latercera.com/resizer/KW84bTd8QUuBkbtULF8KQPN84rI=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/O3QPR4STCFCY7NIYRFT3747YZQ.jpg',
+    note: {
+      title:
+        'Red colaborativa de emprendedoras sociales: El poder de la sinergia',
+      description:
+        'Hay un dicho que dice que una mujer sola llega más rápido, pero que las mujeres acompañadas llegamos más lejos. Y eso es lo que han podido comprobar con la Red Colaborativa creada por la Fundación Mujer Impacta, una organización que reconoce anualmente a mujeres que a través de sus historias de vida y trascendiendo sus intereses personales, realizan un aporte al país impulsando iniciativas sociales y culturales.',
+      imgurl: '',
+      url: 'https://www.latercera.com/paula/red-colaborativa-de-emprendedoras-sociales-el-poder-de-la-sinergia/',
+      date: '',
+    },
+  },
+  {
+    title: '',
+    description: '',
+    imgurl:
+      'https://www.latercera.com/resizer/psD4jE8WeInufozSHRdQldECz4E=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/OLRJWLOZDVA6HHRJE7NDFWCW2U.jpg',
+    note: {
+      title:
+        'Del oficio solitario de escribir a pensar la literatura en colectivo',
+      description:
+        'La historia del Colectivo feminista Autoras Chilenas -conocido como auch+- empieza hace cuatro años, un 8 de marzo de 2019, a meses del estallido social y a tan solo un año del comienzo de la pandemia; podríamos decir en otro Chile y en otro mundo. Ese día, un grupo de escritoras mujeres de generaciones muy diversas se autocovocaron a través de redes sociales para marchar por primera vez juntas. “Cuestiona tu cánon” era su llamado.',
+      imgurl: '',
+      url: 'https://www.latercera.com/paula/del-oficio-solitario-de-escribir-a-pensar-la-literatura-en-colectivo/',
+      date: '',
+    },
+  },
+  {
+    title: '',
+    description: '',
+    imgurl:
       'https://www.latercera.com/resizer/Kv7TRoYaFDJGjyL89i2nPJkAoT0=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/IO4OGG3VUNDATKNQUQV6Q5WFNM.jpg',
     note: {
       title:
@@ -14,7 +58,6 @@ const data = [
       date: '',
     },
   },
-
   {
     title: '',
     description: '',
