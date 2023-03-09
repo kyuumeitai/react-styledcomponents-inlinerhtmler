@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Article from '../Article'
 import Header from '../Header'
-import CustomWidget from '../CustomLolla-2023/Widget'
+import CustomWidget from '../CustomGabinete-2023/Page'
 import { StWidget, StHeader, StBody } from './style.css'
 
 const Preview = ({ articles, header, site }) => {
