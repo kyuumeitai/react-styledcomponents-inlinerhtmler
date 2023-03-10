@@ -290,7 +290,7 @@ const fichas = [
     universidad: 'Universidad de Surrey',
     biografia:
       'Jaime de Aguirre se desempeñó entre el 2016 y 2001 como director ejecutivo de Televisión Nacional de Chile. Dentro de sus estudios destacan la realización de un diplomado en sonido en la Universidad de Surrey. Trabajó en la realización del himno de la Teletón y tambien destaca por musicalizar la campaña del No en el plebiscito de 1988. ',
-    url: 'https://www.latercera.com/politica/noticia/quien-es-alberto-van-klaveren-ministro-de-relaciones-exteriores-de-gabriel-boric/62FZT27PZFFC5JQPIHO4UKBZ3U/',
+    url: 'https://www.latercera.com/politica/noticia/quien-es-jaime-de-aguirre-el-ministro-de-cultura-de-gabriel-boric/UN236ONVAJBLRPFQLSOVHX4WLA/',
     foto: 'https://www.latercera.com/resizer/OKZEAJ1clPT5yaNY6SeKKB6KzI8=/0x300/filters:quality(75)/arc-anglerfish-arc2-prod-copesa/public/TMDALTABJFACTFETGDDP2PYTPM.jpg',
   },
   {

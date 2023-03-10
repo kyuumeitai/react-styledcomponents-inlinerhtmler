@@ -32,7 +32,7 @@ const HeaderWrap = styled.div`
   h1 {
     line-height: 1.1;
     small {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
   }
 `
@@ -72,7 +72,7 @@ const Header = () => {
       <h1>
         El cambio de Gabinete del presidente Gabriel Boric, edición 2023
         <br />
-        <small>Actualizado: 10 marzo 2023 16:17</small>
+        <small>Actualizado: 10 marzo 2023</small>
       </h1>
       <Sharer
         className="sharer"
