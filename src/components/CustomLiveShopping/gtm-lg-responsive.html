@@ -1,0 +1,188 @@
+<script>
+  function removeAllSpm() {
+    var spm = document.getElementsByClassName('spm')
+    if (spm.length > 0) {
+      spm[0].parentNode.removeChild(spm[0])
+    }
+  }
+
+  function insertStreaming(
+    classSelector,
+    iframeUrl,
+    pixelhtml,
+    logoUrl,
+    logoBrand,
+    presentedGoTo,
+    streamClassName
+  ) {
+    var parentElement = document.getElementsByClassName(classSelector)[0]
+    var streamingElement = document.createElement('div')
+    streamingElement.className = streamClassName
+    parentElement.insertBefore(
+      streamingElement,
+      parentElement.firstElementChild
+    )
+    streamingElement.innerHTML =
+      '\
+    <div class="ls-widget ajuste-1440-cards">\
+      <div class="ls-sponsor">\
+        <span class="presented-by">Presentado por: </span>\
+          <a class="ls-goto-logo" href="' +
+      presentedGoTo +
+      '" target="_blank">\
+            <img src="' +
+      logoUrl +
+      '" class="logostream" alt="' +
+      logoBrand +
+      '">\
+          </a>\
+          <div class="ls-goto">\
+          <a class="ls-goto-btn" href="' +
+      presentedGoTo +
+      '" target="_blank">\
+            <span>Ir a la transmisión en lg.com </span>\
+            <span class="white-blob blob"></span>\
+          </a>\
+        </div>\
+      </div>\
+      <div class="ls-streaming">\
+        <iframe src="' +
+      iframeUrl +
+      '" frameborder="0" scrolling="no"></iframe>\
+      </div>\
+      ' +
+      pixelhtml +
+      '</div>'
+  }
+
+  var classSelector = 'tsidebar'
+  var iframeUrl =
+    'https://www.shoplive.show/v1/player.html?ak=YPCJo3RIjEz8ZizvQr31&ck=9bc3c8cd7928&replay=true'
+  var pixelhtml =
+    "<a href='https://pubads.g.doubleclick.net/gampad/jump?iu=/124506296/Publirreportajes/2023/ENERO/Samsung_Livestream&sz=1x1&c=[TIMESTAMP]'><img src='https://pubads.g.doubleclick.net/gampad/ad?iu=/124506296/Publirreportajes/2023/ENERO/Samsung_Livestream&sz=1x1&c=[TIMESTAMP]'/></a>"
+  var logoUrl = 'https://especiales.latercera.com/lg-assets/Logo_LG.svg'
+  var logoBrand = 'LG'
+  var presentedGoTo =
+    'https://www.latercera.com/liveshopping/?utm_source=La+Tercera&utm_medium=BotonTransmision_HomeLT&utm_campaign=Liveshopping&utm_term=Liveshopping'
+  var streamClassName = 'liveshopping'
+
+  setTimeout(function () {
+    insertStreaming(
+      classSelector,
+      iframeUrl,
+      pixelhtml,
+      logoUrl,
+      logoBrand,
+      presentedGoTo
+    )
+    removeAllSpm()
+  }, 3000)
+</script>
+<style>
+  .ls-widget {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .blob {
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    display: inline-block;
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    background: rgb(255, 0, 0);
+    box-shadow: 0 0 0 0 rgb(255, 0, 0);
+  }
+
+  .ls-goto {
+    font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+    border-radius: 5px;
+    color: black;
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    grid-column: span 2 !important;
+  }
+
+  .ls-goto-btn {
+    color: white;
+    padding: 4px 9px;
+    border: 1px solid black;
+    border-radius: 6px;
+  }
+
+  .ls-close {
+    height: 50px;
+    width: 50px;
+    background: url(https://ads-lt.digitalproserver.com/ads/cerrar.png);
+    position: absolute;
+    right: 0;
+    margin-top: -20px;
+  }
+
+  .ls-sponsor {
+    font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: 1fr 100px;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .presented-by {
+    font-family: franklin-gothic-urw, helvetica, arial, verdana, sans-serif;
+    color: rgb(107 114 128 / 1);
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-right: 10px;
+  }
+
+  .logostream {
+    display: block;
+    max-width: 100%;
+  }
+
+  .ls-streaming {
+    width: 100%;
+    min-width: 360px;
+    height: 645px;
+  }
+
+  .ls-streaming iframe {
+    width: 100%;
+    height: 645px;
+  }
+
+  @media (max-width: 768px) {
+    .ls-streaming {
+      width: 100%;
+      min-height: 570px;
+    }
+    .ls-streaming iframe {
+      width: 100%;
+      height: 550px;
+    }
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+</style>

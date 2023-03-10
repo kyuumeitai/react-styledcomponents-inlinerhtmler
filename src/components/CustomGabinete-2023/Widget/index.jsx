@@ -152,6 +152,7 @@ const Body = () => {
       </WrapBig> */}
       <WrapSmall>
         {data.map((item, index) => {
+          console.log('item', item)
           return (
             <Face
               key={index}

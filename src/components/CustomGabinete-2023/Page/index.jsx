@@ -31,6 +31,9 @@ const HeaderWrap = styled.div`
   }
   h1 {
     line-height: 1.1;
+    small {
+      font-size: 1.4rem;
+    }
   }
 `
 
@@ -66,23 +69,27 @@ const Header = () => {
       <StLogo>
         <LogoGabineteChico />
       </StLogo>
-      <h1>Conoce el Gabinete del presidente Gabriel Boric</h1>
+      <h1>
+        El cambio de Gabinete del presidente Gabriel Boric, edición 2023
+        <br />
+        <small>Actualizado: 10 marzo 2023 16:17</small>
+      </h1>
       <Sharer
         className="sharer"
         url="https://www.latercera.com/el-gabinete-de-gabriel-boric/"
-        description={`El gabinete de Gabriel Boric - La Tercera`}
-        hashtags="Gabinete2023,GabineteBoricLT"
+        description={`Conoce el cambio de gabinete de Gabriel Boric - La Tercera`}
+        hashtags="CambioDeGabinete,Gabinete2023,GabineteBoricLT"
       />
       <Excerpt>
-        Luego de la crisis política desatada por las "desprolijidades" que
-        rodearon a los indultos presidenciales entregados a 13 condenados, el
-        Presidente Gabriel Boric se vio obligado a tener que sacar a la
-        exministra de Justicia, Marcela Ríos, para contener los cuestionamientos
-        hacia el gobierno y blindarla ad portas de una acusación constitucional
-        en su contra. Así fue como llegó a ese cupo del gabinete el abogado
-        administrativista Luis Cordero. Este ajuste se sumó al que meses atrás
-        hizo el Mandatario luego de la dura derrota que sufrió el Apruebo en el
-        plebiscito de salida.
+        A un año de su gobierno, el Presidente Gabriel Boric realizó su segundo
+        gran cambio de gabinete. En medio de una dura derrota legislativa, luego
+        de que la Cámara rechazara la idea de legislar la reforma tributaria, el
+        Mandatario pretende iniciar su segundo año en La Moneda con un nuevo
+        elenco para mejorar la gestión del Ejecutivo. Con esta nueva apuesta,
+        Boric reordenará las fuerzas al interior de La Moneda y actualizará los
+        equilibrios políticos de las dos coaliciones que forman parte de la
+        alianza de gobierno. Todo esto ad portas de un consejo de gabinete con
+        el que el Mandatario pretende iniciar una nueva etapa para su gestión.
       </Excerpt>
     </HeaderWrap>
   )

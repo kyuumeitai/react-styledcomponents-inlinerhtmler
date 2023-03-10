@@ -56,14 +56,21 @@ const Figure = ({ src, alt }) => {
   )
 }
 
+const LinkOrSpan = ({ url, children }) => {
+  if (url) {
+    return <a href={url}>{children}</a>
+  }
+  return <span>{children}</span>
+}
+
 const Face = ({ nombre, cargo, foto, url, size = 'small' }) => {
   return (
     <Wrap className={size}>
-      <a href={url}>
+      <LinkOrSpan url={url}>
         <Figure src={foto} alt={nombre} />
-      </a>
+      </LinkOrSpan>
       <h2>
-        <a href={url}>{nombre}</a>
+        <LinkOrSpan url={url}>{nombre}</LinkOrSpan>
       </h2>
       <p>{cargo}</p>
     </Wrap>
