@@ -3,6 +3,68 @@ const data = [
     title: '',
     description: '',
     imgurl:
+      'https://www.latercera.com/resizer/slBGKHJGeQMkB2ycp2chbwUPVsY=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/WCG3XPJKABEIHGBBS32JNE6FSY.jpg',
+    note: {
+      title: '1KO: La red de apoyo femenino que surgió en Bajos de Mena',
+      description:
+        'Cuando la pandemia por COVID-19 estaba en uno de sus momentos más álgidos, Melyna Montes, comunicadora social y activista de Puente Alto, recuerda que en el sector de Bajos de Mena -donde vive hace más de 25 años- se sentía el hambre. No había trabajo, tampoco dinero, y muchos apenas tenían qué comer. “Si no nos mataba el virus, nos mataba el hambre”, recuerda.',
+      imgurl: '',
+      url: 'https://www.latercera.com/paula/1ko-la-red-de-apoyo-femenino-que-surgio-en-bajos-de-mena/',
+      date: '',
+    },
+  },
+
+  {
+    title: '',
+    description: '',
+    imgurl:
+      'https://www.latercera.com/resizer/yK6n5F6bCZbcs7GiDcx5Iz7R1LA=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/363H6NWXRRAWNDV35NLV3ZXFXM.jpg',
+    note: {
+      title:
+        'Marlene Larson, cofundadora y primera presidenta de REDMAD: “Para poder ver cambios, hemos tenido que hacer alianzas entre mujeres”',
+      description:
+        '“Dicen que todo comienza con una servilleta rayada, y acá hubo muchísimas servilletas rayadas. Porque entre 2013 y 2015, cerca de 30 mujeres nos juntamos regularmente para trabajar en algo que sabíamos que era grande.',
+      imgurl: '',
+      url: 'https://www.latercera.com/paula/marlene-larson-cofundadora-y-primera-presidenta-de-redmad-para-poder-ver-cambios-hemos-tenido-que-hacer-alianzas-entre-mujeres/',
+      date: '',
+    },
+  },
+
+  {
+    title: '',
+    description: '',
+    imgurl:
+      'https://www.latercera.com/resizer/PpzereVLcvVXAV7t0wT2SHUW1cU=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/2YUGS5XXWZHKHKTDNWAW3IRCAE.jpg',
+    note: {
+      title: 'Conecta Mujer: yo vs. nosotras',
+      description:
+        '“Si creamos redes con la sola intención de obtener algo a cambio, nunca tendremos éxito”, escribe en su libro Give and Take: a Revolutionary Approach to Success, el psicólogo organizacional norteamericano Adam Grant.',
+      imgurl: '',
+      url: 'https://www.latercera.com/paula/conecta-mujer-yo-vs-nosotras/',
+      date: '',
+    },
+  },
+
+  {
+    title: '',
+    description: '',
+    imgurl:
+      'https://www.latercera.com/resizer/V8_oK4sxV5uW2PyManWlIpgBbbc=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/EOQGTSN2N5D4NO5KOOPGLQXCEA.jpg',
+    note: {
+      title:
+        'Sol Díaz, dibujante: “A las mujeres siempre intentan quitarnos la rabia”',
+      description:
+        'Cuando se presenta a sí misma, Sol Díaz Castillo (38) no lo piensa dos veces: “soy mujer y dibujante”. Lo segundo, dice, debe ser entendido en un sentido amplio. No solo tiene que ver con la imagen, “sino también con lo fácil que puede ser comunicar ideas a través de esta”.',
+      imgurl: '',
+      url: 'https://www.latercera.com/paula/sol-diaz-dibujante-a-las-mujeres-siempre-intentan-quitarnos-la-rabia/',
+      date: '',
+    },
+  },
+
+  {
+    title: '',
+    description: '',
+    imgurl:
       'https://www.latercera.com/resizer/EuYRhjm16qX0xki-SmHH62qz728=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/KOHXAJE6SJCTNMAFOIU6PGWFXI.jpg',
     note: {
       title: 'La brecha salarial que aún persiste',
