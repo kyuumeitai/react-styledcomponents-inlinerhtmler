@@ -1,7 +1,7 @@
 const desktop =
-  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/loop-comp.mp4'
+  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/s3-comp1.mp4'
 const mobile =
-  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/loop-comp-2.mp4'
+  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/s3-comp1.mp4'
 const image =
   'https://www.latercera.com/resizer/toqhpPnqp05sf7BgrDH9P7K09Fg=/arc-anglerfish-arc2-prod-copesa/public/QTWSLKSASFHOVDNA5J5O4L7HII.jpg'
 
@@ -15,11 +15,10 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Disponible Capítulo 20: <br />Alejandra Matus',
-
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Constanza Contreras<br /><small style="font-size: 18px;">Experta en Inteligencia Artificial y Ciencia de Datos.</small>',
   synopsis:
-    'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino y se propone indagar en los desafíos que existen en materia de género y trabajo, tales como la corresponsabilidad, alternativas al sistema actual de cuidados, el techo de cristal y mujeres en la ciencia.',
-  mainlink: 'https://www.latercera.com/lidera/20-alejandra-matus/',
+    'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino. Disponible nueva temporada 3.',
+  mainlink: 'https://www.latercera.com/lidera/s03e01-constanza-contreras/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -30,7 +29,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/01-elisa-loncon/',
     img: 'https://www.latercera.com/resizer/0fTiuYpRKuCnSm073o62mZeAnTU=/arc-anglerfish-arc2-prod-copesa/public/KDYWMTR2CRFDLIETKH74WFCWQA.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 01',
     name: 'Elisa Loncón',
     aftername:
@@ -50,7 +49,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/02-teresa-matamala/',
     img: 'https://www.latercera.com/resizer/lL-9Rm35GHokl1mxR6ZdCKoJqf4=/arc-anglerfish-arc2-prod-copesa/public/IPCK7GOVTJFJNF7ZUBWLP7UQLM.jpg',
-    status: ['available', 'new'],
+    status: ['available'],
     pretitle: 'Capítulo 02',
     name: 'Teresa Matamala',
     aftername:
@@ -68,7 +67,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/03-vania-figueroa/',
     img: 'https://www.latercera.com/resizer/9TbKGLbbFxxiGiE7JnhQzBsylkM=/arc-anglerfish-arc2-prod-copesa/public/QLLDPV2IGZCEXGH5M6GAALS7OU.jpg',
-    status: ['available', 'new'],
+    status: ['available'],
     pretitle: 'Capítulo 03',
     name: 'Vania Figueroa',
     aftername: 'Académica y neurocientífica',
@@ -84,7 +83,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/04-claudia-bobadilla/',
     img: 'https://www.latercera.com/resizer/-vxpYBd8iNPPcGIMH_tiEuwe7j0=/arc-anglerfish-arc2-prod-copesa/public/2RKAZU2ATNF7DEVAJP2GNWI7TA.jpg',
-    status: ['available', 'new'],
+    status: ['available'],
     pretitle: 'Capítulo 04',
     name: 'Claudia Bobadilla',
     aftername: 'Directora de empresas y fundadora de Puente Social',
@@ -101,7 +100,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/05-laura-perez/',
     img: 'https://www.latercera.com/resizer/ttD3DRuqHvbS4OshCSz1aNJ-Mwc=/arc-anglerfish-arc2-prod-copesa/public/RBWJPMBHXJBHLDJL2IYSHBNEGU.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 05',
     name: 'Laura Pérez',
     aftername: 'Ph.D. en Astrofísica',
@@ -117,7 +116,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/06-alessia-injoque/',
     img: 'https://www.latercera.com/resizer/v7GWYIa48ep12KSCW9NMj4qNX6k=/arc-anglerfish-arc2-prod-copesa/public/ZVHCME6WIFBOBM4PE72PMCZVGI.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 06',
     name: 'Alessia Injoque',
     aftername: '',
@@ -134,7 +133,7 @@ const data = [
     url: 'https://www.latercera.com/lidera/07-marcela-bravo/',
 
     img: 'https://www.latercera.com/resizer/BjjMfW4NW3vNhZrV-YJVfipyWhw=/arc-anglerfish-arc2-prod-copesa/public/X2FDT2XI2REQLEWOKNFN65CZMI.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 07',
     name: 'Marcela Bravo',
     aftername: 'Gerenta General de Acción Empresas',
@@ -151,7 +150,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/08-maribel-vidal/',
     img: 'https://www.latercera.com/resizer/yjWZFvDNEjeGv8aX_ZDmj226wIw=/arc-anglerfish-arc2-prod-copesa/public/FN4LZI2ZYFBQDEFLC3DHH7MOUA.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 08',
     name: 'Maribel Vidal',
     aftername: 'Vicepresidenta de McCann y de REDMAD',
@@ -167,7 +166,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/09-pilar-velasco/',
     img: 'https://www.latercera.com/resizer/wZ9Jy0Q5T2OgbrvTuWJIWeYnTjg=/arc-anglerfish-arc2-prod-copesa/public/WVDVEI4L75DVREU5KMET3R3OKY.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 09',
     name: 'Pilar Velasco',
     aftername: 'Socia fundadora de Extend Comunicaciones',
@@ -183,7 +182,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/10-maria-ana-matthias/',
     img: 'https://www.latercera.com/resizer/-wiA-L5zWrgcOj9IDSf8pdNL3RQ=/arc-anglerfish-arc2-prod-copesa/public/WATBI3KOZ5EWZOM7QB24ZFIRLI.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 10',
     name: 'María Ana Matthias',
     aftername: 'Directora de empresas y de REDMAD',
@@ -217,7 +216,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/11-barbara-swears/',
     img: 'https://www.latercera.com/resizer/QaKjR82ybat-VrM5FpfxnwOeCFo=/arc-anglerfish-arc2-prod-copesa/public/WLTSCWOS2VBVHIYPO554C7MPFQ.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 11',
     name: 'Bárbara Swears',
     aftername: 'Dirigenta social comunal',
@@ -235,7 +234,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/12-julieta-martinez/',
     img: 'https://www.latercera.com/resizer/KD_yree821b-M8278NAAv6XHIXI=/arc-anglerfish-arc2-prod-copesa/public/LGZ3IA4ODRD25LVLUDFUOMQG6Y.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 12',
     name: 'Julieta Martínez',
     aftername: '',
@@ -250,7 +249,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/13-antonia-orellana/',
     img: 'https://www.latercera.com/resizer/wWF8dqstl3HyQdBa_ZgWcRpBZ8M=/arc-anglerfish-arc2-prod-copesa/public/X2VDSFCETZBXVA24CZQ7YWUTPE.png',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 13',
     name: 'Antonia Orellana',
     aftername: 'Ministra de la Mujer y la Equidad de Género',
@@ -268,7 +267,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/14-maria-jose-bosch/',
     img: 'https://www.latercera.com/resizer/d5pZMa0PRq_HU8AAMUBNKPkXXnc=/arc-anglerfish-arc2-prod-copesa/public/W52M356CPZHOPIYVJSWZNQZLNY.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 14',
     name: 'María José Bosch',
     aftername: 'Directora académica del ESE Business School, U. de los Andes',
@@ -282,7 +281,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/15-maria-jose-cifuentes/',
     img: 'https://www.latercera.com/resizer/CWb5Z8Q7lMZN4x5oD_R8lUAlczM=/arc-anglerfish-arc2-prod-copesa/public/FIPMK4NDLNF7PAJNP6ZO3NNN5I.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 15',
     name: 'María José Cifuentes',
     aftername:
@@ -300,7 +299,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/16-antonella-oberti/',
     img: 'https://www.latercera.com/resizer/WpaRa73hMzZig4KReQpcgoiWFJ8=/arc-anglerfish-arc2-prod-copesa/public/B2AGSK4AM5AXFPZLLZYQDRFGBM.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 16',
     name: 'Antonella Oberti',
     aftername: 'Directora de Incidencia de la Red de Acción Carcelaria',
@@ -315,7 +314,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/17-karen-thal/',
     img: 'https://www.latercera.com/resizer/X-H8omoRPvYiKFx5ZWbbfF3X1X8=/arc-anglerfish-arc2-prod-copesa/public/7OQQO4YT3BDCJMY75AMFPVSUAE.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 17',
     name: 'Karen Thal',
     aftername: 'Gerente general de Cadem',
@@ -329,7 +328,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/18-carmen-romero/',
     img: 'https://www.latercera.com/resizer/LozS5VyG_MJf0ZmddgNwzPMwzlc=/arc-anglerfish-arc2-prod-copesa/public/NRXOZGZ4GZAWRJR2JPEKI7XYLM.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 18',
     name: 'Carmen Romero',
     aftername: 'Directora de la Fundación Santiago a Mil',
@@ -343,7 +342,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/19-valentina-munoz/',
     img: 'https://www.latercera.com/resizer/4OV_ZiysfBCzD-wnldeVQ-v2-40=/arc-anglerfish-arc2-prod-copesa/public/6ECLTJULSFHDBBILZ5442YWARA.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 19',
     name: 'Valentina Muñoz',
     aftername:
@@ -359,16 +358,30 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/20-alejandra-matus/',
     img: 'https://www.latercera.com/resizer/_esN-AiUFxEV1uqeS8HfElxLkUA=/arc-anglerfish-arc2-prod-copesa/public/VSF4TU7Q5VCV3LHEFMHO76APAA.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Capítulo 20',
     name: 'Alejandra Matus',
     aftername: 'Periodista, escritora y fundadora de La Neta',
     title: 'Nuevos medios y perspectiva de género en el periodismo',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
-    label: 'Nuevo',
+    label: 'Disponible',
     description: `<p>En 2021, y al alero del proceso constituyente, la periodista Alejandra Matus -con apoyo de Corporación Humanas- fundó La Neta, un medio independiente que buscaba informar sobre lo que ocurría, día a día, en la Convención Constitucional. Tras el cierre de esa primera etapa -a raíz del triunfo del Rechazo-, en este capítulo de Lidera; Matus hace un balance sobre dicho proyecto, indicando que cumplió su función al transformarse en uno de los referentes noticiosos de dicho órgano, aunque reconoció el desafío que supuso mantener la distancia en cuanto a la cobertura. Además, abordó el fenómeno de la desinformación en redes sociales y habló sobre los puntos de tope en el periodismo con respecto a la perspectiva de género. “Tendemos a darle validez o autoridad a las voces de los comentaristas hombres en política, economía o justicia. Y aún no existe valoración social para que las mujeres hablen de dichos temas”, finaliza.</p>`,
     iframe: 'https://www.youtube.com/embed/ISctIwvFvgo',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/s03e01-constanza-contreras/',
+    img: 'https://www.latercera.com/resizer/nzZpeBhNQrR5pvbWtypBwJCxc3Q=/arc-anglerfish-arc2-prod-copesa/public/RQCZRDRVDFDIFC5QPBJAHMPQXE.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Temporada 3 Capítulo 1',
+    name: 'Constanza Contreras',
+    aftername: 'Experta en Inteligencia Artificial y Ciencia de Datos',
+    title: 'Equidad de género en la era de la IA',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En medio del debate por el avance y posibles desenlaces de la inteligencia artificial, hablamos con la directora académica de X-Academy (@x_academy), Constanza Contreras, para saber cuáles son los riesgos, los beneficios, de qué manera orientarla hacia un bien común, cómo afecta a los creadores y a las industrias creativas y, por sobre todo, y teniendo en cuenta que se trata de un reflejo de nuestra sociedad y que actualmente solo el 15% de las personas que se dedican a su creación son mujeres, para saber de qué manera lograr que no replique nuestros sesgos y prejuicios. "La inteligencia artificial puede recrear la realidad, pero se hace en base a lo que existe".</p>`,
+    iframe: 'https://www.youtube.com/embed/sGis1P5GzdE',
   },
 ]
 
