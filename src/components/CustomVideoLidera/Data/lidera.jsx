@@ -15,10 +15,10 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Constanza Contreras<br /><small style="font-size: 18px;">Experta en Inteligencia Artificial y Ciencia de Datos.</small>',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Cecilia Vicuña<br /><small style="font-size: 18px;">Artista visual y poeta.</small>',
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino. Disponible nueva temporada 3.',
-  mainlink: 'https://www.latercera.com/lidera/s03e01-constanza-contreras/',
+  mainlink: 'https://www.latercera.com/lidera/s03e02-cecilia-vicuna/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -372,7 +372,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/s03e01-constanza-contreras/',
     img: 'https://www.latercera.com/resizer/nzZpeBhNQrR5pvbWtypBwJCxc3Q=/arc-anglerfish-arc2-prod-copesa/public/RQCZRDRVDFDIFC5QPBJAHMPQXE.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Temporada 3 Capítulo 1',
     name: 'Constanza Contreras',
     aftername: 'Experta en Inteligencia Artificial y Ciencia de Datos',
@@ -382,6 +382,21 @@ const data = [
     label: 'Nuevo',
     description: `<p>En medio del debate por el avance y posibles desenlaces de la inteligencia artificial, hablamos con la directora académica de X-Academy (@x_academy), Constanza Contreras, para saber cuáles son los riesgos, los beneficios, de qué manera orientarla hacia un bien común, cómo afecta a los creadores y a las industrias creativas y, por sobre todo, y teniendo en cuenta que se trata de un reflejo de nuestra sociedad y que actualmente solo el 15% de las personas que se dedican a su creación son mujeres, para saber de qué manera lograr que no replique nuestros sesgos y prejuicios. "La inteligencia artificial puede recrear la realidad, pero se hace en base a lo que existe".</p>`,
     iframe: 'https://www.youtube.com/embed/sGis1P5GzdE',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/s03e02-cecilia-vicuna/',
+    img: 'https://latercera.com/resizer/vhop525AMq8a6Jow032ObJRnVQs=/arc-anglerfish-arc2-prod-copesa/public/5A5ECCHR3BFPJFTRM3NYHEGLPA.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Temporada 3 Capítulo 2',
+    name: 'Cecilia Vicuña',
+    aftername: 'Artista visual y poeta',
+    title:
+      'Reconocimiento y concepción de las mujeres artistas en Latinoamérica',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En esta conversación íntima con la artista visual y poeta chilena, Cecilia Vicuña, ganadora del León de Oro en la Bienal de Venecia del 2022, hablamos de su infancia, de sus primeros referentes y de su incondicional conexión a las temáticas latinoamericanas pese a vivir fuera de la región. Además, abordamos cómo se perfila hoy la nueva generación de creadoras en Chile, y por qué aún los reconocimientos nacionales llegan de manera tardía a las y los artistas.</p>`,
+    iframe: 'https://www.youtube.com/embed/aNETxUWEuDY',
   },
 ]
 
