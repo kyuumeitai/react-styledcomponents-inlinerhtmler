@@ -15,10 +15,10 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Cecilia Vicuña<br /><small style="font-size: 18px;">Artista visual y poeta.</small>',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Andrea Von Hoveling<br /><small style="font-size: 18px;">Salud sexual y reproductiva con mirada integral.</small>',
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino. Disponible nueva temporada 3.',
-  mainlink: 'https://www.latercera.com/lidera/s03e02-cecilia-vicuna/',
+  mainlink: 'https://www.latercera.com/lidera/s03e03-andrea-von-hoveling/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -386,7 +386,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/s03e02-cecilia-vicuna/',
     img: 'https://latercera.com/resizer/vhop525AMq8a6Jow032ObJRnVQs=/arc-anglerfish-arc2-prod-copesa/public/5A5ECCHR3BFPJFTRM3NYHEGLPA.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Temporada 3 Capítulo 2',
     name: 'Cecilia Vicuña',
     aftername: 'Artista visual y poeta',
@@ -397,6 +397,20 @@ const data = [
     label: 'Nuevo',
     description: `<p>En esta conversación íntima con la artista visual y poeta chilena, Cecilia Vicuña, ganadora del León de Oro en la Bienal de Venecia del 2022, hablamos de su infancia, de sus primeros referentes y de su incondicional conexión a las temáticas latinoamericanas pese a vivir fuera de la región. Además, abordamos cómo se perfila hoy la nueva generación de creadoras en Chile, y por qué aún los reconocimientos nacionales llegan de manera tardía a las y los artistas.</p>`,
     iframe: 'https://www.youtube.com/embed/aNETxUWEuDY',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/s03e03-andrea-von-hoveling/',
+    img: 'https://latercera.com/resizer/AyufPhxIfzATZCo9Id4fedgk2Lo=/arc-anglerfish-arc2-prod-copesa/public/FT6XJELPLFCMXK5ZJHCSDFXVW4.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Temporada 3 Capítulo 3',
+    name: 'Andrea Von Hoveling',
+    aftername: 'Directora de Ginecólogas Chile',
+    title: 'Salud sexual y reproductiva con mirada integral',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En esta conversación con la presidenta de la agrupación Ginecólogas Chile, Andrea Von Hoveling, indagamos en el aumento reciente de las enfermedades de transmisión sexual; en la prevalencia de violencia obstétrica, tanto en hospitales públicos, como en clínicas privadas; y en el acceso poco equitativo a servicios de calidad en salud sexual y reproductiva. Además, conversamos sobre la importancia de una educación sexual integral desde edades tempranas para la prevención de abusos, embarazos no deseados, propagación de infecciones y violencias; y en cómo se debería repensar la salud para que tenga perspectiva de género y considere las particularidades y las dificultades sociales a las que se enfrentan las mujeres y disidencias sexuales.</p>`,
+    iframe: 'https://www.youtube.com/embed/RxeDWG3F0Mo',
   },
 ]
 
