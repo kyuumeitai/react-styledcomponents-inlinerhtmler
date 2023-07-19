@@ -404,12 +404,12 @@ const data = [
     status: ['new', 'available'],
     pretitle: 'Temporada 3 Capítulo 3',
     name: 'Andrea Von Hoveling',
-    aftername: 'Directora de Ginecólogas Chile',
+    aftername: 'Fundadora de Ginecólogas Chile',
     title: 'Salud sexual y reproductiva con mirada integral',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Nuevo',
-    description: `<p>En esta conversación con la presidenta de la agrupación Ginecólogas Chile, Andrea Von Hoveling, indagamos en el aumento reciente de las enfermedades de transmisión sexual; en la prevalencia de violencia obstétrica, tanto en hospitales públicos, como en clínicas privadas; y en el acceso poco equitativo a servicios de calidad en salud sexual y reproductiva. Además, conversamos sobre la importancia de una educación sexual integral desde edades tempranas para la prevención de abusos, embarazos no deseados, propagación de infecciones y violencias; y en cómo se debería repensar la salud para que tenga perspectiva de género y considere las particularidades y las dificultades sociales a las que se enfrentan las mujeres y disidencias sexuales.</p>`,
+    description: `<p>En esta conversación con la fundadora de  Ginecólogas Chile, Andrea Von Hoveling, indagamos en el aumento reciente de las enfermedades de transmisión sexual; en la prevalencia de violencia obstétrica, tanto en hospitales públicos, como en clínicas privadas; y en el acceso poco equitativo a servicios de calidad en salud sexual y reproductiva. Además, conversamos sobre la importancia de una educación sexual integral desde edades tempranas para la prevención de abusos, embarazos no deseados, propagación de infecciones y violencias; y en cómo se debería repensar la salud para que tenga perspectiva de género y considere las particularidades y las dificultades sociales a las que se enfrentan las mujeres y disidencias sexuales.</p>`,
     iframe: 'https://www.youtube.com/embed/RxeDWG3F0Mo',
   },
 ]

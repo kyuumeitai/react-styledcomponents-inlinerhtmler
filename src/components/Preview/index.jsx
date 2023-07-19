@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Article from '../Article'
 import Header from '../Header'
-import CustomWidget from '../CustomVideoLidera/ChaptersWidget'
+import CustomWidget from '../CustomVideoLidera/Single'
 import { StWidget, StHeader, StBody } from './style.css'
 
 const Preview = ({ articles, header, site }) => {
