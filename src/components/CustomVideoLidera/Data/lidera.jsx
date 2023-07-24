@@ -15,10 +15,10 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Andrea Von Hoveling<br /><small style="font-size: 18px;">Salud sexual y reproductiva con mirada integral.</small>',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Francisca Elgueta<br /><small style="font-size: 18px;">Un análisis a la educación pública post pandemia.</small>',
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino. Disponible nueva temporada 3.',
-  mainlink: 'https://www.latercera.com/lidera/s03e03-andrea-von-hoveling/',
+  mainlink: 'https://www.latercera.com/lidera/s03e04-francisca-elgueta/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -401,7 +401,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/s03e03-andrea-von-hoveling/',
     img: 'https://latercera.com/resizer/AyufPhxIfzATZCo9Id4fedgk2Lo=/arc-anglerfish-arc2-prod-copesa/public/FT6XJELPLFCMXK5ZJHCSDFXVW4.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Temporada 3 Capítulo 3',
     name: 'Andrea Von Hoveling',
     aftername: 'Fundadora de Ginecólogas Chile',
@@ -411,6 +411,20 @@ const data = [
     label: 'Nuevo',
     description: `<p>En esta conversación con la fundadora de  Ginecólogas Chile, Andrea Von Hoveling, indagamos en el aumento reciente de las enfermedades de transmisión sexual; en la prevalencia de violencia obstétrica, tanto en hospitales públicos, como en clínicas privadas; y en el acceso poco equitativo a servicios de calidad en salud sexual y reproductiva. Además, conversamos sobre la importancia de una educación sexual integral desde edades tempranas para la prevención de abusos, embarazos no deseados, propagación de infecciones y violencias; y en cómo se debería repensar la salud para que tenga perspectiva de género y considere las particularidades y las dificultades sociales a las que se enfrentan las mujeres y disidencias sexuales.</p>`,
     iframe: 'https://www.youtube.com/embed/RxeDWG3F0Mo',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/s03e04-francisca-elgueta/',
+    img: 'https://www.latercera.com/resizer/aJZoLpFzaaTCvmteY9WOGLrV61Y=/arc-anglerfish-arc2-prod-copesa/public/LD4PAVGT5BHDDOJNDZDRYN4V7U.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Temporada 3 Capítulo 4',
+    name: 'Francisca Elgueta',
+    aftername: 'Profesora y ganadora del Global Teacher Prize Chile',
+    title: 'Un análisis a la educación pública post pandemia',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>Hablamos con la profesora y última ganadora del Global Teacher Prize Chile, Francisca Elgueta (@mfelgueta), sobre la deserción escolar posterior a la pandemia (50.000 estudiantes no se matricularon en ningún establecimiento entre 2021 y 2022); sobre cómo es la educación en sectores de mayor vulnerabilidad; sobre reencantar a los estudiantes con sus escuelas; la calidad de vida de los profesores en Chile y, finalmente, de qué manera repensar la educación para que no sea asimilada de forma fragmentada, sino como algo integral que se conecta con todas las dimensiones de la vida.</p>`,
+    iframe: 'https://www.youtube.com/embed/s32uW1-kKKA',
   },
 ]
 

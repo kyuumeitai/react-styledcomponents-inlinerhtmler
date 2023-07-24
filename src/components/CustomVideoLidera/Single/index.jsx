@@ -8,7 +8,7 @@ import Footer from '../Footer'
 import { data, metadata } from '../Data/lidera'
 
 const VideoHome = () => {
-  const chapter = data[22]
+  const chapter = data[23]
 
   return (
     <Wrap>
