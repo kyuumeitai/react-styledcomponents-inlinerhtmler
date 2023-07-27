@@ -2,27 +2,16 @@ import React from 'react'
 import { WrapVideo } from '../style.css'
 import styled from 'styled-components'
 
-const VideoHero = ({ desktop, mobile }) => {
+const VideoHero = ({ desktop }) => {
   return (
     <div className="hero-video-wrapper">
-      <div className="video-cut-top-bottom">
-        <div className="video-proportion-16by9">
-          <video
-            src={desktop}
-            muted={true}
-            autoPlay={true}
-            playsInline={true}
-            loop></video>
-        </div>
-        <div className="video-proportion-9by16">
-          <video
-            src={mobile}
-            muted={true}
-            autoPlay={true}
-            playsInline={true}
-            loop></video>
-        </div>
-      </div>
+      <video
+        preload="none"
+        src={desktop}
+        muted={true}
+        autoPlay={true}
+        playsInline={true}
+        loop></video>
     </div>
   )
 }

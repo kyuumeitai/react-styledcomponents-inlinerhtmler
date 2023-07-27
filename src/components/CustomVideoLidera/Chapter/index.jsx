@@ -30,13 +30,13 @@ const Chapter = ({ chapter, ...props }) => {
         </div>
         <div className="chapter-iframe">
           <div className="video-proportion-16by9">
-            <video
+            {/* <video
               src={chapter.preview}
               muted={true}
               autoPlay={true}
               playsInline={true}
               preload="auto"
-              loop></video>
+              loop></video> */}
           </div>
         </div>
         <div className="chapter-availability">

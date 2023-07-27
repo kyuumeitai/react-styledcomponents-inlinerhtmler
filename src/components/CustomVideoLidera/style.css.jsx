@@ -125,6 +125,7 @@ const WrapVideo = styled.div`
     width: 100%;
     opacity: 1;
     transition: opacity 0.4s cubic-bezier(0.665, 0.235, 0.265, 0.8) 0s;
+
     img {
       width: 100%;
       height: 100%;
@@ -138,20 +139,16 @@ const WrapVideo = styled.div`
     z-index: 2;
     overflow: hidden;
   }
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .video-proportion-16by9 {
-    @media (max-width: 800px) {
-      display: none;
-    }
   }
   .video-proportion-9by16 {
-    display: none;
-    @media (max-width: 800px) {
-      display: block;
-      video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
+    
+      
     }
   }
 
@@ -370,17 +367,12 @@ const Wrap = styled.div`
 
   .video-proportion-16by9 {
     position: relative;
-    height: 0;
-    padding-bottom: 56.25%;
-    overflow: hidden;
+    aspect-ratio: 16/9;
     iframe,
     video {
       width: 100%;
       height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      overflow: hidden;
+      object-fit: cover;
     }
   }
   .video-proportion-9by16 {
@@ -487,18 +479,6 @@ const WrapMenu = styled.div`
             transform: scale(1.1) translate3d(0px, 0px, 0px);
           }
           .chap-wrap {
-            .chapter-iframe {
-              opacity: 1;
-            }
-            .chapter-img {
-              opacity: 0;
-            }
-            .chapter-info {
-              opacity: 0;
-            }
-            .chapter-availability {
-              opacity: 0;
-            }
           }
         }
       }

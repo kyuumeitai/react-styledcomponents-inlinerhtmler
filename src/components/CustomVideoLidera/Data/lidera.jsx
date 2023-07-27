@@ -1,7 +1,7 @@
 const desktop =
-  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/s3-comp1.mp4'
+  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/loop-home-s3.mp4'
 const mobile =
-  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/s3-comp1.mp4'
+  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/loop-home-s3.mp4'
 const image =
   'https://www.latercera.com/resizer/toqhpPnqp05sf7BgrDH9P7K09Fg=/arc-anglerfish-arc2-prod-copesa/public/QTWSLKSASFHOVDNA5J5O4L7HII.jpg'
 
