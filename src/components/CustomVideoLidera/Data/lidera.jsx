@@ -15,10 +15,10 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Francisca Elgueta<br /><small style="font-size: 18px;">Un análisis a la educación pública post pandemia.</small>',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Paula Urenda<br /><small style="font-size: 18px;">Inclusión de mujeres en el rubro de la construcción.</small>',
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino. Disponible nueva temporada 3.',
-  mainlink: 'https://www.latercera.com/lidera/s03e04-francisca-elgueta/',
+  mainlink: 'https://www.latercera.com/lidera/s03e06-paula-urenda/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -425,6 +425,35 @@ const data = [
     label: 'Nuevo',
     description: `<p>Hablamos con la profesora y última ganadora del Global Teacher Prize Chile, Francisca Elgueta (@mfelgueta), sobre la deserción escolar posterior a la pandemia (50.000 estudiantes no se matricularon en ningún establecimiento entre 2021 y 2022); sobre cómo es la educación en sectores de mayor vulnerabilidad; sobre reencantar a los estudiantes con sus escuelas; la calidad de vida de los profesores en Chile y, finalmente, de qué manera repensar la educación para que no sea asimilada de forma fragmentada, sino como algo integral que se conecta con todas las dimensiones de la vida.</p>`,
     iframe: 'https://www.youtube.com/embed/s32uW1-kKKA',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/s03e05-carmen-larenas/',
+    img: 'https://www.latercera.com/resizer/2f0q8zCrsCCePZ0--70b6XZM23c=/arc-anglerfish-arc2-prod-copesa/public/AUNBI22AONEOXDCUDWDIYXWTPU.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Temporada 3 Capítulo 5',
+    name: 'Carmen Larenas',
+    aftername: 'Bailarina, periodista y gestora cultural',
+    title: 'Abrir el arte y cultura a nuevos públicos',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En este capítulo conversamos con la bailarina, periodista y gestora cultural, Carmen Gloria Larenas (@carmenglarenas), respecto a cómo es ser la primera mujer en dirigir el @municipaldesantiago en sus 165 años de existencia; sobre el impulso, característico de su gestión, por acercar las artes escénicas a distintos públicos; lo que significa hoy la cultura para las nuevas generaciones; y lo que fue dirigir en momentos de crisis en los que la cultura pasó a ser para muchos el único soporte. "Durante años se encasilló al teatro como algo de elite y en este tiempo, hemos logrado atraer a nuevos públicos más diversos", dice.    </p>`,
+    iframe: 'https://www.youtube.com/embed/8GLgyQRsUmw',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/s03e06-paula-urenda/',
+    img: 'https://www.latercera.com/resizer/sLJxzVE4OKZc4kQz9x8MxSTH0cU=/arc-anglerfish-arc2-prod-copesa/public/K4Z2CTGUOJC67GWQRP3DBRAEYY.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Temporada 3 Capítulo 6',
+    name: 'Paula Urenda',
+    aftername: 'Gerenta General de la Cámara Chilena de la Construcción',
+    title: 'Inclusión de mujeres en el rubro de la construcción',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En este capítulo hablamos con la Gerenta General de la @cámarachilenadelaconstrucción, Paula Urenda, sobre la trayectoria laboral y personal que la llevó a ocupar este cargo; los prejuicios que enfrentó y los que ella misma traía; lo que ha ido desmitificando del rubro; y de qué manera aumentar la participación femenina en el sector de la construcción, el gran desafío que planteó para su gestión. Según cifras de la misma Cámara Chilena de la Construcción, en su última medición, la participación de las mujeres llegó a un 21%, 10 puntos porcentuales más que el 2016, pero siguen habiendo piedras de tope.
+    </p>`,
+    iframe: 'https://www.youtube.com/embed/mG1xo3h-hOk',
   },
 ]
 
