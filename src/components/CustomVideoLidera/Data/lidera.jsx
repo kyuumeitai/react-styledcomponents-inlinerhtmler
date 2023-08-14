@@ -15,10 +15,10 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Paula Urenda<br /><small style="font-size: 18px;">Inclusión de mujeres en el rubro de la construcción.</small>',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Komal Dadlani<br /><small style="font-size: 18px;">Más inversión en emprendimientos liderados por mujeres.</small>',
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino. Disponible nueva temporada 3.',
-  mainlink: 'https://www.latercera.com/lidera/s03e06-paula-urenda/',
+  mainlink: 'https://www.latercera.com/lidera/s03e07-komal-dadlani/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -415,7 +415,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/s03e04-francisca-elgueta/',
     img: 'https://www.latercera.com/resizer/aJZoLpFzaaTCvmteY9WOGLrV61Y=/arc-anglerfish-arc2-prod-copesa/public/LD4PAVGT5BHDDOJNDZDRYN4V7U.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Temporada 3 Capítulo 4',
     name: 'Francisca Elgueta',
     aftername: 'Profesora y ganadora del Global Teacher Prize Chile',
@@ -429,7 +429,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/s03e05-carmen-larenas/',
     img: 'https://www.latercera.com/resizer/2f0q8zCrsCCePZ0--70b6XZM23c=/arc-anglerfish-arc2-prod-copesa/public/AUNBI22AONEOXDCUDWDIYXWTPU.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Temporada 3 Capítulo 5',
     name: 'Carmen Larenas',
     aftername: 'Bailarina, periodista y gestora cultural',
@@ -443,7 +443,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/s03e06-paula-urenda/',
     img: 'https://www.latercera.com/resizer/sLJxzVE4OKZc4kQz9x8MxSTH0cU=/arc-anglerfish-arc2-prod-copesa/public/K4Z2CTGUOJC67GWQRP3DBRAEYY.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Temporada 3 Capítulo 6',
     name: 'Paula Urenda',
     aftername: 'Gerenta General de la Cámara Chilena de la Construcción',
@@ -454,6 +454,20 @@ const data = [
     description: `<p>En este capítulo hablamos con la Gerenta General de la @cámarachilenadelaconstrucción, Paula Urenda, sobre la trayectoria laboral y personal que la llevó a ocupar este cargo; los prejuicios que enfrentó y los que ella misma traía; lo que ha ido desmitificando del rubro; y de qué manera aumentar la participación femenina en el sector de la construcción, el gran desafío que planteó para su gestión. Según cifras de la misma Cámara Chilena de la Construcción, en su última medición, la participación de las mujeres llegó a un 21%, 10 puntos porcentuales más que el 2016, pero siguen habiendo piedras de tope.
     </p>`,
     iframe: 'https://www.youtube.com/embed/mG1xo3h-hOk',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/s03e07-komal-dadlani/',
+    img: 'https://www.latercera.com/resizer/n4Tk4XFQ__o8t4odVOJBq_tyvCg=/arc-anglerfish-arc2-prod-copesa/public/TIWMRS4AKZHDRBW66G4FBCAO4A.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Temporada 3 Capítulo 7',
+    name: 'Komal Dadlani',
+    aftername: 'Bioquímica y creadora de Lab4U',
+    title: 'Más inversión en emprendimientos liderados por mujeres',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En este capítulo conversamos con Komal Dadlani, bioquímica y creadora de Lab4U, una aplicación que usa los sensores del celular para dar paso a un pequeño laboratorio portátil. La idea, según cuenta, surgió luego de enterarse que un 88% de las escuelas básicas en Latinoamérica no cuenta con laboratorios científicos. El objetivo de su emprendimiento, entonces, es el de democratizar las ciencias. ¿Pero cómo se hace eso en un país tan centralizado como Chile? ¿Y qué impacto tiene esto en niñas, niños y adolescentes? A eso se le suma que, en su visión, para avanzar en la igualdad de género es sumamente urgente apoyar el emprendimiento femenino y a las mujeres líderes. "Eso no se hace con mentorías, sino que con financiamiento", dice.  </p>`,
+    iframe: 'https://www.youtube.com/embed/6KjwFIGRdaE',
   },
 ]
 
