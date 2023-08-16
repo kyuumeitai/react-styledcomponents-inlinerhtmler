@@ -72,7 +72,7 @@ const Header = () => {
       <h1>
         El cambio de Gabinete del presidente Gabriel Boric, edición 2023
         <br />
-        <small>Actualizado: 10 marzo 2023</small>
+        <small>Actualizado: 16 Agosto 2023</small>
       </h1>
       <Sharer
         className="sharer"
@@ -81,15 +81,11 @@ const Header = () => {
         hashtags="CambioDeGabinete,Gabinete2023,GabineteBoricLT"
       />
       <Excerpt>
-        A un año de su gobierno, el Presidente Gabriel Boric realizó su segundo
-        gran cambio de gabinete. En medio de una dura derrota legislativa, luego
-        de que la Cámara rechazara la idea de legislar la reforma tributaria, el
-        Mandatario pretende iniciar su segundo año en La Moneda con un nuevo
-        elenco para mejorar la gestión del Ejecutivo. Con esta nueva apuesta,
-        Boric reordenará las fuerzas al interior de La Moneda y actualizará los
-        equilibrios políticos de las dos coaliciones que forman parte de la
-        alianza de gobierno. Todo esto ad portas de un consejo de gabinete con
-        el que el Mandatario pretende iniciar una nueva etapa para su gestión.
+        El Presidente Gabriel Boric realizó su tercer cambio de gabinete,
+        efectuando ajustes en las carteras de Educación, Desarrollo Social,
+        Minería, Culturas y Bienes Nacionales. Aunque no modifica el comité
+        político, esta reestructuración busca hacer frente al “caso convenios” y
+        cuestionamientos en desempeños ministeriales.
       </Excerpt>
     </HeaderWrap>
   )
