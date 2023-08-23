@@ -15,10 +15,10 @@ const metadata = {
   logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
   title: 'Lidera Paula',
   supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Komal Dadlani<br /><small style="font-size: 18px;">Más inversión en emprendimientos liderados por mujeres.</small>',
+    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Francisca Jünemann<br /><small style="font-size: 18px;">Recuperación de los empleos femeninos post pandemia.</small>',
   synopsis:
     'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino. Disponible nueva temporada 3.',
-  mainlink: 'https://www.latercera.com/lidera/s03e07-komal-dadlani/',
+  mainlink: 'https://www.latercera.com/lidera/s03e08-francisca-junemann/',
   secondarylink:
     'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
   btntext: 'Reproducir',
@@ -468,6 +468,20 @@ const data = [
     label: 'Nuevo',
     description: `<p>En este capítulo conversamos con Komal Dadlani, bioquímica y creadora de Lab4U, una aplicación que usa los sensores del celular para dar paso a un pequeño laboratorio portátil. La idea, según cuenta, surgió luego de enterarse que un 88% de las escuelas básicas en Latinoamérica no cuenta con laboratorios científicos. El objetivo de su emprendimiento, entonces, es el de democratizar las ciencias. ¿Pero cómo se hace eso en un país tan centralizado como Chile? ¿Y qué impacto tiene esto en niñas, niños y adolescentes? A eso se le suma que, en su visión, para avanzar en la igualdad de género es sumamente urgente apoyar el emprendimiento femenino y a las mujeres líderes. "Eso no se hace con mentorías, sino que con financiamiento", dice.  </p>`,
     iframe: 'https://www.youtube.com/embed/6KjwFIGRdaE',
+  },
+  {
+    url: 'https://www.latercera.com/lidera/s03e08-francisca-junemann/',
+    img: 'https://www.latercera.com/resizer/l78uIvmG0s1UoWfkA3VqTrI14bI=/arc-anglerfish-arc2-prod-copesa/public/VD3A4ZFO4FAWNA564L7Q46YB7E.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Temporada 3 Capítulo 8',
+    name: 'Francisca Jünemann',
+    aftername: 'Presidenta de ChileMujeres',
+    title: 'Recuperación de los empleos femeninos post pandemia',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En este capítulo, conversamos con la abogada y presidenta ejecutiva de la fundación ChileMujeres, Francisca Jünemann, sobre el impacto de la pandemia en los empleos femeninos –a la fecha hay más de 110.000 empleos que no se han logrado recuperar y las mujeres con hijos e hijas menores de tres años son las más afectadas–; sobre la importancia del derecho universal a la sala cuna, que contemple además la corresponsabilidad parental; las desigualdades entre hombres y mujeres ante las leyes actuales; y los beneficios y riesgos del uso e integración de nuevas tecnologías para hacerle frente a las brechas de género.</p>`,
+    iframe: 'https://www.youtube.com/embed/JRN1NJOivMo',
   },
 ]
 
