@@ -1,5 +1,5 @@
 import React from 'react'
-import CirclePercentage from './CirclePercentage'
+
 import styled from 'styled-components'
 
 const Wrap = styled.div`
@@ -30,7 +30,6 @@ const PercentageBox = ({ votes, percentage, titulo, bajada }) => {
         {titulo}
         <small dangerouslySetInnerHTML={{ __html: bajada }}></small>
       </h4>
-      <CirclePercentage votes={votes} percentage={percentage} />
     </Wrap>
   )
 }
