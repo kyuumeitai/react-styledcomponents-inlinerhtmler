@@ -1,30 +1,3 @@
-const desktop =
-  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/loop-home-s3.mp4'
-const mobile =
-  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/loop-home-s3.mp4'
-const image =
-  'https://www.latercera.com/resizer/toqhpPnqp05sf7BgrDH9P7K09Fg=/arc-anglerfish-arc2-prod-copesa/public/QTWSLKSASFHOVDNA5J5O4L7HII.jpg'
-
-const sponsor =
-  'https://www.latercera.com/resizer/CDuEaFeGx2OhhX7GeAzArfhueqQ=/arc-anglerfish-arc2-prod-copesa/public/U3223TJYFRAR7HNHDUQUZJBGUE.png'
-
-const logoproductor =
-  'https://www.latercera.com/resizer/kXPp5UxoLulsiUCHx6GjdFCGC5s=/arc-anglerfish-arc2-prod-copesa/public/YE4IYFI4NNCD7JV4EMCR3OPPBI.png'
-
-const metadata = {
-  logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
-  title: 'Lidera Paula',
-  supplemental:
-    '<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />Francisca Jünemann<br /><small style="font-size: 18px;">Recuperación de los empleos femeninos post pandemia.</small>',
-  synopsis:
-    'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino. Disponible nueva temporada 3.',
-  mainlink: 'https://www.latercera.com/lidera/s03e08-francisca-junemann/',
-  secondarylink:
-    'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
-  btntext: 'Reproducir',
-  form: `<pnespwgtplaceholder holdername="embedded_1658958116085"></pnespwgtplaceholder>`,
-}
-
 const data = [
   {
     url: 'https://www.latercera.com/lidera/01-elisa-loncon/',
@@ -458,7 +431,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/s03e07-komal-dadlani/',
     img: 'https://www.latercera.com/resizer/n4Tk4XFQ__o8t4odVOJBq_tyvCg=/arc-anglerfish-arc2-prod-copesa/public/TIWMRS4AKZHDRBW66G4FBCAO4A.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Temporada 3 Capítulo 7',
     name: 'Komal Dadlani',
     aftername: 'Bioquímica y creadora de Lab4U',
@@ -472,7 +445,7 @@ const data = [
   {
     url: 'https://www.latercera.com/lidera/s03e08-francisca-junemann/',
     img: 'https://www.latercera.com/resizer/l78uIvmG0s1UoWfkA3VqTrI14bI=/arc-anglerfish-arc2-prod-copesa/public/VD3A4ZFO4FAWNA564L7Q46YB7E.jpg',
-    status: ['new', 'available'],
+    status: ['available'],
     pretitle: 'Temporada 3 Capítulo 8',
     name: 'Francisca Jünemann',
     aftername: 'Presidenta de ChileMujeres',
@@ -483,6 +456,49 @@ const data = [
     description: `<p>En este capítulo, conversamos con la abogada y presidenta ejecutiva de la fundación ChileMujeres, Francisca Jünemann, sobre el impacto de la pandemia en los empleos femeninos –a la fecha hay más de 110.000 empleos que no se han logrado recuperar y las mujeres con hijos e hijas menores de tres años son las más afectadas–; sobre la importancia del derecho universal a la sala cuna, que contemple además la corresponsabilidad parental; las desigualdades entre hombres y mujeres ante las leyes actuales; y los beneficios y riesgos del uso e integración de nuevas tecnologías para hacerle frente a las brechas de género.</p>`,
     iframe: 'https://www.youtube.com/embed/JRN1NJOivMo',
   },
+  {
+    url: 'https://www.latercera.com/lidera/s03e09-maria-luisa-mendez/',
+    img: 'https://www.latercera.com/resizer/8fP5uS1jqjH_L_fT-4OlZZjJIuI=/arc-anglerfish-arc2-prod-copesa/public/7O3FSWS34ZCEHLF5WABHAPTGRM.jpg',
+    status: ['new', 'available'],
+    pretitle: 'Temporada 3 Capítulo 9',
+    name: 'María Luisa Méndez',
+    aftername:
+      'Directora del Centro de Estudios de Conflictos y Cohesión Social (COES)',
+    title: 'Inclusión de mujeres en el rubro de la construcción',
+    preview:
+      'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
+    label: 'Nuevo',
+    description: `<p>En este nuevo capítulo, hablamos con María Luisa Méndez, directora del Centro de Estudios de Conflictos y Cohesión Social (COES), sobre el momento histórico y social en el que nos encuentra el nuevo proceso constituyente; sobre por qué se perdió la confianza y si podemos, como ciudadanos, volver a confiar en un proceso que surgió desde la ciudadanía misma; sobre la polarización y el rol que juega; sobre los temores de aquellos que rechazan el cambio social; y de qué manera afectan las desigualdades en la cohesión social general. “Los que le temen al cambio lo ven como una amenaza a lo que ellos consideran como ‘orden social justo’ dado por la meritocracia, y ese es un discurso que está muy enraizado en Chile”, dice. </p>`,
+    iframe: 'https://www.youtube.com/embed/08ROvHpmeWk',
+  },
 ]
+
+const latest = data[data.length - 1]
+
+const desktop =
+  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/loop-home-s3.mp4'
+const mobile =
+  'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/loop-home-s3.mp4'
+const image =
+  'https://www.latercera.com/resizer/toqhpPnqp05sf7BgrDH9P7K09Fg=/arc-anglerfish-arc2-prod-copesa/public/QTWSLKSASFHOVDNA5J5O4L7HII.jpg'
+
+const sponsor =
+  'https://www.latercera.com/resizer/CDuEaFeGx2OhhX7GeAzArfhueqQ=/arc-anglerfish-arc2-prod-copesa/public/U3223TJYFRAR7HNHDUQUZJBGUE.png'
+
+const logoproductor =
+  'https://www.latercera.com/resizer/kXPp5UxoLulsiUCHx6GjdFCGC5s=/arc-anglerfish-arc2-prod-copesa/public/YE4IYFI4NNCD7JV4EMCR3OPPBI.png'
+
+const metadata = {
+  logo: 'https://www.latercera.com/resizer/PdCpQu1erE8K_UpGYS_QKUkSqd0=/arc-anglerfish-arc2-prod-copesa/public/UZUNOYXQOVEIFKQE7AAMDBQEEY.png',
+  title: 'Lidera Paula',
+  supplemental: `<small>Mujeres, trabajo y nuevos liderazgos</small> <br /><br />Nueva temporada: <br />${latest.name}<br /><small style="font-size: 18px;">${latest.title}</small>`,
+  synopsis:
+    'Un nuevo espacio de conversación que busca conocer las claves detrás del liderazgo femenino. Disponible nueva temporada 3.',
+  mainlink: latest.url,
+  secondarylink:
+    'https://www.latercera.com/paula/la-tercera-y-revista-paula-presentan-lidera/?utm_source=widgetLT&utm_medium=web&utm_campaign=lidera-paula',
+  btntext: 'Reproducir',
+  form: `<pnespwgtplaceholder holdername="embedded_1658958116085"></pnespwgtplaceholder>`,
+}
 
 export { desktop, mobile, image, sponsor, logoproductor, metadata, data }

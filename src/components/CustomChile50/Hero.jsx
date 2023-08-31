@@ -83,6 +83,7 @@ const CustomBg = styled.div`
       mask-image: url(https://especiales.latercera.com/chile50-assets/chile50-positivo.svg);
       mask-position: top;
       mask-repeat: no-repeat;
+      overflow: hidden;
       img {
         position: fixed;
         top: 0px;
@@ -102,7 +103,8 @@ const CustomBg = styled.div`
     align-items: center;
     padding: 1rem;
     color: #1e1e1e;
-
+    position: relative;
+    z-index: 3;
     .sharer-content a {
       color: #1e1e1e;
       border-color: #1e1e1e;
