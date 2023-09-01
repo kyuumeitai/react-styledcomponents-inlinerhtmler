@@ -29,6 +29,14 @@ const MaxWidth = styled.div`
 
 const list = [
   {
+    id: 0,
+    title: 'Los números que son memoria',
+    description: `Este trabajo recopilatorio arroja cierta luz sobre dónde recayeron los mayores focos de violencia en dictadura y cómo se fueron desarrollando: quiénes (género, militancia, edad), dónde (región o el extranjero) y cuándo (año de fallecimiento o desaparición). Esperamos que estos números ayuden a seguir generando memoria.`,
+    url: 'https://especiales.latercera.com/los-numeros-que-son-memoria/',
+    image:
+      'https://www.latercera.com/resizer/G81XoIrrYSnkD_k2U4_P7oHDr7I=/arc-anglerfish-arc2-prod-copesa/public/HXZUVQGKFBEHFHPPIKFW7OTRDE.png',
+  },
+  {
     id: 1,
     title: '22 días que sacudieron a Chile',
     description: `Hace diez años, para el aniversario 40 del Golpe de Estado, el suplemento El Semanal de La Tercera publicó una investigación de seis meses del periodista y escritor, Ascanio Cavallo- y un equipo de académicos de la Escuela de Comunicaciones y Periodismo de la UAI- sobre las tres semanas previas al golpe y cómo esos días marcaron el punto de no retorno desde las instituciones del Estado, los partidos políticos y la influencia de la esfera internacional. Este trabajo trasciende el paso del tiempo, por lo que en La Tercera decidimos crear este sitio que irá liberando un contenido diario desde el lunes 21 de agosto hasta llegar al 11 de septiembre. El día de los 50 años.`,

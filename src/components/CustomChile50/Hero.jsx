@@ -144,7 +144,7 @@ const Custom = () => {
           <h2 className="logo"></h2>
           <div className="texto">
             <Excerpt>
-              Tres especiales de largo aliento. Diferentes focos, diferentes
+              Cuatro especiales de largo aliento. Diferentes focos, diferentes
               miradas y ángulos a través de reportajes y entrevistas. En este
               sitio pueden encontrar lo mejor de la cobertura de La Tercera del
               Golpe, el hecho al que terminamos volviendo, una y otra vez, para
