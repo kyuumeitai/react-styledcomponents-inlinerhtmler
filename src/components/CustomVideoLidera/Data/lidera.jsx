@@ -464,7 +464,7 @@ const data = [
     name: 'María Luisa Méndez',
     aftername:
       'Directora del Centro de Estudios de Conflictos y Cohesión Social (COES)',
-    title: 'Inclusión de mujeres en el rubro de la construcción',
+    title: 'Cohesión social en tiempos de crisis',
     preview:
       'https://ads-lt.digitalproserver.com/ads/lab/lidera-paula/prev-cap00-comp.mp4',
     label: 'Nuevo',
