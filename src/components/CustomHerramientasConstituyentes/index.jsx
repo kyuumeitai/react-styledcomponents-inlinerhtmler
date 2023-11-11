@@ -9,15 +9,16 @@ const content = {
   card: [
     {
       date: 'Noviembre 2023',
-      title: 'Tu Match Constituyente: Tu aguja constitucional',
+      title: 'Tu Match Constituyente: Propuesta Consejo Constitucional 2023',
       image:
         'https://interactivo.latercera.com/match-project-assets/new-01-match.jpg',
 
-      description: 'PRONTO',
+      description:
+        'PRONTO. La última versión de nuestro ya clásico match, para que descubras tu grado de afinidad con el actual proyecto de nueva constitución.',
     },
     {
       date: 'Noviembre 2023',
-      title: 'Discolab: Explorador Constitucional',
+      title: 'Explorador Constitucional Discolab',
       image:
         'https://interactivo.latercera.com/match-project-assets/new-02-discolab.jpg',
       url: 'https://discolab.cl/?utm_source=herrconstLT&utm_medium=web',
@@ -29,7 +30,8 @@ const content = {
       title: 'PriorizaChile',
       image:
         'https://interactivo.latercera.com/match-project-assets/new-03-priorizachile.jpg',
-      description: 'PRONTO',
+      description:
+        'PRONTO. Prioriza los temas sociales y políticos que te importan y visualiza el pulso de las demandas ciudadanas en el contexto del actual proceso constitucional.',
     },
   ],
   side: [
@@ -176,14 +178,14 @@ const Wrap = styled.div`
 const CustomTheMatchProject = () => {
   return (
     <Overall>
-      <Hero text="<p> Las herramientas que tenemos para ti para que votes bien informado. En asociación con la Universidad del Desarrollo.</p>">
+      <Hero text="<p>Para este nuevo proceso constituyente La Tercera, en alianza con la UDD, ofrece a sus lectores un conjunto de herramientas interactivas para explorar y comparar textos constitucionales, además de descubrir su grado de afinidad con el actual proyecto a plebiscitarse en diciembre.</p>">
         <Columns>
           {content.card.map((item, index) => {
             return <Card {...item} key={index} />
           })}
         </Columns>
       </Hero>
-
+      <Credits />
       <Wrap>
         <span className="featured-title">Herramientas pasadas</span>
 
@@ -197,7 +199,6 @@ const CustomTheMatchProject = () => {
           )
         })}
       </Wrap>
-      {/* <Credits /> */}
     </Overall>
   )
 }
