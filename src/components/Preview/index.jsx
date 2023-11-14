@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Article from '../Article'
+// import Article from '../Article'
 import Header from '../Header'
-import CustomWidget from '../CustomHerramientasConstituyentes/index.jsx'
+import CustomWidget from '../CustomMovilidadSostenible//index.jsx'
 import { StWidget, StHeader, StBody } from './style.css'
 
 const Preview = ({ articles, header, site }) => {
@@ -12,24 +12,25 @@ const Preview = ({ articles, header, site }) => {
       <StBody columns={colnumber} theme={header.theme} layout={header.layout}>
         {articles.length > 0 ? (
           articles.map((article, index) => {
-            return (
-              <Article
-                title={article.title}
-                url={article.url}
-                tag={article.tag}
-                excerpt={article.excerpt}
-                img={article.img}
-                icon={article.icon}
-                type={article.type}
-                source={site ? site.source : ''}
-                medium={site ? site.medium : ''}
-                theme={header.theme}
-                iframe={article.iframe}
-                key={index}
-                isIframeReplacingContent={article.isIframeReplacingContent}
-                iframeRatio={article.iframeRatio}
-              />
-            )
+            return null
+            // return (
+            //   <Article
+            //     title={article.title}
+            //     url={article.url}
+            //     tag={article.tag}
+            //     excerpt={article.excerpt}
+            //     img={article.img}
+            //     icon={article.icon}
+            //     type={article.type}
+            //     source={site ? site.source : ''}
+            //     medium={site ? site.medium : ''}
+            //     theme={header.theme}
+            //     iframe={article.iframe}
+            //     key={index}
+            //     isIframeReplacingContent={article.isIframeReplacingContent}
+            //     iframeRatio={article.iframeRatio}
+            //   />
+            // )
           })
         ) : (
           <CustomWidget />
