@@ -15,7 +15,7 @@ const data = {
     {
       name: 'SQM',
       imageUrl:
-        'https://especiales.latercera.com/movilidad-sostenible-assets/logo-sqm.svg',
+        'https://especiales.latercera.com/movilidad-sostenible-assets/logo-sqm-v2.svg',
       width: '300',
       height: '139',
       siteUrl: 'https://www.sqm.com/en/',
