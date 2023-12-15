@@ -8,30 +8,31 @@ import styled from 'styled-components'
 const content = {
   card: [
     {
-      date: 'Noviembre 2023',
-      title: 'Tu Match Constituyente: Propuesta Consejo Constitucional 2023',
+      date: 'Diciembre 2023',
+      title: 'Tu Match Constituyente: Plebiscito 2023',
       image:
         'https://interactivo.latercera.com/match-project-assets/new-01-match.jpg',
-
+      url: 'https://interactivo.latercera.com/match-constituyente-plebiscito-2023/?utm_source=herrconstLT&utm_medium=web',
       description:
-        'PRONTO. La última versión de nuestro ya clásico match, para que descubras tu grado de afinidad con el actual proyecto de nueva constitución.',
+        'La última versión de nuestro ya clásico match, para que descubras tu grado de afinidad con el actual proyecto de nueva constitución.',
     },
     {
       date: 'Noviembre 2023',
       title: 'Explorador Constitucional Discolab',
       image:
         'https://interactivo.latercera.com/match-project-assets/new-02-discolab.jpg',
-      url: 'https://discolab.cl/?utm_source=herrconstLT&utm_medium=web',
+      url: 'https://exploradorconstitucionaludd.latercera.com/?utm_source=herrconstLT&utm_medium=web',
       description:
         'Te invitamos a explorar el primer comparador de textos constitucionales hecho con Inteligencia Artificial.',
     },
     {
-      date: 'Noviembre 2023',
+      date: 'Diciembre 2023',
       title: 'PriorizaChile',
       image:
         'https://interactivo.latercera.com/match-project-assets/new-03-priorizachile.jpg',
+      url: 'https://priorizachile.cl/?utm_source=herrconstLT&utm_medium=web',
       description:
-        'PRONTO. Prioriza los temas sociales y políticos que te importan y visualiza el pulso de las demandas ciudadanas en el contexto del actual proceso constitucional.',
+        'Prioriza los temas sociales y políticos que te importan y visualiza el pulso de las demandas ciudadanas en el contexto del actual proceso constitucional.',
     },
   ],
   side: [
