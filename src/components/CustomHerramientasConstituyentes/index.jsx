@@ -30,7 +30,7 @@ const content = {
       title: 'PriorizaChile',
       image:
         'https://interactivo.latercera.com/match-project-assets/new-03-priorizachile.jpg',
-      url: 'https://priorizachile.cl/?utm_source=herrconstLT&utm_medium=web',
+      url: 'https://priorizachileudd.latercera.com/?utm_source=herrconstLT&utm_medium=web',
       description:
         'Prioriza los temas sociales y políticos que te importan y visualiza el pulso de las demandas ciudadanas en el contexto del actual proceso constitucional.',
     },
