@@ -1,0 +1,422 @@
+<style>
+  @import url('https://use.typekit.net/nli8jra.css');
+  body {
+    background-color: #1a1a1b;
+    color: #fff;
+  }
+  .card h1 a,
+  .card h2 a,
+  .card h3 a,
+  .card h4 a,
+  .card h5 a,
+  .card h6 a {
+    color: #fff;
+  }
+  .card.media-aside h1,
+  .card.aside h1,
+  .card.media-aside h2,
+  .card.media-aside h3,
+  .card.s-card h3,
+  .card.media-aside h4,
+  .card.media-aside h5,
+  .card.media-aside .links h6 {
+    font-style: strong;
+  }
+  .subgrid .card.s-card,
+  .subgrid .card.s-card-aside {
+    background-color: rgb(35 35 37);
+  }
+  .card .deck p {
+    font-family: 'franklin-gothic-urw', helvetica, arial, verdana, sans-serif;
+    font-size: 140%;
+  }
+  .card.media-aside .image {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .card .byline {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .card .byline .name .text-span,
+  .card .byline .name a {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .card .byline .name .text-span,
+  .card .headline .tag {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .card .headline .tag:after {
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .card .links .symbol {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .card .links:not(:last-child):after {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .id-top {
+    border: 3px solid #fff;
+    padding: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .id-context {
+    flex: 0 0 100%;
+  }
+  .id-top p {
+    max-width: 450px;
+    opacity: 0;
+    -webkit-animation: fadeIn 0.5s 3.5s forwards;
+    animation: fadeIn 0.5s 3.5s forwards;
+  }
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+  .id-top img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+  }
+  .separador hr,
+  .separador.align-center:before {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  .id-logo {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    margin-bottom: 15px;
+  }
+  .id-logo svg {
+    display: block;
+    flex: 0 0 16.66%;
+    opacity: 1;
+    -webkit-animation: fadeIn 0.25s cubic-bezier(0.55, 0.03, 0.02, 0.99)
+      alternate-reverse 2;
+    animation: fadeIn 0.25s cubic-bezier(0.55, 0.03, 0.02, 0.99)
+      alternate-reverse 2;
+  }
+  .id-logo h1 {
+    flex: 1 1 83.33%;
+    font-family: input-serif, monospace, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7vw;
+    margin: 0 0 0 3%;
+    line-height: 1;
+  }
+  .anim-typewriter span {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    width: 0;
+    border-right: 0;
+  }
+  .anim-typewriter .linel1 {
+    -webkit-animation: typewriter1 1.5s steps(20, end) 1s forwards,
+      blinkTextCursor 500ms 5 normal;
+    animation: typewriter1 1.5s steps(20, end) 1s forwards,
+      blinkTextCursor 500ms 5 normal;
+  }
+  .anim-typewriter .linel2 {
+    -webkit-animation: typewriter2 1s steps(15, end) 2.5s forwards,
+      blinkTextCursor 500ms 2.5s infinite normal;
+    animation: typewriter2 1s steps(15, end) 2.5s forwards,
+      blinkTextCursor 500ms 2.5s infinite normal;
+  }
+  @-webkit-keyframes typewriter1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes typewriter1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @-webkit-keyframes typewriter2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 52%;
+    }
+  }
+  @keyframes typewriter2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 52%;
+    }
+  }
+  @-webkit-keyframes blinkTextCursor {
+    from {
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right: 2px solid transparent;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right: 2px solid transparent;
+    }
+  }
+  .id-datascreen {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 40px auto 80px;
+    display: block;
+  }
+  .id-datascreen img {
+    width: auto;
+    height: 86.602%;
+    -webkit-transform: rotate(30deg) skewX(30deg);
+    -ms-transform: rotate(30deg) skewX(30deg);
+    transform: rotate(30deg) skewX(30deg);
+    position: absolute;
+    -webkit-animation: isoCards 6s infinite normal;
+    animation: isoCards 6s infinite normal;
+    opacity: 0;
+  }
+  .id-datascreen img:nth-child(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  .id-datascreen img:nth-child(2) {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  .id-datascreen img:nth-child(3) {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+  }
+  .id-datascreen img:nth-child(4) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+  }
+  .id-datascreen img:nth-child(5) {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+  }
+  .id-datascreen img:nth-child(6) {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+  }
+  @-webkit-keyframes isoCards {
+    0% {
+      -webkit-transform: rotate(30deg) skewX(30deg) translate(-90%, 90%);
+    }
+    16.66% {
+      -webkit-transform: rotate(30deg) skewX(30deg) translate(-60%, 60%);
+    }
+    33.33% {
+      -webkit-transform: rotate(30deg) skewX(30deg) translate(-30%, 30%);
+    }
+    50% {
+      -webkit-transform: rotate(30deg) skewX(30deg) translate(0%, 0%);
+    }
+    66.66% {
+      -webkit-transform: rotate(30deg) skewX(30deg) translate(30%, -30%);
+    }
+    83.33% {
+      -webkit-transform: rotate(30deg) skewX(30deg) translate(60%, -60%);
+    }
+    100% {
+      -webkit-transform: rotate(30deg) skewX(30deg) translate(90%, -90%);
+    }
+  }
+  @keyframes isoCards {
+    0% {
+      transform: rotate(30deg) skewX(30deg) translate(-90%, 90%);
+      opacity: 0;
+    }
+    16.66% {
+      transform: rotate(30deg) skewX(30deg) translate(-60%, 60%);
+      opacity: 1;
+    }
+    33.33% {
+      transform: rotate(30deg) skewX(30deg) translate(-30%, 30%);
+      opacity: 0.5;
+    }
+    50% {
+      transform: rotate(30deg) skewX(30deg) translate(0%, 0%);
+      opacity: 0.4;
+    }
+    66.66% {
+      transform: rotate(30deg) skewX(30deg) translate(30%, -30%);
+      opacity: 0.3;
+    }
+    83.33% {
+      transform: rotate(30deg) skewX(30deg) translate(60%, -60%);
+      opacity: 0.2;
+    }
+    100% {
+      transform: rotate(30deg) skewX(30deg) translate(90%, -90%);
+      opacity: 0;
+    }
+  }
+  .id-bg {
+    background: #47404b
+      url('https://www.latercera.com/resizer/qYriip9_LdNbuK-8tQrDrQwyAxA=/arc-anglerfish-arc2-prod-copesa/public/ZX632XDRZFD2JACVXVYX2BJUQA.jpg')
+      no-repeat center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 5px 10px;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .card.media-aside .headline {
+      margin-top: 30px;
+    }
+    .card.media-aside .headline,
+    .card.media-aside .deck,
+    .card.media-aside .byline,
+    .card.media-aside .links {
+      margin-left: 100px;
+      position: relative;
+    }
+    .card.media-aside .image picture:after {
+      content: '';
+      width: 30%;
+      height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background: linear-gradient(
+        90deg,
+        rgba(26, 26, 27, 0) 0%,
+        rgba(26, 26, 27, 1) 100%
+      );
+    }
+    .card.media-aside:nth-of-type(even) .art-container {
+      grid-template-columns: 1fr 2fr;
+    }
+    .card.media-aside:nth-of-type(even) .art-container .image {
+      grid-column: 2/3;
+    }
+    .card.media-aside:nth-of-type(even) .art-container .headline,
+    .card.media-aside:nth-of-type(even) .art-container .deck,
+    .card.media-aside:nth-of-type(even) .art-container .byline,
+    .card.media-aside:nth-of-type(even) .art-container .links {
+      grid-column: 1/2;
+      margin-left: 20px;
+      margin-right: -60px;
+    }
+    .card.media-aside:nth-of-type(even) .image picture:after {
+      background: linear-gradient(
+        90deg,
+        rgba(26, 26, 27, 1) 0%,
+        rgba(26, 26, 27, 0) 100%
+      );
+      right: auto;
+      left: 0;
+    }
+    .id-logo h1 {
+      font-size: 290%;
+    }
+  }
+  @media (min-width: 1000px) {
+    .id-bg {
+      background: #47404b
+        url('https://www.latercera.com/resizer/IMzToEGJi5V97C9gUgmNI9lvTjo=/arc-anglerfish-arc2-prod-copesa/public/CKRXI3FUABCZBHPGNP63KD6X5I.jpg')
+        no-repeat center fixed;
+      height: auto;
+      min-height: 600px;
+    }
+    .id-top {
+      flex-wrap: nowrap;
+      min-width: 750px;
+      max-width: 990px;
+      align-items: center;
+      padding: 30px 15px;
+    }
+    .id-context {
+      flex: 0 1 60%;
+      order: 1;
+    }
+    .id-datascreen {
+      flex: 0 1 40%;
+      order: 2;
+    }
+    .id-datascreen img {
+      right: 20px;
+      top: 20px;
+    }
+    .id-logo h1 {
+      font-size: 48px;
+      flex: 1 1 78%;
+    }
+    .id-logo svg {
+      flex: 0 0 22%;
+    }
+  }
+  @media (min-width: 1024px) {
+    .id-bg {
+      background-attachment: fixed;
+    }
+  }
+  @media (min-width: 1330px) {
+    .card.media-aside .headline,
+    .card.media-aside .deck,
+    .card.media-aside .byline,
+    .card.media-aside .links {
+      margin-left: -100px;
+      position: relative;
+    }
+    .card.media-aside:nth-of-type(even) .art-container .headline,
+    .card.media-aside:nth-of-type(even) .art-container .deck,
+    .card.media-aside:nth-of-type(even) .art-container .byline,
+    .card.media-aside:nth-of-type(even) .art-container .links {
+      margin-right: -100px;
+    }
+  }
+
+  .destacado small {
+    font-weight: bold;
+    color: #f8d857;
+    font-size: 100%;
+  }
+</style>

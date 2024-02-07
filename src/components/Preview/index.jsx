@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 // import Article from '../Article'
 import Header from '../Header'
-import CustomWidget from '../CustomTabla'
+import CustomWidget from '../CustomPineraInMemoriam/Hero'
 import { StWidget, StHeader, StBody } from './style.css'
 
 const Preview = ({ articles, header, site }) => {
@@ -33,7 +33,10 @@ const Preview = ({ articles, header, site }) => {
             // )
           })
         ) : (
-          <CustomWidget />
+          <CustomWidget
+            text="Hubo muchos que fueron cómplices pasivos: que sabían y no hicieron nada o no quisieron saber"
+            author="Sebastián Piñera Echeñique, en entrevista con La Tercera/"
+          />
         )}
       </StBody>
     </StWidget>
