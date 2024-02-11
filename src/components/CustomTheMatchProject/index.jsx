@@ -12,8 +12,7 @@ const content = {
       title: 'Your Constituent Match',
       image:
         'https://interactivo.latercera.com/match-project-assets/03-tu-match-constituyente-.png',
-      url:
-        'https://interactivo.latercera.com/tu-match-constituyente/candidatos-constituyentes/',
+      url: 'https://interactivo.latercera.com/tu-match-constituyente/candidatos-constituyentes/',
       description: '',
     },
     {
@@ -22,8 +21,7 @@ const content = {
         'This is how the new Convention thinks: 10 keys about the positions of those chosen to write the Constitution',
       image:
         'https://interactivo.latercera.com/match-project-assets/04-asi-piensa-la-nueva-convencion.png',
-      url:
-        'https://www.latercera.com/investigacion-y-datos/asi-piensa-la-nueva-convencion/',
+      url: 'https://www.latercera.com/investigacion-y-datos/asi-piensa-la-nueva-convencion/',
       description: '',
     },
     {
@@ -39,8 +37,7 @@ const content = {
       title: 'How does the new Congress think?',
       image:
         'https://interactivo.latercera.com/match-project-assets/11-como-piensa-el-congreso.png',
-      url:
-        'https://interactivo.latercera.com/como-piensa-el-nuevo-congreso-2021/',
+      url: 'https://interactivo.latercera.com/como-piensa-el-nuevo-congreso-2021/',
       description: '',
     },
     {
@@ -60,8 +57,7 @@ const content = {
         'Your Constituent Match. Who do you share your country ideas with?',
       image:
         'https://interactivo.latercera.com/match-project-assets/01-tu-match-constituyente.png',
-      url:
-        'https://interactivo.latercera.com/tu-match-constituyente/con-quien-compartes-tus-ideas-de-pais/',
+      url: 'https://interactivo.latercera.com/tu-match-constituyente/con-quien-compartes-tus-ideas-de-pais/',
       description:
         'Our first match, our beta version. We started to iterate this project asking public figures about key issues of the constitution so people could discover with whom they have more affinity.',
     },
@@ -79,8 +75,7 @@ const content = {
       title: 'Your Constituent Match',
       image:
         'https://interactivo.latercera.com/match-project-assets/03-tu-match-constituyente-.png',
-      url:
-        'https://interactivo.latercera.com/tu-match-constituyente/candidatos-constituyentes/',
+      url: 'https://interactivo.latercera.com/tu-match-constituyente/candidatos-constituyentes/',
       description:
         'We chose to play with the concept of "make a Match" -from dating apps like Tinder- with the candidate which had more in common with every person, crossing the answers that every candidate responded in our survey with the answers from the users.',
     },
@@ -90,8 +85,7 @@ const content = {
         'This is how the new Convention thinks: 10 keys about the positions of those chosen to write the Constitution',
       image:
         'https://interactivo.latercera.com/match-project-assets/04-asi-piensa-la-nueva-convencion.png',
-      url:
-        'https://www.latercera.com/investigacion-y-datos/asi-piensa-la-nueva-convencion/',
+      url: 'https://www.latercera.com/investigacion-y-datos/asi-piensa-la-nueva-convencion/',
       description:
         'This was the first presentation of the analysis we made with the answers to our survey. We were able to profile the positions of the constitutional convention on key topics.',
     },
@@ -101,8 +95,7 @@ const content = {
       title: 'How do the lists of the Constitutional Convention think?',
       image:
         'https://interactivo.latercera.com/match-project-assets/05-como-piensan-las-listas-de-la-convencion.png',
-      url:
-        'https://www.latercera.com/investigacion-y-datos/noticia/como-piensan-las-listas-de-la-convencion-constitucional/2WKACYWFUNGXXLLYIE45RNI2NA/ ',
+      url: 'https://www.latercera.com/investigacion-y-datos/noticia/como-piensan-las-listas-de-la-convencion-constitucional/2WKACYWFUNGXXLLYIE45RNI2NA/ ',
       description:
         'We made a zoom to the analysis taking as reference the electoral lists and parties of the conventional constituents.',
     },
@@ -112,8 +105,7 @@ const content = {
         'Meet the 155 conventionalists who will draft the new Constitution',
       image:
         'https://interactivo.latercera.com/match-project-assets/06-conoce-a-los-155-convencionales.png',
-      url:
-        'https://latercera.com/interactivo/zoom-a-los-elegidos-de-la-convencion-constitucional/',
+      url: 'https://latercera.com/interactivo/zoom-a-los-elegidos-de-la-convencion-constitucional/',
       description:
         'To help our audiences to get to know the conventional constituents, the day the constitutional convention started we launched this landing with the full list, linked to the profiles we had built previously.',
     },
@@ -123,8 +115,7 @@ const content = {
         'The chosen ones: Who are they and how does the Constitutional Convention think?',
       image:
         'https://interactivo.latercera.com/match-project-assets/07-los-elegidos.png',
-      url:
-        'https://interactivo.latercera.com/tu-match-constituyente-los-elegidos/',
+      url: 'https://interactivo.latercera.com/tu-match-constituyente-los-elegidos/',
       description:
         'Using D3 we launched a data visualization where we showed all our data and made a crossing between the answers of the conventionals and different characteristics in detail.',
     },
@@ -133,8 +124,7 @@ const content = {
       title: 'Your Presidential Match: Primary Edition',
       image:
         'https://interactivo.latercera.com/match-project-assets/08-tu-match-presidencial-primarias.png',
-      url:
-        'https://interactivo.latercera.com/tu-match-presidencial-edicion-primarias/',
+      url: 'https://interactivo.latercera.com/tu-match-presidencial-edicion-primarias/',
       description:
         'Taking the experience of our Constituent Match, we offered a version with the same interface for the presidential primaries.',
     },
@@ -161,8 +151,7 @@ const content = {
       title: 'How does the new Congress think?',
       image:
         'https://interactivo.latercera.com/match-project-assets/11-como-piensa-el-congreso.png',
-      url:
-        'https://interactivo.latercera.com/como-piensa-el-nuevo-congreso-2021/',
+      url: 'https://interactivo.latercera.com/como-piensa-el-nuevo-congreso-2021/',
       description:
         'We improved the work of visualization we did in The Chosen Ones with the data of the elected Congress.',
     },
