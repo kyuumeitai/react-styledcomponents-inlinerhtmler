@@ -52,62 +52,67 @@ const content = {
   ],
   side: [
     {
-      date: 'November 2020',
-      title:
-        'Your Constituent Match. Who do you share your country ideas with?',
+      date: 'December 14, 2023',
+      title: 'Constituent Match Plebiscite Exit 2023',
       image:
-        'https://interactivo.latercera.com/match-project-assets/01-tu-match-constituyente.png',
-      url: 'https://interactivo.latercera.com/tu-match-constituyente/con-quien-compartes-tus-ideas-de-pais/',
+        'https://interactivo.latercera.com/match-project-assets/new-06-final-match-v2.webp',
+      url: 'https://interactivo.latercera.com/match-constituyente-plebiscito-2023/',
       description:
-        'Our first match, our beta version. We started to iterate this project asking public figures about key issues of the constitution so people could discover with whom they have more affinity.',
+        "A special edition of our Constituent Match focusing on the exit plebiscite of 2023, allowing users to find out which side of the plebiscite's outcome they align with based on their responses.",
     },
     {
-      date: 'January 2021',
-      title: 'Who are the candidates for constituents in your district?',
+      date: 'April 26, 2023',
+      title: 'Constituent Match 2023',
       image:
-        'https://interactivo.latercera.com/match-project-assets/02-quienes-son-los-candidatos-y-candidatas-a-constituyentes-de-tu-distrito.png',
-      url: 'https://interactivo.latercera.com/candidatos-constituyentes/',
+        'https://interactivo.latercera.com/match-project-assets/new-05-match-2023.webp',
+      url: 'https://interactivo.latercera.com/match-constituyente-2023',
       description:
-        'We built a dataset with detailed information of all the 1400 candidates to the Constitutional Convention, even before the Electoral Service published the official list. It has become an “alternative Wikipedia” for the constitutional conventionals.',
+        'The latest installment of our Constituent Match series for the year 2023, offering users a way to discover which candidates align with their views for the upcoming elections.',
     },
     {
-      date: 'March 2021',
-      title: 'Your Constituent Match',
+      date: 'August 2, 2022',
+      title: "Constituent Match: What's your mood about the plebiscite?",
       image:
-        'https://interactivo.latercera.com/match-project-assets/03-tu-match-constituyente-.png',
-      url: 'https://interactivo.latercera.com/tu-match-constituyente/candidatos-constituyentes/',
+        'https://interactivo.latercera.com/match-project-assets/new-04-minimal-gauge.webp',
+      url: 'https://interactivo.latercera.com/match-constituyente-el-barometro-del-plebiscito/',
       description:
-        'We chose to play with the concept of "make a Match" -from dating apps like Tinder- with the candidate which had more in common with every person, crossing the answers that every candidate responded in our survey with the answers from the users.',
+        'A new feature of our Constituent Match series, focusing on gauging public sentiment about the plebiscite through a series of questions to match users with similar viewpoints.',
     },
     {
-      date: 'April 2021',
-      title:
-        'This is how the new Convention thinks: 10 keys about the positions of those chosen to write the Constitution',
+      date: 'December 2021',
+      title: 'How does the new Congress think?',
       image:
-        'https://interactivo.latercera.com/match-project-assets/04-asi-piensa-la-nueva-convencion.png',
-      url: 'https://www.latercera.com/investigacion-y-datos/asi-piensa-la-nueva-convencion/',
+        'https://interactivo.latercera.com/match-project-assets/11-como-piensa-el-congreso.png',
+      url: 'https://interactivo.latercera.com/como-piensa-el-nuevo-congreso-2021/',
       description:
-        'This was the first presentation of the analysis we made with the answers to our survey. We were able to profile the positions of the constitutional convention on key topics.',
+        'We improved the work of visualization we did in The Chosen Ones with the data of the elected Congress.',
     },
-
     {
-      date: 'May 2021',
-      title: 'How do the lists of the Constitutional Convention think?',
+      date: 'November 2021',
+      title: 'The elected candidates',
       image:
-        'https://interactivo.latercera.com/match-project-assets/05-como-piensan-las-listas-de-la-convencion.png',
-      url: 'https://www.latercera.com/investigacion-y-datos/noticia/como-piensan-las-listas-de-la-convencion-constitucional/2WKACYWFUNGXXLLYIE45RNI2NA/ ',
+        'https://interactivo.latercera.com/match-project-assets/10-los-candidatos-electos.png',
+      url: 'https://interactivo.latercera.com/candidatos-electorales/electos/',
       description:
-        'We made a zoom to the analysis taking as reference the electoral lists and parties of the conventional constituents.',
+        'The day after the election we published a simple and clean page to show all the results of the winning deputies and senators.',
+    },
+    {
+      date: 'November 2021',
+      title: 'Your Electoral Match: Presidential elections and Congress',
+      image:
+        'https://interactivo.latercera.com/match-project-assets/09-tu-match-electoral.png',
+      url: 'https://interactivo.latercera.com/tu-match-electoral/',
+      description:
+        'For the presidential, senatoria and deputies election we upgrade our game. We had our traditional match running, but also, with the help of the data scientist Jorge Fábrega, developed an “ideológical map”, using the scaling method NOMINATE, visualizing one ax graphic for the Congress, and two axes -like the classic Political Compass- for president.',
     },
     {
       date: 'July 2021',
-      title:
-        'Meet the 155 conventionalists who will draft the new Constitution',
+      title: 'Your Presidential Match: Primary Edition',
       image:
-        'https://interactivo.latercera.com/match-project-assets/06-conoce-a-los-155-convencionales.png',
-      url: 'https://latercera.com/interactivo/zoom-a-los-elegidos-de-la-convencion-constitucional/',
+        'https://interactivo.latercera.com/match-project-assets/08-tu-match-presidencial-primarias.png',
+      url: 'https://interactivo.latercera.com/tu-match-presidencial-edicion-primarias/',
       description:
-        'To help our audiences to get to know the conventional constituents, the day the constitutional convention started we launched this landing with the full list, linked to the profiles we had built previously.',
+        'Taking the experience of our Constituent Match, we offered a version with the same interface for the presidential primaries.',
     },
     {
       date: 'July 2021',
@@ -121,39 +126,60 @@ const content = {
     },
     {
       date: 'July 2021',
-      title: 'Your Presidential Match: Primary Edition',
+      title:
+        'Meet the 155 conventionalists who will draft the new Constitution',
       image:
-        'https://interactivo.latercera.com/match-project-assets/08-tu-match-presidencial-primarias.png',
-      url: 'https://interactivo.latercera.com/tu-match-presidencial-edicion-primarias/',
+        'https://interactivo.latercera.com/match-project-assets/06-conoce-a-los-155-convencionales.png',
+      url: 'https://latercera.com/interactivo/zoom-a-los-elegidos-de-la-convencion-constitucional/',
       description:
-        'Taking the experience of our Constituent Match, we offered a version with the same interface for the presidential primaries.',
+        'To help our audiences to get to know the conventional constituents, the day the constitutional convention started we launched this landing with the full list, linked to the profiles we had built previously.',
     },
     {
-      date: 'November 2021',
-      title: 'Your Electoral Match: Presidential elections and Congress',
+      date: 'May 2021',
+      title: 'How do the lists of the Constitutional Convention think?',
       image:
-        'https://interactivo.latercera.com/match-project-assets/09-tu-match-electoral.png',
-      url: 'https://interactivo.latercera.com/tu-match-electoral/',
+        'https://interactivo.latercera.com/match-project-assets/05-como-piensan-las-listas-de-la-convencion.png',
+      url: 'https://www.latercera.com/investigacion-y-datos/noticia/como-piensan-las-listas-de-la-convencion-constitucional/2WKACYWFUNGXXLLYIE45RNI2NA/',
       description:
-        'For the presidential, senatoria and deputies election we upgrade our game. We had our traditional match running, but also, with the help of the data scientist Jorge Fábrega, developed an “ideológical map”, using the scaling method NOMINATE, visualizing one ax graphic for the Congress, and two axes -like the classic Political Compass- for president.',
+        'We made a zoom to the analysis taking as reference the electoral lists and parties of the conventional constituents.',
     },
     {
-      date: 'November 2021',
-      title: 'The elected candidates',
+      date: 'April 2021',
+      title:
+        'This is how the new Convention thinks: 10 keys about the positions of those chosen to write the Constitution',
       image:
-        'https://interactivo.latercera.com/match-project-assets/10-los-candidatos-electos.png',
-      url: 'https://interactivo.latercera.com/candidatos-electorales/electos/',
+        'https://interactivo.latercera.com/match-project-assets/04-asi-piensa-la-nueva-convencion.png',
+      url: 'https://www.latercera.com/investigacion-y-datos/asi-piensa-la-nueva-convencion/',
       description:
-        'The day after the election we published a simple and clean page to show all the results of the winning deputies and senators.',
+        'This was the first presentation of the analysis we made with the answers to our survey. We were able to profile the positions of the constitutional convention on key topics.',
     },
     {
-      date: 'December 2021',
-      title: 'How does the new Congress think?',
+      date: 'March 2021',
+      title: 'Your Constituent Match',
       image:
-        'https://interactivo.latercera.com/match-project-assets/11-como-piensa-el-congreso.png',
-      url: 'https://interactivo.latercera.com/como-piensa-el-nuevo-congreso-2021/',
+        'https://interactivo.latercera.com/match-project-assets/03-tu-match-constituyente-.png',
+      url: 'https://interactivo.latercera.com/tu-match-constituyente/candidatos-constituyentes/',
       description:
-        'We improved the work of visualization we did in The Chosen Ones with the data of the elected Congress.',
+        "We chose to play with the concept of 'make a Match' -from dating apps like Tinder- with the candidate which had more in common with every person, crossing the answers that every candidate responded in our survey with the answers from the users.",
+    },
+    {
+      date: 'January 2021',
+      title: 'Who are the candidates for constituents in your district?',
+      image:
+        'https://interactivo.latercera.com/match-project-assets/02-quienes-son-los-candidatos-y-candidatas-a-constituyentes-de-tu-distrito.png',
+      url: 'https://interactivo.latercera.com/candidatos-constituyentes/',
+      description:
+        'We built a dataset with detailed information of all the 1400 candidates to the Constitutional Convention, even before the Electoral Service published the official list. It has become an “alternative Wikipedia” for the constitutional conventionals.',
+    },
+    {
+      date: 'November 2020',
+      title:
+        'Your Constituent Match. Who do you share your country ideas with?',
+      image:
+        'https://interactivo.latercera.com/match-project-assets/01-tu-match-constituyente.png',
+      url: 'https://interactivo.latercera.com/tu-match-constituyente/con-quien-compartes-tus-ideas-de-pais/',
+      description:
+        'Our first match, our beta version. We started to iterate this project asking public figures about key issues of the constitution so people could discover with whom they have more affinity.',
     },
   ],
 }
