@@ -33,10 +33,7 @@ const Preview = ({ articles, header, site }) => {
             // )
           })
         ) : (
-          <CustomWidget
-            text="Hubo muchos que fueron cómplices pasivos: que sabían y no hicieron nada o no quisieron saber"
-            author="Sebastián Piñera Echeñique, en entrevista con La Tercera/"
-          />
+          <CustomWidget />
         )}
       </StBody>
     </StWidget>
